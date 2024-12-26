@@ -8,11 +8,15 @@ from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Configurations
-model_name = "meta-llama/Meta-Llama-3.1-8B"  # Nom du modèle
+#model_name = "meta-llama/Meta-Llama-3.1-8B" 
+#model_name = "meta-llama/Llama-2-13b-hf"  # Nom du modèle
+#model_name ="codellama/CodeLlama-small"
+model_name=  "mistralai/mistral-7b"
 token = "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"  # Token Hugging Face
+#token = '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'
 test_dataset_folder = "/content/LLM_Test/LLMforTDD/Evaluation_Dataset/Evaluation_NoFineTuned_Prompts/Evaluation_NoFineTuned_Prompts/Csv"  # Chemin des fichiers CSV
 output_dir = "/content/LLM_Test/LLMforTDD/output_llama_test_cases"  # Répertoire pour sauvegarder les résultats
-batch_size = 4
+batch_size = 2
 beam_size = 4
 max_new_tokens = 300
 max_length = 1024
