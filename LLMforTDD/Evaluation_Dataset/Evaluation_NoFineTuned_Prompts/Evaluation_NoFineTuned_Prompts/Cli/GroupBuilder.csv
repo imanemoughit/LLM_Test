@@ -1,0 +1,50 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GroupBuilder
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GroupBuilder, Method: create,/**
+     * Creates a new Group instance
+     * @return the new Group instance
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GroupBuilder, Method: reset,/**
+     * Resets the builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GroupBuilder, Method: ",/**
+     * Use this option description
+     * @param newDescription the description to use
+     * @return this builder
+"     */"""
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GroupBuilder, Method: withName,/**
+     * Use this option name
+     * @param newName the name to use
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GroupBuilder, Method: withMinimum,/**
+     * A valid group requires at least this many options present
+     * @param newMinimum the minimum Options required
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GroupBuilder, Method: withMaximum,/**
+     * A valid group requires at most this many options present
+     * @param newMaximum the maximum Options allowed
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GroupBuilder, Method: withOption,/**
+     * Add this option to the group
+     * @param option the Option to add
+     * @return this builder
+     */"

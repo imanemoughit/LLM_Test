@@ -1,0 +1,124 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity, Method: getDataset
+Description: /**
+* Returns the dataset this entity refers to.
+*
+* @return The dataset.
+*
+* @see #setDataset(PieDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity, Method: setDataset
+Description: /**
+* Sets the dataset this entity refers to.
+*
+* @param dataset  the dataset.
+*
+* @see #getDataset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity, Method: getPieIndex
+Description: /**
+* Returns the pie index.  For a regular pie chart, the section index is 0.
+* For a pie chart containing multiple pie plots, the pie index is the row
+* or column index from which the pie data is extracted.
+*
+* @return The pie index.
+*
+* @see #setPieIndex(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity, Method: setPieIndex
+Description: /**
+* Sets the pie index.
+*
+* @param index  the new index value.
+*
+* @see #getPieIndex()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity, Method: getSectionIndex
+Description: /**
+* Returns the section index.
+*
+* @return The section index.
+*
+* @see #setSectionIndex(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity, Method: setSectionIndex
+Description: /**
+* Sets the section index.
+*
+* @param index  the section index.
+*
+* @see #getSectionIndex()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity, Method: getSectionKey
+Description: /**
+* Returns the section key.
+*
+* @return The section key.
+*
+* @see #setSectionKey(Comparable)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity, Method: setSectionKey
+Description: /**
+* Sets the section key.
+*
+* @param key  the section key.
+*
+* @see #getSectionKey()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity, Method: equals
+Description: /**
+* Tests this entity for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieSectionEntity, Method: toString
+Description: /**
+* Returns a string representing the entity.
+*
+* @return A string representing the entity.
+*/"
+

@@ -1,0 +1,79 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: VectorRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: VectorRenderer, Method: findDomainBounds
+Description: /**
+* Returns the lower and upper bounds (range) of the x-values in the
+* specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: VectorRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: VectorRenderer, Method: drawItem
+Description: /**
+* Draws the block representing the specified item.
+*
+* @param g2  the graphics device.
+* @param state  the state.
+* @param dataArea  the data area.
+* @param plot  the plot.
+* @param domainAxis  the x-axis.
+* @param rangeAxis  the y-axis.
+* @param dataset  the dataset.
+* @param series  the series index.
+* @param item  the item index.
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: VectorRenderer, Method: equals
+Description: /**
+* Tests this <code>VectorRenderer</code> for equality with an arbitrary
+* object.  This method returns <code>true</code> if and only if:
+* <ul>
+* <li><code>obj</code> is an instance of <code>VectorRenderer</code> (not
+*     <code>null</code>);</li>
+* <li><code>obj</code> has the same field values as this
+*     <code>VectorRenderer</code>;</li>
+* </ul>
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: VectorRenderer, Method: clone
+Description: /**
+* Returns a clone of this renderer.
+*
+* @return A clone of this renderer.
+*
+* @throws CloneNotSupportedException if there is a problem creating the
+*     clone.
+*/"
+

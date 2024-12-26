@@ -1,0 +1,75 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemCollection
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemCollection, Method: add
+Description: /**
+* Adds a legend item to the collection.
+*
+* @param item  the item to add.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemCollection, Method: addAll
+Description: /**
+* Adds the legend items from another collection to this collection.
+*
+* @param collection  the other collection.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemCollection, Method: get
+Description: /**
+* Returns a legend item from the collection.
+*
+* @param index  the legend item index (zero-based).
+*
+* @return The legend item.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemCollection, Method: getItemCount
+Description: /**
+* Returns the number of legend items in the collection.
+*
+* @return The item count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemCollection, Method: iterator
+Description: /**
+* Returns an iterator that provides access to all the legend items.
+*
+* @return An iterator.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemCollection, Method: equals
+Description: /**
+* Tests this collection for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemCollection, Method: clone
+Description: /**
+* Returns a clone of the collection.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if an item in the collection is not
+*         cloneable.
+*/"
+

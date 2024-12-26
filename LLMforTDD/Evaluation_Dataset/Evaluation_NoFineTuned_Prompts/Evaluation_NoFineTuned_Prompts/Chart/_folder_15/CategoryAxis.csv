@@ -1,0 +1,501 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getLowerMargin
+Description: /**
+* Returns the lower margin for the axis.
+*
+* @return The margin.
+*
+* @see #getUpperMargin()
+* @see #setLowerMargin(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: setLowerMargin
+Description: /**
+* Sets the lower margin for the axis and sends an {@link AxisChangeEvent}
+* to all registered listeners.
+*
+* @param margin  the margin as a percentage of the axis length (for
+*                example, 0.05 is five percent).
+*
+* @see #getLowerMargin()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getUpperMargin
+Description: /**
+* Returns the upper margin for the axis.
+*
+* @return The margin.
+*
+* @see #getLowerMargin()
+* @see #setUpperMargin(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: setUpperMargin
+Description: /**
+* Sets the upper margin for the axis and sends an {@link AxisChangeEvent}
+* to all registered listeners.
+*
+* @param margin  the margin as a percentage of the axis length (for
+*                example, 0.05 is five percent).
+*
+* @see #getUpperMargin()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getCategoryMargin
+Description: /**
+* Returns the category margin.
+*
+* @return The margin.
+*
+* @see #setCategoryMargin(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: setCategoryMargin
+Description: /**
+* Sets the category margin and sends an {@link AxisChangeEvent} to all
+* registered listeners.  The overall category margin is distributed over
+* N-1 gaps, where N is the number of categories on the axis.
+*
+* @param margin  the margin as a percentage of the axis length (for
+*                example, 0.05 is five percent).
+*
+* @see #getCategoryMargin()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getMaximumCategoryLabelLines
+Description: /**
+* Returns the maximum number of lines to use for each category label.
+*
+* @return The maximum number of lines.
+*
+* @see #setMaximumCategoryLabelLines(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: setMaximumCategoryLabelLines
+Description: /**
+* Sets the maximum number of lines to use for each category label and
+* sends an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param lines  the maximum number of lines.
+*
+* @see #getMaximumCategoryLabelLines()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getMaximumCategoryLabelWidthRatio
+Description: /**
+* Returns the category label width ratio.
+*
+* @return The ratio.
+*
+* @see #setMaximumCategoryLabelWidthRatio(float)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: setMaximumCategoryLabelWidthRatio
+Description: /**
+* Sets the maximum category label width ratio and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param ratio  the ratio.
+*
+* @see #getMaximumCategoryLabelWidthRatio()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getCategoryLabelPositionOffset
+Description: /**
+* Returns the offset between the axis and the category labels (before
+* label positioning is taken into account).
+*
+* @return The offset (in Java2D units).
+*
+* @see #setCategoryLabelPositionOffset(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: setCategoryLabelPositionOffset
+Description: /**
+* Sets the offset between the axis and the category labels (before label
+* positioning is taken into account).
+*
+* @param offset  the offset (in Java2D units).
+*
+* @see #getCategoryLabelPositionOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getCategoryLabelPositions
+Description: /**
+* Returns the category label position specification (this contains label
+* positioning info for all four possible axis locations).
+*
+* @return The positions (never <code>null</code>).
+*
+* @see #setCategoryLabelPositions(CategoryLabelPositions)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: setCategoryLabelPositions
+Description: /**
+* Sets the category label position specification for the axis and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param positions  the positions (<code>null</code> not permitted).
+*
+* @see #getCategoryLabelPositions()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getTickLabelFont
+Description: /**
+* Returns the font for the tick label for the given category.
+*
+* @param category  the category (<code>null</code> not permitted).
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setTickLabelFont(Comparable, Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: setTickLabelFont
+Description: /**
+* Sets the font for the tick label for the specified category and sends
+* an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param category  the category (<code>null</code> not permitted).
+* @param font  the font (<code>null</code> permitted).
+*
+* @see #getTickLabelFont(Comparable)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getTickLabelPaint
+Description: /**
+* Returns the paint for the tick label for the given category.
+*
+* @param category  the category (<code>null</code> not permitted).
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setTickLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: setTickLabelPaint
+Description: /**
+* Sets the paint for the tick label for the specified category and sends
+* an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param category  the category (<code>null</code> not permitted).
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getTickLabelPaint(Comparable)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: addCategoryLabelToolTip
+Description: /**
+* Adds a tooltip to the specified category and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param category  the category (<code>null<code> not permitted).
+* @param tooltip  the tooltip text (<code>null</code> permitted).
+*
+* @see #removeCategoryLabelToolTip(Comparable)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getCategoryLabelToolTip
+Description: /**
+* Returns the tool tip text for the label belonging to the specified
+* category.
+*
+* @param category  the category (<code>null</code> not permitted).
+*
+* @return The tool tip text (possibly <code>null</code>).
+*
+* @see #addCategoryLabelToolTip(Comparable, String)
+* @see #removeCategoryLabelToolTip(Comparable)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: removeCategoryLabelToolTip
+Description: /**
+* Removes the tooltip for the specified category and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param category  the category (<code>null<code> not permitted).
+*
+* @see #addCategoryLabelToolTip(Comparable, String)
+* @see #clearCategoryLabelToolTips()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: clearCategoryLabelToolTips
+Description: /**
+* Clears the category label tooltips and sends an {@link AxisChangeEvent}
+* to all registered listeners.
+*
+* @see #addCategoryLabelToolTip(Comparable, String)
+* @see #removeCategoryLabelToolTip(Comparable)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getCategoryJava2DCoordinate
+Description: /**
+* Returns the Java 2D coordinate for a category.
+*
+* @param anchor  the anchor point.
+* @param category  the category index.
+* @param categoryCount  the category count.
+* @param area  the data area.
+* @param edge  the location of the axis.
+*
+* @return The coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getCategoryStart
+Description: /**
+* Returns the starting coordinate for the specified category.
+*
+* @param category  the category.
+* @param categoryCount  the number of categories.
+* @param area  the data area.
+* @param edge  the axis location.
+*
+* @return The coordinate.
+*
+* @see #getCategoryMiddle(int, int, Rectangle2D, RectangleEdge)
+* @see #getCategoryEnd(int, int, Rectangle2D, RectangleEdge)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getCategoryMiddle
+Description: /**
+* Returns the middle coordinate for the specified category.
+*
+* @param category  the category.
+* @param categoryCount  the number of categories.
+* @param area  the data area.
+* @param edge  the axis location.
+*
+* @return The coordinate.
+*
+* @see #getCategoryStart(int, int, Rectangle2D, RectangleEdge)
+* @see #getCategoryEnd(int, int, Rectangle2D, RectangleEdge)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getCategoryEnd
+Description: /**
+* Returns the end coordinate for the specified category.
+*
+* @param category  the category.
+* @param categoryCount  the number of categories.
+* @param area  the data area.
+* @param edge  the axis location.
+*
+* @return The coordinate.
+*
+* @see #getCategoryStart(int, int, Rectangle2D, RectangleEdge)
+* @see #getCategoryMiddle(int, int, Rectangle2D, RectangleEdge)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getCategoryMiddle
+Description: /**
+* A convenience method that returns the axis coordinate for the centre of
+* a category.
+*
+* @param category  the category key (<code>null</code> not permitted).
+* @param categories  the categories (<code>null</code> not permitted).
+* @param area  the data area (<code>null</code> not permitted).
+* @param edge  the edge along which the axis lies (<code>null</code> not
+*     permitted).
+*
+* @return The centre coordinate.
+*
+* @since 1.0.11
+*
+* @see #getCategorySeriesMiddle(Comparable, Comparable, CategoryDataset,
+*     double, Rectangle2D, RectangleEdge)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getCategorySeriesMiddle
+Description: /**
+* Returns the middle coordinate (in Java2D space) for a series within a
+* category.
+*
+* @param category  the category (<code>null</code> not permitted).
+* @param seriesKey  the series key (<code>null</code> not permitted).
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param itemMargin  the item margin (0.0 <= itemMargin < 1.0);
+* @param area  the area (<code>null</code> not permitted).
+* @param edge  the edge (<code>null</code> not permitted).
+*
+* @return The coordinate in Java2D space.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: getCategorySeriesMiddle
+Description: /**
+* Returns the middle coordinate (in Java2D space) for a series within a
+* category.
+*
+* @param categoryIndex  the category index.
+* @param categoryCount  the category count.
+* @param seriesIndex the series index.
+* @param seriesCount the series count.
+* @param itemMargin  the item margin (0.0 <= itemMargin < 1.0);
+* @param area  the area (<code>null</code> not permitted).
+* @param edge  the edge (<code>null</code> not permitted).
+*
+* @return The coordinate in Java2D space.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: reserveSpace
+Description: /**
+* Estimates the space required for the axis, given a specific drawing area.
+*
+* @param g2  the graphics device (used to obtain font information).
+* @param plot  the plot that the axis belongs to.
+* @param plotArea  the area within which the axis should be drawn.
+* @param edge  the axis location (top or bottom).
+* @param space  the space already reserved.
+*
+* @return The space required to draw the axis.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: configure
+Description: /**
+* Configures the axis against the current plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: draw
+Description: /**
+* Draws the axis on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param cursor  the cursor location.
+* @param plotArea  the area within which the axis should be drawn
+*                  (<code>null</code> not permitted).
+* @param dataArea  the area within which the plot is being drawn
+*                  (<code>null</code> not permitted).
+* @param edge  the location of the axis (<code>null</code> not permitted).
+* @param plotState  collects information about the plot
+*                   (<code>null</code> permitted).
+*
+* @return The axis state (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: refreshTicks
+Description: /**
+* Creates a temporary list of ticks that can be used when drawing the axis.
+*
+* @param g2  the graphics device (used to get font measurements).
+* @param state  the axis state.
+* @param dataArea  the area inside the axes.
+* @param edge  the location of the axis.
+*
+* @return A list of ticks.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: drawTickMarks
+Description: /**
+* Draws the tick marks.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: clone
+Description: /**
+* Creates a clone of the axis.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if some component of the axis does
+*         not support cloning.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: equals
+Description: /**
+* Tests this axis for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+

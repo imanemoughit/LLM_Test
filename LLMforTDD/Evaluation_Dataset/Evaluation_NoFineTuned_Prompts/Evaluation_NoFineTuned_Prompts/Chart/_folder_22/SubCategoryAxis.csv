@@ -1,0 +1,107 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SubCategoryAxis
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SubCategoryAxis, Method: addSubCategory
+Description: /**
+* Adds a sub-category to the axis and sends an {@link AxisChangeEvent} to
+* all registered listeners.
+*
+* @param subCategory  the sub-category (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SubCategoryAxis, Method: getSubLabelFont
+Description: /**
+* Returns the font used to display the sub-category labels.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setSubLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SubCategoryAxis, Method: setSubLabelFont
+Description: /**
+* Sets the font used to display the sub-category labels and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getSubLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SubCategoryAxis, Method: getSubLabelPaint
+Description: /**
+* Returns the paint used to display the sub-category labels.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setSubLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SubCategoryAxis, Method: setSubLabelPaint
+Description: /**
+* Sets the paint used to display the sub-category labels and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getSubLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SubCategoryAxis, Method: reserveSpace
+Description: /**
+* Estimates the space required for the axis, given a specific drawing area.
+*
+* @param g2  the graphics device (used to obtain font information).
+* @param plot  the plot that the axis belongs to.
+* @param plotArea  the area within which the axis should be drawn.
+* @param edge  the axis location (top or bottom).
+* @param space  the space already reserved.
+*
+* @return The space required to draw the axis.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SubCategoryAxis, Method: draw
+Description: /**
+* Draws the axis on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param cursor  the cursor location.
+* @param plotArea  the area within which the axis should be drawn
+*                  (<code>null</code> not permitted).
+* @param dataArea  the area within which the plot is being drawn
+*                  (<code>null</code> not permitted).
+* @param edge  the location of the axis (<code>null</code> not permitted).
+* @param plotState  collects information about the plot
+*                   (<code>null</code> permitted).
+*
+* @return The axis state (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SubCategoryAxis, Method: equals
+Description: /**
+* Tests the axis for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

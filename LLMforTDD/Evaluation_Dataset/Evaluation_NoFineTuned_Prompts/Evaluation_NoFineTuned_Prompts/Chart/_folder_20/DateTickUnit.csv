@@ -1,0 +1,152 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: getUnitType
+Description: /**
+* Returns the unit type.
+*
+* @return The unit type (never <code>null</code>).
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: getMultiple
+Description: /**
+* Returns the unit multiple.
+*
+* @return The unit multiple (always > 0).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: getRollUnitType
+Description: /**
+* Returns the roll unit type.
+*
+* @return The roll unit type (never <code>null</code>).
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: getRollMultiple
+Description: /**
+* Returns the roll unit multiple.
+*
+* @return The roll unit multiple.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: valueToString
+Description: /**
+* Formats a value.
+*
+* @param milliseconds  date in milliseconds since 01-01-1970.
+*
+* @return The formatted date.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: dateToString
+Description: /**
+* Formats a date using the tick unit's formatter.
+*
+* @param date  the date.
+*
+* @return The formatted date.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: addToDate
+Description: /**
+* Calculates a new date by adding this unit to the base date.
+*
+* @param base  the base date.
+* @param zone  the time zone for the date calculation.
+*
+* @return A new date one unit after the base date.
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: rollDate
+Description: /**
+* Rolls the date forward by the amount specified by the roll unit and
+* count.
+*
+* @param base  the base date.
+
+* @return The rolled date.
+*
+* @see #rollDate(Date, TimeZone)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: rollDate
+Description: /**
+* Rolls the date forward by the amount specified by the roll unit and
+* count.
+*
+* @param base  the base date.
+* @param zone  the time zone.
+*
+* @return The rolled date.
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: getCalendarField
+Description: /**
+* Returns a field code that can be used with the <code>Calendar</code>
+* class.
+*
+* @return The field code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: equals
+Description: /**
+* Tests this unit for equality with another object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateTickUnit, Method: toString
+Description: /**
+* Returns a string representation of this instance, primarily used for
+* debugging purposes.
+*
+* @return A string representation of this instance.
+*/"
+

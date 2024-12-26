@@ -1,0 +1,29 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYURLGenerator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYURLGenerator, Method: generateURL
+Description: /**
+* Generates a URL for a particular item within a series.
+*
+* @param dataset  the dataset.
+* @param series  the series number (zero-based index).
+* @param item  the item number (zero-based index).
+*
+* @return The generated URL.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYURLGenerator, Method: equals
+Description: /**
+* Tests this generator for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

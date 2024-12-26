@@ -1,0 +1,100 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CyclicNumberAxis
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CyclicNumberAxis, Method: isAdvanceLineVisible
+Description: /**
+* The advance line is the line drawn at the limit of the current cycle,
+* when erasing the previous cycle.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CyclicNumberAxis, Method: setAdvanceLineVisible
+Description: /**
+* The advance line is the line drawn at the limit of the current cycle,
+* when erasing the previous cycle.
+*
+* @param visible  the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CyclicNumberAxis, Method: getAdvanceLinePaint
+Description: /**
+* The advance line is the line drawn at the limit of the current cycle,
+* when erasing the previous cycle.
+*
+* @return The paint (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CyclicNumberAxis, Method: setAdvanceLinePaint
+Description: /**
+* The advance line is the line drawn at the limit of the current cycle,
+* when erasing the previous cycle.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CyclicNumberAxis, Method: getAdvanceLineStroke
+Description: /**
+* The advance line is the line drawn at the limit of the current cycle,
+* when erasing the previous cycle.
+*
+* @return The stroke (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CyclicNumberAxis, Method: setAdvanceLineStroke
+Description: /**
+* The advance line is the line drawn at the limit of the current cycle,
+* when erasing the previous cycle.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CyclicNumberAxis, Method: isBoundMappedToLastCycle
+Description: /**
+* The cycle bound can be associated either with the current or with the
+* last cycle.  It's up to the user's choice to decide which, as this is
+* just a convention.  By default, the cycle bound is mapped to the current
+* cycle.
+* <br>
+* Note that this has no effect on visual appearance, as the cycle bound is
+* mapped successively for both axis ends. Use this function for correct
+* results in translateValueToJava2D.
+*
+* @return <code>true</code> if the cycle bound is mapped to the last
+*         cycle, <code>false</code> if it is bound to the current cycle
+*         (default)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CyclicNumberAxis, Method: setBoundMappedToLastCycle
+Description: /**
+* The cycle bound can be associated either with the current or with the
+* last cycle.  It's up to the user's choice to decide which, as this is
+* just a convention. By default, the cycle bound is mapped to the current
+* cycle.
+* <br>
+* Note that this has no effect on visual appearance, as the cycle bound is
+* mapped successively for both axis ends. Use this function for correct
+* results in valueToJava2D.
+*
+* @param boundMappedToLastCycle Set it to true to map the cycle bound to
+*        the last cycle.
+*/"
+

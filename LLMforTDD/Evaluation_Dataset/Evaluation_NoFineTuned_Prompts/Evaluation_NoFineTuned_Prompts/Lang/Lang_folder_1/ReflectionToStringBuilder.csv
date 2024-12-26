@@ -1,0 +1,326 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: toString
+Description: /*** <p>
+* Builds a <code>toString</code> value using the default <code>ToStringStyle</code> through reflection.
+* </p>
+*
+* <p>
+* It uses <code>AccessibleObject.setAccessible</code> to gain access to private fields. This means that it will
+* throw a security exception if run under a security manager, if the permissions are not set up correctly. It is
+* also not as efficient as testing explicitly.
+* </p>
+*
+* <p>
+* Transient members will be not be included, as they are likely derived. Static fields will not be included.
+* Superclass fields will be appended.
+* </p>
+*
+* @param object
+*            the Object to be output
+* @return the String result
+* @throws IllegalArgumentException
+*             if the Object is <code>null</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: toString
+Description: /*** <p>
+* Builds a <code>toString</code> value through reflection.
+* </p>
+*
+* <p>
+* It uses <code>AccessibleObject.setAccessible</code> to gain access to private fields. This means that it will
+* throw a security exception if run under a security manager, if the permissions are not set up correctly. It is
+* also not as efficient as testing explicitly.
+* </p>
+*
+* <p>
+* Transient members will be not be included, as they are likely derived. Static fields will not be included.
+* Superclass fields will be appended.
+* </p>
+*
+* <p>
+* If the style is <code>null</code>, the default <code>ToStringStyle</code> is used.
+* </p>
+*
+* @param object
+*            the Object to be output
+* @param style
+*            the style of the <code>toString</code> to create, may be <code>null</code>
+* @return the String result
+* @throws IllegalArgumentException
+*             if the Object or <code>ToStringStyle</code> is <code>null</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: toString
+Description: /*** <p>
+* Builds a <code>toString</code> value through reflection.
+* </p>
+*
+* <p>
+* It uses <code>AccessibleObject.setAccessible</code> to gain access to private fields. This means that it will
+* throw a security exception if run under a security manager, if the permissions are not set up correctly. It is
+* also not as efficient as testing explicitly.
+* </p>
+*
+* <p>
+* If the <code>outputTransients</code> is <code>true</code>, transient members will be output, otherwise they
+* are ignored, as they are likely derived fields, and not part of the value of the Object.
+* </p>
+*
+* <p>
+* Static fields will not be included. Superclass fields will be appended.
+* </p>
+*
+* <p>
+* If the style is <code>null</code>, the default <code>ToStringStyle</code> is used.
+* </p>
+*
+* @param object
+*            the Object to be output
+* @param style
+*            the style of the <code>toString</code> to create, may be <code>null</code>
+* @param outputTransients
+*            whether to include transient fields
+* @return the String result
+* @throws IllegalArgumentException
+*             if the Object is <code>null</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: toString
+Description: /*** <p>
+* Builds a <code>toString</code> value through reflection.
+* </p>
+*
+* <p>
+* It uses <code>AccessibleObject.setAccessible</code> to gain access to private fields. This means that it will
+* throw a security exception if run under a security manager, if the permissions are not set up correctly. It is
+* also not as efficient as testing explicitly.
+* </p>
+*
+* <p>
+* If the <code>outputTransients</code> is <code>true</code>, transient fields will be output, otherwise they
+* are ignored, as they are likely derived fields, and not part of the value of the Object.
+* </p>
+*
+* <p>
+* If the <code>outputStatics</code> is <code>true</code>, static fields will be output, otherwise they are
+* ignored.
+* </p>
+*
+* <p>
+* Static fields will not be included. Superclass fields will be appended.
+* </p>
+*
+* <p>
+* If the style is <code>null</code>, the default <code>ToStringStyle</code> is used.
+* </p>
+*
+* @param object
+*            the Object to be output
+* @param style
+*            the style of the <code>toString</code> to create, may be <code>null</code>
+* @param outputTransients
+*            whether to include transient fields
+* @param outputStatics
+*            whether to include transient fields
+* @return the String result
+* @throws IllegalArgumentException
+*             if the Object is <code>null</code>
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: toString
+Description: /*** <p>
+* Builds a <code>toString</code> value through reflection.
+* </p>
+*
+* <p>
+* It uses <code>AccessibleObject.setAccessible</code> to gain access to private fields. This means that it will
+* throw a security exception if run under a security manager, if the permissions are not set up correctly. It is
+* also not as efficient as testing explicitly.
+* </p>
+*
+* <p>
+* If the <code>outputTransients</code> is <code>true</code>, transient fields will be output, otherwise they
+* are ignored, as they are likely derived fields, and not part of the value of the Object.
+* </p>
+*
+* <p>
+* If the <code>outputStatics</code> is <code>true</code>, static fields will be output, otherwise they are
+* ignored.
+* </p>
+*
+* <p>
+* Superclass fields will be appended up to and including the specified superclass. A null superclass is treated as
+* <code>java.lang.Object</code>.
+* </p>
+*
+* <p>
+* If the style is <code>null</code>, the default <code>ToStringStyle</code> is used.
+* </p>
+*
+* @param <T>
+*            the type of the object
+* @param object
+*            the Object to be output
+* @param style
+*            the style of the <code>toString</code> to create, may be <code>null</code>
+* @param outputTransients
+*            whether to include transient fields
+* @param outputStatics
+*            whether to include static fields
+* @param reflectUpToWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+*            the superclass to reflect up to (inclusive), may be <code>null</code>
+* @return the String result
+* @throws IllegalArgumentException
+*             if the Object is <code>null</code>
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: toStringExclude
+Description: /*** Builds a String for a toString method excluding the given field names.
+*
+* @param object
+*            The object to toString.
+* @param excludeFieldNames
+*            The field names to exclude. Null excludes nothing.
+* @return The toString value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: toStringExclude
+Description: /*** Builds a String for a toString method excluding the given field names.
+*
+* @param object
+*            The object to toString.
+* @param excludeFieldNames
+*            The field names to exclude
+* @return The toString value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: getExcludeFieldNames
+Description: /*** @return Returns the excludeFieldNames.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: getUpToWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /*** <p>
+* Gets the last super class to stop appending fields for.
+* </p>
+*
+* @return The last super class to stop appending fields for.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: isAppendStatics
+Description: /*** <p>
+* Gets whether or not to append static fields.
+* </p>
+*
+* @return Whether or not to append static fields.
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: isAppendTransients
+Description: /*** <p>
+* Gets whether or not to append transient fields.
+* </p>
+*
+* @return Whether or not to append transient fields.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: reflectionAppendArray
+Description: /*** <p>
+* Append to the <code>toString</code> an <code>Object</code> array.
+* </p>
+*
+* @param array
+*            the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: setAppendStatics
+Description: /*** <p>
+* Sets whether or not to append static fields.
+* </p>
+*
+* @param appendStatics
+*            Whether or not to append static fields.
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: setAppendTransients
+Description: /*** <p>
+* Sets whether or not to append transient fields.
+* </p>
+*
+* @param appendTransients
+*            Whether or not to append transient fields.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: setExcludeFieldNames
+Description: /*** Sets the field names to exclude.
+*
+* @param excludeFieldNamesParam
+*            The excludeFieldNames to excluding from toString or <code>null</code>.
+* @return <code>this</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: setUpToWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /*** <p>
+* Sets the last super class to stop appending fields for.
+* </p>
+*
+* @param clazz
+*            The last super class to stop appending fields for.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ReflectionToStringBuilder, Method: toString
+Description: /*** <p>
+* Gets the String built by this builder.
+* </p>
+*
+* @return the built string
+*/"
+

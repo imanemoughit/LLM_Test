@@ -1,0 +1,30 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharacterIterator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharacterIterator, Method: hasNext
+Description: /*** Has the iterator not reached the end character yet?
+*
+* @return {@code true} if the iterator has yet to reach the character date
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharacterIterator, Method: next
+Description: /*** Return the next character in the iteration
+*
+* @return {@code Character} for the next character
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharacterIterator, Method: remove
+Description: /*** Always throws UnsupportedOperationException.
+*
+* @throws UnsupportedOperationException
+* @see java.util.Iterator#remove()
+*/"
+

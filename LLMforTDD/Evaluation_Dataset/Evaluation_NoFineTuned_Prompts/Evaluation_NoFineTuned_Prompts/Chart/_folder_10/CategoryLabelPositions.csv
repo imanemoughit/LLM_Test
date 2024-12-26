@@ -1,0 +1,114 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryLabelPositions
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryLabelPositions, Method: createUpRotationLabelPositions
+Description: /**
+* Creates a new instance where the category labels angled upwards by the
+* specified amount.
+*
+* @param angle  the rotation angle (should be < Math.PI / 2.0).
+*
+* @return A category label position specification.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryLabelPositions, Method: createDownRotationLabelPositions
+Description: /**
+* Creates a new instance where the category labels angled downwards by the
+* specified amount.
+*
+* @param angle  the rotation angle (should be < Math.PI / 2.0).
+*
+* @return A category label position specification.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryLabelPositions, Method: getLabelPosition
+Description: /**
+* Returns the category label position specification for an axis at the
+* given location.
+*
+* @param edge  the axis location.
+*
+* @return The category label position specification.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryLabelPositions, Method: replaceTopPosition
+Description: /**
+* Returns a new instance based on an existing instance but with the top
+* position changed.
+*
+* @param base  the base (<code>null</code> not permitted).
+* @param top  the top position (<code>null</code> not permitted).
+*
+* @return A new instance (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryLabelPositions, Method: replaceBottomPosition
+Description: /**
+* Returns a new instance based on an existing instance but with the bottom
+* position changed.
+*
+* @param base  the base (<code>null</code> not permitted).
+* @param bottom  the bottom position (<code>null</code> not permitted).
+*
+* @return A new instance (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryLabelPositions, Method: replaceLeftPosition
+Description: /**
+* Returns a new instance based on an existing instance but with the left
+* position changed.
+*
+* @param base  the base (<code>null</code> not permitted).
+* @param left  the left position (<code>null</code> not permitted).
+*
+* @return A new instance (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryLabelPositions, Method: replaceRightPosition
+Description: /**
+* Returns a new instance based on an existing instance but with the right
+* position changed.
+*
+* @param base  the base (<code>null</code> not permitted).
+* @param right  the right position (<code>null</code> not permitted).
+*
+* @return A new instance (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryLabelPositions, Method: equals
+Description: /**
+* Returns <code>true</code> if this object is equal to the specified
+* object, and <code>false</code> otherwise.
+*
+* @param obj  the other object.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryLabelPositions, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+

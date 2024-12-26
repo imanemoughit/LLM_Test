@@ -1,0 +1,59 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeList
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeList, Method: getShape
+Description: /**
+* Returns a {@link Shape} object from the list.
+*
+* @param index the index (zero-based).
+*
+* @return The object.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeList, Method: setShape
+Description: /**
+* Sets the {@link Shape} for an item in the list.  The list is expanded
+* if necessary.
+*
+* @param index  the index (zero-based).
+* @param shape  the {@link Shape}.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeList, Method: clone
+Description: /**
+* Returns an independent copy of the list.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if an item in the list does not
+*         support cloning.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeList, Method: equals
+Description: /**
+* Tests the list for equality with another object (typically also a list).
+*
+* @param obj  the other object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeList, Method: hashCode
+Description: /**
+* Returns a hash code value for the object.
+*
+* @return the hashcode
+*/"
+

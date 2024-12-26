@@ -1,0 +1,74 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiBackgroundInitializerResults
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiBackgroundInitializerResults, Method: getInitializer
+Description: /*** Returns the {@code BackgroundInitializer} with the given name. If the
+* name cannot be resolved, an exception is thrown.
+*
+* @param name the name of the {@code BackgroundInitializer}
+* @return the {@code BackgroundInitializer} with this name
+* @throws NoSuchElementException if the name cannot be resolved
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiBackgroundInitializerResults, Method: getResultObject
+Description: /*** Returns the result object produced by the {@code
+* BackgroundInitializer} with the given name. This is the object
+* returned by the initializer's {@code initialize()} method. If this
+* {@code BackgroundInitializer} caused an exception, <b>null</b> is
+* returned. If the name cannot be resolved, an exception is thrown.
+*
+* @param name the name of the {@code BackgroundInitializer}
+* @return the result object produced by this {@code
+* BackgroundInitializer}
+* @throws NoSuchElementException if the name cannot be resolved
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiBackgroundInitializerResults, Method: isException
+Description: /*** Returns a flag whether the {@code BackgroundInitializer} with the
+* given name caused an exception.
+*
+* @param name the name of the {@code BackgroundInitializer}
+* @return a flag whether this initializer caused an exception
+* @throws NoSuchElementException if the name cannot be resolved
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiBackgroundInitializerResults, Method: getException
+Description: /*** Returns the {@code ConcurrentException} object that was thrown by the
+* {@code BackgroundInitializer} with the given name. If this
+* initializer did not throw an exception, the return value is
+* <b>null</b>. If the name cannot be resolved, an exception is thrown.
+*
+* @param name the name of the {@code BackgroundInitializer}
+* @return the exception thrown by this initializer
+* @throws NoSuchElementException if the name cannot be resolved
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiBackgroundInitializerResults, Method: initializerNames
+Description: /*** Returns a set with the names of all {@code BackgroundInitializer}
+* objects managed by the {@code MultiBackgroundInitializer}.
+*
+* @return an (unmodifiable) set with the names of the managed {@code
+* BackgroundInitializer} objects
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiBackgroundInitializerResults, Method: isSuccessful
+Description: /*** Returns a flag whether the whole initialization was successful. This
+* is the case if no child initializer has thrown an exception.
+*
+* @return a flag whether the initialization was successful
+*/"
+

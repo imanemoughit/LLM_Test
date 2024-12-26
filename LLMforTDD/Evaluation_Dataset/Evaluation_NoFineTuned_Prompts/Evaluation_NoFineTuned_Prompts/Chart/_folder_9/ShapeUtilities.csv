@@ -1,0 +1,308 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: clone
+Description: /**
+* Returns a clone of the specified shape, or <code>null</code>.  At the
+* current time, this method supports cloning for instances of
+* <code>Line2D</code>, <code>RectangularShape</code>, <code>Area</code>
+* and <code>GeneralPath</code>.
+* <p>
+* <code>RectangularShape</code> includes <code>Arc2D</code>,
+* <code>Ellipse2D</code>, <code>Rectangle2D</code>,
+* <code>RoundRectangle2D</code>.
+*
+* @param shape  the shape to clone (<code>null</code> permitted,
+*               returns <code>null</code>).
+*
+* @return A clone or <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: equal
+Description: /**
+* Tests two shapes for equality.  If both shapes are <code>null</code>,
+* this method will return <code>true</code>.
+* <p>
+* In the current implementation, the following shapes are supported:
+* <code>Ellipse2D</code>, <code>Line2D</code> and <code>Rectangle2D</code>
+* (implicit).
+*
+* @param s1  the first shape (<code>null</code> permitted).
+* @param s2  the second shape (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: equal
+Description: /**
+* Compares two lines are returns <code>true</code> if they are equal or
+* both <code>null</code>.
+*
+* @param l1  the first line (<code>null</code> permitted).
+* @param l2  the second line (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: equal
+Description: /**
+* Compares two ellipses and returns <code>true</code> if they are equal or
+* both <code>null</code>.
+*
+* @param e1  the first ellipse (<code>null</code> permitted).
+* @param e2  the second ellipse (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: equal
+Description: /**
+* Compares two arcs and returns <code>true</code> if they are equal or
+* both <code>null</code>.
+*
+* @param a1  the first arc (<code>null</code> permitted).
+* @param a2  the second arc (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: equal
+Description: /**
+* Tests two polygons for equality.  If both are <code>null</code> this
+* method returns <code>true</code>.
+*
+* @param p1  polygon 1 (<code>null</code> permitted).
+* @param p2  polygon 2 (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: equal
+Description: /**
+* Tests two polygons for equality.  If both are <code>null</code> this
+* method returns <code>true</code>.
+*
+* @param p1  path 1 (<code>null</code> permitted).
+* @param p2  path 2 (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: createTranslatedShape
+Description: /**
+* Creates and returns a translated shape.
+*
+* @param shape  the shape (<code>null</code> not permitted).
+* @param transX  the x translation (in Java2D space).
+* @param transY  the y translation (in Java2D space).
+*
+* @return The translated shape.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: createTranslatedShape
+Description: /**
+* Translates a shape to a new location such that the anchor point
+* (relative to the rectangular bounds of the shape) aligns with the
+* specified (x, y) coordinate in Java2D space.
+*
+* @param shape  the shape (<code>null</code> not permitted).
+* @param anchor  the anchor (<code>null</code> not permitted).
+* @param locationX  the x-coordinate (in Java2D space).
+* @param locationY  the y-coordinate (in Java2D space).
+*
+* @return A new and translated shape.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: rotateShape
+Description: /**
+* Rotates a shape about the specified coordinates.
+*
+* @param base  the shape (<code>null</code> permitted, returns
+*              <code>null</code>).
+* @param angle  the angle (in radians).
+* @param x  the x coordinate for the rotation point (in Java2D space).
+* @param y  the y coordinate for the rotation point (in Java2D space).
+*
+* @return the rotated shape.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: drawRotatedShape
+Description: /**
+* Draws a shape with the specified rotation about <code>(x, y)</code>.
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param shape  the shape (<code>null</code> not permitted).
+* @param angle  the angle (in radians).
+* @param x  the x coordinate for the rotation point.
+* @param y  the y coordinate for the rotation point.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: createDiagonalCross
+Description: /**
+* Creates a diagonal cross shape.
+*
+* @param l  the length of each 'arm'.
+* @param t  the thickness.
+*
+* @return A diagonal cross shape.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: createRegularCross
+Description: /**
+* Creates a diagonal cross shape.
+*
+* @param l  the length of each 'arm'.
+* @param t  the thickness.
+*
+* @return A diagonal cross shape.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: createDiamond
+Description: /**
+* Creates a diamond shape.
+*
+* @param s  the size factor (equal to half the height of the diamond).
+*
+* @return A diamond shape.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: createUpTriangle
+Description: /**
+* Creates a triangle shape that points upwards.
+*
+* @param s  the size factor (equal to half the height of the triangle).
+*
+* @return A triangle shape.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: createDownTriangle
+Description: /**
+* Creates a triangle shape that points downwards.
+*
+* @param s  the size factor (equal to half the height of the triangle).
+*
+* @return A triangle shape.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: createLineRegion
+Description: /**
+* Creates a region surrounding a line segment by 'widening' the line
+* segment.  A typical use for this method is the creation of a
+* 'clickable' region for a line that is displayed on-screen.
+*
+* @param line  the line (<code>null</code> not permitted).
+* @param width  the width of the region.
+*
+* @return A region that surrounds the line.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: getPointInRectangle
+Description: /**
+* Returns a point based on (x, y) but constrained to be within the bounds
+* of a given rectangle.
+*
+* @param x  the x-coordinate.
+* @param y  the y-coordinate.
+* @param area  the constraining rectangle (<code>null</code> not
+*              permitted).
+*
+* @return A point within the rectangle.
+*
+* @throws NullPointerException if <code>area</code> is <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: contains
+Description: /**
+* Checks, whether the given rectangle1 fully contains rectangle 2
+* (even if rectangle 2 has a height or width of zero!).
+*
+* @param rect1  the first rectangle.
+* @param rect2  the second rectangle.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: intersects
+Description: /**
+* Checks, whether the given rectangle1 fully contains rectangle 2
+* (even if rectangle 2 has a height or width of zero!).
+*
+* @param rect1  the first rectangle.
+* @param rect2  the second rectangle.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: isPointInRect
+Description: /**
+* Returns <code>true</code> if the specified point (x, y) falls within or
+* on the boundary of the specified rectangle.
+*
+* @param x  the x-coordinate.
+* @param y  the y-coordinate.
+* @param rect  the rectangle (<code>null</code> not permitted).
+*
+* @return A boolean.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShapeUtilities, Method: clipLine
+Description: /**
+* Clips the specified line to the given rectangle.
+*
+* @param line  the line (<code>null</code> not permitted).
+* @param rect  the clipping rectangle (<code>null</code> not permitted).
+*
+* @return <code>true</code> if the clipped line is visible, and
+*     <code>false</code> otherwise.
+*
+* @since 1.2.0
+*/"
+

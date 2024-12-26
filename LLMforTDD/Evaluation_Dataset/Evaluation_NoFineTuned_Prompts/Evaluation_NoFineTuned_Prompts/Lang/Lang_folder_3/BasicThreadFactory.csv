@@ -1,0 +1,75 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BasicThreadFactory
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BasicThreadFactory, Method: getWrappedFactory
+Description: /*** Returns the wrapped {@code ThreadFactory}. This factory is used for
+* actually creating threads. This method never returns <b>null</b>. If no
+* {@code ThreadFactory} was passed when this object was created, a default
+* thread factory is returned.
+*
+* @return the wrapped {@code ThreadFactory}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BasicThreadFactory, Method: getNamingPattern
+Description: /*** Returns the naming pattern for naming newly created threads. Result can
+* be <b>null</b> if no naming pattern was provided.
+*
+* @return the naming pattern
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BasicThreadFactory, Method: getDaemonFlag
+Description: /*** Returns the daemon flag. This flag determines whether newly created
+* threads should be daemon threads. If <b>true</b>, this factory object
+* calls {@code setDaemon(true)} on the newly created threads. Result can be
+* <b>null</b> if no daemon flag was provided at creation time.
+*
+* @return the daemon flag
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BasicThreadFactory, Method: getPriority
+Description: /*** Returns the priority of the threads created by this factory. Result can
+* be <b>null</b> if no priority was specified.
+*
+* @return the priority for newly created threads
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BasicThreadFactory, Method: getUncaughtExceptionHandler
+Description: /*** Returns the {@code UncaughtExceptionHandler} for the threads created by
+* this factory. Result can be <b>null</b> if no handler was provided.
+*
+* @return the {@code UncaughtExceptionHandler}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BasicThreadFactory, Method: getThreadCount
+Description: /*** Returns the number of threads this factory has already created. This
+* class maintains an internal counter that is incremented each time the
+* {@link #newThread(Runnable)} method is invoked.
+*
+* @return the number of threads created by this factory
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BasicThreadFactory, Method: newThread
+Description: /*** Creates a new thread. This implementation delegates to the wrapped
+* factory for creating the thread. Then, on the newly created thread the
+* corresponding configuration options are set.
+*
+* @param r the {@code Runnable} to be executed by the new thread
+* @return the newly created thread
+*/"
+

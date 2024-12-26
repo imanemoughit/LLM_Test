@@ -1,0 +1,411 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getFirst
+Description: /**
+* Returns the first time period in the axis range.
+*
+* @return The first time period (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setFirst
+Description: /**
+* Sets the first time period in the axis range and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param first  the time period (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getLast
+Description: /**
+* Returns the last time period in the axis range.
+*
+* @return The last time period (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setLast
+Description: /**
+* Sets the last time period in the axis range and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param last  the time period (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getTimeZone
+Description: /**
+* Returns the time zone used to convert the periods defining the axis
+* range into absolute milliseconds.
+*
+* @return The time zone (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setTimeZone
+Description: /**
+* Sets the time zone that is used to convert the time periods into
+* absolute milliseconds.
+*
+* @param zone  the time zone (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getLocale
+Description: /**
+* Returns the locale for this axis.
+*
+* @return The locale (never (<code>null</code>).
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getAutoRangeTimePeriodWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /**
+* Returns the class used to create the first and last time periods for
+* the axis range when the auto-range flag is set to <code>true</code>.
+*
+* @return The class (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setAutoRangeTimePeriodWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /**
+* Sets the class used to create the first and last time periods for the
+* axis range when the auto-range flag is set to <code>true</code> and
+* sends an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param c  the class (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getMajorTickTimePeriodWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /**
+* Returns the class that controls the spacing of the major tick marks.
+*
+* @return The class (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setMajorTickTimePeriodWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /**
+* Sets the class that controls the spacing of the major tick marks, and
+* sends an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param c  the class (a subclass of {@link RegularTimePeriod} is
+*           expected).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: isMinorTickMarksVisible
+Description: /**
+* Returns the flag that controls whether or not minor tick marks
+* are displayed for the axis.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setMinorTickMarksVisible
+Description: /**
+* Sets the flag that controls whether or not minor tick marks
+* are displayed for the axis, and sends a {@link AxisChangeEvent}
+* to all registered listeners.
+*
+* @param visible  the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getMinorTickTimePeriodWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /**
+* Returns the class that controls the spacing of the minor tick marks.
+*
+* @return The class (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setMinorTickTimePeriodWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /**
+* Sets the class that controls the spacing of the minor tick marks, and
+* sends an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param c  the class (a subclass of {@link RegularTimePeriod} is
+*           expected).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getMinorTickMarkStroke
+Description: /**
+* Returns the stroke used to display minor tick marks, if they are
+* visible.
+*
+* @return A stroke (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setMinorTickMarkStroke
+Description: /**
+* Sets the stroke used to display minor tick marks, if they are
+* visible, and sends a {@link AxisChangeEvent} to all registered
+* listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getMinorTickMarkPaint
+Description: /**
+* Returns the paint used to display minor tick marks, if they are
+* visible.
+*
+* @return A paint (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setMinorTickMarkPaint
+Description: /**
+* Sets the paint used to display minor tick marks, if they are
+* visible, and sends a {@link AxisChangeEvent} to all registered
+* listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getMinorTickMarkInsideLength
+Description: /**
+* Returns the inside length for the minor tick marks.
+*
+* @return The length.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setMinorTickMarkInsideLength
+Description: /**
+* Sets the inside length of the minor tick marks and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param length  the length.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getMinorTickMarkOutsideLength
+Description: /**
+* Returns the outside length for the minor tick marks.
+*
+* @return The length.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setMinorTickMarkOutsideLength
+Description: /**
+* Sets the outside length of the minor tick marks and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param length  the length.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getLabelInfo
+Description: /**
+* Returns an array of label info records.
+*
+* @return An array.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setLabelInfo
+Description: /**
+* Sets the array of label info records and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param info  the info.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: getRange
+Description: /**
+* Returns the range for the axis.
+*
+* @return The axis range (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: setRange
+Description: /**
+* Sets the range for the axis, if requested, sends an
+* {@link AxisChangeEvent} to all registered listeners.  As a side-effect,
+* the auto-range flag is set to <code>false</code> (optional).
+*
+* @param range  the range (<code>null</code> not permitted).
+* @param turnOffAutoRange  a flag that controls whether or not the auto
+*                          range is turned off.
+* @param notify  a flag that controls whether or not listeners are
+*                notified.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: configure
+Description: /**
+* Configures the axis to work with the current plot.  Override this method
+* to perform any special processing (such as auto-rescaling).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: reserveSpace
+Description: /**
+* Estimates the space (height or width) required to draw the axis.
+*
+* @param g2  the graphics device.
+* @param plot  the plot that the axis belongs to.
+* @param plotArea  the area within which the plot (including axes) should
+*                  be drawn.
+* @param edge  the axis location.
+* @param space  space already reserved.
+*
+* @return The space required to draw the axis (including pre-reserved
+*         space).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: draw
+Description: /**
+* Draws the axis on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param cursor  the cursor location (determines where to draw the axis).
+* @param plotArea  the area within which the axes and plot should be drawn.
+* @param dataArea  the area within which the data should be drawn.
+* @param edge  the axis location (<code>null</code> not permitted).
+* @param plotState  collects information about the plot
+*                   (<code>null</code> permitted).
+*
+* @return The axis state (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: refreshTicks
+Description: /**
+* Calculates the positions of the ticks for the axis, storing the results
+* in the tick list (ready for drawing).
+*
+* @param g2  the graphics device.
+* @param state  the axis state.
+* @param dataArea  the area inside the axes.
+* @param edge  the edge on which the axis is located.
+*
+* @return The list of ticks.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: valueToJava2D
+Description: /**
+* Converts a data value to a coordinate in Java2D space, assuming that the
+* axis runs along one edge of the specified dataArea.
+* <p>
+* Note that it is possible for the coordinate to fall outside the area.
+*
+* @param value  the data value.
+* @param area  the area for plotting the data.
+* @param edge  the edge along which the axis lies.
+*
+* @return The Java2D coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: java2DToValue
+Description: /**
+* Converts a coordinate in Java2D space to the corresponding data value,
+* assuming that the axis runs along one edge of the specified dataArea.
+*
+* @param java2DValue  the coordinate in Java2D space.
+* @param area  the area in which the data is plotted.
+* @param edge  the edge along which the axis lies.
+*
+* @return The data value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: equals
+Description: /**
+* Tests the axis for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxis, Method: clone
+Description: /**
+* Returns a clone of the axis.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  this class is cloneable, but
+*         subclasses may not be.
+*/"
+

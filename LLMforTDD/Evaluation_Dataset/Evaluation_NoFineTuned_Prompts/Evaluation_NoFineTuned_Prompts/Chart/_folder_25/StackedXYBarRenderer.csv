@@ -1,0 +1,117 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYBarRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYBarRenderer, Method: getRenderAsPercentages
+Description: /**
+* Returns <code>true</code> if the renderer displays each item value as
+* a percentage (so that the stacked bars add to 100%), and
+* <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @see #setRenderAsPercentages(boolean)
+*
+* @since 1.0.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYBarRenderer, Method: setRenderAsPercentages
+Description: /**
+* Sets the flag that controls whether the renderer displays each item
+* value as a percentage (so that the stacked bars add to 100%), and sends
+* a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param asPercentages  the flag.
+*
+* @see #getRenderAsPercentages()
+*
+* @since 1.0.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYBarRenderer, Method: getPassCount
+Description: /**
+* Returns <code>3</code> to indicate that this renderer requires three
+* passes for drawing (shadows are drawn in the first pass, the bars in the
+* second, and item labels are drawn in the third pass so that
+* they always appear in front of all the bars).
+*
+* @return <code>2</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYBarRenderer, Method: initialise
+Description: /**
+* Initialises the renderer and returns a state object that should be
+* passed to all subsequent calls to the drawItem() method. Here there is
+* nothing to do.
+*
+* @param g2  the graphics device.
+* @param dataArea  the area inside the axes.
+* @param plot  the plot.
+* @param data  the data.
+* @param info  an optional info collection object to return data back to
+*              the caller.
+*
+* @return A state object.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYBarRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYBarRenderer, Method: drawItem
+Description: /**
+* Draws the visual representation of a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area within which the plot is being drawn.
+* @param plot  the plot (can be used to obtain standard color information
+*              etc).
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYBarRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYBarRenderer, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+

@@ -1,0 +1,120 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryTextAnnotation
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryTextAnnotation, Method: getCategory
+Description: /**
+* Returns the category.
+*
+* @return The category (never <code>null</code>).
+*
+* @see #setCategory(Comparable)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryTextAnnotation, Method: setCategory
+Description: /**
+* Sets the category that the annotation attaches to.
+*
+* @param category  the category (<code>null</code> not permitted).
+*
+* @see #getCategory()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryTextAnnotation, Method: getCategoryAnchor
+Description: /**
+* Returns the category anchor point.
+*
+* @return The category anchor point.
+*
+* @see #setCategoryAnchor(CategoryAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryTextAnnotation, Method: setCategoryAnchor
+Description: /**
+* Sets the category anchor point and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param anchor  the anchor point (<code>null</code> not permitted).
+*
+* @see #getCategoryAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryTextAnnotation, Method: getValue
+Description: /**
+* Returns the value that the annotation attaches to.
+*
+* @return The value.
+*
+* @see #setValue(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryTextAnnotation, Method: setValue
+Description: /**
+* Sets the value and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param value  the value.
+*
+* @see #getValue()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryTextAnnotation, Method: draw
+Description: /**
+* Draws the annotation.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param dataArea  the data area.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param rendererIndex  the renderer index.
+* @param info  the plot info (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryTextAnnotation, Method: equals
+Description: /**
+* Tests this object for equality with another.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryTextAnnotation, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryTextAnnotation, Method: clone
+Description: /**
+* Returns a clone of the annotation.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  this class will not throw this
+*         exception, but subclasses (if any) might.
+*/"
+

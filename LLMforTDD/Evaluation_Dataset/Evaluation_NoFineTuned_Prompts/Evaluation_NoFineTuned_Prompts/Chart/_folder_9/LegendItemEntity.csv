@@ -1,0 +1,89 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemEntity
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemEntity, Method: getDataset
+Description: /**
+* Returns a reference to the dataset that this legend item is derived
+* from.
+*
+* @return The dataset.
+*
+* @since 1.0.6
+*
+* @see #setDataset(Dataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemEntity, Method: setDataset
+Description: /**
+* Sets a reference to the dataset that this legend item is derived from.
+*
+* @param dataset  the dataset.
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemEntity, Method: getSeriesKey
+Description: /**
+* Returns the series key that identifies the legend item.
+*
+* @return The series key.
+*
+* @since 1.0.6
+*
+* @see #setSeriesKey(Comparable)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemEntity, Method: setSeriesKey
+Description: /**
+* Sets the key for the series.
+*
+* @param key  the key.
+*
+* @since 1.0.6
+*
+* @see #getSeriesKey()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemEntity, Method: equals
+Description: /**
+* Tests this object for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemEntity, Method: clone
+Description: /**
+* Returns a clone of the entity.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if there is a problem cloning the
+*         object.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemEntity, Method: toString
+Description: /**
+* Returns a string representing this object (useful for debugging
+* purposes).
+*
+* @return A string (never <code>null</code>).
+*/"
+

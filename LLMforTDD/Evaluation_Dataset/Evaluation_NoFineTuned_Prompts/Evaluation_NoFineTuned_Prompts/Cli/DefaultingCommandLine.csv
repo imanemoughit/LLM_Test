@@ -1,0 +1,29 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultingCommandLine
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultingCommandLine, Method: appendCommandLine,/**
+     * Adds a CommandLine instance to the back of the queue. The supplied
+     * CommandLine will be used as defaults when all other CommandLines produce
+     * no result
+     *
+     * @param commandLine
+     *            the default values to use if all CommandLines
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultingCommandLine, Method: insertCommandLine,/**
+     * Adds a CommandLine instance to a specified position in the queue.
+     *
+     * @param index ths position at which to insert
+     * @param commandLine the CommandLine to insert
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultingCommandLine, Method: commandLines,/**
+     * Builds an iterator over the build in CommandLines.
+     *
+     * @return an unmodifiable iterator
+     */"

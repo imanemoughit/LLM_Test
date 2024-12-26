@@ -1,0 +1,83 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedCategoryAxis
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedCategoryAxis, Method: getSubLabelFont
+Description: /**
+* Returns the font for the sublabels.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setSubLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedCategoryAxis, Method: setSubLabelFont
+Description: /**
+* Sets the font for the sublabels and sends an {@link AxisChangeEvent} to
+* all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getSubLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedCategoryAxis, Method: getSubLabelPaint
+Description: /**
+* Returns the paint for the sublabels.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setSubLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedCategoryAxis, Method: setSubLabelPaint
+Description: /**
+* Sets the paint for the sublabels and sends an {@link AxisChangeEvent}
+* to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getSubLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedCategoryAxis, Method: addSubLabel
+Description: /**
+* Adds a sublabel for a category.
+*
+* @param category  the category.
+* @param label  the label.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedCategoryAxis, Method: equals
+Description: /**
+* Tests this axis for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedCategoryAxis, Method: clone
+Description: /**
+* Returns a clone of this axis.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if there is a problem cloning.
+*/"
+

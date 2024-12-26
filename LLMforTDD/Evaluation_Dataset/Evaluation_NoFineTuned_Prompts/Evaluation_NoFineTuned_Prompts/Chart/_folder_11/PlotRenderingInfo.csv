@@ -1,0 +1,132 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo, Method: getOwner
+Description: /**
+* Returns the owner (as specified in the constructor).
+*
+* @return The owner (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo, Method: getPlotArea
+Description: /**
+* Returns the plot area (in Java2D space).
+*
+* @return The plot area (possibly <code>null</code>).
+*
+* @see #setPlotArea(Rectangle2D)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo, Method: setPlotArea
+Description: /**
+* Sets the plot area.
+*
+* @param area  the plot area (in Java2D space, <code>null</code>
+*     permitted but discouraged)
+*
+* @see #getPlotArea()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo, Method: getDataArea
+Description: /**
+* Returns the plot's data area (in Java2D space).
+*
+* @return The data area (possibly <code>null</code>).
+*
+* @see #setDataArea(Rectangle2D)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo, Method: setDataArea
+Description: /**
+* Sets the data area.
+*
+* @param area  the data area (in Java2D space, <code>null</code> permitted
+*     but discouraged).
+*
+* @see #getDataArea()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo, Method: getSubplotCount
+Description: /**
+* Returns the number of subplots (possibly zero).
+*
+* @return The subplot count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo, Method: addSubplotInfo
+Description: /**
+* Adds the info for a subplot.
+*
+* @param info  the subplot info.
+*
+* @see #getSubplotInfo(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo, Method: getSubplotInfo
+Description: /**
+* Returns the info for a subplot.
+*
+* @param index  the subplot index.
+*
+* @return The info.
+*
+* @see #addSubplotInfo(PlotRenderingInfo)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo, Method: getSubplotIndex
+Description: /**
+* Returns the index of the subplot that contains the specified
+* (x, y) point (the source point).  The source point will usually"""
+* come from a mouse click on a {@link ChartPanel},
+* and this method is then used to determine the subplot that
+* contains the source point.
+*
+* @param source  the source point (in Java2D space, <code>null</code> not
+* permitted).
+*
+* @return The subplot index (or -1 if no subplot contains
+*         <code>source</code>).
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo, Method: equals
+Description: /**
+* Tests this instance for equality against an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotRenderingInfo, Method: clone
+Description: /**
+* Returns a clone of this object.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if there is a problem cloning.
+*/"
+

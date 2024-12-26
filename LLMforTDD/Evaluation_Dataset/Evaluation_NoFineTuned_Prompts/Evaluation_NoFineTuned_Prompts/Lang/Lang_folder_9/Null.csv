@@ -1,0 +1,221 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null, Method: CONST
+Description: /*** This method returns the provided value unchanged.
+* This can prevent javac from inlining a constant
+* field, e.g.,
+*
+* <pre>
+*     public final static boolean MAGIC_FLAG = ObjectUtils.CONST(true);
+* </pre>
+*
+* This way any jars that refer to this field do not
+* have to recompile themselves if the field's value
+* changes at some future date.
+*
+* @param v the boolean value to return
+* @return the boolean v, unchanged
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null, Method: CONST
+Description: /*** This method returns the provided value unchanged.
+* This can prevent javac from inlining a constant
+* field, e.g.,
+*
+* <pre>
+*     public final static byte MAGIC_BYTE = ObjectUtils.CONST((byte) 127);
+* </pre>
+*
+* This way any jars that refer to this field do not
+* have to recompile themselves if the field's value
+* changes at some future date.
+*
+* @param v the byte value to return
+* @return the byte v, unchanged
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null, Method: CONST_BYTE
+Description: /*** This method returns the provided value unchanged.
+* This can prevent javac from inlining a constant
+* field, e.g.,
+*
+* <pre>
+*     public final static byte MAGIC_BYTE = ObjectUtils.CONST_BYTE(127);
+* </pre>
+*
+* This way any jars that refer to this field do not
+* have to recompile themselves if the field's value
+* changes at some future date.
+*
+* @param v the byte literal (as an int) value to return
+* @throws IllegalArgumentException if the value passed to v
+*         is larger than a byte, that is, smaller than -128 or
+*         larger than 127.
+* @return the byte v, unchanged
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null, Method: CONST
+Description: /*** This method returns the provided value unchanged.
+* This can prevent javac from inlining a constant
+* field, e.g.,
+*
+* <pre>
+*     public final static char MAGIC_CHAR = ObjectUtils.CONST('a');
+* </pre>
+*
+* This way any jars that refer to this field do not
+* have to recompile themselves if the field's value
+* changes at some future date.
+*
+* @param v the char value to return
+* @return the char v, unchanged
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null, Method: CONST
+Description: /*** This method returns the provided value unchanged.
+* This can prevent javac from inlining a constant
+* field, e.g.,
+*
+* <pre>
+*     public final static short MAGIC_SHORT = ObjectUtils.CONST((short) 123);
+* </pre>
+*
+* This way any jars that refer to this field do not
+* have to recompile themselves if the field's value
+* changes at some future date.
+*
+* @param v the short value to return
+* @return the short v, unchanged
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null, Method: CONST_SHORT
+Description: /*** This method returns the provided value unchanged.
+* This can prevent javac from inlining a constant
+* field, e.g.,
+*
+* <pre>
+*     public final static short MAGIC_SHORT = ObjectUtils.CONST_SHORT(127);
+* </pre>
+*
+* This way any jars that refer to this field do not
+* have to recompile themselves if the field's value
+* changes at some future date.
+*
+* @param v the short literal (as an int) value to return
+* @throws IllegalArgumentException if the value passed to v
+*         is larger than a short, that is, smaller than -32768 or
+*         larger than 32767.
+* @return the byte v, unchanged
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null, Method: CONST
+Description: /*** This method returns the provided value unchanged.
+* This can prevent javac from inlining a constant
+* field, e.g.,
+*
+* <pre>
+*     public final static int MAGIC_INT = ObjectUtils.CONST(123);
+* </pre>
+*
+* This way any jars that refer to this field do not
+* have to recompile themselves if the field's value
+* changes at some future date.
+*
+* @param v the int value to return
+* @return the int v, unchanged
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null, Method: CONST
+Description: /*** This method returns the provided value unchanged.
+* This can prevent javac from inlining a constant
+* field, e.g.,
+*
+* <pre>
+*     public final static long MAGIC_LONG = ObjectUtils.CONST(123L);
+* </pre>
+*
+* This way any jars that refer to this field do not
+* have to recompile themselves if the field's value
+* changes at some future date.
+*
+* @param v the long value to return
+* @return the long v, unchanged
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null, Method: CONST
+Description: /*** This method returns the provided value unchanged.
+* This can prevent javac from inlining a constant
+* field, e.g.,
+*
+* <pre>
+*     public final static float MAGIC_FLOAT = ObjectUtils.CONST(1.0f);
+* </pre>
+*
+* This way any jars that refer to this field do not
+* have to recompile themselves if the field's value
+* changes at some future date.
+*
+* @param v the float value to return
+* @return the float v, unchanged
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null, Method: CONST
+Description: /*** This method returns the provided value unchanged.
+* This can prevent javac from inlining a constant
+* field, e.g.,
+*
+* <pre>
+*     public final static double MAGIC_DOUBLE = ObjectUtils.CONST(1.0);
+* </pre>
+*
+* This way any jars that refer to this field do not
+* have to recompile themselves if the field's value
+* changes at some future date.
+*
+* @param v the double value to return
+* @return the double v, unchanged
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Null, Method: CONST
+Description: /*** This method returns the provided value unchanged.
+* This can prevent javac from inlining a constant
+* field, e.g.,
+*
+* <pre>
+*     public final static String MAGIC_STRING = ObjectUtils.CONST(abc);
+* </pre>
+*
+* This way any jars that refer to this field do not
+* have to recompile themselves if the field's value
+* changes at some future date.
+*
+* @param <T> the Object type
+* @param v the genericized Object value to return (typically a String).
+* @return the genericized Object v, unchanged (typically a String).
+*/"
+

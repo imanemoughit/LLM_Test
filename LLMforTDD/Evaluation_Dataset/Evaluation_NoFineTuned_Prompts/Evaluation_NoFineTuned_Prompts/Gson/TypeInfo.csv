@@ -1,0 +1,22 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeInfo
+"Method: getWrappedWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /**
+* Returns the corresponding wrapper type of {@code type} if it is a primitive
+* type; otherwise returns {@code type} itself. Idempotent.
+* <pre>
+*     wrap(int.class) == Integer.class
+*     wrap(Integer.class) == Integer.class
+*     wrap(String.class) == String.class
+* </pre>
+*/"
+"Method: getRawWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /**
+* @return the raw class associated with this type
+*/"

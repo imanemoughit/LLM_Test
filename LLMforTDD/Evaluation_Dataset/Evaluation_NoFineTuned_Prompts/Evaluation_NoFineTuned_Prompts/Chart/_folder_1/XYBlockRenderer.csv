@@ -1,0 +1,178 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: getBlockWidth
+Description: /**
+* Returns the block width, in data/axis units.
+*
+* @return The block width.
+*
+* @see #setBlockWidth(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: setBlockWidth
+Description: /**
+* Sets the width of the blocks used to represent each data item and
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param width  the new width, in data/axis units (must be > 0.0).
+*
+* @see #getBlockWidth()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: getBlockHeight
+Description: /**
+* Returns the block height, in data/axis units.
+*
+* @return The block height.
+*
+* @see #setBlockHeight(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: setBlockHeight
+Description: /**
+* Sets the height of the blocks used to represent each data item and
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param height  the new height, in data/axis units (must be > 0.0).
+*
+* @see #getBlockHeight()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: getBlockAnchor
+Description: /**
+* Returns the anchor point used to align a block at its (x, y) location.
+* The default values is {@link RectangleAnchor#CENTER}.
+*
+* @return The anchor point (never <code>null</code>).
+*
+* @see #setBlockAnchor(RectangleAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: setBlockAnchor
+Description: /**
+* Sets the anchor point used to align a block at its (x, y) location and
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param anchor  the anchor.
+*
+* @see #getBlockAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: getPaintScale
+Description: /**
+* Returns the paint scale used by the renderer.
+*
+* @return The paint scale (never <code>null</code>).
+*
+* @see #setPaintScale(PaintScale)
+* @since 1.0.4
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: setPaintScale
+Description: /**
+* Sets the paint scale used by the renderer and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param scale  the scale (<code>null</code> not permitted).
+*
+* @see #getPaintScale()
+* @since 1.0.4
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: findDomainBounds
+Description: /**
+* Returns the lower and upper bounds (range) of the x-values in the
+* specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*
+* @see #findRangeBounds(XYDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*
+* @see #findDomainBounds(XYDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: drawItem
+Description: /**
+* Draws the block representing the specified item.
+*
+* @param g2  the graphics device.
+* @param state  the state.
+* @param dataArea  the data area.
+* @param plot  the plot.
+* @param domainAxis  the x-axis.
+* @param rangeAxis  the y-axis.
+* @param dataset  the dataset.
+* @param series  the series index.
+* @param item  the item index.
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: equals
+Description: /**
+* Tests this <code>XYBlockRenderer</code> for equality with an arbitrary
+* object.  This method returns <code>true</code> if and only if:
+* <ul>
+* <li><code>obj</code> is an instance of <code>XYBlockRenderer</code> (not
+*     <code>null</code>);</li>
+* <li><code>obj</code> has the same field values as this
+*     <code>XYBlockRenderer</code>;</li>
+* </ul>
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBlockRenderer, Method: clone
+Description: /**
+* Returns a clone of this renderer.
+*
+* @return A clone of this renderer.
+*
+* @throws CloneNotSupportedException if there is a problem creating the
+*     clone.
+*/"
+

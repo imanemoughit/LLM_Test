@@ -1,0 +1,19 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AttributedStringUtilities
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AttributedStringUtilities, Method: equal
+Description: /**
+* Tests two attributed strings for equality.
+*
+* @param s1  string 1 (<code>null</code> permitted).
+* @param s2  string 2 (<code>null</code> permitted).
+*
+* @return <code>true</code> if <code>s1</code> and <code>s2</code> are
+*         equal or both <code>null</code>, and <code>false</code>
+*         otherwise.
+*/"
+

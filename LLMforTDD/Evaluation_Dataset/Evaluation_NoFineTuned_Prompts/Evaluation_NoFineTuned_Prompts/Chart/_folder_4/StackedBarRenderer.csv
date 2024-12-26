@@ -1,0 +1,84 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedBarRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedBarRenderer, Method: getRenderAsPercentages
+Description: /**
+* Returns <code>true</code> if the renderer displays each item value as
+* a percentage (so that the stacked bars add to 100%), and
+* <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @see #setRenderAsPercentages(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedBarRenderer, Method: setRenderAsPercentages
+Description: /**
+* Sets the flag that controls whether the renderer displays each item
+* value as a percentage (so that the stacked bars add to 100%), and sends
+* a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param asPercentages  the flag.
+*
+* @see #getRenderAsPercentages()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedBarRenderer, Method: getPassCount
+Description: /**
+* Returns the number of passes (<code>3</code>) required by this renderer.
+* The first pass is used to draw the bar shadows, the second pass is used
+* to draw the bars, and the third pass is used to draw the item labels
+* (if visible).
+*
+* @return The number of passes required by the renderer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedBarRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (or <code>null</code> if the dataset is empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedBarRenderer, Method: drawItem
+Description: /**
+* Draws a stacked bar for a specific item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the plot area.
+* @param plot  the plot.
+* @param domainAxis  the domain (category) axis.
+* @param rangeAxis  the range (value) axis.
+* @param dataset  the data.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedBarRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

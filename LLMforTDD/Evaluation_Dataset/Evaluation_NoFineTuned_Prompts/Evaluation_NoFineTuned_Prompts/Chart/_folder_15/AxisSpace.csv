@@ -1,0 +1,184 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: getTop
+Description: /**
+* Returns the space reserved for axes at the top of the plot area.
+*
+* @return The space (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: setTop
+Description: /**
+* Sets the space reserved for axes at the top of the plot area.
+*
+* @param space  the space (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: getBottom
+Description: /**
+* Returns the space reserved for axes at the bottom of the plot area.
+*
+* @return The space (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: setBottom
+Description: /**
+* Sets the space reserved for axes at the bottom of the plot area.
+*
+* @param space  the space (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: getLeft
+Description: /**
+* Returns the space reserved for axes at the left of the plot area.
+*
+* @return The space (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: setLeft
+Description: /**
+* Sets the space reserved for axes at the left of the plot area.
+*
+* @param space  the space (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: getRight
+Description: /**
+* Returns the space reserved for axes at the right of the plot area.
+*
+* @return The space (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: setRight
+Description: /**
+* Sets the space reserved for axes at the right of the plot area.
+*
+* @param space  the space (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: add
+Description: /**
+* Adds space to the top, bottom, left or right edge of the plot area.
+*
+* @param space  the space (in Java2D units).
+* @param edge  the edge (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: ensureAtLeast
+Description: /**
+* Ensures that this object reserves at least as much space as another.
+*
+* @param space  the other space.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: ensureAtLeast
+Description: /**
+* Ensures there is a minimum amount of space at the edge corresponding to
+* the specified axis location.
+*
+* @param space  the space.
+* @param edge  the location.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: shrink
+Description: /**
+* Shrinks an area by the space attributes.
+*
+* @param area  the area to shrink.
+* @param result  an optional carrier for the result.
+*
+* @return The result.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: expand
+Description: /**
+* Expands an area by the amount of space represented by this object.
+*
+* @param area  the area to expand.
+* @param result  an optional carrier for the result.
+*
+* @return The result.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: reserved
+Description: /**
+* Calculates the reserved area.
+*
+* @param area  the area.
+* @param edge  the edge.
+*
+* @return The reserved area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: clone
+Description: /**
+* Returns a clone of the object.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException This class won't throw this exception,
+*         but subclasses (if any) might.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: equals
+Description: /**
+* Tests this object for equality with another object.
+*
+* @param obj  the object to compare against.
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisSpace, Method: toString
+Description: /**
+* Returns a string representing the object (for debugging purposes).
+*
+* @return A string.
+*/"
+

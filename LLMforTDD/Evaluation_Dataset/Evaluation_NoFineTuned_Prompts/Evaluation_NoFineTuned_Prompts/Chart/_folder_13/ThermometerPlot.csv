@@ -1,0 +1,751 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getDataset
+Description: /**
+* Returns the dataset for the plot.
+*
+* @return The dataset (possibly <code>null</code>).
+*
+* @see #setDataset(ValueDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setDataset
+Description: /**
+* Sets the dataset for the plot, replacing the existing dataset if there
+* is one, and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @see #getDataset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getRangeAxis
+Description: /**
+* Returns the range axis.
+*
+* @return The range axis (never <code>null</code>).
+*
+* @see #setRangeAxis(ValueAxis)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setRangeAxis
+Description: /**
+* Sets the range axis for the plot and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param axis  the new axis (<code>null</code> not permitted).
+*
+* @see #getRangeAxis()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getLowerBound
+Description: /**
+* Returns the lower bound for the thermometer.  The data value can be set
+* lower than this, but it will not be shown in the thermometer.
+*
+* @return The lower bound.
+*
+* @see #setLowerBound(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setLowerBound
+Description: /**
+* Sets the lower bound for the thermometer.
+*
+* @param lower the lower bound.
+*
+* @see #getLowerBound()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getUpperBound
+Description: /**
+* Returns the upper bound for the thermometer.  The data value can be set
+* higher than this, but it will not be shown in the thermometer.
+*
+* @return The upper bound.
+*
+* @see #setUpperBound(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setUpperBound
+Description: /**
+* Sets the upper bound for the thermometer.
+*
+* @param upper the upper bound.
+*
+* @see #getUpperBound()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setRange
+Description: /**
+* Sets the lower and upper bounds for the thermometer.
+*
+* @param lower  the lower bound.
+* @param upper  the upper bound.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getPadding
+Description: /**
+* Returns the padding for the thermometer.  This is the space inside the
+* plot area.
+*
+* @return The padding (never <code>null</code>).
+*
+* @see #setPadding(RectangleInsets)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setPadding
+Description: /**
+* Sets the padding for the thermometer and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param padding  the padding (<code>null</code> not permitted).
+*
+* @see #getPadding()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getThermometerStroke
+Description: /**
+* Returns the stroke used to draw the thermometer outline.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setThermometerStroke(Stroke)
+* @see #getThermometerPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setThermometerStroke
+Description: /**
+* Sets the stroke used to draw the thermometer outline and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param s  the new stroke (<code>null</code> ignored).
+*
+* @see #getThermometerStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getThermometerPaint
+Description: /**
+* Returns the paint used to draw the thermometer outline.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setThermometerPaint(Paint)
+* @see #getThermometerStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setThermometerPaint
+Description: /**
+* Sets the paint used to draw the thermometer outline and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the new paint (<code>null</code> ignored).
+*
+* @see #getThermometerPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getUnits
+Description: /**
+* Returns a code indicating the unit display type.  This is one of
+* {@link #UNITS_NONE}, {@link #UNITS_FAHRENHEIT}, {@link #UNITS_CELCIUS}
+* and {@link #UNITS_KELVIN}.
+*
+* @return The units type.
+*
+* @see #setUnits(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setUnits
+Description: /**
+* Sets the units to be displayed in the thermometer. Use one of the
+* following constants:
+*
+* <ul>
+* <li>UNITS_NONE : no units displayed.</li>
+* <li>UNITS_FAHRENHEIT : units displayed in Fahrenheit.</li>
+* <li>UNITS_CELCIUS : units displayed in Celcius.</li>
+* <li>UNITS_KELVIN : units displayed in Kelvin.</li>
+* </ul>
+*
+* @param u  the new unit type.
+*
+* @see #getUnits()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getValueLocation
+Description: /**
+* Returns a code indicating the location at which the value label is
+* displayed.
+*
+* @return The location (one of {@link #NONE}, {@link #RIGHT},
+*         {@link #LEFT} and {@link #BULB}.).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setValueLocation
+Description: /**
+* Sets the location at which the current value is displayed and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+* <P>
+* The location can be one of the constants:
+* <code>NONE</code>,
+* <code>RIGHT</code>
+* <code>LEFT</code> and
+* <code>BULB</code>.
+*
+* @param location  the location.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getAxisLocation
+Description: /**
+* Returns the axis location.
+*
+* @return The location (one of {@link #NONE}, {@link #LEFT} and
+*         {@link #RIGHT}).
+*
+* @see #setAxisLocation(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setAxisLocation
+Description: /**
+* Sets the location at which the axis is displayed relative to the
+* thermometer, and sends a {@link PlotChangeEvent} to all registered
+* listeners.
+*
+* @param location  the location (one of {@link #NONE}, {@link #LEFT} and
+*         {@link #RIGHT}).
+*
+* @see #getAxisLocation()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getValueFont
+Description: /**
+* Gets the font used to display the current value.
+*
+* @return The font.
+*
+* @see #setValueFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setValueFont
+Description: /**
+* Sets the font used to display the current value.
+*
+* @param f  the new font (<code>null</code> not permitted).
+*
+* @see #getValueFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getValuePaint
+Description: /**
+* Gets the paint used to display the current value.
+*
+* @return The paint.
+*
+* @see #setValuePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setValuePaint
+Description: /**
+* Sets the paint used to display the current value and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the new paint (<code>null</code> not permitted).
+*
+* @see #getValuePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setValueFormat
+Description: /**
+* Sets the formatter for the value label and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param formatter  the new formatter (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getMercuryPaint
+Description: /**
+* Returns the default mercury paint.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setMercuryPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setMercuryPaint
+Description: /**
+* Sets the default mercury paint and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param paint  the new paint (<code>null</code> not permitted).
+*
+* @see #getMercuryPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setSubrangeInfo
+Description: /**
+* Sets information for a particular range.
+*
+* @param range  the range to specify information about.
+* @param low  the low value for the range
+* @param hi  the high value for the range
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setSubrangeInfo
+Description: /**
+* Sets the subrangeInfo attribute of the ThermometerPlot object
+*
+* @param range  the new rangeInfo value.
+* @param rangeLow  the new rangeInfo value
+* @param rangeHigh  the new rangeInfo value
+* @param displayLow  the new rangeInfo value
+* @param displayHigh  the new rangeInfo value
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setSubrange
+Description: /**
+* Sets the bounds for a subrange.
+*
+* @param range  the range type.
+* @param low  the low value.
+* @param high  the high value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setDisplayRange
+Description: /**
+* Sets the displayed bounds for a sub range.
+*
+* @param range  the range type.
+* @param low  the low value.
+* @param high  the high value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getSubrangePaint
+Description: /**
+* Gets the paint used for a particular subrange.
+*
+* @param range  the range (.
+*
+* @return The paint.
+*
+* @see #setSubrangePaint(int, Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setSubrangePaint
+Description: /**
+* Sets the paint to be used for a subrange and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param range  the range (0, 1 or 2).
+* @param paint  the paint to be applied (<code>null</code> not permitted).
+*
+* @see #getSubrangePaint(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getFollowDataInSubranges
+Description: /**
+* Returns a flag that controls whether or not the thermometer axis zooms
+* to display the subrange within which the data value falls.
+*
+* @return The flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setFollowDataInSubranges
+Description: /**
+* Sets the flag that controls whether or not the thermometer axis zooms
+* to display the subrange within which the data value falls.
+*
+* @param flag  the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getUseSubrangePaint
+Description: /**
+* Returns a flag that controls whether or not the mercury color changes
+* for each subrange.
+*
+* @return The flag.
+*
+* @see #setUseSubrangePaint(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setUseSubrangePaint
+Description: /**
+* Sets the range colour change option.
+*
+* @param flag the new range colour change option
+*
+* @see #getUseSubrangePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getBulbRadius
+Description: /**
+* Returns the bulb radius, in Java2D units.
+
+* @return The bulb radius.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setBulbRadius
+Description: /**
+* Sets the bulb radius (in Java2D units) and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param r  the new radius (in Java2D units).
+*
+* @see #getBulbRadius()
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getBulbDiameter
+Description: /**
+* Returns the bulb diameter, which is always twice the value returned
+* by {@link #getBulbRadius()}.
+*
+* @return The bulb diameter.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getColumnRadius
+Description: /**
+* Returns the column radius, in Java2D units.
+*
+* @return The column radius.
+*
+* @see #setColumnRadius(int)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setColumnRadius
+Description: /**
+* Sets the column radius (in Java2D units) and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param r  the new radius.
+*
+* @see #getColumnRadius()
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getColumnDiameter
+Description: /**
+* Returns the column diameter, which is always twice the value returned
+* by {@link #getColumnRadius()}.
+*
+* @return The column diameter.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getGap
+Description: /**
+* Returns the gap, in Java2D units, between the two outlines that
+* represent the thermometer.
+*
+* @return The gap.
+*
+* @see #setGap(int)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: setGap
+Description: /**
+* Sets the gap (in Java2D units) between the two outlines that represent
+* the thermometer, and sends a {@link PlotChangeEvent} to all registered
+* listeners.
+*
+* @param gap  the new gap.
+*
+* @see #getGap()
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: draw
+Description: /**
+* Draws the plot on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device.
+* @param area  the area within which the plot should be drawn.
+* @param anchor  the anchor point (<code>null</code> permitted).
+* @param parentState  the state from the parent plot, if there is one.
+* @param info  collects info about the drawing.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: zoom
+Description: /**
+* A zoom method that does nothing.  Plots are required to support the
+* zoom operation.  In the case of a thermometer chart, it doesn't make
+* sense to zoom in or out, so the method is empty.
+*
+* @param percent  the zoom percentage.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getPlotType
+Description: /**
+* Returns a short string describing the type of plot.
+*
+* @return A short string describing the type of plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: datasetChanged
+Description: /**
+* Checks to see if a new value means the axis range needs adjusting.
+*
+* @param event  the dataset change event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getDataRange
+Description: /**
+* Returns the data range.
+*
+* @param axis  the axis.
+*
+* @return The range of data displayed.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getLegendItems
+Description: /**
+* Returns the legend items for the plot.
+*
+* @return <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: getOrientation
+Description: /**
+* Returns the orientation of the plot.
+*
+* @return The orientation (always {@link PlotOrientation#VERTICAL}).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: equals
+Description: /**
+* Tests this plot for equality with another object.  The plot's dataset
+* is not considered in the test.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: clone
+Description: /**
+* Returns a clone of the plot.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the plot cannot be cloned.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: zoomDomainAxes
+Description: /**
+* Multiplies the range on the domain axis/axes by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param state  the plot state.
+* @param source  the source point.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: zoomDomainAxes
+Description: /**
+* Multiplies the range on the domain axis/axes by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param state  the plot state.
+* @param source  the source point.
+* @param useAnchor  a flag that controls whether or not the source point
+*         is used for the zoom anchor.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: zoomRangeAxes
+Description: /**
+* Multiplies the range on the range axis/axes by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param state  the plot state.
+* @param source  the source point.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: zoomRangeAxes
+Description: /**
+* Multiplies the range on the range axis/axes by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param state  the plot state.
+* @param source  the source point.
+* @param useAnchor  a flag that controls whether or not the source point
+*         is used for the zoom anchor.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: zoomDomainAxes
+Description: /**
+* This method does nothing.
+*
+* @param lowerPercent  the lower percent.
+* @param upperPercent  the upper percent.
+* @param state  the plot state.
+* @param source  the source point.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: zoomRangeAxes
+Description: /**
+* Zooms the range axes.
+*
+* @param lowerPercent  the lower percent.
+* @param upperPercent  the upper percent.
+* @param state  the plot state.
+* @param source  the source point.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: isDomainZoomable
+Description: /**
+* Returns <code>false</code>.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ThermometerPlot, Method: isRangeZoomable
+Description: /**
+* Returns <code>true</code>.
+*
+* @return A boolean.
+*/"
+

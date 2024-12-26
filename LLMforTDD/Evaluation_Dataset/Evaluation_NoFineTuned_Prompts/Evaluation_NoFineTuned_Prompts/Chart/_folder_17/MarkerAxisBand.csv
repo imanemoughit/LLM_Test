@@ -1,0 +1,59 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MarkerAxisBand
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MarkerAxisBand, Method: addMarker
+Description: /**
+* Adds a marker to the band.
+*
+* @param marker  the marker.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MarkerAxisBand, Method: getHeight
+Description: /**
+* Returns the height of the band.
+*
+* @param g2  the graphics device.
+*
+* @return The height of the band.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MarkerAxisBand, Method: draw
+Description: /**
+* Draws the band.
+*
+* @param g2  the graphics device.
+* @param plotArea  the plot area.
+* @param dataArea  the data area.
+* @param x  the x-coordinate.
+* @param y  the y-coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MarkerAxisBand, Method: equals
+Description: /**
+* Tests this axis for equality with another object.  Note that the axis
+* that the band belongs to is ignored in the test.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MarkerAxisBand, Method: hashCode
+Description: /**
+* Returns a hash code for the object.
+*
+* @return A hash code.
+*/"
+

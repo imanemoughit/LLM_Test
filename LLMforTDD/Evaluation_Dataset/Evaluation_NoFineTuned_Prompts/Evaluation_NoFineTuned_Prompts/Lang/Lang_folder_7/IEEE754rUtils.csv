@@ -1,0 +1,149 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: min
+Description: /*** <p>Returns the minimum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: min
+Description: /*** <p>Returns the minimum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: min
+Description: /*** <p>Gets the minimum of three <code>double</code> values.</p>
+*
+* <p>NaN is only returned if all numbers are NaN as per IEEE-754r. </p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the smallest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: min
+Description: /*** <p>Gets the minimum of two <code>double</code> values.</p>
+*
+* <p>NaN is only returned if all numbers are NaN as per IEEE-754r. </p>
+*
+* @param a  value 1
+* @param b  value 2
+* @return  the smallest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: min
+Description: /*** <p>Gets the minimum of three <code>float</code> values.</p>
+*
+* <p>NaN is only returned if all numbers are NaN as per IEEE-754r. </p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the smallest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: min
+Description: /*** <p>Gets the minimum of two <code>float</code> values.</p>
+*
+* <p>NaN is only returned if all numbers are NaN as per IEEE-754r. </p>
+*
+* @param a  value 1
+* @param b  value 2
+* @return  the smallest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: max
+Description: /*** <p>Returns the maximum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: max
+Description: /*** <p>Returns the maximum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: max
+Description: /*** <p>Gets the maximum of three <code>double</code> values.</p>
+*
+* <p>NaN is only returned if all numbers are NaN as per IEEE-754r. </p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the largest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: max
+Description: /*** <p>Gets the maximum of two <code>double</code> values.</p>
+*
+* <p>NaN is only returned if all numbers are NaN as per IEEE-754r. </p>
+*
+* @param a  value 1
+* @param b  value 2
+* @return  the largest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: max
+Description: /*** <p>Gets the maximum of three <code>float</code> values.</p>
+*
+* <p>NaN is only returned if all numbers are NaN as per IEEE-754r. </p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the largest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IEEE754rUtils, Method: max
+Description: /*** <p>Gets the maximum of two <code>float</code> values.</p>
+*
+* <p>NaN is only returned if all numbers are NaN as per IEEE-754r. </p>
+*
+* @param a  value 1
+* @param b  value 2
+* @return  the largest of the values
+*/"
+

@@ -1,0 +1,15 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentImpl
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentImpl, Method: tripBoundaryQuotes,/**
+     * If there are any leading or trailing quotes remove them from the
+     * specified token.
+     *
+     * @param token
+     *            the token to strip leading and trailing quotes
+     *
+     * @return String the possibly modified token
+     */"

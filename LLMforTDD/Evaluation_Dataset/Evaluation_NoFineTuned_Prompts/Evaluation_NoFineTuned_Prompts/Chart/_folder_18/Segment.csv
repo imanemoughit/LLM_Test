@@ -1,0 +1,282 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: calculateSegmentNumber
+Description: /**
+* Calculates the segment number for a given millisecond.
+*
+* @param millis  the millisecond (as encoded by java.util.Date).
+*
+* @return The segment number.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: getSegmentNumber
+Description: /**
+* Returns the segment number of this segment. Segments start at 0.
+*
+* @return The segment number.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: getSegmentCount
+Description: /**
+* Returns always one (the number of segments contained in this
+* segment).
+*
+* @return The segment count (always 1 for this class).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: getSegmentStart
+Description: /**
+* Gets the start of this segment in ms.
+*
+* @return The segment start.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: getSegmentEnd
+Description: /**
+* Gets the end of this segment in ms.
+*
+* @return The segment end.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: getMillisecond
+Description: /**
+* Returns the millisecond used to reference this segment (always
+* between the segmentStart and segmentEnd).
+*
+* @return The millisecond.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: getDate
+Description: /**
+* Returns a {@link Date} that represents the reference point
+* for this segment.
+*
+* @return The date.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: contains
+Description: /**
+* Returns true if a particular millisecond is contained in this
+* segment.
+*
+* @param millis  the millisecond to verify.
+*
+* @return <code>true</code> if the millisecond is contained in the
+*         segment.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: contains
+Description: /**
+* Returns <code>true</code> if an interval is contained in this
+* segment.
+*
+* @param from  the start of the interval.
+* @param to  the end of the interval.
+*
+* @return <code>true</code> if the interval is contained in the
+*         segment.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: contains
+Description: /**
+* Returns <code>true</code> if a segment is contained in this segment.
+*
+* @param segment  the segment to test for inclusion
+*
+* @return <code>true</code> if the segment is contained in this
+*         segment.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: contained
+Description: /**
+* Returns <code>true</code> if this segment is contained in an
+* interval.
+*
+* @param from  the start of the interval.
+* @param to  the end of the interval.
+*
+* @return <code>true</code> if this segment is contained in the
+*         interval.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: intersect
+Description: /**
+* Returns a segment that is the intersection of this segment and the
+* interval.
+*
+* @param from  the start of the interval.
+* @param to  the end of the interval.
+*
+* @return A segment.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: before
+Description: /**
+* Returns <code>true</code> if this segment is wholly before another
+* segment.
+*
+* @param other  the other segment.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: after
+Description: /**
+* Returns <code>true</code> if this segment is wholly after another
+* segment.
+*
+* @param other  the other segment.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: equals
+Description: /**
+* Tests an object (usually another <code>Segment</code>) for equality
+* with this segment.
+*
+* @param object The other segment to compare with us
+*
+* @return <code>true</code> if we are the same segment
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: copy
+Description: /**
+* Returns a copy of ourselves or <code>null</code> if there was an
+* exception during cloning.
+*
+* @return A copy of this segment.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: compareTo
+Description: /**
+* Will compare this Segment with another Segment (from Comparable
+* interface).
+*
+* @param object The other Segment to compare with
+*
+* @return -1: this < object, 0: this.equal(object) and
+*         +1: this > object
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: inIncludeSegments
+Description: /**
+* Returns true if we are an included segment and we are not an
+* exception.
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: inExcludeSegments
+Description: /**
+* Returns true if we are an excluded segment.
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: inExceptionSegments
+Description: /**
+* Returns true if we are an exception segment. This is implemented via
+* a binary search on the exceptionSegments sorted list.
+*
+* If the segment is not listed as an exception in our list and we have
+* a baseTimeline, a check is performed to see if the segment is inside
+* an excluded segment from our base. If so, it is also considered an
+* exception.
+*
+* @return <code>true</code> if we are an exception segment.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: inc
+Description: /**
+* Increments the internal attributes of this segment by a number of
+* segments.
+*
+* @param n Number of segments to increment.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: inc
+Description: /**
+* Increments the internal attributes of this segment by one segment.
+* The exact time incremented is segmentSize.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: dec
+Description: /**
+* Decrements the internal attributes of this segment by a number of
+* segments.
+*
+* @param n Number of segments to decrement.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: dec
+Description: /**
+* Decrements the internal attributes of this segment by one segment.
+* The exact time decremented is segmentSize.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: moveIndexToStart
+Description: /**
+* Moves the index of this segment to the beginning if the segment.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Segment, Method: moveIndexToEnd
+Description: /**
+* Moves the index of this segment to the end of the segment.
+*/"
+

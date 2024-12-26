@@ -1,0 +1,26 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionFirst
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionFirst, Method: namedFirst,/**
+     * Forces Comparators with a particular trigger to appear at the beginning
+     * of lists
+     *
+     * @param name
+     *            the trigger name to select
+     * @see Option#getTriggers()
+     * @return a new comparator
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionFirst, Method: namedLast,/**
+     * Forces Comparators with a particular trigger to appear at the end of
+     * lists
+     *
+     * @param name
+     *            the trigger name to select
+     * @see Option#getTriggers()
+     * @return a new comparator
+     */"

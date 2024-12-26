@@ -1,0 +1,30 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HelpLineImpl
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HelpLineImpl, Method: getDescription,/**
+     * @return The description of the option
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HelpLineImpl, Method: getIndent,/**
+     * @return The level of indentation for this line
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HelpLineImpl, Method: getOption,/**
+     * @return The Option that the help line relates to
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HelpLineImpl, Method: usage,/**
+     * Builds a usage string for the option using the specified settings and
+     * comparator.
+     *
+     *
+     * @param helpSettings the settings to apply
+     * @param comparator a comparator to sort options when applicable
+     * @return the usage string
+     */"

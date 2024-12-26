@@ -1,0 +1,127 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: getPeriodWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /**
+* Returns the subclass of {@link RegularTimePeriod} that should be used
+* to generate the date labels.
+*
+* @return The class.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: getDateFormat
+Description: /**
+* Returns the date formatter.
+*
+* @return The date formatter (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: getPadding
+Description: /**
+* Returns the padding for the band.
+*
+* @return The padding.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: getLabelFont
+Description: /**
+* Returns the label font.
+*
+* @return The label font (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: getLabelPaint
+Description: /**
+* Returns the label paint.
+*
+* @return The label paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: getDrawDividers
+Description: /**
+* Returns a flag that controls whether or not dividers are drawn.
+*
+* @return A flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: getDividerStroke
+Description: /**
+* Returns the stroke used to draw the dividers.
+*
+* @return The stroke.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: getDividerPaint
+Description: /**
+* Returns the paint used to draw the dividers.
+*
+* @return The paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: createInstance
+Description: /**
+* Creates a time period that includes the specified millisecond, assuming
+* the given time zone.
+*
+* @param millisecond  the time.
+* @param zone  the time zone.
+* @param locale  the locale.
+*
+* @return The time period.
+*
+* @since 1.0.13.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: equals
+Description: /**
+* Tests this object for equality with an arbitrary object.
+*
+* @param obj  the object to test against (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PeriodAxisLabelInfo, Method: clone
+Description: /**
+* Returns a clone of the object.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if cloning is not supported.
+*/"
+

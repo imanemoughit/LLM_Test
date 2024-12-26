@@ -1,0 +1,271 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: getText
+Description: /**
+* Returns the title text.
+*
+* @return The text (never <code>null</code>).
+*
+* @see #setText(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: setText
+Description: /**
+* Sets the title to the specified text and sends a
+* {@link TitleChangeEvent} to all registered listeners.
+*
+* @param text  the text (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: getTextAlignment
+Description: /**
+* Returns the text alignment.  This controls how the text is aligned
+* within the title's bounds, whereas the title's horizontal alignment
+* controls how the title's bounding rectangle is aligned within the
+* drawing space.
+*
+* @return The text alignment.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: setTextAlignment
+Description: /**
+* Sets the text alignment and sends a {@link TitleChangeEvent} to
+* all registered listeners.
+*
+* @param alignment  the alignment (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: getFont
+Description: /**
+* Returns the font used to display the title string.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: setFont
+Description: /**
+* Sets the font used to display the title string.  Registered listeners
+* are notified that the title has been modified.
+*
+* @param font  the new font (<code>null</code> not permitted).
+*
+* @see #getFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: getPaint
+Description: /**
+* Returns the paint used to display the title string.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: setPaint
+Description: /**
+* Sets the paint used to display the title string.  Registered listeners
+* are notified that the title has been modified.
+*
+* @param paint  the new paint (<code>null</code> not permitted).
+*
+* @see #getPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: getBackgroundPaint
+Description: /**
+* Returns the background paint.
+*
+* @return The paint (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: setBackgroundPaint
+Description: /**
+* Sets the background paint and sends a {@link TitleChangeEvent} to all
+* registered listeners.  If you set this attribute to <code>null</code>,
+* no background is painted (which makes the title background transparent).
+*
+* @param paint  the background paint (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: getToolTipText
+Description: /**
+* Returns the tool tip text.
+*
+* @return The tool tip text (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: setToolTipText
+Description: /**
+* Sets the tool tip text to the specified text and sends a
+* {@link TitleChangeEvent} to all registered listeners.
+*
+* @param text  the text (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: getURLText
+Description: /**
+* Returns the URL text.
+*
+* @return The URL text (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: setURLText
+Description: /**
+* Sets the URL text to the specified text and sends a
+* {@link TitleChangeEvent} to all registered listeners.
+*
+* @param text  the text (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: getExpandToFitSpace
+Description: /**
+* Returns the flag that controls whether or not the title expands to fit
+* the available space.
+*
+* @return The flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: setExpandToFitSpace
+Description: /**
+* Sets the flag that controls whether the title expands to fit the
+* available space, and sends a {@link TitleChangeEvent} to all registered
+* listeners.
+*
+* @param expand  the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: getMaximumLinesToDisplay
+Description: /**
+* Returns the maximum number of lines to display.
+*
+* @return The maximum.
+*
+* @since 1.0.10
+*
+* @see #setMaximumLinesToDisplay(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: setMaximumLinesToDisplay
+Description: /**
+* Sets the maximum number of lines to display and sends a
+* {@link TitleChangeEvent} to all registered listeners.
+*
+* @param max  the maximum.
+*
+* @since 1.0.10.
+*
+* @see #getMaximumLinesToDisplay()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: arrange
+Description: /**
+* Arranges the contents of the block, within the given constraints, and
+* returns the block size.
+*
+* @param g2  the graphics device.
+* @param constraint  the constraint (<code>null</code> not permitted).
+*
+* @return The block size (in Java2D units, never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: draw
+Description: /**
+* Draws the title on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device.
+* @param area  the area allocated for the title.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: draw
+Description: /**
+* Draws the block within the specified area.
+*
+* @param g2  the graphics device.
+* @param area  the area.
+* @param params  if this is an instance of {@link EntityBlockParams} it
+*                is used to determine whether or not an
+*                {@link EntityCollection} is returned by this method.
+*
+* @return An {@link EntityCollection} containing a chart entity for the
+*         title, or <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: equals
+Description: /**
+* Tests this title for equality with another object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: hashCode
+Description: /**
+* Returns a hash code.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextTitle, Method: clone
+Description: /**
+* Returns a clone of this object.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException never.
+*/"
+

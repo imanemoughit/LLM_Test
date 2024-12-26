@@ -1,0 +1,137 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState, Method: getBarWidth
+Description: /**
+* Returns the bar width.
+*
+* @return The bar width.
+*
+* @see #setBarWidth(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState, Method: setBarWidth
+Description: /**
+* Sets the bar width.  The renderer calculates this value and stores it
+* here - it is not intended that users can manually set the bar width.
+*
+* @param width  the width.
+*
+* @see #getBarWidth()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState, Method: getSeriesRunningTotal
+Description: /**
+* Returns the series running total.
+*
+* @return The running total.
+*
+* @see #setSeriesRunningTotal(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState, Method: getCrosshairState
+Description: /**
+* Returns the crosshair state, if any.
+*
+* @return The crosshair state (possibly <code>null</code>).
+*
+* @since 1.0.11
+*
+* @see #setCrosshairState(CategoryCrosshairState)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState, Method: setCrosshairState
+Description: /**
+* Sets the crosshair state.
+*
+* @param state  the new state (<code>null</code> permitted).
+*
+* @since 1.0.11
+*
+* @see #getCrosshairState()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState, Method: getVisibleSeriesIndex
+Description: /**
+* Returns the index of the row relative to the visible rows.  If no
+* visible rows have been specified, the original row index is returned.
+* If the row index is not included in the array of visible rows,
+* -1 is returned.
+*
+* @param rowIndex  the row index.
+*
+* @return The new row index or -1.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState, Method: getVisibleSeriesCount
+Description: /**
+* Returns the number of visible series or -1 if no visible series have
+* been specified.
+*
+* @return The number or -1.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState, Method: getVisibleSeriesArray
+Description: /**
+* Returns a copy of the visible series array.
+*
+* @return The visible series array (possibly <code>null</code>).
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState, Method: setVisibleSeriesArray
+Description: /**
+* Sets an array with the indices of the visible rows.
+*
+* @param visibleSeries the array (<code>null</code> permitted).
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState, Method: getSelectionState
+Description: /**
+* Returns the selection state.
+*
+* @return The selection state (possibly <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryItemRendererState, Method: setSelectionState
+Description: /**
+* Sets the selection state.
+*
+* @param state  the selection state (<code>null</code> permitted).
+*
+* @since 1.2.0
+*/"
+

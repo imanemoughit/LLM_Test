@@ -1,0 +1,263 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: getID
+Description: /**
+* Returns the id.
+*
+* @return The id (possibly <code>null</code>).
+*
+* @see #setID(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: setID
+Description: /**
+* Sets the id for the block.
+*
+* @param id  the id (<code>null</code> permitted).
+*
+* @see #getID()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: getWidth
+Description: /**
+* Returns the natural width of the block, if this is known in advance.
+* The actual width of the block may be overridden if layout constraints
+* make this necessary.
+*
+* @return The width.
+*
+* @see #setWidth(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: setWidth
+Description: /**
+* Sets the natural width of the block, if this is known in advance.
+*
+* @param width  the width (in Java2D units)
+*
+* @see #getWidth()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: getHeight
+Description: /**
+* Returns the natural height of the block, if this is known in advance.
+* The actual height of the block may be overridden if layout constraints
+* make this necessary.
+*
+* @return The height.
+*
+* @see #setHeight(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: setHeight
+Description: /**
+* Sets the natural width of the block, if this is known in advance.
+*
+* @param height  the width (in Java2D units)
+*
+* @see #getHeight()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: getMargin
+Description: /**
+* Returns the margin.
+*
+* @return The margin (never <code>null</code>).
+*
+* @see #getMargin()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: setMargin
+Description: /**
+* Sets the margin (use {@link RectangleInsets#ZERO_INSETS} for no
+* padding).
+*
+* @param margin  the margin (<code>null</code> not permitted).
+*
+* @see #getMargin()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: setMargin
+Description: /**
+* Sets the margin.
+*
+* @param top  the top margin.
+* @param left  the left margin.
+* @param bottom  the bottom margin.
+* @param right  the right margin.
+*
+* @see #getMargin()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: getFrame
+Description: /**
+* Returns the current frame (border).
+*
+* @return The frame.
+*
+* @since 1.0.5
+* @see #setFrame(BlockFrame)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: setFrame
+Description: /**
+* Sets the frame (or border).
+*
+* @param frame  the frame (<code>null</code> not permitted).
+*
+* @since 1.0.5
+* @see #getFrame()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: getPadding
+Description: /**
+* Returns the padding.
+*
+* @return The padding (never <code>null</code>).
+*
+* @see #setPadding(RectangleInsets)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: setPadding
+Description: /**
+* Sets the padding (use {@link RectangleInsets#ZERO_INSETS} for no
+* padding).
+*
+* @param padding  the padding (<code>null</code> not permitted).
+*
+* @see #getPadding()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: setPadding
+Description: /**
+* Sets the padding.
+*
+* @param top  the top padding.
+* @param left  the left padding.
+* @param bottom  the bottom padding.
+* @param right  the right padding.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: getContentXOffset
+Description: /**
+* Returns the x-offset for the content within the block.
+*
+* @return The x-offset.
+*
+* @see #getContentYOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: getContentYOffset
+Description: /**
+* Returns the y-offset for the content within the block.
+*
+* @return The y-offset.
+*
+* @see #getContentXOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: arrange
+Description: /**
+* Arranges the contents of the block, with no constraints, and returns
+* the block size.
+*
+* @param g2  the graphics device.
+*
+* @return The block size (in Java2D units, never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: arrange
+Description: /**
+* Arranges the contents of the block, within the given constraints, and
+* returns the block size.
+*
+* @param g2  the graphics device.
+* @param constraint  the constraint (<code>null</code> not permitted).
+*
+* @return The block size (in Java2D units, never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: getBounds
+Description: /**
+* Returns the current bounds of the block.
+*
+* @return The bounds.
+*
+* @see #setBounds(Rectangle2D)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: setBounds
+Description: /**
+* Sets the bounds of the block.
+*
+* @param bounds  the bounds (<code>null</code> not permitted).
+*
+* @see #getBounds()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: equals
+Description: /**
+* Tests this block for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractBlock, Method: clone
+Description: /**
+* Returns a clone of this block.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if there is a problem creating the
+*         clone.
+*/"
+

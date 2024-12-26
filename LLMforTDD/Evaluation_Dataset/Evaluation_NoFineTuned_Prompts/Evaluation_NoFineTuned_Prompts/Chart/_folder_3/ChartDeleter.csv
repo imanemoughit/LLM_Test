@@ -1,0 +1,47 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartDeleter
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartDeleter, Method: addChart
+Description: /**
+* Add a chart to be deleted when the session expires
+*
+* @param filename  the name of the chart in the temporary directory to be
+*                  deleted.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartDeleter, Method: isChartAvailable
+Description: /**
+* Checks to see if a chart is in the list of charts to be deleted
+*
+* @param filename  the name of the chart in the temporary directory.
+*
+* @return A boolean value indicating whether the chart is present in the
+*         list.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartDeleter, Method: valueBound
+Description: /**
+* Binding this object to the session has no additional effects.
+*
+* @param event  the session bind event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartDeleter, Method: valueUnbound
+Description: /**
+* When this object is unbound from the session (including upon session
+* expiry) the files that have been added to the ArrayList are iterated
+* and deleted.
+*
+* @param event  the session unbind event.
+*/"
+

@@ -1,0 +1,345 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: getLabelType
+Description: /**
+* Returns the label type.  Defined by the constants: {@link #NO_LABELS}
+* and {@link #VALUE_LABELS}.
+*
+* @return The label type.
+*
+* @see #setLabelType(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setLabelType
+Description: /**
+* Sets the label type (either {@link #NO_LABELS} or {@link #VALUE_LABELS}.
+*
+* @param type  the type.
+*
+* @see #getLabelType()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: getLabelFont
+Description: /**
+* Returns the label font.
+*
+* @return The label font.
+*
+* @see #setLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setLabelFont
+Description: /**
+* Sets the label font and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param font  the new label font.
+*
+* @see #getLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: getRosePaint
+Description: /**
+* Returns the paint used to fill the outer circle of the compass.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setRosePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setRosePaint
+Description: /**
+* Sets the paint used to fill the outer circle of the compass,
+* and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getRosePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: getRoseCenterPaint
+Description: /**
+* Returns the paint used to fill the inner background area of the
+* compass.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setRoseCenterPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setRoseCenterPaint
+Description: /**
+* Sets the paint used to fill the inner background area of the compass,
+* and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getRoseCenterPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: getRoseHighlightPaint
+Description: /**
+* Returns the paint used to draw the circles, symbols and labels on the
+* compass.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setRoseHighlightPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setRoseHighlightPaint
+Description: /**
+* Sets the paint used to draw the circles, symbols and labels of the
+* compass, and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getRoseHighlightPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: getDrawBorder
+Description: /**
+* Returns a flag that controls whether or not a border is drawn.
+*
+* @return The flag.
+*
+* @see #setDrawBorder(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setDrawBorder
+Description: /**
+* Sets a flag that controls whether or not a border is drawn.
+*
+* @param status  the flag status.
+*
+* @see #getDrawBorder()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setSeriesPaint
+Description: /**
+* Sets the series paint.
+*
+* @param series  the series index.
+* @param paint  the paint.
+*
+* @see #setSeriesOutlinePaint(int, Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setSeriesOutlinePaint
+Description: /**
+* Sets the series outline paint.
+*
+* @param series  the series index.
+* @param p  the paint.
+*
+* @see #setSeriesPaint(int, Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setSeriesOutlineStroke
+Description: /**
+* Sets the series outline stroke.
+*
+* @param series  the series index.
+* @param stroke  the stroke.
+*
+* @see #setSeriesOutlinePaint(int, Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setSeriesNeedle
+Description: /**
+* Sets the needle type.
+*
+* @param type  the type.
+*
+* @see #setSeriesNeedle(int, int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setSeriesNeedle
+Description: /**
+* Sets the needle for a series.  The needle type is one of the following:
+* <ul>
+* <li>0 = {@link ArrowNeedle};</li>
+* <li>1 = {@link LineNeedle};</li>
+* <li>2 = {@link LongNeedle};</li>
+* <li>3 = {@link PinNeedle};</li>
+* <li>4 = {@link PlumNeedle};</li>
+* <li>5 = {@link PointerNeedle};</li>
+* <li>6 = {@link ShipNeedle};</li>
+* <li>7 = {@link WindNeedle};</li>
+* <li>8 = {@link ArrowNeedle};</li>
+* <li>9 = {@link MiddlePinNeedle};</li>
+* </ul>
+* @param index  the series index.
+* @param type  the needle type.
+*
+* @see #setSeriesNeedle(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setSeriesNeedle
+Description: /**
+* Sets the needle for a series and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param index  the series index.
+* @param needle  the needle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: getDatasets
+Description: /**
+* Returns an array of dataset references for the plot.
+*
+* @return The dataset for the plot, cast as a ValueDataset.
+*
+* @see #addDataset(ValueDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: addDataset
+Description: /**
+* Adds a dataset to the compass.
+*
+* @param dataset  the new dataset (<code>null</code> ignored).
+*
+* @see #addDataset(ValueDataset, MeterNeedle)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: addDataset
+Description: /**
+* Adds a dataset to the compass.
+*
+* @param dataset  the new dataset (<code>null</code> ignored).
+* @param needle  the needle (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: draw
+Description: /**
+* Draws the plot on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device.
+* @param area  the area within which the plot should be drawn.
+* @param anchor  the anchor point (<code>null</code> permitted).
+* @param parentState  the state from the parent plot, if there is one.
+* @param info  collects info about the drawing.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: getPlotType
+Description: /**
+* Returns a short string describing the type of plot.
+*
+* @return A string describing the plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: getLegendItems
+Description: /**
+* Returns the legend items for the plot.  For now, no legend is available
+* - this method returns null.
+*
+* @return The legend items.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: zoom
+Description: /**
+* No zooming is implemented for compass plot, so this method is empty.
+*
+* @param percent  the zoom amount.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: equals
+Description: /**
+* Tests an object for equality with this plot.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: clone
+Description: /**
+* Returns a clone of the plot.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  this class will not throw this
+*         exception, but subclasses (if any) might.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: setRevolutionDistance
+Description: /**
+* Sets the count to complete one revolution.  Can be arbitrarily set
+* For degrees (the default) it is 360, for radians this is 2*Pi, etc
+*
+* @param size the count to complete one revolution.
+*
+* @see #getRevolutionDistance()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassPlot, Method: getRevolutionDistance
+Description: /**
+* Gets the count to complete one revolution.
+*
+* @return The count to complete one revolution.
+*
+* @see #setRevolutionDistance(double)
+*/"
+

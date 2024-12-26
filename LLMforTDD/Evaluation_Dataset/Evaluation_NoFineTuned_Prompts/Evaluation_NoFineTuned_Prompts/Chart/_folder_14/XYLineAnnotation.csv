@@ -1,0 +1,53 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAnnotation
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAnnotation, Method: draw
+Description: /**
+* Draws the annotation.  This method is called by the {@link XYPlot}
+* class, you won't normally need to call it yourself.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param dataArea  the data area.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param rendererIndex  the renderer index.
+* @param info  if supplied, this info object will be populated with
+*              entity information.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAnnotation, Method: equals
+Description: /**
+* Tests this object for equality with an arbitrary object.
+*
+* @param obj  the object to test against (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAnnotation, Method: hashCode
+Description: /**
+* Returns a hash code.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAnnotation, Method: clone
+Description: /**
+* Returns a clone of the annotation.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the annotation can't be cloned.
+*/"
+

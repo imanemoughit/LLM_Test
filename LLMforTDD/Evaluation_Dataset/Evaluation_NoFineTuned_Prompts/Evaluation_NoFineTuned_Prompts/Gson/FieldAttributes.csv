@@ -1,0 +1,68 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldAttributes
+"Method: getDeclaringWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /**
+* @return the declaring class that contains this field
+*/"
+"Method: getName
+Description: /**
+* @return the name of the field
+*/"
+"Method: getDeclaredType
+Description: /**
+* <p>For example, assume the following class definition:
+"* <pre class="code">"
+* public class Foo {
+*   private String bar;
+*   private List&lt;String&gt; red;
+* }
+*
+* Type listParmeterizedType = new TypeToken<List<String>>() {}.getType();
+* </pre>
+*
+* <p>This method would return {@code String.class} for the {@code bar} field and
+* {@code listParameterizedType} for the {@code red} field.
+*
+* @return the specific type declared for this field
+*/"
+"Method: getDeclaredWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class
+Description: /**
+* Returns the {@code Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class<?>} object that was declared for this field.
+*
+* <p>For example, assume the following class definition:
+"* <pre class="code">"
+* public class Foo {
+*   private String bar;
+*   private List&lt;String&gt; red;
+* }
+* </pre>
+*
+* <p>This method would return {@code String.class} for the {@code bar} field and
+* {@code List.class} for the {@code red} field.
+*
+* @return the specific class object that was declared for the field
+*/"
+"Method: getAnnotation
+Description: /**
+* Return the {@code T} annotation object from this field if it exist; otherwise returns
+* {@code null}.
+*
+* @param annotation the class of the annotation that will be retrieved
+* @return the annotation instance if it is bound to the field; otherwise {@code null}
+*/"
+"Method: getAnnotations
+Description: /**
+* Return the annotations that are present on this field.
+*
+* @return an array of all the annotations set on the field
+* @since 1.4
+*/"
+

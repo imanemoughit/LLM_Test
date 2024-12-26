@@ -1,0 +1,58 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutablePair
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutablePair, Method: of
+Description: /*** <p>Obtains an immutable pair of from two objects inferring the generic types.</p>
+*
+* <p>This factory allows the pair to be created using inference to
+* obtain the generic types.</p>
+*
+* @param <L> the left element type
+* @param <R> the right element type
+* @param left  the left element, may be null
+* @param right  the right element, may be null
+* @return a pair formed from the two parameters, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutablePair, Method: getLeft
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutablePair, Method: setLeft
+Description: /*** Sets the left element of the pair.
+*
+* @param left  the new value of the left element, may be null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutablePair, Method: getRight
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutablePair, Method: setRight
+Description: /*** Sets the right element of the pair.
+*
+* @param right  the new value of the right element, may be null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutablePair, Method: setValue
+Description: /*** Sets the {@code Map.Entry} value.
+* This sets the right element of the pair.
+*
+* @param value  the right value to set, not null
+* @return the old value for the right element
+*/"
+

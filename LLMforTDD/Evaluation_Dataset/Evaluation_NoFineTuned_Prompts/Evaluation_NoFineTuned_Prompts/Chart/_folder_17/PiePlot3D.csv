@@ -1,0 +1,97 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot3D
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot3D, Method: getDepthFactor
+Description: /**
+* Returns the depth factor for the chart.
+*
+* @return The depth factor.
+*
+* @see #setDepthFactor(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot3D, Method: setDepthFactor
+Description: /**
+* Sets the pie depth as a percentage of the height of the plot area, and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param factor  the depth factor (for example, 0.20 is twenty percent).
+*
+* @see #getDepthFactor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot3D, Method: getDarkerSides
+Description: /**
+* Returns a flag that controls whether or not the sides of the pie chart
+* are rendered using a darker colour.  This is only applied if the
+* section colour is an instance of {@link Color}.
+*
+* @return A boolean.
+*
+* @see #setDarkerSides(boolean)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot3D, Method: setDarkerSides
+Description: /**
+* Sets a flag that controls whether or not the sides of the pie chart
+* are rendered using a darker colour, and sends a {@link PlotChangeEvent}
+* to all registered listeners.  This is only applied if the
+* section colour is an instance of {@link Color}.
+*
+* @param darker true to darken the sides, false to use the default
+*         behaviour.
+*
+* @see #getDarkerSides()
+*
+* @since 1.0.7.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot3D, Method: draw
+Description: /**
+* Draws the plot on a Java 2D graphics device (such as the screen or a
+* printer).  This method is called by the
+* {@link JFreeChart} class, you don't normally need
+* to call it yourself.
+*
+* @param g2  the graphics device.
+* @param plotArea  the area within which the plot should be drawn.
+* @param anchor  the anchor point.
+* @param parentState  the state from the parent plot, if there is one.
+* @param info  collects info about the drawing
+*              (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot3D, Method: getPlotType
+Description: /**
+* Returns a short string describing the type of plot.
+*
+* @return <i>Pie 3D Plot</i>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot3D, Method: equals
+Description: /**
+* Tests this plot for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

@@ -1,0 +1,13 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AggregateTranslator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AggregateTranslator, Method: translate
+Description: /*** The first translator to consume codepoints from the input is the 'winner'.
+* Execution stops with the number of consumed codepoints being returned.
+* {@inheritDoc}
+*/"
+

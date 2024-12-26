@@ -1,0 +1,65 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ImageEncoderFactory
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ImageEncoderFactory, Method: setImageEncoder
+Description: /**
+* Used to set additional encoders or replace default ones.
+*
+* @param format  The image format name.
+* @param imageEncoderWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassName  The name of the ImageEncoder class.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ImageEncoderFactory, Method: newInstance
+Description: /**
+* Used to retrieve an ImageEncoder for a specific image format.
+*
+* @param format  The image format required.
+*
+* @return The ImageEncoder or <code>null</code> if none available.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ImageEncoderFactory, Method: newInstance
+Description: /**
+* Used to retrieve an ImageEncoder for a specific image format.
+*
+* @param format  The image format required.
+* @param quality  The quality to be set before returning.
+*
+* @return The ImageEncoder or <code>null</code> if none available.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ImageEncoderFactory, Method: newInstance
+Description: /**
+* Used to retrieve an ImageEncoder for a specific image format.
+*
+* @param format  The image format required.
+* @param encodingAlpha  Sets whether alpha transparency should be encoded.
+*
+* @return The ImageEncoder or <code>null</code> if none available.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ImageEncoderFactory, Method: newInstance
+Description: /**
+* Used to retrieve an ImageEncoder for a specific image format.
+*
+* @param format  The image format required.
+* @param quality  The quality to be set before returning.
+* @param encodingAlpha  Sets whether alpha transparency should be encoded.
+*
+* @return The ImageEncoder or <code>null</code> if none available.
+*/"
+

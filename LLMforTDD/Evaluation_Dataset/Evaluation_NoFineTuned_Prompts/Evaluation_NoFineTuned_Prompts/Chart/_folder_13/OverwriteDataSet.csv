@@ -1,0 +1,142 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: getDomainOrder
+Description: /**
+* Returns the order of the domain (X) values.
+*
+* @return The domain order.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: getItemCount
+Description: /**
+* Returns the number of items for the given series.
+*
+* @param series  the series index (zero-based).
+*
+* @return The item count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: getX
+Description: /**
+* Returns the x-value.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+*
+* @return The x-value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: getXValue
+Description: /**
+* Returns the x-value (as a double primitive) for an item within a
+* series.
+*
+* @param series  the series (zero-based index).
+* @param item  the item (zero-based index).
+*
+* @return The x-value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: getY
+Description: /**
+* Returns the y-value.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+*
+* @return The y-value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: getYValue
+Description: /**
+* Returns the y-value (as a double primitive) for an item within a
+* series.
+*
+* @param series  the series (zero-based index).
+* @param item  the item (zero-based index).
+*
+* @return The y-value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: getSeriesCount
+Description: /**
+* Returns the number of series in the dataset.
+*
+* @return The series count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: getSeriesKey
+Description: /**
+* Returns the name of the given series.
+*
+* @param series  the series index (zero-based).
+*
+* @return The series name.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: indexOf
+Description: /**
+* Returns the index of the named series, or -1.
+*
+* @param seriesName  the series name.
+*
+* @return The index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: addChangeListener
+Description: /**
+* Does nothing.
+*
+* @param listener  ignored.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: removeChangeListener
+Description: /**
+* Does nothing.
+*
+* @param listener  ignored.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: getGroup
+Description: /**
+* Returns the dataset group.
+*
+* @return The dataset group.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OverwriteDataSet, Method: setGroup
+Description: /**
+* Does nothing.
+*
+* @param group  ignored.
+*/"
+

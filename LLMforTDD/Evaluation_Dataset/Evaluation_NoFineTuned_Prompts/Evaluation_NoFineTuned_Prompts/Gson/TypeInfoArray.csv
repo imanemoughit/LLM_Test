@@ -1,0 +1,21 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeInfoArray
+"Method: getSecondLevelType
+Description: /**
+* @return the raw type unwrapped of the second level of array.
+* If the object is (single-dimensional or multi-dimensional) array, it is the class of the
+* elements of the array. For example, this method returns Foo.class for Foo[].
+* It will return Foo[].class for Foo[][].  For Foo&lt;String&gt;[][] types, it will return the
+* type representing Foo&lt;String&gt;[]
+* (i.e. <code>new TypeToken<Foo<String>[]>() {}.getType()</code>).
+*/"
+"Method: getComponentRawType
+Description: /**
+* @return the raw type of the root component.
+* If the object is a single-dimensional array then the component type is the class of an
+* element of the array.
+* If the object is a multi-dimensional array then the component type is the class of the
+* inner-most array element. For example, the This method will return Foo.class for Foo[][][].
+*/"

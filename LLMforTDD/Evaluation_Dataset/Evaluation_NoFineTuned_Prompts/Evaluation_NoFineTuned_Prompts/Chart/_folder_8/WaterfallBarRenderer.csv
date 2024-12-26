@@ -1,0 +1,122 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer, Method: getFirstBarPaint
+Description: /**
+* Returns the paint used to draw the first bar.
+*
+* @return The paint (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer, Method: setFirstBarPaint
+Description: /**
+* Sets the paint that will be used to draw the first bar and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer, Method: getLastBarPaint
+Description: /**
+* Returns the paint used to draw the last bar.
+*
+* @return The paint (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer, Method: setLastBarPaint
+Description: /**
+* Sets the paint that will be used to draw the last bar and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer, Method: getPositiveBarPaint
+Description: /**
+* Returns the paint used to draw bars with positive values.
+*
+* @return The paint (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer, Method: setPositiveBarPaint
+Description: /**
+* Sets the paint that will be used to draw bars having positive values.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer, Method: getNegativeBarPaint
+Description: /**
+* Returns the paint used to draw bars with negative values.
+*
+* @return The paint (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer, Method: setNegativeBarPaint
+Description: /**
+* Sets the paint that will be used to draw bars having negative values,
+* and sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+*
+* @return The range (or <code>null</code> if the dataset is empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer, Method: drawItem
+Description: /**
+* Draws the bar for a single (series, category) data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the data area.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param selected  is the item selected?
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaterfallBarRenderer, Method: equals
+Description: /**
+* Tests an object for equality with this instance.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

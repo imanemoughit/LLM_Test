@@ -1,0 +1,81 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BackgroundInitializer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BackgroundInitializer, Method: getExternalExecutor
+Description: /*** Returns the external {@code ExecutorService} to be used by this class.
+*
+* @return the {@code ExecutorService}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BackgroundInitializer, Method: isStarted
+Description: /*** Returns a flag whether this {@code BackgroundInitializer} has already
+* been started.
+*
+* @return a flag whether the {@link #start()} method has already been
+* called
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BackgroundInitializer, Method: setExternalExecutor
+Description: /*** Sets an {@code ExecutorService} to be used by this class. The {@code
+* ExecutorService} passed to this method is used for executing the
+* background task. Thus it is possible to re-use an already existing
+* {@code ExecutorService} or to use a specially configured one. If no
+* {@code ExecutorService} is set, this instance creates a temporary one and
+* destroys it after background initialization is complete. Note that this
+* method must be called before {@link #start()}; otherwise an exception is
+* thrown.
+*
+* @param externalExecutor the {@code ExecutorService} to be used
+* @throws IllegalStateException if this initializer has already been
+* started
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BackgroundInitializer, Method: start
+Description: /*** Starts the background initialization. With this method the initializer
+* becomes active and invokes the {@link #initialize()} method in a
+* background task. A {@code BackgroundInitializer} can be started exactly
+* once. The return value of this method determines whether the start was
+* successful: only the first invocation of this method returns <b>true</b>,
+* following invocations will return <b>false</b>.
+*
+* @return a flag whether the initializer could be started successfully
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BackgroundInitializer, Method: get
+Description: /*** Returns the result of the background initialization. This method blocks
+* until initialization is complete. If the background processing caused a
+* runtime exception, it is directly thrown by this method. Checked
+* exceptions, including {@code InterruptedException} are wrapped in a
+* {@link ConcurrentException}. Calling this method before {@link #start()}
+* was called causes an {@code IllegalStateException} exception to be
+* thrown.
+*
+* @return the object produced by this initializer
+* @throws ConcurrentException if a checked exception occurred during
+* background processing
+* @throws IllegalStateException if {@link #start()} has not been called
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BackgroundInitializer, Method: getFuture
+Description: /*** Returns the {@code Future} object that was created when {@link #start()}
+* was called. Therefore this method can only be called after {@code
+* start()}.
+*
+* @return the {@code Future} object wrapped by this initializer
+* @throws IllegalStateException if {@link #start()} has not been called
+*/"
+

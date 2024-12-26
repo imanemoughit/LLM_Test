@@ -1,0 +1,29 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieURLGenerator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieURLGenerator, Method: generateURL
+Description: /**
+* Generates a URL.
+*
+* @param dataset  the dataset (ignored).
+* @param key  the item key (<code>null</code> not permitted).
+* @param pieIndex  the pie index.
+*
+* @return A string containing the generated URL.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieURLGenerator, Method: equals
+Description: /**
+* Tests if this object is equal to another.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

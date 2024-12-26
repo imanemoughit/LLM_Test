@@ -1,0 +1,32 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EventUtils
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EventUtils, Method: addEventListener
+Description: /*** Adds an event listener to the specified source.  This looks for an add method corresponding to the event
+* type (addActionListener, for example).
+* @param eventSource   the event source
+* @param listenerType  the event listener type
+* @param listener      the listener
+* @param <L>           the event listener type
+*
+* @throws IllegalArgumentException if the object doesn't support the listener type
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EventUtils, Method: bindEventsToMethod
+Description: /*** Binds an event listener to a specific method on a specific object.
+*
+* @param <L>          the event listener type
+* @param target       the target object
+* @param methodName   the name of the method to be called
+* @param eventSource  the object which is generating events (JButton, JList, etc.)
+* @param listenerType the listener interface (ActionListener.class, SelectionListener.class, etc.)
+* @param eventTypes   the event types (method names) from the listener interface (if none specified, all will be
+*                     supported)
+*/"
+

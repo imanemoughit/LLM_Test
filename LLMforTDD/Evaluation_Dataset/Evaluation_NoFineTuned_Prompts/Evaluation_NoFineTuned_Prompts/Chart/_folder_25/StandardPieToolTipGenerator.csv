@@ -1,0 +1,28 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieToolTipGenerator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieToolTipGenerator, Method: generateToolTip
+Description: /**
+* Generates a tool tip text item for one section in a pie chart.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param key  the section key (<code>null</code> not permitted).
+*
+* @return The tool tip text (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieToolTipGenerator, Method: clone
+Description: /**
+* Returns an independent copy of the generator.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  should not happen.
+*/"
+

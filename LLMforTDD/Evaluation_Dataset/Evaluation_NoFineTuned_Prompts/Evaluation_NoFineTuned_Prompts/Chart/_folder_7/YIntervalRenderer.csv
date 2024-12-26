@@ -1,0 +1,92 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: YIntervalRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: YIntervalRenderer, Method: getAdditionalItemLabelGenerator
+Description: /**
+* Returns the generator for the item labels that appear near the lower
+* y-value.
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @see #setAdditionalItemLabelGenerator(XYItemLabelGenerator)
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: YIntervalRenderer, Method: setAdditionalItemLabelGenerator
+Description: /**
+* Sets the generator for the item labels that appear near the lower
+* y-value and sends a {@link RendererChangeEvent} to all registered
+* listeners.  If this is set to <code>null</code>, no item labels will be
+* drawn.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getAdditionalItemLabelGenerator()
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: YIntervalRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: YIntervalRenderer, Method: drawItem
+Description: /**
+* Draws the visual representation of a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area within which the plot is being drawn.
+* @param plot  the plot (can be used to obtain standard color
+*              information etc).
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param selected  is the item selected?
+* @param pass  the pass index (ignored here).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: YIntervalRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: YIntervalRenderer, Method: clone
+Description: /**
+* Returns a clone of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the renderer cannot be cloned.
+*/"
+

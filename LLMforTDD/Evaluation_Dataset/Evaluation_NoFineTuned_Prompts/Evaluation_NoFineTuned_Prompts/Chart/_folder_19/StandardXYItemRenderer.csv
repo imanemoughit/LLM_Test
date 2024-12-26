@@ -1,0 +1,271 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getBaseShapesVisible
+Description: /**
+* Returns true if shapes are being plotted by the renderer.
+*
+* @return <code>true</code> if shapes are being plotted by the renderer.
+*
+* @see #setBaseShapesVisible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: setBaseShapesVisible
+Description: /**
+* Sets the flag that controls whether or not a shape is plotted at each
+* data point.
+*
+* @param flag  the flag.
+*
+* @see #getBaseShapesVisible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getItemShapeFilled
+Description: /**
+* Returns the flag used to control whether or not the shape for an item is
+* filled.
+* <p>
+* The default implementation passes control to the
+* <code>getSeriesShapesFilled</code> method.  You can override this method
+* if you require different behaviour.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+*
+* @return A boolean.
+*
+* @see #getSeriesShapesFilled(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getSeriesShapesFilled
+Description: /**
+* Returns the flag used to control whether or not the shapes for a series
+* are filled.
+*
+* @param series  the series index (zero-based).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: setSeriesShapesFilled
+Description: /**
+* Sets the 'shapes filled' flag for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param flag  the flag.
+*
+* @see #getSeriesShapesFilled(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getBaseShapesFilled
+Description: /**
+* Returns the base 'shape filled' attribute.
+*
+* @return The base flag.
+*
+* @see #setBaseShapesFilled(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: setBaseShapesFilled
+Description: /**
+* Sets the base 'shapes filled' flag and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #getBaseShapesFilled()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getPlotLines
+Description: /**
+* Returns true if lines are being plotted by the renderer.
+*
+* @return <code>true</code> if lines are being plotted by the renderer.
+*
+* @see #setPlotLines(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: setPlotLines
+Description: /**
+* Sets the flag that controls whether or not a line is plotted between
+* each data point and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #getPlotLines()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getGapThresholdType
+Description: /**
+* Returns the gap threshold type (relative or absolute).
+*
+* @return The type.
+*
+* @see #setGapThresholdType(UnitType)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: setGapThresholdType
+Description: /**
+* Sets the gap threshold type and sends a {@link RendererChangeEvent} to
+* all registered listeners.
+*
+* @param thresholdType  the type (<code>null</code> not permitted).
+*
+* @see #getGapThresholdType()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getGapThreshold
+Description: /**
+* Returns the gap threshold for discontinuous lines.
+*
+* @return The gap threshold.
+*
+* @see #setGapThreshold(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: setGapThreshold
+Description: /**
+* Sets the gap threshold for discontinuous lines and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param t  the threshold.
+*
+* @see #getGapThreshold()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getPlotImages
+Description: /**
+* Returns true if images are being plotted by the renderer.
+*
+* @return <code>true</code> if images are being plotted by the renderer.
+*
+* @see #setPlotImages(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: setPlotImages
+Description: /**
+* Sets the flag that controls whether or not an image is drawn at each
+* data point and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param flag  the flag.
+*
+* @see #getPlotImages()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getPlotDiscontinuous
+Description: /**
+* Returns a flag that controls whether or not the renderer shows
+* discontinuous lines.
+*
+* @return <code>true</code> if lines should be discontinuous.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: setPlotDiscontinuous
+Description: /**
+* Sets the flag that controls whether or not the renderer shows
+* discontinuous lines, and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param flag  the new flag value.
+*
+* @since 1.0.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getDrawSeriesLineAsPath
+Description: /**
+* Returns a flag that controls whether or not each series is drawn as a
+* single path.
+*
+* @return A boolean.
+*
+* @see #setDrawSeriesLineAsPath(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: setDrawSeriesLineAsPath
+Description: /**
+* Sets the flag that controls whether or not each series is drawn as a
+* single path.
+*
+* @param flag  the flag.
+*
+* @see #getDrawSeriesLineAsPath()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getLegendLine
+Description: /**
+* Returns the shape used to represent a line in the legend.
+*
+* @return The legend line (never <code>null</code>).
+*
+* @see #setLegendLine(Shape)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: setLegendLine
+Description: /**
+* Sets the shape used as a line in each legend item and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param line  the line (<code>null</code> not permitted).
+*
+* @see #getLegendLine()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYItemRenderer, Method: getLegendItem
+Description: /**
+* Returns a legend item for a series.
+*
+* @param datasetIndex  the dataset index (zero-based).
+* @param series  the series index (zero-based).
+*
+* @return A legend item for the series.
+*/"
+

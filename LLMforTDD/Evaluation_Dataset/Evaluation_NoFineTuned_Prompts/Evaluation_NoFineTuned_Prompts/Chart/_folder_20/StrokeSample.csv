@@ -1,0 +1,57 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeSample
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeSample, Method: getStroke
+Description: /**
+* Returns the current Stroke object being displayed.
+*
+* @return the stroke.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeSample, Method: setStroke
+Description: /**
+* Sets the Stroke object being displayed.
+*
+* @param stroke  the stroke.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeSample, Method: getPreferredSize
+Description: /**
+* Returns the preferred size of the component.
+*
+* @return the preferred size of the component.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeSample, Method: paintComponent
+Description: /**
+* Draws a line using the sample stroke.
+*
+* @param g  the graphics device.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeSample, Method: getListCellRendererComponent
+Description: /**
+* Returns a list cell renderer for the stroke, so the sample can be
+* displayed in a list or combo.
+*
+* @param list  the list.
+* @param value  the value.
+* @param index  the index.
+* @param isSelected  selected?
+* @param cellHasFocus  focussed?
+*
+* @return the component for rendering.
+*/"
+

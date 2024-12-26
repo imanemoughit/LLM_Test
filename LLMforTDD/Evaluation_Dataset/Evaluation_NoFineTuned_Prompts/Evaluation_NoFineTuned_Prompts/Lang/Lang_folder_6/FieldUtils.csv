@@ -1,0 +1,521 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: getField
+Description: /*** Gets an accessible <code>Field</code> by name respecting scope. Superclasses/interfaces will be considered.
+*
+* @param cls
+*            the class to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @return the Field object
+* @throws IllegalArgumentException
+*             if the class or field name is null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: getField
+Description: /*** Gets an accessible <code>Field</code> by name breaking scope if requested. Superclasses/interfaces will be
+* considered.
+*
+* @param cls
+*            the class to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. <code>False</code>
+*            will only match public fields.
+* @return the Field object
+* @throws IllegalArgumentException
+*             if the class or field name is null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: getDeclaredField
+Description: /*** Gets an accessible <code>Field</code> by name respecting scope. Only the specified class will be considered.
+*
+* @param cls
+*            the class to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @return the Field object
+* @throws IllegalArgumentException
+*             if the class or field name is null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: getDeclaredField
+Description: /*** Gets an accessible <code>Field</code> by name breaking scope if requested. Only the specified class will be
+* considered.
+*
+* @param cls
+*            the class to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. False will only
+*            match public fields.
+* @return the Field object
+* @throws IllegalArgumentException
+*             if the class or field name is null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: getAllFields
+Description: /*** Gets all fields of the given class and its parents (if any).
+*
+* @param cls
+*            the class to query
+* @return an array of Fields (maybe an empty array).
+* @since 3.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: getAllFieldsList
+Description: /*** Gets all fields of the given class and its parents (if any).
+*
+* @param cls
+*            the class to query
+* @return an array of Fields (maybe an empty array).
+* @since 3.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readStaticField
+Description: /*** Reads an accessible static Field.
+*
+* @param field
+*            to read
+* @return the field value
+* @throws IllegalArgumentException
+*             if the field is null or not static
+* @throws IllegalAccessException
+*             if the field is not accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readStaticField
+Description: /*** Reads a static Field.
+*
+* @param field
+*            to read
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method.
+* @return the field value
+* @throws IllegalArgumentException
+*             if the field is null or not static
+* @throws IllegalAccessException
+*             if the field is not made accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readStaticField
+Description: /*** Reads the named public static field. Superclasses will be considered.
+*
+* @param cls
+*            the class to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @return the value of the field
+* @throws IllegalArgumentException
+*             if the class is null, the field name is null or if the field could not be found
+* @throws IllegalAccessException
+*             if the field is not accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readStaticField
+Description: /*** Reads the named static field. Superclasses will be considered.
+*
+* @param cls
+*            the class to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. <code>False</code>
+*            will only match public fields.
+* @return the Field object
+* @throws IllegalArgumentException
+*             if the class is null, the field name is null or if the field could not be found
+* @throws IllegalAccessException
+*             if the field is not made accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readDeclaredStaticField
+Description: /*** Gets a static Field value by name. The field must be public. Only the specified class will be considered.
+*
+* @param cls
+*            the class to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @return the value of the field
+* @throws IllegalArgumentException
+*             if the class is null, the field name is null or if the field could not be found
+* @throws IllegalAccessException
+*             if the field is not accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readDeclaredStaticField
+Description: /*** Gets a static Field value by name. Only the specified class will be considered.
+*
+* @param cls
+*            the class to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. <code>False</code>
+*            will only match public fields.
+* @return the Field object
+* @throws IllegalArgumentException
+*             if the class is null, the field name is null or if the field could not be found
+* @throws IllegalAccessException
+*             if the field is not made accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readField
+Description: /*** Reads an accessible Field.
+*
+* @param field
+*            the field to use
+* @param target
+*            the object to call on, may be null for static fields
+* @return the field value
+* @throws IllegalArgumentException
+*             if the field is null
+* @throws IllegalAccessException
+*             if the field is not accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readField
+Description: /*** Reads a Field.
+*
+* @param field
+*            the field to use
+* @param target
+*            the object to call on, may be null for static fields
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method.
+* @return the field value
+* @throws IllegalArgumentException
+*             if the field is null
+* @throws IllegalAccessException
+*             if the field is not made accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readField
+Description: /*** Reads the named public field. Superclasses will be considered.
+*
+* @param target
+*            the object to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @return the value of the field
+* @throws IllegalArgumentException
+*             if the class or field name is null
+* @throws IllegalAccessException
+*             if the named field is not public
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readField
+Description: /*** Reads the named field. Superclasses will be considered.
+*
+* @param target
+*            the object to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. <code>False</code>
+*            will only match public fields.
+* @return the field value
+* @throws IllegalArgumentException
+*             if the class or field name is null
+* @throws IllegalAccessException
+*             if the named field is not made accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readDeclaredField
+Description: /*** Reads the named public field. Only the class of the specified object will be considered.
+*
+* @param target
+*            the object to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @return the value of the field
+* @throws IllegalArgumentException
+*             if the class or field name is null
+* @throws IllegalAccessException
+*             if the named field is not public
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: readDeclaredField
+Description: /*** <p<>Gets a Field value by name. Only the class of the specified object will be considered.
+*
+* @param target
+*            the object to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. <code>False</code>
+*            will only match public fields.
+* @return the Field object
+* @throws IllegalArgumentException
+*             if <code>target</code> or <code>fieldName</code> is null
+* @throws IllegalAccessException
+*             if the field is not made accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeStaticField
+Description: /*** Writes a public static Field.
+*
+* @param field
+*            to write
+* @param value
+*            to set
+* @throws IllegalArgumentException
+*             if the field is null or not static
+* @throws IllegalAccessException
+*             if the field is not public or is final
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeStaticField
+Description: /*** Writes a static Field.
+*
+* @param field
+*            to write
+* @param value
+*            to set
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. <code>False</code>
+*            will only match public fields.
+* @throws IllegalArgumentException
+*             if the field is null or not static
+* @throws IllegalAccessException
+*             if the field is not made accessible or is final
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeStaticField
+Description: /*** Writes a named public static Field. Superclasses will be considered.
+*
+* @param cls
+*            Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class on which the Field is to be found
+* @param fieldName
+*            to write
+* @param value
+*            to set
+* @throws IllegalArgumentException
+*             if the field cannot be located or is not static
+* @throws IllegalAccessException
+*             if the field is not public or is final
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeStaticField
+Description: /*** Writes a named static Field. Superclasses will be considered.
+*
+* @param cls
+*            Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class on which the Field is to be found
+* @param fieldName
+*            to write
+* @param value
+*            to set
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. <code>False</code>
+*            will only match public fields.
+* @throws IllegalArgumentException
+*             if the field cannot be located or is not static
+* @throws IllegalAccessException
+*             if the field is not made accessible or is final
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeDeclaredStaticField
+Description: /*** Writes a named public static Field. Only the specified class will be considered.
+*
+* @param cls
+*            Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class on which the Field is to be found
+* @param fieldName
+*            to write
+* @param value
+*            to set
+* @throws IllegalArgumentException
+*             if the field cannot be located or is not static
+* @throws IllegalAccessException
+*             if the field is not public or is final
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeDeclaredStaticField
+Description: /*** Writes a named static Field. Only the specified class will be considered.
+*
+* @param cls
+*            Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class on which the Field is to be found
+* @param fieldName
+*            to write
+* @param value
+*            to set
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. <code>False</code>
+*            will only match public fields.
+* @throws IllegalArgumentException
+*             if the field cannot be located or is not static
+* @throws IllegalAccessException
+*             if the field is not made accessible or is final
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeField
+Description: /*** Writes an accessible field.
+*
+* @param field
+*            to write
+* @param target
+*            the object to call on, may be null for static fields
+* @param value
+*            to set
+* @throws IllegalArgumentException
+*             if the field is null
+* @throws IllegalAccessException
+*             if the field is not accessible or is final
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeField
+Description: /*** Writes a field.
+*
+* @param field
+*            to write
+* @param target
+*            the object to call on, may be null for static fields
+* @param value
+*            to set
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. <code>False</code>
+*            will only match public fields.
+* @throws IllegalArgumentException
+*             if the field is null
+* @throws IllegalAccessException
+*             if the field is not made accessible or is final
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeField
+Description: /*** Writes a public field. Superclasses will be considered.
+*
+* @param target
+*            the object to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @param value
+*            to set
+* @throws IllegalArgumentException
+*             if <code>target</code> or <code>fieldName</code> is null
+* @throws IllegalAccessException
+*             if the field is not accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeField
+Description: /*** Writes a field. Superclasses will be considered.
+*
+* @param target
+*            the object to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @param value
+*            to set
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. <code>False</code>
+*            will only match public fields.
+* @throws IllegalArgumentException
+*             if <code>target</code> or <code>fieldName</code> is null
+* @throws IllegalAccessException
+*             if the field is not made accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeDeclaredField
+Description: /*** Writes a public field. Only the specified class will be considered.
+*
+* @param target
+*            the object to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @param value
+*            to set
+* @throws IllegalArgumentException
+*             if <code>target</code> or <code>fieldName</code> is null
+* @throws IllegalAccessException
+*             if the field is not made accessible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FieldUtils, Method: writeDeclaredField
+Description: /*** Writes a public field. Only the specified class will be considered.
+*
+* @param target
+*            the object to reflect, must not be null
+* @param fieldName
+*            the field name to obtain
+* @param value
+*            to set
+* @param forceAccess
+*            whether to break scope restrictions using the <code>setAccessible</code> method. <code>False</code>
+*            will only match public fields.
+* @throws IllegalArgumentException
+*             if <code>target</code> or <code>fieldName</code> is null
+* @throws IllegalAccessException
+*             if the field is not made accessible
+*/"
+

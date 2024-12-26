@@ -1,0 +1,190 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: getPassesRequired
+Description: /**
+* Returns the number of passes required by the renderer.
+*
+* @return The number of passes.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: setPassesRequired
+Description: /**
+* Sets the number of passes required by the renderer.
+*
+* @param passes  the passes.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: getTotal
+Description: /**
+* Returns the total of the values in the dataset.
+*
+* @return The total.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: setTotal
+Description: /**
+* Sets the total.
+*
+* @param total  the total.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: getLatestAngle
+Description: /**
+* Returns the latest angle.
+*
+* @return The latest angle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: setLatestAngle
+Description: /**
+* Sets the latest angle.
+*
+* @param angle  the angle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: getPieArea
+Description: /**
+* Returns the pie area.
+*
+* @return The pie area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: setPieArea
+Description: /**
+* Sets the pie area.
+*
+* @param area  the area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: getExplodedPieArea
+Description: /**
+* Returns the exploded pie area.
+*
+* @return The exploded pie area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: setExplodedPieArea
+Description: /**
+* Sets the exploded pie area.
+*
+* @param area  the area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: getPieCenterX
+Description: /**
+* Returns the x-coordinate of the center of the pie chart.
+*
+* @return The x-coordinate (in Java2D space).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: setPieCenterX
+Description: /**
+* Sets the x-coordinate of the center of the pie chart.
+*
+* @param x  the x-coordinate (in Java2D space).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: getPieCenterY
+Description: /**
+* Returns the y-coordinate (in Java2D space) of the center of the pie
+* chart.  For the {@link PiePlot3D} class, we derive this from the top of
+* the pie.
+*
+* @return The y-coordinate (in Java2D space).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: setPieCenterY
+Description: /**
+* Sets the y-coordinate of the center of the pie chart.  This method is
+* used by the plot and typically is not called directly by applications.
+*
+* @param y  the y-coordinate (in Java2D space).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: getLinkArea
+Description: /**
+* Returns the link area.  This defines the dog-leg point for the label"""
+* linking lines.
+*
+* @return The link area.
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: setLinkArea
+Description: /**
+* Sets the label link area.  This defines the dog-leg point for the"""
+* label linking lines.
+*
+* @param area  the area.
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: getPieHRadius
+Description: /**
+* Returns the vertical pie radius.
+*
+* @return The radius.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: setPieHRadius
+Description: /**
+* Sets the vertical pie radius.
+*
+* @param radius  the radius.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: getPieWRadius
+Description: /**
+* Returns the horizontal pie radius.
+*
+* @return The radius.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlotState, Method: setPieWRadius
+Description: /**
+* Sets the horizontal pie radius.
+*
+* @param radius  the radius.
+*/"
+

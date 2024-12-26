@@ -1,0 +1,802 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: hexDigitToInt
+Description: /*** <p>
+* Converts a hexadecimal digit into an int using the default (Lsb0) bit ordering.
+* </p>
+* <p>
+* '1' is converted to 1
+* </p>
+*
+* @param hexDigit the hexadecimal digit to convert
+* @return an int equals to {@code hexDigit}
+* @throws IllegalArgumentException if {@code hexDigit} is not a hexadecimal digit
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: hexDigitMsb0ToInt
+Description: /*** <p>
+* Converts a hexadecimal digit into an int using the Msb0 bit ordering.
+* </p>
+* <p>
+* '1' is converted to 8
+* </p>
+*
+* @param hexDigit the hexadecimal digit to convert
+* @return an int equals to {@code hexDigit}
+* @throws IllegalArgumentException if {@code hexDigit} is not a hexadecimal digit
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: hexDigitToBinary
+Description: /*** <p>
+* Converts a hexadecimal digit into binary (represented as boolean array) using the default
+* (Lsb0) bit ordering.
+* </p>
+* <p>
+* '1' is converted as follow: (1, 0, 0, 0)
+* </p>
+*
+* @param hexDigit the hexadecimal digit to convert
+* @return a boolean array with the binary representation of {@code hexDigit}
+* @throws IllegalArgumentException if {@code hexDigit} is not a hexadecimal digit
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: hexDigitMsb0ToBinary
+Description: /*** <p>
+* Converts a hexadecimal digit into binary (represented as boolean array) using the Msb0
+* bit ordering.
+* </p>
+* <p>
+* '1' is converted as follow: (0, 0, 0, 1)
+* </p>
+*
+* @param hexDigit the hexadecimal digit to convert
+* @return a boolean array with the binary representation of {@code hexDigit}
+* @throws IllegalArgumentException if {@code hexDigit} is not a hexadecimal digit
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: binaryToHexDigit
+Description: /*** <p>
+* Converts binary (represented as boolean array) to a hexadecimal digit using the default
+* (Lsb0) bit ordering.
+* </p>
+* <p>
+* (1, 0, 0, 0) is converted as follow: '1'
+* </p>
+*
+* @param src the binary to convert
+* @return a hexadecimal digit representing the selected bits
+* @throws IllegalArgumentException if {@code src} is empty
+* @throws NullPointerException if {@code src} is {@code null}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: binaryToHexDigit
+Description: /*** <p>
+* Converts binary (represented as boolean array) to a hexadecimal digit using the default
+* (Lsb0) bit ordering.
+* </p>
+* <p>
+* (1, 0, 0, 0) is converted as follow: '1'
+* </p>
+*
+* @param src the binary to convert
+* @param srcPos the position of the lsb to start the conversion
+* @return a hexadecimal digit representing the selected bits
+* @throws IllegalArgumentException if {@code src} is empty
+* @throws NullPointerException if {@code src} is {@code null}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: binaryToHexDigitMsb0_4bits
+Description: /*** <p>
+* Converts binary (represented as boolean array) to a hexadecimal digit using the Msb0 bit
+* ordering.
+* </p>
+* <p>
+* (1, 0, 0, 0) is converted as follow: '8'
+* </p>
+*
+* @param src the binary to convert
+* @return a hexadecimal digit representing the selected bits
+* @throws IllegalArgumentException if {@code src} is empty, {@code src.length < 4} or
+*             {@code src.length > 8}
+* @throws NullPointerException if {@code src} is {@code null}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: binaryToHexDigitMsb0_4bits
+Description: /*** <p>
+* Converts binary (represented as boolean array) to a hexadecimal digit using the Msb0 bit
+* ordering.
+* </p>
+* <p>
+* (1, 0, 0, 0) is converted as follow: '8' (1,0,0,1,1,0,1,0) with srcPos = 3 is converted
+* to 'D'
+* </p>
+*
+* @param src the binary to convert
+* @param srcPos the position of the lsb to start the conversion
+* @return a hexadecimal digit representing the selected bits
+* @throws IllegalArgumentException if {@code src} is empty, {@code src.length > 8} or
+*             {@code src.length - srcPos < 4}
+* @throws NullPointerException if {@code src} is {@code null}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: binaryBeMsb0ToHexDigit
+Description: /*** <p>
+* Converts the first 4 bits of a binary (represented as boolean array) in big endian Msb0
+* bit ordering to a hexadecimal digit.
+* </p>
+* <p>
+* (1, 0, 0, 0) is converted as follow: '8' (1,0,0,0,0,0,0,0, 0,0,0,0,0,1,0,0) is converted
+* to '4'
+* </p>
+*
+* @param src the binary to convert
+* @return a hexadecimal digit representing the selected bits
+* @throws IllegalArgumentException if {@code src} is empty
+* @throws NullPointerException if {@code src} is {@code null}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: binaryBeMsb0ToHexDigit
+Description: /*** <p>
+* Converts a binary (represented as boolean array) in big endian Msb0 bit ordering to a
+* hexadecimal digit.
+* </p>
+* <p>
+* (1, 0, 0, 0) with srcPos = 0 is converted as follow: '8' (1,0,0,0,0,0,0,0,
+* 0,0,0,1,0,1,0,0) with srcPos = 2 is converted to '5'
+* </p>
+*
+* @param src the binary to convert
+* @param srcPos the position of the lsb to start the conversion
+* @return a hexadecimal digit representing the selected bits
+* @throws IllegalArgumentException if {@code src} is empty
+* @throws NullPointerException if {@code src} is {@code null}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: intToHexDigit
+Description: /*** <p>
+* Converts the 4 lsb of an int to a hexadecimal digit.
+* </p>
+* <p>
+* 0 returns '0'
+* </p>
+* <p>
+* 1 returns '1'
+* </p>
+* <p>
+* 10 returns 'A' and so on...
+* </p>
+*
+* @param nibble the 4 bits to convert
+* @return a hexadecimal digit representing the 4 lsb of {@code nibble}
+* @throws IllegalArgumentException if {@code nibble < 0} or {@code nibble > 15}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: intToHexDigitMsb0
+Description: /*** <p>
+* Converts the 4 lsb of an int to a hexadecimal digit encoded using the Msb0 bit ordering.
+* </p>
+* <p>
+* 0 returns '0'
+* </p>
+* <p>
+* 1 returns '8'
+* </p>
+* <p>
+* 10 returns '5' and so on...
+* </p>
+*
+* @param nibble the 4 bits to convert
+* @return a hexadecimal digit representing the 4 lsb of {@code nibble}
+* @throws IllegalArgumentException if {@code nibble < 0} or {@code nibble > 15}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: intArrayToLong
+Description: /*** <p>
+* Converts an array of int into a long using the default (little endian, Lsb0) byte and bit
+* ordering.
+* </p>
+*
+* @param src the int array to convert
+* @param srcPos the position in {@code src}, in int unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination long
+* @param dstPos the position of the lsb, in bits, in the result long
+* @param nInts the number of ints to convert
+* @return a long containing the selected bits
+* @throws IllegalArgumentException if {@code (nInts-1)*32+dstPos >= 64}
+* @throws NullPointerException if {@code src} is {@code null}
+* @throws ArrayIndexOutOfBoundsException if {@code srcPos + nInts > src.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: shortArrayToLong
+Description: /*** <p>
+* Converts an array of short into a long using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the short array to convert
+* @param srcPos the position in {@code src}, in short unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination long
+* @param dstPos the position of the lsb, in bits, in the result long
+* @param nShorts the number of shorts to convert
+* @return a long containing the selected bits
+* @throws NullPointerException if {@code src} is {@code null}
+* @throws IllegalArgumentException if {@code (nShorts-1)*16+dstPos >= 64}
+* @throws ArrayIndexOutOfBoundsException if {@code srcPos + nShorts > src.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: shortArrayToInt
+Description: /*** <p>
+* Converts an array of short into a int using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the short array to convert
+* @param srcPos the position in {@code src}, in short unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination int
+* @param dstPos the position of the lsb, in bits, in the result int
+* @param nShorts the number of shorts to convert
+* @return a int containing the selected bits
+* @throws NullPointerException if {@code src} is {@code null}
+* @throws IllegalArgumentException if {@code (nShorts-1)*16+dstPos >= 32}
+* @throws ArrayIndexOutOfBoundsException if {@code srcPos + nShorts > src.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: byteArrayToLong
+Description: /*** <p>
+* Converts an array of byte into a long using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the byte array to convert
+* @param srcPos the position in {@code src}, in byte unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination long
+* @param dstPos the position of the lsb, in bits, in the result long
+* @param nBytes the number of bytes to convert
+* @return a long containing the selected bits
+* @throws NullPointerException if {@code src} is {@code null}
+* @throws IllegalArgumentException if {@code (nBytes-1)*8+dstPos >= 64}
+* @throws ArrayIndexOutOfBoundsException if {@code srcPos + nBytes > src.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: byteArrayToInt
+Description: /*** <p>
+* Converts an array of byte into a int using the default (little endian, Lsb0) byte and bit
+* ordering.
+* </p>
+*
+* @param src the byte array to convert
+* @param srcPos the position in {@code src}, in byte unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination int
+* @param dstPos the position of the lsb, in bits, in the result int
+* @param nBytes the number of bytes to convert
+* @return a int containing the selected bits
+* @throws NullPointerException if {@code src} is {@code null}
+* @throws IllegalArgumentException if {@code (nBytes-1)*8+dstPos >= 32}
+* @throws ArrayIndexOutOfBoundsException if {@code srcPos + nBytes > src.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: byteArrayToShort
+Description: /*** <p>
+* Converts an array of byte into a short using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the byte array to convert
+* @param srcPos the position in {@code src}, in byte unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination short
+* @param dstPos the position of the lsb, in bits, in the result short
+* @param nBytes the number of bytes to convert
+* @return a short containing the selected bits
+* @throws NullPointerException if {@code src} is {@code null}
+* @throws IllegalArgumentException if {@code (nBytes-1)*8+dstPos >= 16}
+* @throws ArrayIndexOutOfBoundsException if {@code srcPos + nBytes > src.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: hexToLong
+Description: /*** <p>
+* Converts an array of Char into a long using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the hex string to convert
+* @param srcPos the position in {@code src}, in Char unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination long
+* @param dstPos the position of the lsb, in bits, in the result long
+* @param nHex the number of Chars to convert
+* @return a long containing the selected bits
+* @throws IllegalArgumentException if {@code (nHexs-1)*4+dstPos >= 64}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: hexToInt
+Description: /*** <p>
+* Converts an array of Char into a int using the default (little endian, Lsb0) byte and bit
+* ordering.
+* </p>
+*
+* @param src the hex string to convert
+* @param srcPos the position in {@code src}, in Char unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination int
+* @param dstPos the position of the lsb, in bits, in the result int
+* @param nHex the number of Chars to convert
+* @return a int containing the selected bits
+* @throws IllegalArgumentException if {@code (nHexs-1)*4+dstPos >= 32}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: hexToShort
+Description: /*** <p>
+* Converts an array of Char into a short using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the hex string to convert
+* @param srcPos the position in {@code src}, in Char unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination short
+* @param dstPos the position of the lsb, in bits, in the result short
+* @param nHex the number of Chars to convert
+* @return a short containing the selected bits
+* @throws IllegalArgumentException if {@code (nHexs-1)*4+dstPos >= 16}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: hexToByte
+Description: /*** <p>
+* Converts an array of Char into a byte using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the hex string to convert
+* @param srcPos the position in {@code src}, in Char unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination byte
+* @param dstPos the position of the lsb, in bits, in the result byte
+* @param nHex the number of Chars to convert
+* @return a byte containing the selected bits
+* @throws IllegalArgumentException if {@code (nHexs-1)*4+dstPos >= 8}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: binaryToLong
+Description: /*** <p>
+* Converts binary (represented as boolean array) into a long using the default (little
+* endian, Lsb0) byte and bit ordering.
+* </p>
+*
+* @param src the binary to convert
+* @param srcPos the position in {@code src}, in boolean unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination long
+* @param dstPos the position of the lsb, in bits, in the result long
+* @param nBools the number of booleans to convert
+* @return a long containing the selected bits
+* @throws NullPointerException if {@code src} is {@code null}
+* @throws IllegalArgumentException if {@code nBools-1+dstPos >= 64}
+* @throws ArrayIndexOutOfBoundsException if {@code srcPos + nBools > src.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: binaryToInt
+Description: /*** <p>
+* Converts binary (represented as boolean array) into a int using the default (little
+* endian, Lsb0) byte and bit ordering.
+* </p>
+*
+* @param src the binary to convert
+* @param srcPos the position in {@code src}, in boolean unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination int
+* @param dstPos the position of the lsb, in bits, in the result int
+* @param nBools the number of booleans to convert
+* @return a int containing the selected bits
+* @throws NullPointerException if {@code src} is {@code null}
+* @throws IllegalArgumentException if {@code nBools-1+dstPos >= 32}
+* @throws ArrayIndexOutOfBoundsException if {@code srcPos + nBools > src.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: binaryToShort
+Description: /*** <p>
+* Converts binary (represented as boolean array) into a short using the default (little
+* endian, Lsb0) byte and bit ordering.
+* </p>
+*
+* @param src the binary to convert
+* @param srcPos the position in {@code src}, in boolean unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination short
+* @param dstPos the position of the lsb, in bits, in the result short
+* @param nBools the number of booleans to convert
+* @return a short containing the selected bits
+* @throws NullPointerException if {@code src} is {@code null}
+* @throws IllegalArgumentException if {@code nBools-1+dstPos >= 16}
+* @throws ArrayIndexOutOfBoundsException if {@code srcPos + nBools > src.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: binaryToByte
+Description: /*** <p>
+* Converts binary (represented as boolean array) into a byte using the default (little
+* endian, Lsb0) byte and bit ordering.
+* </p>
+*
+* @param src the binary to convert
+* @param srcPos the position in {@code src}, in boolean unit, from where to start the
+*            conversion
+* @param dstInit initial value of the destination byte
+* @param dstPos the position of the lsb, in bits, in the result byte
+* @param nBools the number of booleans to convert
+* @return a byte containing the selected bits
+* @throws NullPointerException if {@code src} is {@code null}
+* @throws IllegalArgumentException if {@code nBools-1+dstPos >= 8}
+* @throws ArrayIndexOutOfBoundsException if {@code srcPos + nBools > src.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: longToIntArray
+Description: /*** <p>
+* Converts a long into an array of int using the default (little endian, Lsb0) byte and bit
+* ordering.
+* </p>
+*
+* @param src the long to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dst the destination array
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nInts the number of ints to copy to {@code dst}, must be smaller or equal to the
+*            width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws NullPointerException if {@code dst} is {@code null} and {@code nInts > 0}
+* @throws IllegalArgumentException if {@code (nInts-1)*32+srcPos >= 64}
+* @throws ArrayIndexOutOfBoundsException if {@code dstPos + nInts > dst.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: longToShortArray
+Description: /*** <p>
+* Converts a long into an array of short using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the long to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dst the destination array
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nShorts the number of shorts to copy to {@code dst}, must be smaller or equal to
+*            the width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws NullPointerException if {@code dst} is {@code null}
+* @throws IllegalArgumentException if {@code (nShorts-1)*16+srcPos >= 64}
+* @throws ArrayIndexOutOfBoundsException if {@code dstPos + nShorts > dst.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: intToShortArray
+Description: /*** <p>
+* Converts a int into an array of short using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the int to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dst the destination array
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nShorts the number of shorts to copy to {@code dst}, must be smaller or equal to
+*            the width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws NullPointerException if {@code dst} is {@code null}
+* @throws IllegalArgumentException if {@code (nShorts-1)*16+srcPos >= 32}
+* @throws ArrayIndexOutOfBoundsException if {@code dstPos + nShorts > dst.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: longToByteArray
+Description: /*** <p>
+* Converts a long into an array of byte using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the long to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dst the destination array
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nBytes the number of bytes to copy to {@code dst}, must be smaller or equal to the
+*            width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws NullPointerException if {@code dst} is {@code null}
+* @throws IllegalArgumentException if {@code (nBytes-1)*8+srcPos >= 64}
+* @throws ArrayIndexOutOfBoundsException if {@code dstPos + nBytes > dst.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: intToByteArray
+Description: /*** <p>
+* Converts a int into an array of byte using the default (little endian, Lsb0) byte and bit
+* ordering.
+* </p>
+*
+* @param src the int to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dst the destination array
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nBytes the number of bytes to copy to {@code dst}, must be smaller or equal to the
+*            width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws NullPointerException if {@code dst} is {@code null}
+* @throws IllegalArgumentException if {@code (nBytes-1)*8+srcPos >= 32}
+* @throws ArrayIndexOutOfBoundsException if {@code dstPos + nBytes > dst.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: shortToByteArray
+Description: /*** <p>
+* Converts a short into an array of byte using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the short to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dst the destination array
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nBytes the number of bytes to copy to {@code dst}, must be smaller or equal to the
+*            width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws NullPointerException if {@code dst} is {@code null}
+* @throws IllegalArgumentException if {@code (nBytes-1)*8+srcPos >= 16}
+* @throws ArrayIndexOutOfBoundsException if {@code dstPos + nBytes > dst.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: longToHex
+Description: /*** <p>
+* Converts a long into an array of Char using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the long to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dstInit the initial value for the result String
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nHexs the number of Chars to copy to {@code dst}, must be smaller or equal to the
+*            width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws IllegalArgumentException if {@code (nHexs-1)*4+srcPos >= 64}
+* @throws StringIndexOutOfBoundsException if {@code dst.init.length() < dstPos}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: intToHex
+Description: /*** <p>
+* Converts a int into an array of Char using the default (little endian, Lsb0) byte and bit
+* ordering.
+* </p>
+*
+* @param src the int to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dstInit the initial value for the result String
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nHexs the number of Chars to copy to {@code dst}, must be smaller or equal to the
+*            width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws IllegalArgumentException if {@code (nHexs-1)*4+srcPos >= 32}
+* @throws StringIndexOutOfBoundsException if {@code dst.init.length() < dstPos}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: shortToHex
+Description: /*** <p>
+* Converts a short into an array of Char using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the short to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dstInit the initial value for the result String
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nHexs the number of Chars to copy to {@code dst}, must be smaller or equal to the
+*            width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws IllegalArgumentException if {@code (nHexs-1)*4+srcPos >= 16}
+* @throws StringIndexOutOfBoundsException if {@code dst.init.length() < dstPos}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: byteToHex
+Description: /*** <p>
+* Converts a byte into an array of Char using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the byte to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dstInit the initial value for the result String
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nHexs the number of Chars to copy to {@code dst}, must be smaller or equal to the
+*            width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws IllegalArgumentException if {@code (nHexs-1)*4+srcPos >= 8}
+* @throws StringIndexOutOfBoundsException if {@code dst.init.length() < dstPos}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: longToBinary
+Description: /*** <p>
+* Converts a long into an array of boolean using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the long to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dst the destination array
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nBools the number of booleans to copy to {@code dst}, must be smaller or equal to
+*            the width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws NullPointerException if {@code dst} is {@code null}
+* @throws IllegalArgumentException if {@code nBools-1+srcPos >= 64}
+* @throws ArrayIndexOutOfBoundsException if {@code dstPos + nBools > dst.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: intToBinary
+Description: /*** <p>
+* Converts a int into an array of boolean using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the int to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dst the destination array
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nBools the number of booleans to copy to {@code dst}, must be smaller or equal to
+*            the width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws NullPointerException if {@code dst} is {@code null}
+* @throws IllegalArgumentException if {@code nBools-1+srcPos >= 32}
+* @throws ArrayIndexOutOfBoundsException if {@code dstPos + nBools > dst.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: shortToBinary
+Description: /*** <p>
+* Converts a short into an array of boolean using the default (little endian, Lsb0) byte
+* and bit ordering.
+* </p>
+*
+* @param src the short to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dst the destination array
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nBools the number of booleans to copy to {@code dst}, must be smaller or equal to
+*            the width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws NullPointerException if {@code dst} is {@code null}
+* @throws IllegalArgumentException if {@code nBools-1+srcPos >= 16}
+* @throws ArrayIndexOutOfBoundsException if {@code dstPos + nBools > dst.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: byteToBinary
+Description: /*** <p>
+* Converts a byte into an array of boolean using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the byte to convert
+* @param srcPos the position in {@code src}, in bits, from where to start the conversion
+* @param dst the destination array
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nBools the number of booleans to copy to {@code dst}, must be smaller or equal to
+*            the width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws NullPointerException if {@code dst} is {@code null}
+* @throws IllegalArgumentException if {@code nBools-1+srcPos >= 8}
+* @throws ArrayIndexOutOfBoundsException if {@code dstPos + nBools > dst.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: uuidToByteArray
+Description: /*** <p>
+* Converts UUID into an array of byte using the default (little endian, Lsb0) byte and bit
+* ordering.
+* </p>
+*
+* @param src the UUID to convert
+* @param dst the destination array
+* @param dstPos the position in {@code dst} where to copy the result
+* @param nBytes the number of bytes to copy to {@code dst}, must be smaller or equal to the
+*            width of the input (from srcPos to msb)
+* @return {@code dst}
+* @throws NullPointerException if {@code dst} is {@code null}
+* @throws IllegalArgumentException if {@code nBytes > 16}
+* @throws ArrayIndexOutOfBoundsException if {@code dstPos + nBytes > dst.length}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Conversion, Method: byteArrayToUuid
+Description: /*** <p>
+* Converts bytes from an array into a UUID using the default (little endian, Lsb0) byte and
+* bit ordering.
+* </p>
+*
+* @param src the byte array to convert
+* @param srcPos the position in {@code src} where to copy the result from
+* @return a UUID
+* @throws NullPointerException if {@code src} is {@code null}
+* @throws IllegalArgumentException if array does not contain at least 16 bytes beginning
+*             with {@code srcPos}
+*/"
+

@@ -1,0 +1,14 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectNavigatorFactory
+"Method: create
+Description: /**
+* Creates a new {@link ObjectNavigator} for this {@code srcObject},
+* {@code type} pair.
+*
+* @param objTypePair The object,type (fully genericized) being navigated
+* @return a new instance of a {@link ObjectNavigator} ready to navigate the
+*         {@code srcObject} while taking into consideration the
+*         {@code type}.
+*/"

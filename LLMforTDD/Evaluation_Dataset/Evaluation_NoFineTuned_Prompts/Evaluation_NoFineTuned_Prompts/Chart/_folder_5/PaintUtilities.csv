@@ -1,0 +1,41 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintUtilities
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintUtilities, Method: equal
+Description: /**
+* Returns <code>true</code> if the two <code>Paint</code> objects are equal
+* OR both <code>null</code>.  This method handles
+* <code>GradientPaint</code> as a special case.
+*
+* @param p1  paint 1 (<code>null</code> permitted).
+* @param p2  paint 2 (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintUtilities, Method: colorToString
+Description: /**
+* Converts a color into a string. If the color is equal to one of the
+* defined constant colors, that name is returned instead. Otherwise the
+* color is returned as hex-string.
+*
+* @param c the color.
+* @return the string for this color.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintUtilities, Method: stringToColor
+Description: /**
+* Converts a given string into a color.
+*
+* @param value the string, either a name or a hex-string.
+* @return the color.
+*/"
+

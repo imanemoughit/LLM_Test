@@ -1,0 +1,51 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FontChooserPanel
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FontChooserPanel, Method: getSelectedFont
+Description: /**
+* Returns a Font object representing the selection in the panel.
+*
+* @return the font.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FontChooserPanel, Method: getSelectedName
+Description: /**
+* Returns the selected name.
+*
+* @return the name.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FontChooserPanel, Method: getSelectedStyle
+Description: /**
+* Returns the selected style.
+*
+* @return the style.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FontChooserPanel, Method: getSelectedSize
+Description: /**
+* Returns the selected size.
+*
+* @return the size.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FontChooserPanel, Method: setSelectedFont
+Description: /**
+* Initializes the contents of the dialog from the given font
+* object.
+*
+* @param font the font from which to read the properties.
+*/"
+

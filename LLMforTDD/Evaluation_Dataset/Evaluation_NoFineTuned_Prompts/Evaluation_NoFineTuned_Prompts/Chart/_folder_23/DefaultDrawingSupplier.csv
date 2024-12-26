@@ -1,0 +1,94 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultDrawingSupplier
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultDrawingSupplier, Method: getNextPaint
+Description: /**
+* Returns the next paint in the sequence.
+*
+* @return The paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultDrawingSupplier, Method: getNextOutlinePaint
+Description: /**
+* Returns the next outline paint in the sequence.
+*
+* @return The paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultDrawingSupplier, Method: getNextFillPaint
+Description: /**
+* Returns the next fill paint in the sequence.
+*
+* @return The paint.
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultDrawingSupplier, Method: getNextStroke
+Description: /**
+* Returns the next stroke in the sequence.
+*
+* @return The stroke.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultDrawingSupplier, Method: getNextOutlineStroke
+Description: /**
+* Returns the next outline stroke in the sequence.
+*
+* @return The stroke.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultDrawingSupplier, Method: getNextShape
+Description: /**
+* Returns the next shape in the sequence.
+*
+* @return The shape.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultDrawingSupplier, Method: createStandardSeriesShapes
+Description: /**
+* Creates an array of standard shapes to display for the items in series
+* on charts.
+*
+* @return The array of shapes.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultDrawingSupplier, Method: equals
+Description: /**
+* Tests this object for equality with another object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultDrawingSupplier, Method: clone
+Description: /**
+* Returns a clone.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if a component of the supplier does
+*                                    not support cloning.
+*/"
+

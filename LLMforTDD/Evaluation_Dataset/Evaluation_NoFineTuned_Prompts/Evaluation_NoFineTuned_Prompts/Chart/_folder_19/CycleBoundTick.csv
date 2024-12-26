@@ -1,0 +1,195 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: java2DToValue
+Description: /**
+* Converts a coordinate from Java 2D space to data space.
+*
+* @param java2DValue  the coordinate in Java2D space.
+* @param dataArea  the data area.
+* @param edge  the edge.
+*
+* @return The data value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: valueToJava2D
+Description: /**
+* Translates a value from data space to Java 2D space.
+*
+* @param value  the data value.
+* @param dataArea  the data area.
+* @param edge  the edge.
+*
+* @return The Java 2D value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: centerRange
+Description: /**
+* Centers the range about the given value.
+*
+* @param value  the data value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: setAutoRangeMinimumSize
+Description: /**
+* This function is nearly useless since the auto range is fixed for this
+* class to the period.  The period is extended if necessary to fit the
+* minimum size.
+*
+* @param size  the size.
+* @param notify  notify?
+*
+* @see ValueAxis#setAutoRangeMinimumSize(double,
+*      boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: setFixedAutoRange
+Description: /**
+* The auto range is fixed for this class to the period by default.
+* This function will thus set a new period.
+*
+* @param length  the length.
+*
+* @see ValueAxis#setFixedAutoRange(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: setRange
+Description: /**
+* Sets a new axis range. The period is extended to fit the range size, if
+* necessary.
+*
+* @param range  the range.
+* @param turnOffAutoRange  switch off the auto range.
+* @param notify notify?
+*
+* @see ValueAxis#setRange(Range, boolean, boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: getCycleBound
+Description: /**
+* The cycle bound is defined as the higest value x such that
+* offset + period * i = x""", with i and integer and x &lt;
+* range.getUpperBound() This is the value which is at both ends of the
+* axis :  x...up|low...x
+* The values from x to up are the valued in the current cycle.
+* The values from low to x are the valued in the previous cycle.
+*
+* @return The cycle bound.
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: getOffset
+Description: /**
+* The cycle bound is a multiple of the period, plus optionally a start
+* offset.
+* <P>
+* <pre>cb = n * period + offset</pre><br>
+*
+* @return The current offset.
+*
+* @see #getCycleBound()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: setOffset
+Description: /**
+* The cycle bound is a multiple of the period, plus optionally a start
+* offset.
+* <P>
+* <pre>cb = n * period + offset</pre><br>
+*
+* @param offset The offset to set.
+*
+* @see #getCycleBound()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: getPeriod
+Description: /**
+* The cycle bound is a multiple of the period, plus optionally a start
+* offset.
+* <P>
+* <pre>cb = n * period + offset</pre><br>
+*
+* @return The current period.
+*
+* @see #getCycleBound()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: setPeriod
+Description: /**
+* The cycle bound is a multiple of the period, plus optionally a start
+* offset.
+* <P>
+* <pre>cb = n * period + offset</pre><br>
+*
+* @param period The period to set.
+*
+* @see #getCycleBound()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: draw
+Description: /**
+* Draws the axis.
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param cursor  the cursor position.
+* @param plotArea  the plot area (<code>null</code> not permitted).
+* @param dataArea  the data area (<code>null</code> not permitted).
+* @param edge  the edge (<code>null</code> not permitted).
+* @param plotState  collects information about the plot
+*                   (<code>null</code> permitted).
+*
+* @return The axis state (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: reserveSpace
+Description: /**
+* Reserve some space on each axis side because we draw a centered label at
+* each extremity.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param plotArea  the plot area.
+* @param edge  the edge.
+* @param space  the space already reserved.
+*
+* @return The reserved space.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CycleBoundTick, Method: equals
+Description: /**
+* Tests the axis for equality with another object.
+*
+* @param obj  the object to test against.
+*
+* @return A boolean.
+*/"
+

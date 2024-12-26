@@ -1,0 +1,82 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleEdge
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleEdge, Method: toString
+Description: /**
+* Returns a string representing the object.
+*
+* @return The string.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleEdge, Method: equals
+Description: /**
+* Returns <code>true</code> if this object is equal to the specified
+* object, and <code>false</code> otherwise.
+*
+* @param obj  the other object.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleEdge, Method: hashCode
+Description: /**
+* Returns a hash code value for the object.
+*
+* @return the hashcode
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleEdge, Method: isTopOrBottom
+Description: /**
+* Returns <code>true</code> if the edge is <code>TOP</code> or
+* <code>BOTTOM</code>, and <code>false</code> otherwise.
+*
+* @param edge  the edge.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleEdge, Method: isLeftOrRight
+Description: /**
+* Returns <code>true</code> if the edge is <code>LEFT</code> or
+* <code>RIGHT</code>, and <code>false</code> otherwise.
+*
+* @param edge  the edge.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleEdge, Method: opposite
+Description: /**
+* Returns the opposite edge.
+*
+* @param edge  an edge.
+*
+* @return The opposite edge.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleEdge, Method: coordinate
+Description: /**
+* Returns the x or y coordinate of the specified edge.
+*
+* @param rectangle  the rectangle.
+* @param edge  the edge.
+*
+* @return The coordinate.
+*/"
+

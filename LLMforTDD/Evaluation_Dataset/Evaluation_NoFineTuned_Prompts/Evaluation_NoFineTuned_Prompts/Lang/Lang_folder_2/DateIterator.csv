@@ -1,0 +1,30 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateIterator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateIterator, Method: hasNext
+Description: /*** Has the iterator not reached the end date yet?
+*
+* @return <code>true</code> if the iterator has yet to reach the end date
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateIterator, Method: next
+Description: /*** Return the next calendar in the iteration
+*
+* @return Object calendar for the next date
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateIterator, Method: remove
+Description: /*** Always throws UnsupportedOperationException.
+*
+* @throws UnsupportedOperationException
+* @see java.util.Iterator#remove()
+*/"
+

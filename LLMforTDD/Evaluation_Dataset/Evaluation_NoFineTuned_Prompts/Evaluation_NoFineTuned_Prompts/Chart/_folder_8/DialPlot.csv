@@ -1,0 +1,408 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getBackground
+Description: /**
+* Returns the background.
+*
+* @return The background (possibly <code>null</code>).
+*
+* @see #setBackground(DialLayer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: setBackground
+Description: /**
+* Sets the background layer and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param background  the background layer (<code>null</code> permitted).
+*
+* @see #getBackground()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getCap
+Description: /**
+* Returns the cap.
+*
+* @return The cap (possibly <code>null</code>).
+*
+* @see #setCap(DialLayer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: setCap
+Description: /**
+* Sets the cap and sends a {@link PlotChangeEvent} to all registered
+* listeners.
+*
+* @param cap  the cap (<code>null</code> permitted).
+*
+* @see #getCap()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getDialFrame
+Description: /**
+* Returns the dial's frame.
+*
+* @return The dial's frame (never <code>null</code>).
+*
+* @see #setDialFrame(DialFrame)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: setDialFrame
+Description: /**
+* Sets the dial's frame and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param frame  the frame (<code>null</code> not permitted).
+*
+* @see #getDialFrame()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getViewX
+Description: /**
+* Returns the x-coordinate of the viewing rectangle.  This is specified
+* in the range 0.0 to 1.0, relative to the dial's framing rectangle.
+*
+* @return The x-coordinate of the viewing rectangle.
+*
+* @see #setView(double, double, double, double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getViewY
+Description: /**
+* Returns the y-coordinate of the viewing rectangle.  This is specified
+* in the range 0.0 to 1.0, relative to the dial's framing rectangle.
+*
+* @return The y-coordinate of the viewing rectangle.
+*
+* @see #setView(double, double, double, double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getViewWidth
+Description: /**
+* Returns the width of the viewing rectangle.  This is specified
+* in the range 0.0 to 1.0, relative to the dial's framing rectangle.
+*
+* @return The width of the viewing rectangle.
+*
+* @see #setView(double, double, double, double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getViewHeight
+Description: /**
+* Returns the height of the viewing rectangle.  This is specified
+* in the range 0.0 to 1.0, relative to the dial's framing rectangle.
+*
+* @return The height of the viewing rectangle.
+*
+* @see #setView(double, double, double, double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: setView
+Description: /**
+* Sets the viewing rectangle, relative to the dial's framing rectangle,
+* and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param x  the x-coordinate (in the range 0.0 to 1.0).
+* @param y  the y-coordinate (in the range 0.0 to 1.0).
+* @param w  the width (in the range 0.0 to 1.0).
+* @param h  the height (in the range 0.0 to 1.0).
+*
+* @see #getViewX()
+* @see #getViewY()
+* @see #getViewWidth()
+* @see #getViewHeight()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: addLayer
+Description: /**
+* Adds a layer to the plot and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param layer  the layer (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getLayerIndex
+Description: /**
+* Returns the index for the specified layer.
+*
+* @param layer  the layer (<code>null</code> not permitted).
+*
+* @return The layer index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: removeLayer
+Description: /**
+* Removes the layer at the specified index and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param index  the index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: removeLayer
+Description: /**
+* Removes the specified layer and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param layer  the layer (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: addPointer
+Description: /**
+* Adds a pointer to the plot and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param pointer  the pointer (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getPointerIndex
+Description: /**
+* Returns the index for the specified pointer.
+*
+* @param pointer  the pointer (<code>null</code> not permitted).
+*
+* @return The pointer index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: removePointer
+Description: /**
+* Removes the pointer at the specified index and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param index  the index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: removePointer
+Description: /**
+* Removes the specified pointer and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param pointer  the pointer (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getPointerForDataset
+Description: /**
+* Returns the dial pointer that is associated with the specified
+* dataset, or <code>null</code>.
+*
+* @param datasetIndex  the dataset index.
+*
+* @return The pointer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getDataset
+Description: /**
+* Returns the primary dataset for the plot.
+*
+* @return The primary dataset (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getDataset
+Description: /**
+* Returns the dataset at the given index.
+*
+* @param index  the dataset index.
+*
+* @return The dataset (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: setDataset
+Description: /**
+* Sets the dataset for the plot, replacing the existing dataset, if there
+* is one, and sends a {@link PlotChangeEvent} to all registered
+* listeners.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: setDataset
+Description: /**
+* Sets a dataset for the plot.
+*
+* @param index  the dataset index.
+* @param dataset  the dataset (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getDatasetCount
+Description: /**
+* Returns the number of datasets.
+*
+* @return The number of datasets.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: draw
+Description: /**
+* Draws the plot.  This method is usually called by the {@link JFreeChart}
+* instance that manages the plot.
+*
+* @param g2  the graphics target.
+* @param area  the area in which the plot should be drawn.
+* @param anchor  the anchor point (typically the last point that the
+*     mouse clicked on, <code>null</code> is permitted).
+* @param parentState  the state for the parent plot (if any).
+* @param info  used to collect plot rendering info (<code>null</code>
+*     permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getValue
+Description: /**
+* Returns the value from the specified dataset.
+*
+* @param datasetIndex  the dataset index.
+*
+* @return The data value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: addScale
+Description: /**
+* Adds a dial scale to the plot and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param index  the scale index.
+* @param scale  the scale (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getScale
+Description: /**
+* Returns the scale at the given index.
+*
+* @param index  the scale index.
+*
+* @return The scale (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: mapDatasetToScale
+Description: /**
+* Maps a dataset to a particular scale.
+*
+* @param index  the dataset index (zero-based).
+* @param scaleIndex  the scale index (zero-based).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getScaleForDataset
+Description: /**
+* Returns the dial scale for a specific dataset.
+*
+* @param datasetIndex  the dataset index.
+*
+* @return The dial scale.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: rectangleByRadius
+Description: /**
+* A utility method that computes a rectangle using relative radius values.
+*
+* @param rect  the reference rectangle (<code>null</code> not permitted).
+* @param radiusW  the width radius (must be > 0.0)
+* @param radiusH  the height radius.
+*
+* @return A new rectangle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: dialLayerChanged
+Description: /**
+* Receives notification when a layer has changed, and responds by
+* forwarding a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param event  the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: equals
+Description: /**
+* Tests this <code>DialPlot</code> instance for equality with an
+* arbitrary object.  The plot's dataset(s) is (are) not included in
+* the test.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return The hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPlot, Method: getPlotType
+Description: /**
+* Returns the plot type.
+*
+* @return <code>DialPlot</code>"""
+"*/"""
+

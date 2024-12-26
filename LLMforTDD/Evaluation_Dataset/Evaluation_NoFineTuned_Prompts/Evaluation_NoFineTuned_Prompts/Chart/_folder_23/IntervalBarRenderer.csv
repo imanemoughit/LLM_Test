@@ -1,0 +1,68 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalBarRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalBarRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values from the specified dataset.  For this
+* renderer, this is equivalent to calling
+* <code>findRangeBounds(dataset, true)</code>.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (or <code>null</code> if the dataset is
+*         <code>null</code> or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalBarRenderer, Method: drawItem
+Description: /**
+* Draws the bar for a single (series, category) data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the data area.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalBarRenderer, Method: drawInterval
+Description: /**
+* Draws a single interval.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the data plot area.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the data.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param selected  is the item selected?
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalBarRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

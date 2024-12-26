@@ -1,0 +1,550 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: toTimelineValue
+Description: /**
+* Converts a millisecond into a timeline value.
+*
+* @param millisecond  the millisecond.
+*
+* @return The timeline value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: toTimelineValue
+Description: /**
+* Converts a date into a timeline value.
+*
+* @param date  the domain value.
+*
+* @return The timeline value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: toMillisecond
+Description: /**
+* Converts a timeline value into a millisecond (as encoded by
+* <code>java.util.Date</code>).
+*
+* @param value  the value.
+*
+* @return The millisecond.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: containsDomainValue
+Description: /**
+* Returns <code>true</code> if the timeline includes the specified
+* domain value.
+*
+* @param millisecond  the millisecond.
+*
+* @return <code>true</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: containsDomainValue
+Description: /**
+* Returns <code>true</code> if the timeline includes the specified
+* domain value.
+*
+* @param date  the date.
+*
+* @return <code>true</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: containsDomainRange
+Description: /**
+* Returns <code>true</code> if the timeline includes the specified
+* domain value range.
+*
+* @param from  the start value.
+* @param to  the end value.
+*
+* @return <code>true</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: containsDomainRange
+Description: /**
+* Returns <code>true</code> if the timeline includes the specified
+* domain value range.
+*
+* @param from  the start date.
+* @param to  the end date.
+*
+* @return <code>true</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: equals
+Description: /**
+* Tests an object for equality with this instance.
+*
+* @param object  the object.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: getTimeZone
+Description: /**
+* Returns the time zone for the axis.
+*
+* @return The time zone (never <code>null</code>).
+*
+* @since 1.0.4
+*
+* @see #setTimeZone(TimeZone)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setTimeZone
+Description: /**
+* Sets the time zone for the axis and sends an {@link AxisChangeEvent} to
+* all registered listeners.
+*
+* @param zone  the time zone (<code>null</code> not permitted).
+*
+* @since 1.0.4
+*
+* @see #getTimeZone()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: getTimeline
+Description: /**
+* Returns the underlying timeline used by this axis.
+*
+* @return The timeline.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setTimeline
+Description: /**
+* Sets the underlying timeline to use for this axis.
+* <P>
+* If the timeline is changed, an {@link AxisChangeEvent} is sent to all
+* registered listeners.
+*
+* @param timeline  the timeline.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: getTickUnit
+Description: /**
+* Returns the tick unit for the axis.
+* <p>
+* Note: if the <code>autoTickUnitSelection</code> flag is
+* <code>true</code> the tick unit may be changed while the axis is being
+* drawn, so in that case the return value from this method may be
+* irrelevant if the method is called before the axis has been drawn.
+*
+* @return The tick unit (possibly <code>null</code>).
+*
+* @see #setTickUnit(DateTickUnit)
+* @see ValueAxis#isAutoTickUnitSelection()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setTickUnit
+Description: /**
+* Sets the tick unit for the axis.  The auto-tick-unit-selection flag is
+* set to <code>false</code>, and registered listeners are notified that
+* the axis has been changed.
+*
+* @param unit  the tick unit.
+*
+* @see #getTickUnit()
+* @see #setTickUnit(DateTickUnit, boolean, boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setTickUnit
+Description: /**
+* Sets the tick unit attribute.
+*
+* @param unit  the new tick unit.
+* @param notify  notify registered listeners?
+* @param turnOffAutoSelection  turn off auto selection?
+*
+* @see #getTickUnit()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: getDateFormatOverride
+Description: /**
+* Returns the date format override.  If this is non-null, then it will be
+* used to format the dates on the axis.
+*
+* @return The formatter (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setDateFormatOverride
+Description: /**
+* Sets the date format override.  If this is non-null, then it will be
+* used to format the dates on the axis.
+*
+* @param formatter  the date formatter (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setRange
+Description: /**
+* Sets the upper and lower bounds for the axis and sends an
+* {@link AxisChangeEvent} to all registered listeners.  As a side-effect,
+* the auto-range flag is set to false.
+*
+* @param range  the new range (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setRange
+Description: /**
+* Sets the range for the axis, if requested, sends an
+* {@link AxisChangeEvent} to all registered listeners.  As a side-effect,
+* the auto-range flag is set to <code>false</code> (optional).
+*
+* @param range  the range (<code>null</code> not permitted).
+* @param turnOffAutoRange  a flag that controls whether or not the auto
+*                          range is turned off.
+* @param notify  a flag that controls whether or not listeners are
+*                notified.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setRange
+Description: /**
+* Sets the axis range and sends an {@link AxisChangeEvent} to all
+* registered listeners.
+*
+* @param lower  the lower bound for the axis.
+* @param upper  the upper bound for the axis.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setRange
+Description: /**
+* Sets the axis range and sends an {@link AxisChangeEvent} to all
+* registered listeners.
+*
+* @param lower  the lower bound for the axis.
+* @param upper  the upper bound for the axis.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: getMinimumDate
+Description: /**
+* Returns the earliest date visible on the axis.
+*
+* @return The date.
+*
+* @see #setMinimumDate(Date)
+* @see #getMaximumDate()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setMinimumDate
+Description: /**
+* Sets the minimum date visible on the axis and sends an
+* {@link AxisChangeEvent} to all registered listeners.  If
+* <code>date</code> is on or after the current maximum date for
+* the axis, the maximum date will be shifted to preserve the current
+* length of the axis.
+*
+* @param date  the date (<code>null</code> not permitted).
+*
+* @see #getMinimumDate()
+* @see #setMaximumDate(Date)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: getMaximumDate
+Description: /**
+* Returns the latest date visible on the axis.
+*
+* @return The date.
+*
+* @see #setMaximumDate(Date)
+* @see #getMinimumDate()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setMaximumDate
+Description: /**
+* Sets the maximum date visible on the axis and sends an
+* {@link AxisChangeEvent} to all registered listeners.  If
+* <code>maximumDate</code> is on or before the current minimum date for
+* the axis, the minimum date will be shifted to preserve the current
+* length of the axis.
+*
+* @param maximumDate  the date (<code>null</code> not permitted).
+*
+* @see #getMinimumDate()
+* @see #setMinimumDate(Date)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: getTickMarkPosition
+Description: /**
+* Returns the tick mark position (start, middle or end of the time period).
+*
+* @return The position (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: setTickMarkPosition
+Description: /**
+* Sets the tick mark position (start, middle or end of the time period)
+* and sends an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param position  the position (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: configure
+Description: /**
+* Configures the axis to work with the specified plot.  If the axis has
+* auto-scaling, then sets the maximum and minimum values.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: isHiddenValue
+Description: /**
+* Returns <code>true</code> if the axis hides this value, and
+* <code>false</code> otherwise.
+*
+* @param millis  the data value.
+*
+* @return A value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: valueToJava2D
+Description: /**
+* Translates the data value to the display coordinates (Java 2D User Space)
+* of the chart.
+*
+* @param value  the date to be plotted.
+* @param area  the rectangle (in Java2D space) where the data is to be
+*              plotted.
+* @param edge  the axis location.
+*
+* @return The coordinate corresponding to the supplied data value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: dateToJava2D
+Description: /**
+* Translates a date to Java2D coordinates, based on the range displayed by
+* this axis for the specified data area.
+*
+* @param date  the date.
+* @param area  the rectangle (in Java2D space) where the data is to be
+*              plotted.
+* @param edge  the axis location.
+*
+* @return The coordinate corresponding to the supplied date.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: java2DToValue
+Description: /**
+* Translates a Java2D coordinate into the corresponding data value.  To
+* perform this translation, you need to know the area used for plotting
+* data, and which edge the axis is located on.
+*
+* @param java2DValue  the coordinate in Java2D space.
+* @param area  the rectangle (in Java2D space) where the data is to be
+*              plotted.
+* @param edge  the axis location.
+*
+* @return A data value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: calculateLowestVisibleTickValue
+Description: /**
+* Calculates the value of the lowest visible tick on the axis.
+*
+* @param unit  date unit to use.
+*
+* @return The value of the lowest visible tick on the axis.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: calculateHighestVisibleTickValue
+Description: /**
+* Calculates the value of the highest visible tick on the axis.
+*
+* @param unit  date unit to use.
+*
+* @return The value of the highest visible tick on the axis.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: createStandardDateTickUnits
+Description: /**
+* Returns a collection of standard date tick units that uses the default
+* time zone.  This collection will be used by default, but you are free
+* to create your own collection if you want to (see the
+* {@link ValueAxis#setStandardTickUnits(TickUnitSource)} method inherited
+* from the {@link ValueAxis} class).
+*
+* @return A collection of standard date tick units.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: createStandardDateTickUnits
+Description: /**
+* Returns a collection of standard date tick units.  This collection will
+* be used by default, but you are free to create your own collection if
+* you want to (see the
+* {@link ValueAxis#setStandardTickUnits(TickUnitSource)} method inherited
+* from the {@link ValueAxis} class).
+*
+* @param zone  the time zone (<code>null</code> not permitted).
+*
+* @return A collection of standard date tick units.
+*
+* @deprecated Since 1.0.11, use {@link #createStandardDateTickUnits(
+*         TimeZone, Locale)} to explicitly set the locale as well as the
+*         time zone.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: createStandardDateTickUnits
+Description: /**
+* Returns a collection of standard date tick units.  This collection will
+* be used by default, but you are free to create your own collection if
+* you want to (see the
+* {@link ValueAxis#setStandardTickUnits(TickUnitSource)} method inherited
+* from the {@link ValueAxis} class).
+*
+* @param zone  the time zone (<code>null</code> not permitted).
+* @param locale  the locale (<code>null</code> not permitted).
+*
+* @return A collection of standard date tick units.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: refreshTicks
+Description: /**
+* Calculates the positions of the tick labels for the axis, storing the
+* results in the tick label list (ready for drawing).
+*
+* @param g2  the graphics device.
+* @param state  the axis state.
+* @param dataArea  the area in which the plot should be drawn.
+* @param edge  the location of the axis.
+*
+* @return A list of ticks.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: draw
+Description: /**
+* Draws the axis on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param cursor  the cursor location.
+* @param plotArea  the area within which the axes and data should be
+*                  drawn (<code>null</code> not permitted).
+* @param dataArea  the area within which the data should be drawn
+*                  (<code>null</code> not permitted).
+* @param edge  the location of the axis (<code>null</code> not permitted).
+* @param plotState  collects information about the plot
+*                   (<code>null</code> permitted).
+*
+* @return The axis state (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: zoomRange
+Description: /**
+* Zooms in on the current range.
+*
+* @param lowerPercent  the new lower bound.
+* @param upperPercent  the new upper bound.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: equals
+Description: /**
+* Tests this axis for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTimeline, Method: clone
+Description: /**
+* Returns a clone of the object.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if some component of the axis does
+*         not support cloning.
+*/"
+

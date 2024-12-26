@@ -1,0 +1,766 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getRenderingHints
+Description: /**
+* Returns the collection of rendering hints for the chart.
+*
+* @return The rendering hints for the chart (never <code>null</code>).
+*
+* @see #setRenderingHints(RenderingHints)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setRenderingHints
+Description: /**
+* Sets the rendering hints for the chart.  These will be added (using the
+* Graphics2D.addRenderingHints() method) near the start of the
+* JFreeChart.draw() method.
+*
+* @param renderingHints  the rendering hints (<code>null</code> not
+*                        permitted).
+*
+* @see #getRenderingHints()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: isBorderVisible
+Description: /**
+* Returns a flag that controls whether or not a border is drawn around the
+* outside of the chart.
+*
+* @return A boolean.
+*
+* @see #setBorderVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setBorderVisible
+Description: /**
+* Sets a flag that controls whether or not a border is drawn around the
+* outside of the chart.
+*
+* @param visible  the flag.
+*
+* @see #isBorderVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getBorderStroke
+Description: /**
+* Returns the stroke used to draw the chart border (if visible).
+*
+* @return The border stroke.
+*
+* @see #setBorderStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setBorderStroke
+Description: /**
+* Sets the stroke used to draw the chart border (if visible).
+*
+* @param stroke  the stroke.
+*
+* @see #getBorderStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getBorderPaint
+Description: /**
+* Returns the paint used to draw the chart border (if visible).
+*
+* @return The border paint.
+*
+* @see #setBorderPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setBorderPaint
+Description: /**
+* Sets the paint used to draw the chart border (if visible).
+*
+* @param paint  the paint.
+*
+* @see #getBorderPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getPadding
+Description: /**
+* Returns the padding between the chart border and the chart drawing area.
+*
+* @return The padding (never <code>null</code>).
+*
+* @see #setPadding(RectangleInsets)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setPadding
+Description: /**
+* Sets the padding between the chart border and the chart drawing area,
+* and sends a {@link ChartChangeEvent} to all registered listeners.
+*
+* @param padding  the padding (<code>null</code> not permitted).
+*
+* @see #getPadding()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getTitle
+Description: /**
+* Returns the main chart title.  Very often a chart will have just one
+* title, so we make this case simple by providing accessor methods for
+* the main title.  However, multiple titles are supported - see the
+* {@link #addSubtitle(Title)} method.
+*
+* @return The chart title (possibly <code>null</code>).
+*
+* @see #setTitle(TextTitle)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setTitle
+Description: /**
+* Sets the main title for the chart and sends a {@link ChartChangeEvent}
+* to all registered listeners.  If you do not want a title for the
+* chart, set it to <code>null</code>.  If you want more than one title on
+* a chart, use the {@link #addSubtitle(Title)} method.
+*
+* @param title  the title (<code>null</code> permitted).
+*
+* @see #getTitle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setTitle
+Description: /**
+* Sets the chart title and sends a {@link ChartChangeEvent} to all
+* registered listeners.  This is a convenience method that ends up calling
+* the {@link #setTitle(TextTitle)} method.  If there is an existing title,
+* its text is updated, otherwise a new title using the default font is
+* added to the chart.  If <code>text</code> is <code>null</code> the chart
+* title is set to <code>null</code>.
+*
+* @param text  the title text (<code>null</code> permitted).
+*
+* @see #getTitle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: addLegend
+Description: /**
+* Adds a legend to the plot and sends a {@link ChartChangeEvent} to all
+* registered listeners.
+*
+* @param legend  the legend (<code>null</code> not permitted).
+*
+* @see #removeLegend()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getLegend
+Description: /**
+* Returns the legend for the chart, if there is one.  Note that a chart
+* can have more than one legend - this method returns the first.
+*
+* @return The legend (possibly <code>null</code>).
+*
+* @see #getLegend(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getLegend
+Description: /**
+* Returns the nth legend for a chart, or <code>null</code>.
+*
+* @param index  the legend index (zero-based).
+*
+* @return The legend (possibly <code>null</code>).
+*
+* @see #addLegend(LegendTitle)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: removeLegend
+Description: /**
+* Removes the first legend in the chart and sends a
+* {@link ChartChangeEvent} to all registered listeners.
+*
+* @see #getLegend()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getSubtitles
+Description: /**
+* Returns the list of subtitles for the chart.
+*
+* @return The subtitle list (possibly empty, but never <code>null</code>).
+*
+* @see #setSubtitles(List)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setSubtitles
+Description: /**
+* Sets the title list for the chart (completely replaces any existing
+* titles) and sends a {@link ChartChangeEvent} to all registered
+* listeners.
+*
+* @param subtitles  the new list of subtitles (<code>null</code> not
+*                   permitted).
+*
+* @see #getSubtitles()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getSubtitleCount
+Description: /**
+* Returns the number of titles for the chart.
+*
+* @return The number of titles for the chart.
+*
+* @see #getSubtitles()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getSubtitle
+Description: /**
+* Returns a chart subtitle.
+*
+* @param index  the index of the chart subtitle (zero based).
+*
+* @return A chart subtitle.
+*
+* @see #addSubtitle(Title)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: addSubtitle
+Description: /**
+* Adds a chart subtitle, and notifies registered listeners that the chart
+* has been modified.
+*
+* @param subtitle  the subtitle (<code>null</code> not permitted).
+*
+* @see #getSubtitle(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: addSubtitle
+Description: /**
+* Adds a subtitle at a particular position in the subtitle list, and sends
+* a {@link ChartChangeEvent} to all registered listeners.
+*
+* @param index  the index (in the range 0 to {@link #getSubtitleCount()}).
+* @param subtitle  the subtitle to add (<code>null</code> not permitted).
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: clearSubtitles
+Description: /**
+* Clears all subtitles from the chart and sends a {@link ChartChangeEvent}
+* to all registered listeners.
+*
+* @see #addSubtitle(Title)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: removeSubtitle
+Description: /**
+* Removes the specified subtitle and sends a {@link ChartChangeEvent} to
+* all registered listeners.
+*
+* @param title  the title.
+*
+* @see #addSubtitle(Title)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getPlot
+Description: /**
+* Returns the plot for the chart.  The plot is a class responsible for
+* coordinating the visual representation of the data, including the axes
+* (if any).
+*
+* @return The plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getCategoryPlot
+Description: /**
+* Returns the plot cast as a {@link CategoryPlot}.
+* <p>
+* NOTE: if the plot is not an instance of {@link CategoryPlot}, then a
+* <code>Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException</code> is thrown.
+*
+* @return The plot.
+*
+* @see #getPlot()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getXYPlot
+Description: /**
+* Returns the plot cast as an {@link XYPlot}.
+* <p>
+* NOTE: if the plot is not an instance of {@link XYPlot}, then a
+* <code>Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException</code> is thrown.
+*
+* @return The plot.
+*
+* @see #getPlot()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getAntiAlias
+Description: /**
+* Returns a flag that indicates whether or not anti-aliasing is used when
+* the chart is drawn.
+*
+* @return The flag.
+*
+* @see #setAntiAlias(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setAntiAlias
+Description: /**
+* Sets a flag that indicates whether or not anti-aliasing is used when the
+* chart is drawn.
+* <P>
+* Anti-aliasing usually improves the appearance of charts, but is slower.
+*
+* @param flag  the new value of the flag.
+*
+* @see #getAntiAlias()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getTextAntiAlias
+Description: /**
+* Returns the current value stored in the rendering hints table for
+* {@link RenderingHints#KEY_TEXT_ANTIALIASING}.
+*
+* @return The hint value (possibly <code>null</code>).
+*
+* @since 1.0.5
+*
+* @see #setTextAntiAlias(Object)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setTextAntiAlias
+Description: /**
+* Sets the value in the rendering hints table for
+* {@link RenderingHints#KEY_TEXT_ANTIALIASING} to either
+* {@link RenderingHints#VALUE_TEXT_ANTIALIAS_ON} or
+* {@link RenderingHints#VALUE_TEXT_ANTIALIAS_OFF}, then sends a
+* {@link ChartChangeEvent} to all registered listeners.
+*
+* @param flag  the new value of the flag.
+*
+* @since 1.0.5
+*
+* @see #getTextAntiAlias()
+* @see #setTextAntiAlias(Object)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setTextAntiAlias
+Description: /**
+* Sets the value in the rendering hints table for
+* {@link RenderingHints#KEY_TEXT_ANTIALIASING} and sends a
+* {@link ChartChangeEvent} to all registered listeners.
+*
+* @param val  the new value (<code>null</code> permitted).
+*
+* @since 1.0.5
+*
+* @see #getTextAntiAlias()
+* @see #setTextAntiAlias(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getBackgroundPaint
+Description: /**
+* Returns the paint used for the chart background.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setBackgroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setBackgroundPaint
+Description: /**
+* Sets the paint used to fill the chart background and sends a
+* {@link ChartChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getBackgroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getBackgroundImage
+Description: /**
+* Returns the background image for the chart, or <code>null</code> if
+* there is no image.
+*
+* @return The image (possibly <code>null</code>).
+*
+* @see #setBackgroundImage(Image)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setBackgroundImage
+Description: /**
+* Sets the background image for the chart and sends a
+* {@link ChartChangeEvent} to all registered listeners.
+*
+* @param image  the image (<code>null</code> permitted).
+*
+* @see #getBackgroundImage()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getBackgroundImageAlignment
+Description: /**
+* Returns the background image alignment. Alignment constants are defined
+* in the <code>org.jfree.ui.Align</code> class in the JCommon class
+* library.
+*
+* @return The alignment.
+*
+* @see #setBackgroundImageAlignment(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setBackgroundImageAlignment
+Description: /**
+* Sets the background alignment.  Alignment options are defined by the
+* {@link Align} class.
+*
+* @param alignment  the alignment.
+*
+* @see #getBackgroundImageAlignment()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: getBackgroundImageAlpha
+Description: /**
+* Returns the alpha-transparency for the chart's background image.
+*
+* @return The alpha-transparency.
+*
+* @see #setBackgroundImageAlpha(float)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setBackgroundImageAlpha
+Description: /**
+* Sets the alpha-transparency for the chart's background image.
+* Registered listeners are notified that the chart has been changed.
+*
+* @param alpha  the alpha value.
+*
+* @see #getBackgroundImageAlpha()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: isNotify
+Description: /**
+* Returns a flag that controls whether or not change events are sent to
+* registered listeners.
+*
+* @return A boolean.
+*
+* @see #setNotify(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: setNotify
+Description: /**
+* Sets a flag that controls whether or not listeners receive
+* {@link ChartChangeEvent} notifications.
+*
+* @param notify  a boolean.
+*
+* @see #isNotify()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: draw
+Description: /**
+* Draws the chart on a Java 2D graphics device (such as the screen or a
+* printer).
+* <P>
+* This method is the focus of the entire JFreeChart library.
+*
+* @param g2  the graphics device.
+* @param area  the area within which the chart should be drawn.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: draw
+Description: /**
+* Draws the chart on a Java 2D graphics device (such as the screen or a
+* printer).  This method is the focus of the entire JFreeChart library.
+*
+* @param g2  the graphics device.
+* @param area  the area within which the chart should be drawn.
+* @param info  records info about the drawing (null means collect no info).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: draw
+Description: /**
+* Draws the chart on a Java 2D graphics device (such as the screen or a
+* printer).
+* <P>
+* This method is the focus of the entire JFreeChart library.
+*
+* @param g2  the graphics device.
+* @param chartArea  the area within which the chart should be drawn.
+* @param anchor  the anchor point (in Java2D space) for the chart
+*                (<code>null</code> permitted).
+* @param info  records info about the drawing (null means collect no info).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: createBufferedImage
+Description: /**
+* Creates and returns a buffered image into which the chart has been drawn.
+*
+* @param width  the width.
+* @param height  the height.
+*
+* @return A buffered image.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: createBufferedImage
+Description: /**
+* Creates and returns a buffered image into which the chart has been drawn.
+*
+* @param width  the width.
+* @param height  the height.
+* @param info  carries back chart state information (<code>null</code>
+*              permitted).
+*
+* @return A buffered image.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: createBufferedImage
+Description: /**
+* Creates and returns a buffered image into which the chart has been drawn.
+*
+* @param width  the width.
+* @param height  the height.
+* @param imageType  the image type.
+* @param info  carries back chart state information (<code>null</code>
+*              permitted).
+*
+* @return A buffered image.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: createBufferedImage
+Description: /**
+* Creates and returns a buffered image into which the chart has been drawn.
+*
+* @param imageWidth  the image width.
+* @param imageHeight  the image height.
+* @param drawWidth  the width for drawing the chart (will be scaled to
+*                   fit image).
+* @param drawHeight  the height for drawing the chart (will be scaled to
+*                    fit image).
+* @param info  optional object for collection chart dimension and entity
+*              information.
+*
+* @return A buffered image.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: handleClick
+Description: /**
+* Handles a 'click' on the chart.  JFreeChart is not a UI component, so
+* some other object (for example, {@link ChartPanel}) needs to capture
+* the click event and pass it onto the JFreeChart object.
+* If you are not using JFreeChart in a client application, then this
+* method is not required.
+*
+* @param x  x-coordinate of the click (in Java2D space).
+* @param y  y-coordinate of the click (in Java2D space).
+* @param info  contains chart dimension and entity information
+*              (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: addChangeListener
+Description: /**
+* Registers an object for notification of changes to the chart.
+*
+* @param listener  the listener (<code>null</code> not permitted).
+*
+* @see #removeChangeListener(ChartChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: removeChangeListener
+Description: /**
+* Deregisters an object for notification of changes to the chart.
+*
+* @param listener  the listener (<code>null</code> not permitted)
+*
+* @see #addChangeListener(ChartChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: fireChartChanged
+Description: /**
+* Sends a default {@link ChartChangeEvent} to all registered listeners.
+* <P>
+* This method is for convenience only.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: addProgressListener
+Description: /**
+* Registers an object for notification of progress events relating to the
+* chart.
+*
+* @param listener  the object being registered.
+*
+* @see #removeProgressListener(ChartProgressListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: removeProgressListener
+Description: /**
+* Deregisters an object for notification of changes to the chart.
+*
+* @param listener  the object being deregistered.
+*
+* @see #addProgressListener(ChartProgressListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: titleChanged
+Description: /**
+* Receives notification that a chart title has changed, and passes this
+* on to registered listeners.
+*
+* @param event  information about the chart title change.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: plotChanged
+Description: /**
+* Receives notification that the plot has changed, and passes this on to
+* registered listeners.
+*
+* @param event  information about the plot change.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: equals
+Description: /**
+* Tests this chart for equality with another object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: main
+Description: /**
+* Prints information about JFreeChart to standard output.
+*
+* @param args  no arguments are honored.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JFreeChart, Method: clone
+Description: /**
+* Clones the object, and takes care of listeners.
+* Note: caller shall register its own listeners on cloned graph.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if the chart is not cloneable.
+*/"
+

@@ -1,0 +1,370 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: getCandleWidth
+Description: /**
+* Returns the width of each candle.
+*
+* @return The candle width.
+*
+* @see #setCandleWidth(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: setCandleWidth
+Description: /**
+* Sets the candle width and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+* <P>
+* If you set the width to a negative value, the renderer will calculate
+* the candle width automatically based on the space available on the chart.
+*
+* @param width  The width.
+* @see #setAutoWidthMethod(int)
+* @see #setAutoWidthGap(double)
+* @see #setAutoWidthFactor(double)
+* @see #setMaxCandleWidthInMilliseconds(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: getMaxCandleWidthInMilliseconds
+Description: /**
+* Returns the maximum width (in milliseconds) of each candle.
+*
+* @return The maximum candle width in milliseconds.
+*
+* @see #setMaxCandleWidthInMilliseconds(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: setMaxCandleWidthInMilliseconds
+Description: /**
+* Sets the maximum candle width (in milliseconds) and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param millis  The maximum width.
+*
+* @see #getMaxCandleWidthInMilliseconds()
+* @see #setCandleWidth(double)
+* @see #setAutoWidthMethod(int)
+* @see #setAutoWidthGap(double)
+* @see #setAutoWidthFactor(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: getAutoWidthMethod
+Description: /**
+* Returns the method of automatically calculating the candle width.
+*
+* @return The method of automatically calculating the candle width.
+*
+* @see #setAutoWidthMethod(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: setAutoWidthMethod
+Description: /**
+* Sets the method of automatically calculating the candle width and
+* sends a {@link RendererChangeEvent} to all registered listeners.
+* <p>
+* <code>WIDTHMETHOD_AVERAGE</code>: Divides the entire display (ignoring
+* scale factor) by the number of items, and uses this as the available
+* width.<br>
+* <code>WIDTHMETHOD_SMALLEST</code>: Checks the interval between each
+* item, and uses the smallest as the available width.<br>
+* <code>WIDTHMETHOD_INTERVALDATA</code>: Assumes that the dataset supports
+* the IntervalXYDataset interface, and uses the startXValue - endXValue as
+* the available width.
+* <br>
+*
+* @param autoWidthMethod  The method of automatically calculating the
+* candle width.
+*
+* @see #WIDTHMETHOD_AVERAGE
+* @see #WIDTHMETHOD_SMALLEST
+* @see #WIDTHMETHOD_INTERVALDATA
+* @see #getAutoWidthMethod()
+* @see #setCandleWidth(double)
+* @see #setAutoWidthGap(double)
+* @see #setAutoWidthFactor(double)
+* @see #setMaxCandleWidthInMilliseconds(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: getAutoWidthFactor
+Description: /**
+* Returns the factor by which the available space automatically
+* calculated for the candles will be multiplied to determine the actual
+* width to use.
+*
+* @return The width factor (generally between 0.0 and 1.0).
+*
+* @see #setAutoWidthFactor(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: setAutoWidthFactor
+Description: /**
+* Sets the factor by which the available space automatically calculated
+* for the candles will be multiplied to determine the actual width to use.
+*
+* @param autoWidthFactor The width factor (generally between 0.0 and 1.0).
+*
+* @see #getAutoWidthFactor()
+* @see #setCandleWidth(double)
+* @see #setAutoWidthMethod(int)
+* @see #setAutoWidthGap(double)
+* @see #setMaxCandleWidthInMilliseconds(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: getAutoWidthGap
+Description: /**
+* Returns the amount of space to leave on the left and right of each
+* candle when automatically calculating widths.
+*
+* @return The gap.
+*
+* @see #setAutoWidthGap(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: setAutoWidthGap
+Description: /**
+* Sets the amount of space to leave on the left and right of each candle
+* when automatically calculating widths and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param autoWidthGap The gap.
+*
+* @see #getAutoWidthGap()
+* @see #setCandleWidth(double)
+* @see #setAutoWidthMethod(int)
+* @see #setAutoWidthFactor(double)
+* @see #setMaxCandleWidthInMilliseconds(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: getUpPaint
+Description: /**
+* Returns the paint used to fill candles when the price moves up from open
+* to close.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setUpPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: setUpPaint
+Description: /**
+* Sets the paint used to fill candles when the price moves up from open
+* to close and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getUpPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: getDownPaint
+Description: /**
+* Returns the paint used to fill candles when the price moves down from
+* open to close.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setDownPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: setDownPaint
+Description: /**
+* Sets the paint used to fill candles when the price moves down from open
+* to close and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param paint  The paint (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: getDrawVolume
+Description: /**
+* Returns a flag indicating whether or not volume bars are drawn on the
+* chart.
+*
+* @return A boolean.
+*
+* @since 1.0.5
+*
+* @see #setDrawVolume(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: setDrawVolume
+Description: /**
+* Sets a flag that controls whether or not volume bars are drawn in the
+* background and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param flag  the flag.
+*
+* @see #getDrawVolume()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: getVolumePaint
+Description: /**
+* Returns the paint that is used to fill the volume bars if they are
+* visible.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setVolumePaint(Paint)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: setVolumePaint
+Description: /**
+* Sets the paint used to fill the volume bars, and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getVolumePaint()
+* @see #getDrawVolume()
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: getUseOutlinePaint
+Description: /**
+* Returns the flag that controls whether or not the renderer's outline
+* paint is used to draw the candlestick outline.  The default value is
+* <code>false</code>.
+*
+* @return A boolean.
+*
+* @since 1.0.5
+*
+* @see #setUseOutlinePaint(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: setUseOutlinePaint
+Description: /**
+* Sets the flag that controls whether or not the renderer's outline
+* paint is used to draw the candlestick outline, and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param use  the new flag value.
+*
+* @since 1.0.5
+*
+* @see #getUseOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: initialise
+Description: /**
+* Initialises the renderer then returns the number of 'passes' through the
+* data that the renderer will require (usually just one).  This method
+* will be called before the first item is rendered, giving the renderer
+* an opportunity to initialise any state information it wants to maintain.
+* The renderer can do nothing if it chooses.
+*
+* @param g2  the graphics device.
+* @param dataArea  the area inside the axes.
+* @param plot  the plot.
+* @param dataset  the data.
+* @param info  an optional info collection object to return data back to
+*              the caller.
+*
+* @return The number of passes the renderer requires.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: drawItem
+Description: /**
+* Draws the visual representation of a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area within which the plot is being drawn.
+* @param plot  the plot (can be used to obtain standard color
+*              information etc).
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param selected  is the item selected?
+* @param pass  the pass index.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with another object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CandlestickRenderer, Method: clone
+Description: /**
+* Returns a clone of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the renderer cannot be cloned.
+*/"
+

@@ -1,0 +1,567 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: reflectionCompare
+Description: /*** <p>Compares two <code>Object</code>s via reflection.</p>
+*
+* <p>Fields can be private, thus <code>AccessibleObject.setAccessible</code>
+* is used to bypass normal access control checks. This will fail under a
+* security manager unless the appropriate permissions are set.</p>
+*
+* <ul>
+* <li>Static fields will not be compared</li>
+* <li>Transient members will be not be compared, as they are likely derived
+*     fields</li>
+* <li>Superclass fields will be compared</li>
+* </ul>
+*
+* <p>If both <code>lhs</code> and <code>rhs</code> are <code>null</code>,
+* they are considered equal.</p>
+*
+* @param lhs  left-hand object
+* @param rhs  right-hand object
+* @return a negative integer, zero, or a positive integer as <code>lhs</code>
+*  is less than, equal to, or greater than <code>rhs</code>
+* @throws NullPointerException  if either (but not both) parameters are
+*  <code>null</code>
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException  if <code>rhs</code> is not assignment-compatible
+*  with <code>lhs</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: reflectionCompare
+Description: /*** <p>Compares two <code>Object</code>s via reflection.</p>
+*
+* <p>Fields can be private, thus <code>AccessibleObject.setAccessible</code>
+* is used to bypass normal access control checks. This will fail under a
+* security manager unless the appropriate permissions are set.</p>
+*
+* <ul>
+* <li>Static fields will not be compared</li>
+* <li>If <code>compareTransients</code> is <code>true</code>,
+*     compares transient members.  Otherwise ignores them, as they
+*     are likely derived fields.</li>
+* <li>Superclass fields will be compared</li>
+* </ul>
+*
+* <p>If both <code>lhs</code> and <code>rhs</code> are <code>null</code>,
+* they are considered equal.</p>
+*
+* @param lhs  left-hand object
+* @param rhs  right-hand object
+* @param compareTransients  whether to compare transient fields
+* @return a negative integer, zero, or a positive integer as <code>lhs</code>
+*  is less than, equal to, or greater than <code>rhs</code>
+* @throws NullPointerException  if either <code>lhs</code> or <code>rhs</code>
+*  (but not both) is <code>null</code>
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException  if <code>rhs</code> is not assignment-compatible
+*  with <code>lhs</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: reflectionCompare
+Description: /*** <p>Compares two <code>Object</code>s via reflection.</p>
+*
+* <p>Fields can be private, thus <code>AccessibleObject.setAccessible</code>
+* is used to bypass normal access control checks. This will fail under a
+* security manager unless the appropriate permissions are set.</p>
+*
+* <ul>
+* <li>Static fields will not be compared</li>
+* <li>If <code>compareTransients</code> is <code>true</code>,
+*     compares transient members.  Otherwise ignores them, as they
+*     are likely derived fields.</li>
+* <li>Superclass fields will be compared</li>
+* </ul>
+*
+* <p>If both <code>lhs</code> and <code>rhs</code> are <code>null</code>,
+* they are considered equal.</p>
+*
+* @param lhs  left-hand object
+* @param rhs  right-hand object
+* @param excludeFields  Collection of String fields to exclude
+* @return a negative integer, zero, or a positive integer as <code>lhs</code>
+*  is less than, equal to, or greater than <code>rhs</code>
+* @throws NullPointerException  if either <code>lhs</code> or <code>rhs</code>
+*  (but not both) is <code>null</code>
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException  if <code>rhs</code> is not assignment-compatible
+*  with <code>lhs</code>
+* @since 2.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: reflectionCompare
+Description: /*** <p>Compares two <code>Object</code>s via reflection.</p>
+*
+* <p>Fields can be private, thus <code>AccessibleObject.setAccessible</code>
+* is used to bypass normal access control checks. This will fail under a
+* security manager unless the appropriate permissions are set.</p>
+*
+* <ul>
+* <li>Static fields will not be compared</li>
+* <li>If <code>compareTransients</code> is <code>true</code>,
+*     compares transient members.  Otherwise ignores them, as they
+*     are likely derived fields.</li>
+* <li>Superclass fields will be compared</li>
+* </ul>
+*
+* <p>If both <code>lhs</code> and <code>rhs</code> are <code>null</code>,
+* they are considered equal.</p>
+*
+* @param lhs  left-hand object
+* @param rhs  right-hand object
+* @param excludeFields  array of fields to exclude
+* @return a negative integer, zero, or a positive integer as <code>lhs</code>
+*  is less than, equal to, or greater than <code>rhs</code>
+* @throws NullPointerException  if either <code>lhs</code> or <code>rhs</code>
+*  (but not both) is <code>null</code>
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException  if <code>rhs</code> is not assignment-compatible
+*  with <code>lhs</code>
+* @since 2.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: reflectionCompare
+Description: /*** <p>Compares two <code>Object</code>s via reflection.</p>
+*
+* <p>Fields can be private, thus <code>AccessibleObject.setAccessible</code>
+* is used to bypass normal access control checks. This will fail under a
+* security manager unless the appropriate permissions are set.</p>
+*
+* <ul>
+* <li>Static fields will not be compared</li>
+* <li>If the <code>compareTransients</code> is <code>true</code>,
+*     compares transient members.  Otherwise ignores them, as they
+*     are likely derived fields.</li>
+* <li>Compares superclass fields up to and including <code>reflectUpToWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class</code>.
+*     If <code>reflectUpToWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class</code> is <code>null</code>, compares all superclass fields.</li>
+* </ul>
+*
+* <p>If both <code>lhs</code> and <code>rhs</code> are <code>null</code>,
+* they are considered equal.</p>
+*
+* @param lhs  left-hand object
+* @param rhs  right-hand object
+* @param compareTransients  whether to compare transient fields
+* @param reflectUpToWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class  last superclass for which fields are compared
+* @param excludeFields  fields to exclude
+* @return a negative integer, zero, or a positive integer as <code>lhs</code>
+*  is less than, equal to, or greater than <code>rhs</code>
+* @throws NullPointerException  if either <code>lhs</code> or <code>rhs</code>
+*  (but not both) is <code>null</code>
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException  if <code>rhs</code> is not assignment-compatible
+*  with <code>lhs</code>
+* @since 2.2 (2.0 as <code>reflectionCompare(Object, Object, boolean, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class)</code>)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: appendSuper
+Description: /*** <p>Appends to the <code>builder</code> the <code>compareTo(Object)</code>
+* result of the superclass.</p>
+*
+* @param superCompareTo  result of calling <code>super.compareTo(Object)</code>
+* @return this - used to chain append calls
+* @since 2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the comparison of
+* two <code>Object</code>s.</p>
+*
+* <ol>
+* <li>Check if <code>lhs == rhs</code></li>
+* <li>Check if either <code>lhs</code> or <code>rhs</code> is <code>null</code>,
+*     a <code>null</code> object is less than a non-<code>null</code> object</li>
+* <li>Check the object contents</li>
+* </ol>
+*
+* <p><code>lhs</code> must either be an array or implement {@link Comparable}.</p>
+*
+* @param lhs  left-hand object
+* @param rhs  right-hand object
+* @return this - used to chain append calls
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException  if <code>rhs</code> is not assignment-compatible
+*  with <code>lhs</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the comparison of
+* two <code>Object</code>s.</p>
+*
+* <ol>
+* <li>Check if <code>lhs == rhs</code></li>
+* <li>Check if either <code>lhs</code> or <code>rhs</code> is <code>null</code>,
+*     a <code>null</code> object is less than a non-<code>null</code> object</li>
+* <li>Check the object contents</li>
+* </ol>
+*
+* <p>If <code>lhs</code> is an array, array comparison methods will be used.
+* Otherwise <code>comparator</code> will be used to compare the objects.
+* If <code>comparator</code> is <code>null</code>, <code>lhs</code> must
+* implement {@link Comparable} instead.</p>
+*
+* @param lhs  left-hand object
+* @param rhs  right-hand object
+* @param comparator  <code>Comparator</code> used to compare the objects,
+*  <code>null</code> means treat lhs as <code>Comparable</code>
+* @return this - used to chain append calls
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException  if <code>rhs</code> is not assignment-compatible
+*  with <code>lhs</code>
+* @since 2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** Appends to the <code>builder</code> the comparison of
+* two <code>long</code>s.
+*
+* @param lhs  left-hand value
+* @param rhs  right-hand value
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** Appends to the <code>builder</code> the comparison of
+* two <code>int</code>s.
+*
+* @param lhs  left-hand value
+* @param rhs  right-hand value
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** Appends to the <code>builder</code> the comparison of
+* two <code>short</code>s.
+*
+* @param lhs  left-hand value
+* @param rhs  right-hand value
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** Appends to the <code>builder</code> the comparison of
+* two <code>char</code>s.
+*
+* @param lhs  left-hand value
+* @param rhs  right-hand value
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** Appends to the <code>builder</code> the comparison of
+* two <code>byte</code>s.
+*
+* @param lhs  left-hand value
+* @param rhs  right-hand value
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the comparison of
+* two <code>double</code>s.</p>
+*
+* <p>This handles NaNs, Infinities, and <code>-0.0</code>.</p>
+*
+* <p>It is compatible with the hash code generated by
+* <code>HashCodeBuilder</code>.</p>
+*
+* @param lhs  left-hand value
+* @param rhs  right-hand value
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the comparison of
+* two <code>float</code>s.</p>
+*
+* <p>This handles NaNs, Infinities, and <code>-0.0</code>.</p>
+*
+* <p>It is compatible with the hash code generated by
+* <code>HashCodeBuilder</code>.</p>
+*
+* @param lhs  left-hand value
+* @param rhs  right-hand value
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** Appends to the <code>builder</code> the comparison of
+* two <code>booleans</code>s.
+*
+* @param lhs  left-hand value
+* @param rhs  right-hand value
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the deep comparison of
+* two <code>Object</code> arrays.</p>
+*
+* <ol>
+*  <li>Check if arrays are the same using <code>==</code></li>
+*  <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+*  <li>Check array length, a short length array is less than a long length array</li>
+*  <li>Check array contents element by element using {@link #append(Object, Object, Comparator)}</li>
+* </ol>
+*
+* <p>This method will also will be called for the top level of multi-dimensional,
+* ragged, and multi-typed arrays.</p>
+*
+* @param lhs  left-hand array
+* @param rhs  right-hand array
+* @return this - used to chain append calls
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException  if <code>rhs</code> is not assignment-compatible
+*  with <code>lhs</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the deep comparison of
+* two <code>Object</code> arrays.</p>
+*
+* <ol>
+*  <li>Check if arrays are the same using <code>==</code></li>
+*  <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+*  <li>Check array length, a short length array is less than a long length array</li>
+*  <li>Check array contents element by element using {@link #append(Object, Object, Comparator)}</li>
+* </ol>
+*
+* <p>This method will also will be called for the top level of multi-dimensional,
+* ragged, and multi-typed arrays.</p>
+*
+* @param lhs  left-hand array
+* @param rhs  right-hand array
+* @param comparator  <code>Comparator</code> to use to compare the array elements,
+*  <code>null</code> means to treat <code>lhs</code> elements as <code>Comparable</code>.
+* @return this - used to chain append calls
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException  if <code>rhs</code> is not assignment-compatible
+*  with <code>lhs</code>
+* @since 2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the deep comparison of
+* two <code>long</code> arrays.</p>
+*
+* <ol>
+*  <li>Check if arrays are the same using <code>==</code></li>
+*  <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+*  <li>Check array length, a shorter length array is less than a longer length array</li>
+*  <li>Check array contents element by element using {@link #append(long, long)}</li>
+* </ol>
+*
+* @param lhs  left-hand array
+* @param rhs  right-hand array
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the deep comparison of
+* two <code>int</code> arrays.</p>
+*
+* <ol>
+*  <li>Check if arrays are the same using <code>==</code></li>
+*  <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+*  <li>Check array length, a shorter length array is less than a longer length array</li>
+*  <li>Check array contents element by element using {@link #append(int, int)}</li>
+* </ol>
+*
+* @param lhs  left-hand array
+* @param rhs  right-hand array
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the deep comparison of
+* two <code>short</code> arrays.</p>
+*
+* <ol>
+*  <li>Check if arrays are the same using <code>==</code></li>
+*  <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+*  <li>Check array length, a shorter length array is less than a longer length array</li>
+*  <li>Check array contents element by element using {@link #append(short, short)}</li>
+* </ol>
+*
+* @param lhs  left-hand array
+* @param rhs  right-hand array
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the deep comparison of
+* two <code>char</code> arrays.</p>
+*
+* <ol>
+*  <li>Check if arrays are the same using <code>==</code></li>
+*  <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+*  <li>Check array length, a shorter length array is less than a longer length array</li>
+*  <li>Check array contents element by element using {@link #append(char, char)}</li>
+* </ol>
+*
+* @param lhs  left-hand array
+* @param rhs  right-hand array
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the deep comparison of
+* two <code>byte</code> arrays.</p>
+*
+* <ol>
+*  <li>Check if arrays are the same using <code>==</code></li>
+*  <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+*  <li>Check array length, a shorter length array is less than a longer length array</li>
+*  <li>Check array contents element by element using {@link #append(byte, byte)}</li>
+* </ol>
+*
+* @param lhs  left-hand array
+* @param rhs  right-hand array
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the deep comparison of
+* two <code>double</code> arrays.</p>
+*
+* <ol>
+*  <li>Check if arrays are the same using <code>==</code></li>
+*  <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+*  <li>Check array length, a shorter length array is less than a longer length array</li>
+*  <li>Check array contents element by element using {@link #append(double, double)}</li>
+* </ol>
+*
+* @param lhs  left-hand array
+* @param rhs  right-hand array
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the deep comparison of
+* two <code>float</code> arrays.</p>
+*
+* <ol>
+*  <li>Check if arrays are the same using <code>==</code></li>
+*  <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+*  <li>Check array length, a shorter length array is less than a longer length array</li>
+*  <li>Check array contents element by element using {@link #append(float, float)}</li>
+* </ol>
+*
+* @param lhs  left-hand array
+* @param rhs  right-hand array
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: append
+Description: /*** <p>Appends to the <code>builder</code> the deep comparison of
+* two <code>boolean</code> arrays.</p>
+*
+* <ol>
+*  <li>Check if arrays are the same using <code>==</code></li>
+*  <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+*  <li>Check array length, a shorter length array is less than a longer length array</li>
+*  <li>Check array contents element by element using {@link #append(boolean, boolean)}</li>
+* </ol>
+*
+* @param lhs  left-hand array
+* @param rhs  right-hand array
+* @return this - used to chain append calls
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: toComparison
+Description: /*** Returns a negative integer, a positive integer, or zero as
+* the <code>builder</code> has judged the left-hand side
+* as less than, greater than, or equal to the right-hand
+* side.
+*
+* @return final comparison result
+* @see #build()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompareToBuilder, Method: build
+Description: /*** Returns a negative Integer, a positive Integer, or zero as
+* the <code>builder</code> has judged the left-hand side
+* as less than, greater than, or equal to the right-hand
+* side.
+*
+* @return final comparison result as an Integer
+* @see #toComparison()
+* @since 3.0
+*/"
+

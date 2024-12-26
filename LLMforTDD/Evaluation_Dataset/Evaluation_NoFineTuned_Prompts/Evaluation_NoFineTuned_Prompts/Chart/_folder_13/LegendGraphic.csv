@@ -1,0 +1,395 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: isShapeVisible
+Description: /**
+* Returns a flag that controls whether or not the shape
+* is visible.
+*
+* @return A boolean.
+*
+* @see #setShapeVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setShapeVisible
+Description: /**
+* Sets a flag that controls whether or not the shape is
+* visible.
+*
+* @param visible  the flag.
+*
+* @see #isShapeVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: getShape
+Description: /**
+* Returns the shape.
+*
+* @return The shape.
+*
+* @see #setShape(Shape)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setShape
+Description: /**
+* Sets the shape.
+*
+* @param shape  the shape.
+*
+* @see #getShape()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: isShapeFilled
+Description: /**
+* Returns a flag that controls whether or not the shapes
+* are filled.
+*
+* @return A boolean.
+*
+* @see #setShapeFilled(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setShapeFilled
+Description: /**
+* Sets a flag that controls whether or not the shape is
+* filled.
+*
+* @param filled  the flag.
+*
+* @see #isShapeFilled()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: getFillPaint
+Description: /**
+* Returns the paint used to fill the shape.
+*
+* @return The fill paint.
+*
+* @see #setFillPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setFillPaint
+Description: /**
+* Sets the paint used to fill the shape.
+*
+* @param paint  the paint.
+*
+* @see #getFillPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: getFillPaintTransformer
+Description: /**
+* Returns the transformer used when the fill paint is an instance of
+* <code>GradientPaint</code>.
+*
+* @return The transformer (never <code>null</code>).
+*
+* @since 1.0.4.
+*
+* @see #setFillPaintTransformer(GradientPaintTransformer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setFillPaintTransformer
+Description: /**
+* Sets the transformer used when the fill paint is an instance of
+* <code>GradientPaint</code>.
+*
+* @param transformer  the transformer (<code>null</code> not permitted).
+*
+* @since 1.0.4
+*
+* @see #getFillPaintTransformer()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: isShapeOutlineVisible
+Description: /**
+* Returns a flag that controls whether the shape outline is visible.
+*
+* @return A boolean.
+*
+* @see #setShapeOutlineVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setShapeOutlineVisible
+Description: /**
+* Sets a flag that controls whether or not the shape outline
+* is visible.
+*
+* @param visible  the flag.
+*
+* @see #isShapeOutlineVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: getOutlinePaint
+Description: /**
+* Returns the outline paint.
+*
+* @return The paint.
+*
+* @see #setOutlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setOutlinePaint
+Description: /**
+* Sets the outline paint.
+*
+* @param paint  the paint.
+*
+* @see #getOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: getOutlineStroke
+Description: /**
+* Returns the outline stroke.
+*
+* @return The stroke.
+*
+* @see #setOutlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setOutlineStroke
+Description: /**
+* Sets the outline stroke.
+*
+* @param stroke  the stroke.
+*
+* @see #getOutlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: getShapeAnchor
+Description: /**
+* Returns the shape anchor.
+*
+* @return The shape anchor.
+*
+* @see #getShapeAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setShapeAnchor
+Description: /**
+* Sets the shape anchor.  This defines a point on the shapes bounding
+* rectangle that will be used to align the shape to a location.
+*
+* @param anchor  the anchor (<code>null</code> not permitted).
+*
+* @see #setShapeAnchor(RectangleAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: getShapeLocation
+Description: /**
+* Returns the shape location.
+*
+* @return The shape location.
+*
+* @see #setShapeLocation(RectangleAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setShapeLocation
+Description: /**
+* Sets the shape location.  This defines a point within the drawing
+* area that will be used to align the shape to.
+*
+* @param location  the location (<code>null</code> not permitted).
+*
+* @see #getShapeLocation()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: isLineVisible
+Description: /**
+* Returns the flag that controls whether or not the line is visible.
+*
+* @return A boolean.
+*
+* @see #setLineVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setLineVisible
+Description: /**
+* Sets the flag that controls whether or not the line is visible.
+*
+* @param visible  the flag.
+*
+* @see #isLineVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: getLine
+Description: /**
+* Returns the line centered about (0, 0).
+*
+* @return The line.
+*
+* @see #setLine(Shape)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setLine
+Description: /**
+* Sets the line.  A Shape is used here, because then you can use Line2D,
+* GeneralPath or any other Shape to represent the line.
+*
+* @param line  the line.
+*
+* @see #getLine()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: getLinePaint
+Description: /**
+* Returns the line paint.
+*
+* @return The paint.
+*
+* @see #setLinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setLinePaint
+Description: /**
+* Sets the line paint.
+*
+* @param paint  the paint.
+*
+* @see #getLinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: getLineStroke
+Description: /**
+* Returns the line stroke.
+*
+* @return The stroke.
+*
+* @see #setLineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: setLineStroke
+Description: /**
+* Sets the line stroke.
+*
+* @param stroke  the stroke.
+*
+* @see #getLineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: arrange
+Description: /**
+* Arranges the contents of the block, within the given constraints, and
+* returns the block size.
+*
+* @param g2  the graphics device.
+* @param constraint  the constraint (<code>null</code> not permitted).
+*
+* @return The block size (in Java2D units, never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: draw
+Description: /**
+* Draws the graphic item within the specified area.
+*
+* @param g2  the graphics device.
+* @param area  the area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: draw
+Description: /**
+* Draws the block within the specified area.
+*
+* @param g2  the graphics device.
+* @param area  the area.
+* @param params  ignored (<code>null</code> permitted).
+*
+* @return Always <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: equals
+Description: /**
+* Tests this <code>LegendGraphic</code> instance for equality with an
+* arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendGraphic, Method: clone
+Description: /**
+* Returns a clone of this <code>LegendGraphic</code> instance.
+*
+* @return A clone of this <code>LegendGraphic</code> instance.
+*
+* @throws CloneNotSupportedException if there is a problem cloning.
+*/"
+

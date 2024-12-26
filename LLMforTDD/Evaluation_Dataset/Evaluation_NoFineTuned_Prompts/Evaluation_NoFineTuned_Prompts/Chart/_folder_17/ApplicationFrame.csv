@@ -1,0 +1,68 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ApplicationFrame
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ApplicationFrame, Method: windowClosing
+Description: /**
+* Listens for the main window closing, and shuts down the application.
+*
+* @param event  information about the window event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ApplicationFrame, Method: windowClosed
+Description: /**
+* Required for WindowListener interface, but not used by this class.
+*
+* @param event  information about the window event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ApplicationFrame, Method: windowActivated
+Description: /**
+* Required for WindowListener interface, but not used by this class.
+*
+* @param event  information about the window event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ApplicationFrame, Method: windowDeactivated
+Description: /**
+* Required for WindowListener interface, but not used by this class.
+*
+* @param event  information about the window event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ApplicationFrame, Method: windowDeiconified
+Description: /**
+* Required for WindowListener interface, but not used by this class.
+*
+* @param event  information about the window event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ApplicationFrame, Method: windowIconified
+Description: /**
+* Required for WindowListener interface, but not used by this class.
+*
+* @param event  information about the window event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ApplicationFrame, Method: windowOpened
+Description: /**
+* Required for WindowListener interface, but not used by this class.
+*
+* @param event  information about the window event.
+*/"
+

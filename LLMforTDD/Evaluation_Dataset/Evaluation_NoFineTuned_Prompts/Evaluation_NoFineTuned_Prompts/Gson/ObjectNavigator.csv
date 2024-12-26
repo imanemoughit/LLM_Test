@@ -1,0 +1,20 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectNavigator
+"Method: visitUsingCustomHandler
+Description: /**
+* This is called to visit an object using a custom handler
+*
+* @return true if a custom handler exists, false otherwise
+*/"
+"Method: visitFieldUsingCustomHandler
+Description: /**
+* This is called to visit a field of the current object using a custom
+* handler
+*/"
+"Method: accept
+Description: /**
+* Navigate all the fields of the specified object. If a field is null, it
+* does not get visited.
+*/"

@@ -1,0 +1,755 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: createJFreeTheme
+Description: /**
+* Creates and returns the default 'JFree' chart theme.
+*
+* @return A chart theme.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: createDarknessTheme
+Description: /**
+* Creates and returns a theme called Darkness.  In this theme""", the
+* charts have a black background.
+*
+* @return The Darkness theme.
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: createLegacyTheme
+Description: /**
+* Creates and returns a {@link ChartTheme} that doesn't apply any changes
+* to the JFreeChart defaults.  This produces the legacy look for"""
+* JFreeChart.
+*
+* @return A legacy theme.
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getExtraLargeFont
+Description: /**
+* Returns the largest font for this theme.
+*
+* @return The largest font for this theme.
+*
+* @see #setExtraLargeFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setExtraLargeFont
+Description: /**
+* Sets the largest font for this theme.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getExtraLargeFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getLargeFont
+Description: /**
+* Returns the large font for this theme.
+*
+* @return The large font (never <code>null</code>).
+*
+* @see #setLargeFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setLargeFont
+Description: /**
+* Sets the large font for this theme.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getLargeFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getRegularFont
+Description: /**
+* Returns the regular font.
+*
+* @return The regular font (never <code>null</code>).
+*
+* @see #setRegularFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setRegularFont
+Description: /**
+* Sets the regular font for this theme.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getRegularFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getSmallFont
+Description: /**
+* Returns the small font.
+*
+* @return The small font (never <code>null</code>).
+*
+* @see #setSmallFont(Font)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setSmallFont
+Description: /**
+* Sets the small font for this theme.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getSmallFont()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getTitlePaint
+Description: /**
+* Returns the title paint.
+*
+* @return The title paint (never <code>null</code>).
+*
+* @see #setTitlePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setTitlePaint
+Description: /**
+* Sets the title paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getTitlePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getSubtitlePaint
+Description: /**
+* Returns the subtitle paint.
+*
+* @return The subtitle paint (never <code>null</code>).
+*
+* @see #setSubtitlePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setSubtitlePaint
+Description: /**
+* Sets the subtitle paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getSubtitlePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getChartBackgroundPaint
+Description: /**
+* Returns the chart background paint.
+*
+* @return The chart background paint (never <code>null</code>).
+*
+* @see #setChartBackgroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setChartBackgroundPaint
+Description: /**
+* Sets the chart background paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getChartBackgroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getLegendBackgroundPaint
+Description: /**
+* Returns the legend background paint.
+*
+* @return The legend background paint (never <code>null</code>).
+*
+* @see #setLegendBackgroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setLegendBackgroundPaint
+Description: /**
+* Sets the legend background paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getLegendBackgroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getLegendItemPaint
+Description: /**
+* Returns the legend item paint.
+*
+* @return The legend item paint (never <code>null</code>).
+*
+* @see #setLegendItemPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setLegendItemPaint
+Description: /**
+* Sets the legend item paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getLegendItemPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getPlotBackgroundPaint
+Description: /**
+* Returns the plot background paint.
+*
+* @return The plot background paint (never <code>null</code>).
+*
+* @see #setPlotBackgroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setPlotBackgroundPaint
+Description: /**
+* Sets the plot background paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getPlotBackgroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getPlotOutlinePaint
+Description: /**
+* Returns the plot outline paint.
+*
+* @return The plot outline paint (never <code>null</code>).
+*
+* @see #setPlotOutlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setPlotOutlinePaint
+Description: /**
+* Sets the plot outline paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getPlotOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getLabelLinkStyle
+Description: /**
+* Returns the label link style for pie charts.
+*
+* @return The label link style (never <code>null</code>).
+*
+* @see #setLabelLinkStyle(PieLabelLinkStyle)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setLabelLinkStyle
+Description: /**
+* Sets the label link style for pie charts.
+*
+* @param style  the style (<code>null</code> not permitted).
+*
+* @see #getLabelLinkStyle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getLabelLinkPaint
+Description: /**
+* Returns the label link paint for pie charts.
+*
+* @return The label link paint (never <code>null</code>).
+*
+* @see #setLabelLinkPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setLabelLinkPaint
+Description: /**
+* Sets the label link paint for pie charts.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getLabelLinkPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getDomainGridlinePaint
+Description: /**
+* Returns the domain grid line paint.
+*
+* @return The domain grid line paint (never <code>null<code>).
+*
+* @see #setDomainGridlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setDomainGridlinePaint
+Description: /**
+* Sets the domain grid line paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getDomainGridlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getRangeGridlinePaint
+Description: /**
+* Returns the range grid line paint.
+*
+* @return The range grid line paint (never <code>null</code>).
+*
+* @see #setRangeGridlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setRangeGridlinePaint
+Description: /**
+* Sets the range grid line paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getRangeGridlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getBaselinePaint
+Description: /**
+* Returns the baseline paint.
+*
+* @return The baseline paint.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setBaselinePaint
+Description: /**
+* Sets the baseline paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getCrosshairPaint
+Description: /**
+* Returns the crosshair paint.
+*
+* @return The crosshair paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setCrosshairPaint
+Description: /**
+* Sets the crosshair paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getAxisOffset
+Description: /**
+* Returns the axis offsets.
+*
+* @return The axis offsets (never <code>null</code>).
+*
+* @see #setAxisOffset(RectangleInsets)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setAxisOffset
+Description: /**
+* Sets the axis offset.
+*
+* @param offset  the offset (<code>null</code> not permitted).
+*
+* @see #getAxisOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getAxisLabelPaint
+Description: /**
+* Returns the axis label paint.
+*
+* @return The axis label paint (never <code>null</code>).
+*
+* @see #setAxisLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setAxisLabelPaint
+Description: /**
+* Sets the axis label paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getAxisLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getTickLabelPaint
+Description: /**
+* Returns the tick label paint.
+*
+* @return The tick label paint (never <code>null</code>).
+*
+* @see #setTickLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setTickLabelPaint
+Description: /**
+* Sets the tick label paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getTickLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getItemLabelPaint
+Description: /**
+* Returns the item label paint.
+*
+* @return The item label paint (never <code>null</code>).
+*
+* @see #setItemLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setItemLabelPaint
+Description: /**
+* Sets the item label paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getItemLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: isShadowVisible
+Description: /**
+* Returns the shadow visibility flag.
+*
+* @return The shadow visibility flag.
+*
+* @see #setShadowVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setShadowVisible
+Description: /**
+* Sets the shadow visibility flag.
+*
+* @param visible  the flag.
+*
+* @see #isShadowVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getShadowPaint
+Description: /**
+* Returns the shadow paint.
+*
+* @return The shadow paint (never <code>null</code>).
+*
+* @see #setShadowPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setShadowPaint
+Description: /**
+* Sets the shadow paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getShadowPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getBarPainter
+Description: /**
+* Returns the bar painter.
+*
+* @return The bar painter (never <code>null</code>).
+*
+* @see #setBarPainter(BarPainter)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setBarPainter
+Description: /**
+* Sets the bar painter.
+*
+* @param painter  the painter (<code>null</code> not permitted).
+*
+* @see #getBarPainter()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getXYBarPainter
+Description: /**
+* Returns the XY bar painter.
+*
+* @return The XY bar painter (never <code>null</code>).
+*
+* @see #setXYBarPainter(XYBarPainter)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setXYBarPainter
+Description: /**
+* Sets the XY bar painter.
+*
+* @param painter  the painter (<code>null</code> not permitted).
+*
+* @see #getXYBarPainter()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getThermometerPaint
+Description: /**
+* Returns the thermometer paint.
+*
+* @return The thermometer paint (never <code>null</code>).
+*
+* @see #setThermometerPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setThermometerPaint
+Description: /**
+* Sets the thermometer paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getThermometerPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getWallPaint
+Description: /**
+* Returns the wall paint for charts with a 3D effect.
+*
+* @return The wall paint (never <code>null</code>).
+*
+* @see #setWallPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setWallPaint
+Description: /**
+* Sets the wall paint for charts with a 3D effect.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getWallPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getErrorIndicatorPaint
+Description: /**
+* Returns the error indicator paint.
+*
+* @return The error indicator paint (never <code>null</code>).
+*
+* @see #setErrorIndicatorPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setErrorIndicatorPaint
+Description: /**
+* Sets the error indicator paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getErrorIndicatorPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getGridBandPaint
+Description: /**
+* Returns the grid band paint.
+*
+* @return The grid band paint (never <code>null</code>).
+*
+* @see #setGridBandPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setGridBandPaint
+Description: /**
+* Sets the grid band paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getGridBandPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getGridBandAlternatePaint
+Description: /**
+* Returns the grid band alternate paint (used for a {@link SymbolAxis}).
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setGridBandAlternatePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setGridBandAlternatePaint
+Description: /**
+* Sets the grid band alternate paint (used for a {@link SymbolAxis}).
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getGridBandAlternatePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getName
+Description: /**
+* Returns the name of this theme.
+*
+* @return The name of this theme.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: getDrawingSupplier
+Description: /**
+* Returns a clone of the drawing supplier for this theme.
+*
+* @return A clone of the drawing supplier.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: setDrawingSupplier
+Description: /**
+* Sets the drawing supplier for this theme.
+*
+* @param supplier  the supplier (<code>null</code> not permitted).
+*
+* @see #getDrawingSupplier()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: apply
+Description: /**
+* Applies this theme to the supplied chart.
+*
+* @param chart  the chart (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: equals
+Description: /**
+* Tests this theme for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardChartTheme, Method: clone
+Description: /**
+* Returns a clone of this theme.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if the theme cannot be cloned.
+*/"
+

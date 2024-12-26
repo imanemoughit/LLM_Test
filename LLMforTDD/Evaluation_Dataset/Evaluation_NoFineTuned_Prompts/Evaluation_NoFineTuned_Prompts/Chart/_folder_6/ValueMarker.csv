@@ -1,0 +1,49 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ValueMarker
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ValueMarker, Method: getValue
+Description: /**
+* Returns the value.
+*
+* @return The value.
+*
+* @see #setValue(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ValueMarker, Method: setValue
+Description: /**
+* Sets the value for the marker and sends a {@link MarkerChangeEvent} to
+* all registered listeners.
+*
+* @param value  the value.
+*
+* @see #getValue()
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ValueMarker, Method: equals
+Description: /**
+* Tests this marker for equality with an arbitrary object.  This method
+* returns <code>true</code> if:
+*
+* <ul>
+* <li><code>obj</code> is not <code>null</code>;</li>
+* <li><code>obj</code> is an instance of <code>ValueMarker</code>;</li>
+* <li><code>obj</code> has the same value as this marker;</li>
+* <li><code>super.equals(obj)</code> returns <code>true</code>.</li>
+* </ul>
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

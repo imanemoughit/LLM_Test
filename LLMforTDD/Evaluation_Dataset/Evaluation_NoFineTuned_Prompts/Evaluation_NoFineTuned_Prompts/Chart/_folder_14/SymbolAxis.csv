@@ -1,0 +1,149 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis, Method: getSymbols
+Description: /**
+* Returns an array of the symbols for the axis.
+*
+* @return The symbols.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis, Method: isGridBandsVisible
+Description: /**
+* Returns <code>true</code> if the grid bands are showing, and
+* <code>false</code> otherwise.
+*
+* @return <code>true</code> if the grid bands are showing, and
+*         <code>false</code> otherwise.
+*
+* @see #setGridBandsVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis, Method: setGridBandsVisible
+Description: /**
+* Sets the visibility of the grid bands and notifies registered
+* listeners that the axis has been modified.
+*
+* @param flag  the new setting.
+*
+* @see #isGridBandsVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis, Method: getGridBandPaint
+Description: /**
+* Returns the paint used to color the grid bands.
+*
+* @return The grid band paint (never <code>null</code>).
+*
+* @see #setGridBandPaint(Paint)
+* @see #isGridBandsVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis, Method: setGridBandPaint
+Description: /**
+* Sets the grid band paint and sends an {@link AxisChangeEvent} to
+* all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getGridBandPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis, Method: getGridBandAlternatePaint
+Description: /**
+* Returns the paint used for alternate grid bands.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setGridBandAlternatePaint(Paint)
+* @see #getGridBandPaint()
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis, Method: setGridBandAlternatePaint
+Description: /**
+* Sets the paint used for alternate grid bands and sends a
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getGridBandAlternatePaint()
+* @see #setGridBandPaint(Paint)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis, Method: draw
+Description: /**
+* Draws the axis on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param cursor  the cursor location.
+* @param plotArea  the area within which the plot and axes should be drawn
+*                  (<code>null</code> not permitted).
+* @param dataArea  the area within which the data should be drawn
+*                  (<code>null</code> not permitted).
+* @param edge  the axis location (<code>null</code> not permitted).
+* @param plotState  collects information about the plot
+*                   (<code>null</code> permitted).
+*
+* @return The axis state (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis, Method: refreshTicks
+Description: /**
+* Calculates the positions of the tick labels for the axis, storing the
+* results in the tick label list (ready for drawing).
+*
+* @param g2  the graphics device.
+* @param state  the axis state.
+* @param dataArea  the area in which the data should be drawn.
+* @param edge  the location of the axis.
+*
+* @return A list of ticks.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis, Method: valueToString
+Description: /**
+* Converts a value to a string, using the list of symbols.
+*
+* @param value  value to convert.
+*
+* @return The symbol.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SymbolAxis, Method: equals
+Description: /**
+* Tests this axis for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

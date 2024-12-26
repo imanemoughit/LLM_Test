@@ -1,0 +1,184 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: isDrawLines
+Description: /**
+* Gets whether or not lines are drawn between category points.
+*
+* @return boolean true if line will be drawn between sequenced categories,
+*         otherwise false.
+*
+* @see #setDrawLines(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: setDrawLines
+Description: /**
+* Sets the flag that controls whether or not lines are drawn to connect
+* the items within a series and sends a {@link RendererChangeEvent} to
+* all registered listeners.
+*
+* @param draw  the new value of the flag.
+*
+* @see #isDrawLines()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: getGroupPaint
+Description: /**
+* Returns the paint used to draw the line between the minimum and maximum
+* value items in each category.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setGroupPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: setGroupPaint
+Description: /**
+* Sets the paint used to draw the line between the minimum and maximum
+* value items in each category and sends a {@link RendererChangeEvent} to
+* all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getGroupPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: getGroupStroke
+Description: /**
+* Returns the stroke used to draw the line between the minimum and maximum
+* value items in each category.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setGroupStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: setGroupStroke
+Description: /**
+* Sets the stroke of the line between the minimum value and the maximum
+* value and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param stroke the new stroke (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: getObjectIcon
+Description: /**
+* Returns the icon drawn for each data item.
+*
+* @return The icon (never <code>null</code>).
+*
+* @see #setObjectIcon(Icon)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: setObjectIcon
+Description: /**
+* Sets the icon drawn for each data item and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param icon  the icon.
+*
+* @see #getObjectIcon()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: getMaxIcon
+Description: /**
+* Returns the icon displayed for the maximum value data item within each
+* category.
+*
+* @return The icon (never <code>null</code>).
+*
+* @see #setMaxIcon(Icon)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: setMaxIcon
+Description: /**
+* Sets the icon displayed for the maximum value data item within each
+* category and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param icon  the icon (<code>null</code> not permitted).
+*
+* @see #getMaxIcon()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: getMinIcon
+Description: /**
+* Returns the icon displayed for the minimum value data item within each
+* category.
+*
+* @return The icon (never <code>null</code>).
+*
+* @see #setMinIcon(Icon)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: setMinIcon
+Description: /**
+* Sets the icon displayed for the minimum value data item within each
+* category and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param icon  the icon (<code>null</code> not permitted).
+*
+* @see #getMinIcon()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: drawItem
+Description: /**
+* Draw a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area in which the data is drawn.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MinMaxCategoryRenderer, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.  The icon
+* fields are NOT included in the test, so this implementation is a little
+* weak.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*
+* @since 1.0.7
+*/"
+

@@ -1,0 +1,74 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LCBLayout
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LCBLayout, Method: preferredLayoutSize
+Description: /**
+* Returns the preferred size using this layout manager.
+*
+* @param parent  the parent.
+*
+* @return the preferred size using this layout manager.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LCBLayout, Method: minimumLayoutSize
+Description: /**
+* Returns the minimum size using this layout manager.
+*
+* @param parent  the parent.
+*
+* @return the minimum size using this layout manager.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LCBLayout, Method: layoutContainer
+Description: /**
+* Lays out the components.
+*
+* @param parent  the parent.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LCBLayout, Method: addLayoutComponent
+Description: /**
+* Not used.
+*
+* @param comp  the component.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LCBLayout, Method: removeLayoutComponent
+Description: /**
+* Not used.
+*
+* @param comp  the component.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LCBLayout, Method: addLayoutComponent
+Description: /**
+* Not used.
+*
+* @param name  the component name.
+* @param comp  the component.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LCBLayout, Method: removeLayoutComponent
+Description: /**
+* Not used.
+*
+* @param name  the component name.
+* @param comp  the component.
+*/"
+

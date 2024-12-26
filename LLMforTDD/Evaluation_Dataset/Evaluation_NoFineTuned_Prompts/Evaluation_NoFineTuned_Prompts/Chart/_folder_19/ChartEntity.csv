@@ -1,0 +1,146 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: getArea
+Description: /**
+* Returns the area occupied by the entity (in Java 2D space).
+*
+* @return The area (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: setArea
+Description: /**
+* Sets the area for the entity.
+* <P>
+* This class conveys information about chart entities back to a client.
+* Setting this area doesn't change the entity (which has already been
+* drawn).
+*
+* @param area  the area (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: getToolTipText
+Description: /**
+* Returns the tool tip text for the entity.  Be aware that this text
+* may have been generated from user supplied data, so for security
+* reasons some form of filtering should be applied before incorporating
+* this text into any HTML output.
+*
+* @return The tool tip text (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: setToolTipText
+Description: /**
+* Sets the tool tip text.
+*
+* @param text  the text (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: getURLText
+Description: /**
+* Returns the URL text for the entity.  Be aware that this text
+* may have been generated from user supplied data, so some form of
+* filtering should be applied before this URL is used in any output."""
+*
+* @return The URL text (possibly <code>null</code>).
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: setURLText
+Description: /**
+* Sets the URL text.
+*
+* @param text the text (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: getShapeType
+Description: /**
+* Returns a string describing the entity area.  This string is intended
+* for use in an AREA tag when generating an image map.
+*
+* @return The shape type (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: getShapeCoords
+Description: /**
+* Returns the shape coordinates as a string.
+*
+* @return The shape coordinates (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: getImageMapAreaTag
+Description: /**
+* Returns an HTML image map tag for this entity.  The returned fragment
+* should be <code>XHTML 1.0</code> compliant.
+*
+* @param toolTipTagFragmentGenerator  a generator for the HTML fragment
+*     that will contain the tooltip text (<code>null</code> not permitted
+*     if this entity contains tooltip information).
+* @param urlTagFragmentGenerator  a generator for the HTML fragment that
+*     will contain the URL reference (<code>null</code> not permitted if
+*     this entity has a URL).
+*
+* @return The HTML tag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: toString
+Description: /**
+* Returns a string representation of the chart entity, useful for
+* debugging.
+*
+* @return A string.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: equals
+Description: /**
+* Tests the entity for equality with an arbitrary object.
+*
+* @param obj  the object to test against (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEntity, Method: clone
+Description: /**
+* Returns a clone of the entity.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if there is a problem cloning the
+*         entity.
+*/"
+

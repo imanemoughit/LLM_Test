@@ -1,0 +1,87 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogFormat
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogFormat, Method: getExponentFormat
+Description: /**
+* Returns the number format used for the exponent.
+*
+* @return The number format (never <code>null</code>).
+*
+* @since 1.0.13.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogFormat, Method: setExponentFormat
+Description: /**
+* Sets the number format used for the exponent.
+*
+* @param format  the formatter (<code>null</code> not permitted).
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogFormat, Method: format
+Description: /**
+* Returns a formatted representation of the specified number.
+*
+* @param number  the number.
+* @param toAppendTo  the string buffer to append to.
+* @param pos  the position.
+*
+* @return A string buffer containing the formatted value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogFormat, Method: format
+Description: /**
+* Formats the specified number as a hexadecimal string.  The decimal
+* fraction is ignored.
+*
+* @param number  the number to format.
+* @param toAppendTo  the buffer to append to (ignored here).
+* @param pos  the field position (ignored here).
+*
+* @return The string buffer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogFormat, Method: parse
+Description: /**
+* Parsing is not implemented, so this method always returns
+* <code>null</code>.
+*
+* @param source  ignored.
+* @param parsePosition  ignored.
+*
+* @return Always <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogFormat, Method: equals
+Description: /**
+* Tests this formatter for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogFormat, Method: clone
+Description: /**
+* Returns a clone of this instance.
+*
+* @return A clone.
+*/"
+

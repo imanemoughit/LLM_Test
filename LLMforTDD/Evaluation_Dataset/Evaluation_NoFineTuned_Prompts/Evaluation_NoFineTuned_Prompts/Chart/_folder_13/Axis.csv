@@ -1,0 +1,761 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: isVisible
+Description: /**
+* Returns <code>true</code> if the axis is visible, and
+* <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @see #setVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setVisible
+Description: /**
+* Sets a flag that controls whether or not the axis is visible and sends
+* an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #isVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getLabel
+Description: /**
+* Returns the label for the axis.
+*
+* @return The label for the axis (<code>null</code> possible).
+*
+* @see #getLabelFont()
+* @see #getLabelPaint()
+* @see #setLabel(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setLabel
+Description: /**
+* Sets the label for the axis and sends an {@link AxisChangeEvent} to all
+* registered listeners.
+*
+* @param label  the new label (<code>null</code> permitted).
+*
+* @see #getLabel()
+* @see #setLabelFont(Font)
+* @see #setLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getLabelFont
+Description: /**
+* Returns the font for the axis label.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setLabelFont
+Description: /**
+* Sets the font for the axis label and sends an {@link AxisChangeEvent}
+* to all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getLabelPaint
+Description: /**
+* Returns the color/shade used to draw the axis label.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setLabelPaint
+Description: /**
+* Sets the paint used to draw the axis label and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getLabelInsets
+Description: /**
+* Returns the insets for the label (that is, the amount of blank space
+* that should be left around the label).
+*
+* @return The label insets (never <code>null</code>).
+*
+* @see #setLabelInsets(RectangleInsets)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setLabelInsets
+Description: /**
+* Sets the insets for the axis label, and sends an {@link AxisChangeEvent}
+* to all registered listeners.
+*
+* @param insets  the insets (<code>null</code> not permitted).
+*
+* @see #getLabelInsets()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setLabelInsets
+Description: /**
+* Sets the insets for the axis label, and sends an {@link AxisChangeEvent}
+* to all registered listeners.
+*
+* @param insets  the insets (<code>null</code> not permitted).
+* @param notify  notify listeners?
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getLabelAngle
+Description: /**
+* Returns the angle of the axis label.
+*
+* @return The angle (in radians).
+*
+* @see #setLabelAngle(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setLabelAngle
+Description: /**
+* Sets the angle for the label and sends an {@link AxisChangeEvent} to all
+* registered listeners.
+*
+* @param angle  the angle (in radians).
+*
+* @see #getLabelAngle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getLabelToolTip
+Description: /**
+* Returns the tool tip text for the axis label.
+*
+* @return The tool tip text (possibly <code>null</code>).
+*
+* @see #setLabelToolTip(String)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setLabelToolTip
+Description: /**
+* Sets the tool tip text for the axis label and sends a .
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param text  the tool tip text (<code>null</code> permitted).
+*
+* @see #getLabelToolTip()
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getLabelURL
+Description: /**
+* Returns the URL text for the axis label.
+*
+* @return The URL (possibly <code>null</code>).
+*
+* @see #setLabelURL(String)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setLabelURL
+Description: /**
+* Sets the URL for the axis label and sends an {@link AxisChangeEvent} to
+* all registered listeners.
+*
+* @param url  the URL (<code>null</code> permitted).
+*
+* @see #getLabelURL()
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: isAxisLineVisible
+Description: /**
+* A flag that controls whether or not the axis line is drawn.
+*
+* @return A boolean.
+*
+* @see #getAxisLinePaint()
+* @see #getAxisLineStroke()
+* @see #setAxisLineVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setAxisLineVisible
+Description: /**
+* Sets a flag that controls whether or not the axis line is visible and
+* sends an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param visible  the flag.
+*
+* @see #isAxisLineVisible()
+* @see #setAxisLinePaint(Paint)
+* @see #setAxisLineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getAxisLinePaint
+Description: /**
+* Returns the paint used to draw the axis line.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setAxisLinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setAxisLinePaint
+Description: /**
+* Sets the paint used to draw the axis line and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getAxisLinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getAxisLineStroke
+Description: /**
+* Returns the stroke used to draw the axis line.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setAxisLineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setAxisLineStroke
+Description: /**
+* Sets the stroke used to draw the axis line and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getAxisLineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: isTickLabelsVisible
+Description: /**
+* Returns a flag indicating whether or not the tick labels are visible.
+*
+* @return The flag.
+*
+* @see #getTickLabelFont()
+* @see #getTickLabelPaint()
+* @see #setTickLabelsVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setTickLabelsVisible
+Description: /**
+* Sets the flag that determines whether or not the tick labels are
+* visible and sends an {@link AxisChangeEvent} to all registered
+* listeners.
+*
+* @param flag  the flag.
+*
+* @see #isTickLabelsVisible()
+* @see #setTickLabelFont(Font)
+* @see #setTickLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: isMinorTickMarksVisible
+Description: /**
+* Returns the flag that indicates whether or not the minor tick marks are
+* showing.
+*
+* @return The flag that indicates whether or not the minor tick marks are
+*         showing.
+*
+* @see #setMinorTickMarksVisible(boolean)
+*
+* @since 1.0.12
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setMinorTickMarksVisible
+Description: /**
+* Sets the flag that indicates whether or not the minor tick marks are
+* showing and sends an {@link AxisChangeEvent} to all registered
+* listeners.
+*
+* @param flag  the flag.
+*
+* @see #isMinorTickMarksVisible()
+*
+* @since 1.0.12
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getTickLabelFont
+Description: /**
+* Returns the font used for the tick labels (if showing).
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setTickLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setTickLabelFont
+Description: /**
+* Sets the font for the tick labels and sends an {@link AxisChangeEvent}
+* to all registered listeners.
+*
+* @param font  the font (<code>null</code> not allowed).
+*
+* @see #getTickLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getTickLabelPaint
+Description: /**
+* Returns the color/shade used for the tick labels.
+*
+* @return The paint used for the tick labels.
+*
+* @see #setTickLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setTickLabelPaint
+Description: /**
+* Sets the paint used to draw tick labels (if they are showing) and
+* sends an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getTickLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getTickLabelInsets
+Description: /**
+* Returns the insets for the tick labels.
+*
+* @return The insets (never <code>null</code>).
+*
+* @see #setTickLabelInsets(RectangleInsets)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setTickLabelInsets
+Description: /**
+* Sets the insets for the tick labels and sends an {@link AxisChangeEvent}
+* to all registered listeners.
+*
+* @param insets  the insets (<code>null</code> not permitted).
+*
+* @see #getTickLabelInsets()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: isTickMarksVisible
+Description: /**
+* Returns the flag that indicates whether or not the tick marks are
+* showing.
+*
+* @return The flag that indicates whether or not the tick marks are
+*         showing.
+*
+* @see #setTickMarksVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setTickMarksVisible
+Description: /**
+* Sets the flag that indicates whether or not the tick marks are showing
+* and sends an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #isTickMarksVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getTickMarkInsideLength
+Description: /**
+* Returns the inside length of the tick marks.
+*
+* @return The length.
+*
+* @see #getTickMarkOutsideLength()
+* @see #setTickMarkInsideLength(float)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setTickMarkInsideLength
+Description: /**
+* Sets the inside length of the tick marks and sends
+* an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param length  the new length.
+*
+* @see #getTickMarkInsideLength()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getTickMarkOutsideLength
+Description: /**
+* Returns the outside length of the tick marks.
+*
+* @return The length.
+*
+* @see #getTickMarkInsideLength()
+* @see #setTickMarkOutsideLength(float)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setTickMarkOutsideLength
+Description: /**
+* Sets the outside length of the tick marks and sends
+* an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param length  the new length.
+*
+* @see #getTickMarkInsideLength()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getTickMarkStroke
+Description: /**
+* Returns the stroke used to draw tick marks.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setTickMarkStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setTickMarkStroke
+Description: /**
+* Sets the stroke used to draw tick marks and sends
+* an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getTickMarkStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getTickMarkPaint
+Description: /**
+* Returns the paint used to draw tick marks (if they are showing).
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setTickMarkPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setTickMarkPaint
+Description: /**
+* Sets the paint used to draw tick marks and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getTickMarkPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getMinorTickMarkInsideLength
+Description: /**
+* Returns the inside length of the minor tick marks.
+*
+* @return The length.
+*
+* @see #getMinorTickMarkOutsideLength()
+* @see #setMinorTickMarkInsideLength(float)
+*
+* @since 1.0.12
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setMinorTickMarkInsideLength
+Description: /**
+* Sets the inside length of the minor tick marks and sends
+* an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param length  the new length.
+*
+* @see #getMinorTickMarkInsideLength()
+*
+* @since 1.0.12
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getMinorTickMarkOutsideLength
+Description: /**
+* Returns the outside length of the minor tick marks.
+*
+* @return The length.
+*
+* @see #getMinorTickMarkInsideLength()
+* @see #setMinorTickMarkOutsideLength(float)
+*
+* @since 1.0.12
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setMinorTickMarkOutsideLength
+Description: /**
+* Sets the outside length of the minor tick marks and sends
+* an {@link AxisChangeEvent} to all registered listeners.
+*
+* @param length  the new length.
+*
+* @see #getMinorTickMarkInsideLength()
+*
+* @since 1.0.12
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getPlot
+Description: /**
+* Returns the plot that the axis is assigned to.  This method will return
+* <code>null</code> if the axis is not currently assigned to a plot.
+*
+* @return The plot that the axis is assigned to (possibly
+*         <code>null</code>).
+*
+* @see #setPlot(Plot)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setPlot
+Description: /**
+* Sets a reference to the plot that the axis is assigned to.
+* <P>
+* This method is used internally, you shouldn't need to call it yourself.
+*
+* @param plot  the plot.
+*
+* @see #getPlot()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: getFixedDimension
+Description: /**
+* Returns the fixed dimension for the axis.
+*
+* @return The fixed dimension.
+*
+* @see #setFixedDimension(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: setFixedDimension
+Description: /**
+* Sets the fixed dimension for the axis.
+* <P>
+* This is used when combining more than one plot on a chart.  In this case,
+* there may be several axes that need to have the same height or width so
+* that they are aligned.  This method is used to fix a dimension for the
+* axis (the context determines whether the dimension is horizontal or
+* vertical).
+*
+* @param dimension  the fixed dimension.
+*
+* @see #getFixedDimension()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: configure
+Description: /**
+* Configures the axis to work with the current plot.  Override this method
+* to perform any special processing (such as auto-rescaling).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: reserveSpace
+Description: /**
+* Estimates the space (height or width) required to draw the axis.
+*
+* @param g2  the graphics device.
+* @param plot  the plot that the axis belongs to.
+* @param plotArea  the area within which the plot (including axes) should
+*                  be drawn.
+* @param edge  the axis location.
+* @param space  space already reserved.
+*
+* @return The space required to draw the axis (including pre-reserved
+*         space).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: draw
+Description: /**
+* Draws the axis on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param cursor  the cursor location (determines where to draw the axis).
+* @param plotArea  the area within which the axes and plot should be drawn.
+* @param dataArea  the area within which the data should be drawn.
+* @param edge  the axis location (<code>null</code> not permitted).
+* @param plotState  collects information about the plot
+*                   (<code>null</code> permitted).
+*
+* @return The axis state (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: refreshTicks
+Description: /**
+* Calculates the positions of the ticks for the axis, storing the results
+* in the tick list (ready for drawing).
+*
+* @param g2  the graphics device.
+* @param state  the axis state.
+* @param dataArea  the area inside the axes.
+* @param edge  the edge on which the axis is located.
+*
+* @return The list of ticks.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: addChangeListener
+Description: /**
+* Registers an object for notification of changes to the axis.
+*
+* @param listener  the object that is being registered.
+*
+* @see #removeChangeListener(AxisChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: removeChangeListener
+Description: /**
+* Deregisters an object for notification of changes to the axis.
+*
+* @param listener  the object to deregister.
+*
+* @see #addChangeListener(AxisChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: hasListener
+Description: /**
+* Returns <code>true</code> if the specified object is registered with
+* the dataset as a listener.  Most applications won't need to call this
+* method, it exists mainly for use by unit testing code.
+*
+* @param listener  the listener.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: clone
+Description: /**
+* Returns a clone of the axis.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if some component of the axis does
+*         not support cloning.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Axis, Method: equals
+Description: /**
+* Tests this axis for equality with another object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+

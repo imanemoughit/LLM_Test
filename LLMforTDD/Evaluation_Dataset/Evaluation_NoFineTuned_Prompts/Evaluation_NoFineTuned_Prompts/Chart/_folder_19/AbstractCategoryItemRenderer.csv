@@ -1,0 +1,904 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getPassCount
+Description: /**
+* Returns the number of passes through the dataset required by the
+* renderer.  This method returns <code>1</code>, subclasses should
+* override if they need more passes.
+*
+* @return The pass count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getPlot
+Description: /**
+* Returns the plot that the renderer has been assigned to (where
+* <code>null</code> indicates that the renderer is not currently assigned
+* to a plot).
+*
+* @return The plot (possibly <code>null</code>).
+*
+* @see #setPlot(CategoryPlot)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setPlot
+Description: /**
+* Sets the plot that the renderer has been assigned to.  This method is
+* usually called by the {@link CategoryPlot}, in normal usage you
+* shouldn't need to call this method directly.
+*
+* @param plot  the plot (<code>null</code> not permitted).
+*
+* @see #getPlot()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getItemLabelGenerator
+Description: /**
+* Returns the item label generator for a data item.  This implementation
+* returns the series item label generator if one is defined, otherwise
+* it returns the default item label generator (which may be
+* <code>null</code>).
+*
+* @param row  the row index (zero based).
+* @param column  the column index (zero based).
+* @param selected  is the item selected?
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getSeriesItemLabelGenerator
+Description: /**
+* Returns the item label generator for a series.
+*
+* @param series  the series index (zero based).
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @see #setSeriesItemLabelGenerator(int, CategoryItemLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setSeriesItemLabelGenerator
+Description: /**
+* Sets the item label generator for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero based).
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getSeriesItemLabelGenerator(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setSeriesItemLabelGenerator
+Description: /**
+* Sets the item label generator for a series and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero based).
+* @param generator  the generator (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @since 1.2.0
+*
+* @see #getSeriesItemLabelGenerator(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getBaseItemLabelGenerator
+Description: /**
+* Returns the base item label generator.
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @see #setBaseItemLabelGenerator(CategoryItemLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setBaseItemLabelGenerator
+Description: /**
+* Sets the base item label generator and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getBaseItemLabelGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setBaseItemLabelGenerator
+Description: /**
+* Sets the base item label generator and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @since 1.2.0
+*
+* @see #getBaseItemLabelGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getToolTipGenerator
+Description: /**
+* Returns the tool tip generator that should be used for the specified
+* item.  You can override this method if you want to return a different
+* generator per item.
+*
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param selected  is the item selected?
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getSeriesToolTipGenerator
+Description: /**
+* Returns the tool tip generator for the specified series (a layer 1"""
+* generator).
+*
+* @param series  the series index (zero-based).
+*
+* @return The tool tip generator (possibly <code>null</code>).
+*
+* @see #setSeriesToolTipGenerator(int, CategoryToolTipGenerator)
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setSeriesToolTipGenerator
+Description: /**
+* Sets the tool tip generator for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getSeriesToolTipGenerator(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setSeriesToolTipGenerator
+Description: /**
+* Sets the tool tip generator for a series and sends a
+* {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param series  the series index (zero-based).
+* @param generator  the generator (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @since 1.2.0
+*
+* @see #getSeriesToolTipGenerator(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getBaseToolTipGenerator
+Description: /**
+* Returns the base tool tip generator (the layer 2 generator)."""
+*
+* @return The tool tip generator (possibly <code>null</code>).
+*
+* @see #setBaseToolTipGenerator(CategoryToolTipGenerator)
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setBaseToolTipGenerator
+Description: /**
+* Sets the base tool tip generator and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getBaseToolTipGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setBaseToolTipGenerator
+Description: /**
+* Sets the base tool tip generator and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @since 1.2.0
+*
+* @see #getBaseToolTipGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getURLGenerator
+Description: /**
+* Returns the URL generator for a data item.
+*
+* @param row  the row index (zero based).
+* @param column  the column index (zero based).
+* @param selected  is the item selected?
+*
+* @return The URL generator.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getSeriesURLGenerator
+Description: /**
+* Returns the URL generator for a series.
+*
+* @param series  the series index (zero based).
+*
+* @return The URL generator for the series.
+*
+* @see #setSeriesURLGenerator(int, CategoryURLGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setSeriesURLGenerator
+Description: /**
+* Sets the URL generator for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero based).
+* @param generator  the generator.
+*
+* @see #getSeriesURLGenerator(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setSeriesURLGenerator
+Description: /**
+* Sets the URL generator for a series and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero based).
+* @param generator  the generator (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @since 1.2.0
+*
+* @see #getSeriesURLGenerator(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getBaseURLGenerator
+Description: /**
+* Returns the base item URL generator.
+*
+* @return The item URL generator.
+*
+* @see #setBaseURLGenerator(CategoryURLGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setBaseURLGenerator
+Description: /**
+* Sets the base item URL generator.
+*
+* @param generator  the item URL generator.
+*
+* @see #getBaseURLGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setBaseURLGenerator
+Description: /**
+* Sets the base item URL generator.
+*
+* @param generator  the item URL generator (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getBaseURLGenerator()
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: addAnnotation
+Description: /**
+* Adds an annotation and sends a {@link RendererChangeEvent} to all
+* registered listeners.  The annotation is added to the foreground
+* layer.
+*
+* @param annotation  the annotation (<code>null</code> not permitted).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: addAnnotation
+Description: /**
+* Adds an annotation to the specified layer.
+*
+* @param annotation  the annotation (<code>null</code> not permitted).
+* @param layer  the layer (<code>null</code> not permitted).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: removeAnnotation
+Description: /**
+* Removes the specified annotation and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param annotation  the annotation to remove (<code>null</code> not
+*                    permitted).
+*
+* @return A boolean to indicate whether or not the annotation was
+*         successfully removed.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: removeAnnotations
+Description: /**
+* Removes all annotations and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getLegendItemLabelGenerator
+Description: /**
+* Returns the legend item label generator.
+*
+* @return The label generator (never <code>null</code>).
+*
+* @see #setLegendItemLabelGenerator(CategorySeriesLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setLegendItemLabelGenerator
+Description: /**
+* Sets the legend item label generator and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> not permitted).
+*
+* @see #getLegendItemLabelGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getLegendItemToolTipGenerator
+Description: /**
+* Returns the legend item tool tip generator.
+*
+* @return The tool tip generator (possibly <code>null</code>).
+*
+* @see #setLegendItemToolTipGenerator(CategorySeriesLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setLegendItemToolTipGenerator
+Description: /**
+* Sets the legend item tool tip generator and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #setLegendItemToolTipGenerator(CategorySeriesLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getLegendItemURLGenerator
+Description: /**
+* Returns the legend item URL generator.
+*
+* @return The URL generator (possibly <code>null</code>).
+*
+* @see #setLegendItemURLGenerator(CategorySeriesLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: setLegendItemURLGenerator
+Description: /**
+* Sets the legend item URL generator and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getLegendItemURLGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getRowCount
+Description: /**
+* Returns the number of rows in the dataset.  This value is updated in the
+* {@link AbstractCategoryItemRenderer#initialise} method.
+*
+* @return The row count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getColumnCount
+Description: /**
+* Returns the number of columns in the dataset.  This value is updated in
+* the {@link AbstractCategoryItemRenderer#initialise} method.
+*
+* @return The column count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: initialise
+Description: /**
+* Initialises the renderer and returns a state object that will be used
+* for the remainder of the drawing process for a single chart.  The state
+* object allows for the fact that the renderer may be used simultaneously
+* by multiple threads (each thread will work with a separate state object).
+*
+* @param g2  the graphics device.
+* @param dataArea  the data area.
+* @param plot  the plot.
+* @param info  an object for returning information about the structure of
+*              the plot (<code>null</code> permitted).
+*
+* @return The renderer state.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (or <code>null</code> if the dataset is
+*         <code>null</code> or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getItemMiddle
+Description: /**
+* Returns the Java2D coordinate for the middle of the specified data item.
+*
+* @param rowKey  the row key.
+* @param columnKey  the column key.
+* @param dataset  the dataset.
+* @param axis  the axis.
+* @param area  the data area.
+* @param edge  the edge along which the axis lies.
+*
+* @return The Java2D coordinate for the middle of the item.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: drawBackground
+Description: /**
+* Draws a background for the data area.  The default implementation just
+* gets the plot to draw the background, but some renderers will override
+* this behaviour.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param dataArea  the data area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: drawOutline
+Description: /**
+* Draws an outline for the data area.  The default implementation just
+* gets the plot to draw the outline, but some renderers will override this
+* behaviour.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param dataArea  the data area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: drawDomainLine
+Description: /**
+* Draws a grid line against the domain axis.
+* <P>
+* Note that this default implementation assumes that the horizontal axis
+* is the domain axis. If this is not the case, you will need to override
+* this method.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param dataArea  the area for plotting data (not yet adjusted for any
+*                  3D effect).
+* @param value  the Java2D value at which the grid line should be drawn.
+* @param paint  the paint (<code>null</code> not permitted).
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #drawRangeGridline(Graphics2D, CategoryPlot, ValueAxis,
+*     Rectangle2D, double)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: drawRangeLine
+Description: /**
+* Draws a line perpendicular to the range axis.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param axis  the value axis.
+* @param dataArea  the area for plotting data (not yet adjusted for any 3D
+*                  effect).
+* @param value  the value at which the grid line should be drawn.
+* @param paint  the paint (<code>null</code> not permitted).
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #drawRangeGridline
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: drawDomainMarker
+Description: /**
+* Draws a marker for the domain axis.
+*
+* @param g2  the graphics device (not <code>null</code>).
+* @param plot  the plot (not <code>null</code>).
+* @param axis  the range axis (not <code>null</code>).
+* @param marker  the marker to be drawn (not <code>null</code>).
+* @param dataArea  the area inside the axes (not <code>null</code>).
+*
+* @see #drawRangeMarker(Graphics2D, CategoryPlot, ValueAxis, Marker,
+*     Rectangle2D)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: drawRangeMarker
+Description: /**
+* Draws a marker for the range axis.
+*
+* @param g2  the graphics device (not <code>null</code>).
+* @param plot  the plot (not <code>null</code>).
+* @param axis  the range axis (not <code>null</code>).
+* @param marker  the marker to be drawn (not <code>null</code>).
+* @param dataArea  the area inside the axes (not <code>null</code>).
+*
+* @see #drawDomainMarker(Graphics2D, CategoryPlot, CategoryAxis,
+*     CategoryMarker, Rectangle2D)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: calculateDomainMarkerTextAnchorPoint
+Description: /**
+* Calculates the (x, y) coordinates for drawing the label for a marker on
+* the range axis.
+*
+* @param g2  the graphics device.
+* @param orientation  the plot orientation.
+* @param dataArea  the data area.
+* @param markerArea  the rectangle surrounding the marker.
+* @param markerOffset  the marker offset.
+* @param labelOffsetType  the label offset type.
+* @param anchor  the label anchor.
+*
+* @return The coordinates for drawing the marker label.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: calculateRangeMarkerTextAnchorPoint
+Description: /**
+* Calculates the (x, y) coordinates for drawing a marker label.
+*
+* @param g2  the graphics device.
+* @param orientation  the plot orientation.
+* @param dataArea  the data area.
+* @param markerArea  the rectangle surrounding the marker.
+* @param markerOffset  the marker offset.
+* @param labelOffsetType  the label offset type.
+* @param anchor  the label anchor.
+*
+* @return The coordinates for drawing the marker label.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getLegendItem
+Description: /**
+* Returns a legend item for a series.  This default implementation will
+* return <code>null</code> if {@link #isSeriesVisible(int)} or
+* {@link #isSeriesVisibleInLegend(int)} returns <code>false</code>.
+*
+* @param datasetIndex  the dataset index (zero-based).
+* @param series  the series index (zero-based).
+*
+* @return The legend item (possibly <code>null</code>).
+*
+* @see #getLegendItems()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with another object.
+*
+* @param obj  the object.
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: hashCode
+Description: /**
+* Returns a hash code for the renderer.
+*
+* @return The hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getDrawingSupplier
+Description: /**
+* Returns the drawing supplier from the plot.
+*
+* @return The drawing supplier (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: updateCrosshairValues
+Description: /**
+* Considers the current (x, y) coordinate and updates the crosshair point
+* if it meets the criteria (usually means the (x, y) coordinate is the
+* closest to the anchor point so far).
+*
+* @param crosshairState  the crosshair state (<code>null</code> permitted,
+*                        but the method does nothing in that case).
+* @param rowKey  the row key.
+* @param columnKey  the column key.
+* @param value  the data value.
+* @param datasetIndex  the dataset index.
+* @param transX  the x-value translated to Java2D space.
+* @param transY  the y-value translated to Java2D space.
+* @param orientation  the plot orientation (<code>null</code> not
+*                     permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: drawItemLabel
+Description: /**
+* Draws an item label.
+*
+* @param g2  the graphics device.
+* @param orientation  the orientation.
+* @param dataset  the dataset.
+* @param row  the row.
+* @param column  the column.
+* @param selected  is the item selected?
+* @param x  the x coordinate (in Java2D space).
+* @param y  the y coordinate (in Java2D space).
+* @param negative  indicates a negative value (which affects the item
+*                  label position).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: drawAnnotations
+Description: /**
+* Draws all the annotations for the specified layer.
+*
+* @param g2  the graphics device.
+* @param dataArea  the data area.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param layer  the layer.
+* @param info  the plot rendering info.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: clone
+Description: /**
+* Returns an independent copy of the renderer.  The <code>plot</code>
+* reference is shallow copied.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  can be thrown if one of the objects
+*         belonging to the renderer does not support cloning (for example,
+*         an item label generator).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getRangeAxis
+Description: /**
+* Returns a range axis for a plot.
+*
+* @param plot  the plot.
+* @param index  the axis index.
+*
+* @return A range axis.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: getLegendItems
+Description: /**
+* Returns a (possibly empty) collection of legend items for the series
+* that this renderer is responsible for drawing.
+*
+* @return The legend item collection (never <code>null</code>).
+*
+* @see #getLegendItem(int, int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: addEntity
+Description: /**
+* Adds an entity with the specified hotspot.
+*
+* @param entities  the entity collection.
+* @param hotspot  the hotspot (<code>null</code> not permitted).
+* @param dataset  the dataset.
+* @param row  the row index.
+* @param column  the column index.
+* @param selected  is the item selected?
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: addEntity
+Description: /**
+* Adds an entity to the collection.
+*
+* @param entities  the entity collection being populated.
+* @param hotspot  the entity area (if <code>null</code> a default will be
+*              used).
+* @param dataset  the dataset.
+* @param row  the series.
+* @param column  the item.
+* @param selected  is the item selected?
+* @param entityX  the entity's center x-coordinate in user space (only
+*                 used if <code>area</code> is <code>null</code>).
+* @param entityY  the entity's center y-coordinate in user space (only
+*                 used if <code>area</code> is <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: createHotSpotShape
+Description: /**
+* Returns a shape that can be used for hit testing on a data item drawn
+* by the renderer.
+*
+* @param g2  the graphics device.
+* @param dataArea  the area within which the data is being rendered.
+* @param plot  the plot (can be used to obtain standard color
+*              information etc).
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param selected  is the item selected?
+*
+* @return A shape equal to the hot spot for a data item.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: createHotSpotBounds
+Description: /**
+* Returns the rectangular bounds for the hot spot for an item drawn by
+* this renderer.  This is intended to provide a quick test for
+* eliminating data points before more accurate testing against the
+* shape returned by createHotSpotShape().
+*
+* @param g2
+* @param dataArea
+* @param plot
+* @param domainAxis
+* @param rangeAxis
+* @param dataset
+* @param row
+* @param column
+* @param selected
+* @param result
+* @return
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractCategoryItemRenderer, Method: hitTest
+Description: /**
+* Returns <code>true</code> if the specified point (xx, yy) in Java2D
+* space falls within the hot spot for the specified data item""", and
+* <code>false</code> otherwise.
+*
+* @param xx
+* @param yy
+* @param g2
+* @param dataArea
+* @param plot
+* @param domainAxis
+* @param rangeAxis
+* @param dataset
+* @param row
+* @param column
+* @param selected
+*
+* @return
+*
+* @since 1.2.0
+"*/"""
+

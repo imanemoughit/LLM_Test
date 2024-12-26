@@ -1,0 +1,84 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AreaRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AreaRenderer, Method: getEndType
+Description: /**
+* Returns a token that controls how the renderer draws the end points.
+* The default value is {@link AreaRendererEndType#TAPER}.
+*
+* @return The end type (never <code>null</code>).
+*
+* @see #setEndType
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AreaRenderer, Method: setEndType
+Description: /**
+* Sets a token that controls how the renderer draws the end points, and
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param type  the end type (<code>null</code> not permitted).
+*
+* @see #getEndType()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AreaRenderer, Method: getLegendItem
+Description: /**
+* Returns a legend item for a series.
+*
+* @param datasetIndex  the dataset index (zero-based).
+* @param series  the series index (zero-based).
+*
+* @return The legend item.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AreaRenderer, Method: drawItem
+Description: /**
+* Draw a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the data plot area.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param selected  is the item selected?
+* @param pass  the pass index.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AreaRenderer, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object to test (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AreaRenderer, Method: clone
+Description: /**
+* Returns an independent copy of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  should not happen.
+*/"
+

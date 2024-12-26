@@ -1,0 +1,159 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: getBoxWidth
+Description: /**
+* Returns the width of each box.
+*
+* @return The box width.
+*
+* @see #setBoxWidth(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: setBoxWidth
+Description: /**
+* Sets the box width and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+* <P>
+* If you set the width to a negative value, the renderer will calculate
+* the box width automatically based on the space available on the chart.
+*
+* @param width  the width.
+*
+* @see #getBoxWidth()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: getBoxPaint
+Description: /**
+* Returns the paint used to fill boxes.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setBoxPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: setBoxPaint
+Description: /**
+* Sets the paint used to fill boxes and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getBoxPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: getFillBox
+Description: /**
+* Returns the flag that controls whether or not the box is filled.
+*
+* @return A boolean.
+*
+* @see #setFillBox(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: setFillBox
+Description: /**
+* Sets the flag that controls whether or not the box is filled and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #setFillBox(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: getArtifactPaint
+Description: /**
+* Returns the paint used to paint the various artifacts such as outliers,
+* farout symbol, median line and the averages ellipse.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setArtifactPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: setArtifactPaint
+Description: /**
+* Sets the paint used to paint the various artifacts such as outliers,
+* farout symbol, median line and the averages ellipse, and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getArtifactPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*
+* @see #findDomainBounds(XYDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: drawItem
+Description: /**
+* Draws the visual representation of a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area within which the plot is being drawn.
+* @param plot  the plot (can be used to obtain standard color
+*              information etc).
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset (must be an instance of
+*                 {@link BoxAndWhiskerXYDataset}).
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with another object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBoxAndWhiskerRenderer, Method: clone
+Description: /**
+* Returns a clone of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the renderer cannot be cloned.
+*/"
+

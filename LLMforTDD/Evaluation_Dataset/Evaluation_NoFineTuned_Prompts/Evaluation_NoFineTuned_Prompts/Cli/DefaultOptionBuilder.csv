@@ -1,0 +1,71 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionBuilder
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionBuilder, Method: create,/**
+     * Creates a DefaultOption instance
+     * @return the new instance
+     * @throws IllegalStateException if no names have been supplied
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionBuilder, Method: reset,/**
+     * Resets the builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionBuilder, Method: withShortName,/**
+     * Use this short option name. The first name is used as the preferred
+     * display name for the Command and then later names are used as aliases.
+     *
+     * @param shortName the name to use
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionBuilder, Method: withLongName,/**
+     * Use this long option name.  The first name is used as the preferred
+     * display name for the Command and then later names are used as aliases.
+     *
+     * @param longName the name to use
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionBuilder, Method: ",/**
+     * Use this option description
+     * @param newDescription the description to use
+     * @return this builder
+"     */"""
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionBuilder, Method: withRequired,/**
+     * Use this optionality
+     * @param newRequired true iff the Option is required
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionBuilder, Method: withChildren,/**
+     * Use this child Group
+     * @param newChildren the child Group to use
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionBuilder, Method: withArgument,/**
+     * Use this Argument
+     * @param newArgument the argument to use
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultOptionBuilder, Method: withId,/**
+     * Sets the id
+     *
+     * @param newId
+     *            the id of the DefaultOption
+     * @return this DefaultOptionBuilder
+     */"

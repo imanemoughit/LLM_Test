@@ -1,0 +1,60 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYZToolTipGenerator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYZToolTipGenerator, Method: getZFormat
+Description: /**
+* Returns the number formatter for the z-values.
+*
+* @return The number formatter (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYZToolTipGenerator, Method: getZDateFormat
+Description: /**
+* Returns the date formatter for the z-values.
+*
+* @return The date formatter (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYZToolTipGenerator, Method: generateToolTip
+Description: /**
+* Generates a tool tip text item for a particular item within a series.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+*
+* @return The tooltip text (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYZToolTipGenerator, Method: generateLabelString
+Description: /**
+* Generates a label string for an item in the dataset.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param series  the series (zero-based index).
+* @param item  the item (zero-based index).
+*
+* @return The label (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardXYZToolTipGenerator, Method: equals
+Description: /**
+* Tests this object for equality with an arbitrary object.
+*
+* @param obj  the other object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

@@ -1,0 +1,52 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis3D
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis3D, Method: draw
+Description: /**
+* Draws the axis on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param cursor  the cursor location.
+* @param plotArea  the area within which the axis should be drawn
+*                  (<code>null</code> not permitted).
+* @param dataArea  the area within which the plot is being drawn
+*                  (<code>null</code> not permitted).
+* @param edge  the location of the axis (<code>null</code> not permitted).
+* @param plotState  collects information about the plot (<code>null</code>
+*                   permitted).
+*
+* @return The axis state (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis3D, Method: getCategoryJava2DCoordinate
+Description: /**
+* Returns the Java 2D coordinate for a category.
+*
+* @param anchor  the anchor point.
+* @param category  the category index.
+* @param categoryCount  the category count.
+* @param area  the data area.
+* @param edge  the location of the axis.
+*
+* @return The coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryAxis3D, Method: clone
+Description: /**
+* Returns a clone of the axis.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException If the axis is not cloneable for
+*         some reason.
+*/"
+

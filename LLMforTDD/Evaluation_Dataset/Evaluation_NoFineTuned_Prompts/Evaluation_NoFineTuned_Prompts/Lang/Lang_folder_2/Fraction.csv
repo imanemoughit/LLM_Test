@@ -1,0 +1,348 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: getFraction
+Description: /*** <p>Creates a <code>Fraction</code> instance with the 2 parts
+* of a fraction Y/Z.</p>
+*
+* <p>Any negative signs are resolved to be on the numerator.</p>
+*
+* @param numerator  the numerator, for example the three in 'three sevenths'
+* @param denominator  the denominator, for example the seven in 'three sevenths'
+* @return a new fraction instance
+* @throws ArithmeticException if the denominator is <code>zero</code>
+* or the denominator is {@code negative} and the numerator is {@code Integer#MIN_VALUE}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: getFraction
+Description: /*** <p>Creates a <code>Fraction</code> instance with the 3 parts
+* of a fraction X Y/Z.</p>
+*
+* <p>The negative sign must be passed in on the whole number part.</p>
+*
+* @param whole  the whole number, for example the one in 'one and three sevenths'
+* @param numerator  the numerator, for example the three in 'one and three sevenths'
+* @param denominator  the denominator, for example the seven in 'one and three sevenths'
+* @return a new fraction instance
+* @throws ArithmeticException if the denominator is <code>zero</code>
+* @throws ArithmeticException if the denominator is negative
+* @throws ArithmeticException if the numerator is negative
+* @throws ArithmeticException if the resulting numerator exceeds
+*  <code>Integer.MAX_VALUE</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: getReducedFraction
+Description: /*** <p>Creates a reduced <code>Fraction</code> instance with the 2 parts
+* of a fraction Y/Z.</p>
+*
+* <p>For example, if the input parameters represent 2/4, then the created
+* fraction will be 1/2.</p>
+*
+* <p>Any negative signs are resolved to be on the numerator.</p>
+*
+* @param numerator  the numerator, for example the three in 'three sevenths'
+* @param denominator  the denominator, for example the seven in 'three sevenths'
+* @return a new fraction instance, with the numerator and denominator reduced
+* @throws ArithmeticException if the denominator is <code>zero</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: getFraction
+Description: /*** <p>Creates a <code>Fraction</code> instance from a <code>double</code> value.</p>
+*
+* <p>This method uses the <a href=http://archives.math.utk.edu/articles/atuyl/confrac/>
+*  continued fraction algorithm</a>, computing a maximum of
+*  25 convergents and bounding the denominator by 10,000.</p>
+*
+* @param value  the double value to convert
+* @return a new fraction instance that is close to the value
+* @throws ArithmeticException if <code>|value| > Integer.MAX_VALUE</code>
+*  or <code>value = NaN</code>
+* @throws ArithmeticException if the calculated denominator is <code>zero</code>
+* @throws ArithmeticException if the the algorithm does not converge
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: getFraction
+Description: /*** <p>Creates a Fraction from a <code>String</code>.</p>
+*
+* <p>The formats accepted are:</p>
+*
+* <ol>
+*  <li><code>double</code> String containing a dot</li>
+*  <li>'X Y/Z'</li>
+*  <li>'Y/Z'</li>
+*  <li>'X' (a simple whole number)</li>
+* </ol>
+* and a .</p>
+*
+* @param str  the string to parse, must not be <code>null</code>
+* @return the new <code>Fraction</code> instance
+* @throws IllegalArgumentException if the string is <code>null</code>
+* @throws NumberFormatException if the number format is invalid
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: getNumerator
+Description: /*** <p>Gets the numerator part of the fraction.</p>
+*
+* <p>This method may return a value greater than the denominator, an
+* improper fraction, such as the seven in 7/4.</p>
+*
+* @return the numerator fraction part
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: getDenominator
+Description: /*** <p>Gets the denominator part of the fraction.</p>
+*
+* @return the denominator fraction part
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: getProperNumerator
+Description: /*** <p>Gets the proper numerator, always positive.</p>
+*
+* <p>An improper fraction 7/4 can be resolved into a proper one, 1 3/4.
+* This method returns the 3 from the proper fraction.</p>
+*
+* <p>If the fraction is negative such as -7/4, it can be resolved into
+* -1 3/4, so this method returns the positive proper numerator, 3.</p>
+*
+* @return the numerator fraction part of a proper fraction, always positive
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: getProperWhole
+Description: /*** <p>Gets the proper whole part of the fraction.</p>
+*
+* <p>An improper fraction 7/4 can be resolved into a proper one, 1 3/4.
+* This method returns the 1 from the proper fraction.</p>
+*
+* <p>If the fraction is negative such as -7/4, it can be resolved into
+* -1 3/4, so this method returns the positive whole part -1.</p>
+*
+* @return the whole fraction part of a proper fraction, that includes the sign
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: intValue
+Description: /*** <p>Gets the fraction as an <code>int</code>. This returns the whole number
+* part of the fraction.</p>
+*
+* @return the whole number fraction part
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: longValue
+Description: /*** <p>Gets the fraction as a <code>long</code>. This returns the whole number
+* part of the fraction.</p>
+*
+* @return the whole number fraction part
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: floatValue
+Description: /*** <p>Gets the fraction as a <code>float</code>. This calculates the fraction
+* as the numerator divided by denominator.</p>
+*
+* @return the fraction as a <code>float</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: doubleValue
+Description: /*** <p>Gets the fraction as a <code>double</code>. This calculates the fraction
+* as the numerator divided by denominator.</p>
+*
+* @return the fraction as a <code>double</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: reduce
+Description: /*** <p>Reduce the fraction to the smallest values for the numerator and
+* denominator, returning the result.</p>
+*
+* <p>For example, if this fraction represents 2/4, then the result
+* will be 1/2.</p>
+*
+* @return a new reduced fraction instance, or this if no simplification possible
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: invert
+Description: /*** <p>Gets a fraction that is the inverse (1/fraction) of this one.</p>
+*
+* <p>The returned fraction is not reduced.</p>
+*
+* @return a new fraction instance with the numerator and denominator
+*         inverted.
+* @throws ArithmeticException if the fraction represents zero.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: negate
+Description: /*** <p>Gets a fraction that is the negative (-fraction) of this one.</p>
+*
+* <p>The returned fraction is not reduced.</p>
+*
+* @return a new fraction instance with the opposite signed numerator
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: abs
+Description: /*** <p>Gets a fraction that is the positive equivalent of this one.</p>
+* <p>More precisely: <code>(fraction >= 0 ? this : -fraction)</code></p>
+*
+* <p>The returned fraction is not reduced.</p>
+*
+* @return <code>this</code> if it is positive, or a new positive fraction
+*  instance with the opposite signed numerator
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: pow
+Description: /*** <p>Gets a fraction that is raised to the passed in power.</p>
+*
+* <p>The returned fraction is in reduced form.</p>
+*
+* @param power  the power to raise the fraction to
+* @return <code>this</code> if the power is one, <code>ONE</code> if the power
+* is zero (even if the fraction equals ZERO) or a new fraction instance
+* raised to the appropriate power
+* @throws ArithmeticException if the resulting numerator or denominator exceeds
+*  <code>Integer.MAX_VALUE</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: add
+Description: /*** <p>Adds the value of this fraction to another, returning the result in reduced form.
+* The algorithm follows Knuth, 4.5.1.</p>
+*
+* @param fraction  the fraction to add, must not be <code>null</code>
+* @return a <code>Fraction</code> instance with the resulting values
+* @throws IllegalArgumentException if the fraction is <code>null</code>
+* @throws ArithmeticException if the resulting numerator or denominator exceeds
+*  <code>Integer.MAX_VALUE</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: subtract
+Description: /*** <p>Subtracts the value of another fraction from the value of this one,
+* returning the result in reduced form.</p>
+*
+* @param fraction  the fraction to subtract, must not be <code>null</code>
+* @return a <code>Fraction</code> instance with the resulting values
+* @throws IllegalArgumentException if the fraction is <code>null</code>
+* @throws ArithmeticException if the resulting numerator or denominator
+*   cannot be represented in an <code>int</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: multiplyBy
+Description: /*** <p>Multiplies the value of this fraction by another, returning the
+* result in reduced form.</p>
+*
+* @param fraction  the fraction to multiply by, must not be <code>null</code>
+* @return a <code>Fraction</code> instance with the resulting values
+* @throws IllegalArgumentException if the fraction is <code>null</code>
+* @throws ArithmeticException if the resulting numerator or denominator exceeds
+*  <code>Integer.MAX_VALUE</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: divideBy
+Description: /*** <p>Divide the value of this fraction by another.</p>
+*
+* @param fraction  the fraction to divide by, must not be <code>null</code>
+* @return a <code>Fraction</code> instance with the resulting values
+* @throws IllegalArgumentException if the fraction is <code>null</code>
+* @throws ArithmeticException if the fraction to divide by is zero
+* @throws ArithmeticException if the resulting numerator or denominator exceeds
+*  <code>Integer.MAX_VALUE</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: equals
+Description: /*** <p>Compares this fraction to another object to test if they are equal.</p>.
+*
+* <p>To be equal, both values must be equal. Thus 2/4 is not equal to 1/2.</p>
+*
+* @param obj the reference object with which to compare
+* @return <code>true</code> if this object is equal
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: hashCode
+Description: /*** <p>Gets a hashCode for the fraction.</p>
+*
+* @return a hash code value for this object
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: compareTo
+Description: /*** <p>Compares this object to another based on size.</p>
+*
+* <p>Note: this class has a natural ordering that is inconsistent
+* with equals, because, for example, equals treats 1/2 and 2/4 as
+* different, whereas compareTo treats them as equal.
+*
+* @param other  the object to compare to
+* @return -1 if this is less, 0 if equal, +1 if greater
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the object is not a <code>Fraction</code>
+* @throws NullPointerException if the object is <code>null</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: toString
+Description: /*** <p>Gets the fraction as a <code>String</code>.</p>
+*
+* <p>The format used is '<i>numerator</i>/<i>denominator</i>' always.
+*
+* @return a <code>String</code> form of the fraction
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Fraction, Method: toProperString
+Description: /*** <p>Gets the fraction as a proper <code>String</code> in the format X Y/Z.</p>
+*
+* <p>The format used in '<i>wholeNumber</i> <i>numerator</i>/<i>denominator</i>'.
+* If the whole number is zero it will be omitted. If the numerator is zero,
+* only the whole number is returned.</p>
+*
+* @return a <code>String</code> form of the fraction
+*/"
+

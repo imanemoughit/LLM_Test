@@ -1,0 +1,137 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: getCoordinateType
+Description: /**
+* Returns the coordinate type (set in the constructor).
+*
+* @return The coordinate type (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: getX
+Description: /**
+* Returns the x-coordinate for the annotation.
+*
+* @return The x-coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: getY
+Description: /**
+* Returns the y-coordinate for the annotation.
+*
+* @return The y-coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: getTitle
+Description: /**
+* Returns the title for the annotation.
+*
+* @return The title.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: getTitleAnchor
+Description: /**
+* Returns the title anchor for the annotation.
+*
+* @return The title anchor.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: getMaxWidth
+Description: /**
+* Returns the maximum width.
+*
+* @return The maximum width.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: setMaxWidth
+Description: /**
+* Sets the maximum width and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param max  the maximum width (0.0 or less means no maximum).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: getMaxHeight
+Description: /**
+* Returns the maximum height.
+*
+* @return The maximum height.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: setMaxHeight
+Description: /**
+* Sets the maximum height and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param max  the maximum height.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: draw
+Description: /**
+* Draws the annotation.  This method is called by the drawing code in the
+* {@link XYPlot} class, you don't normally need to call this method
+* directly.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param dataArea  the data area.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param rendererIndex  the renderer index.
+* @param info  if supplied, this info object will be populated with
+*              entity information.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: equals
+Description: /**
+* Tests this object for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTitleAnnotation, Method: clone
+Description: /**
+* Returns a clone of the annotation.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the annotation can't be cloned.
+*/"
+

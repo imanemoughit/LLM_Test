@@ -1,0 +1,17 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GroupImpl
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GroupImpl, Method: getOptions,/**
+     * Gets the member Options of thie Group.
+     * Note this does not include any Arguments
+     * @return only the non Argument Options of the Group
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GroupImpl, Method: getAnonymous,/**
+     * Gets the anonymous Arguments of this Group.
+     * @return the Argument options of this Group
+     */"

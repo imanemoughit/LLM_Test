@@ -1,0 +1,37 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MouseWheelHandler
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MouseWheelHandler, Method: getZoomFactor
+Description: /**
+* Returns the current zoom factor.  The default value is 0.10 (ten
+* percent).
+*
+* @return The zoom factor.
+*
+* @see #setZoomFactor(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MouseWheelHandler, Method: setZoomFactor
+Description: /**
+* Sets the zoom factor.
+*
+* @param zoomFactor  the zoom factor.
+*
+* @see #getZoomFactor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MouseWheelHandler, Method: mouseWheelMoved
+Description: /**
+* Handles a mouse wheel event from the underlying chart panel.
+*
+* @param e  the event.
+*/"
+

@@ -1,0 +1,125 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DurationFormatUtils
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DurationFormatUtils, Method: formatDurationHMS
+Description: /*** <p>Formats the time gap as a string.</p>
+*
+* <p>The format used is ISO8601-like:
+* <i>H</i>:<i>m</i>:<i>s</i>.<i>S</i>.</p>
+*
+* @param durationMillis  the duration to format
+* @return the formatted duration, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DurationFormatUtils, Method: formatDurationISO
+Description: /*** <p>Formats the time gap as a string.</p>
+*
+* <p>The format used is the ISO8601 period format.</p>
+*
+* <p>This method formats durations using the days and lower fields of the
+* ISO format pattern, such as P7D6TH5M4.321S.</p>
+*
+* @param durationMillis  the duration to format
+* @return the formatted duration, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DurationFormatUtils, Method: formatDuration
+Description: /*** <p>Formats the time gap as a string, using the specified format, and padding with zeros and
+* using the default timezone.</p>
+*
+* <p>This method formats durations using the days and lower fields of the
+* format pattern. Months and larger are not used.</p>
+*
+* @param durationMillis  the duration to format
+* @param format  the way in which to format the duration, not null
+* @return the formatted duration, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DurationFormatUtils, Method: formatDuration
+Description: /*** <p>Formats the time gap as a string, using the specified format.
+* Padding the left hand side of numbers with zeroes is optional and
+* the timezone may be specified.</p>
+*
+* <p>This method formats durations using the days and lower fields of the
+* format pattern. Months and larger are not used.</p>
+*
+* @param durationMillis  the duration to format
+* @param format  the way in which to format the duration, not null
+* @param padWithZeros  whether to pad the left hand side of numbers with 0's
+* @return the formatted duration, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DurationFormatUtils, Method: formatDurationWords
+Description: /*** <p>Formats an elapsed time into a plurialization correct string.</p>
+*
+* <p>This method formats durations using the days and lower fields of the
+* format pattern. Months and larger are not used.</p>
+*
+* @param durationMillis  the elapsed time to report in milliseconds
+* @param suppressLeadingZeroElements  suppresses leading 0 elements
+* @param suppressTrailingZeroElements  suppresses trailing 0 elements
+* @return the formatted text in days/hours/minutes/seconds, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DurationFormatUtils, Method: formatPeriodISO
+Description: /*** <p>Formats the time gap as a string.</p>
+*
+* <p>The format used is the ISO8601 period format.</p>
+*
+* @param startMillis  the start of the duration to format
+* @param endMillis  the end of the duration to format
+* @return the formatted duration, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DurationFormatUtils, Method: formatPeriod
+Description: /*** <p>Formats the time gap as a string, using the specified format.
+* Padding the left hand side of numbers with zeroes is optional.
+*
+* @param startMillis  the start of the duration
+* @param endMillis  the end of the duration
+* @param format  the way in which to format the duration, not null
+* @return the formatted duration, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DurationFormatUtils, Method: formatPeriod
+Description: /*** <p>Formats the time gap as a string, using the specified format.
+* Padding the left hand side of numbers with zeroes is optional and
+* the timezone may be specified. </p>
+*
+* <p>When calculating the difference between months/days, it chooses to
+* calculate months first. So when working out the number of months and
+* days between January 15th and March 10th, it choose 1 month and
+* 23 days gained by choosing January->February = 1 month and then
+* calculating days forwards, and not the 1 month and 26 days gained by
+* choosing March -> February = 1 month and then calculating days
+* backwards. </p>
+*
+* <p>For more control, the <a href=http://joda-time.sf.net/>Joda-Time</a>
+* library is recommended.</p>
+*
+* @param startMillis  the start of the duration
+* @param endMillis  the end of the duration
+* @param format  the way in which to format the duration, not null
+* @param padWithZeros  whether to pad the left hand side of numbers with 0's
+* @param timezone  the millis are defined in
+* @return the formatted duration, not null
+*/"
+

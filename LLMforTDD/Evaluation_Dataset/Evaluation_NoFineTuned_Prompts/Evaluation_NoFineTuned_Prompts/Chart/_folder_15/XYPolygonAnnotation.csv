@@ -1,0 +1,99 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYPolygonAnnotation
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYPolygonAnnotation, Method: getPolygonCoordinates
+Description: /**
+* Returns the coordinates of the polygon's vertices.  The returned array
+* is a copy, so it is safe to modify without altering the annotation's
+* state.
+*
+* @return The coordinates of the polygon's vertices.
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYPolygonAnnotation, Method: getFillPaint
+Description: /**
+* Returns the fill paint.
+*
+* @return The fill paint (possibly <code>null</code>).
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYPolygonAnnotation, Method: getOutlineStroke
+Description: /**
+* Returns the outline stroke.
+*
+* @return The outline stroke (possibly <code>null</code>).
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYPolygonAnnotation, Method: getOutlinePaint
+Description: /**
+* Returns the outline paint.
+*
+* @return The outline paint (possibly <code>null</code>).
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYPolygonAnnotation, Method: draw
+Description: /**
+* Draws the annotation.  This method is usually called by the
+* {@link XYPlot} class, you shouldn't need to call it directly.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param dataArea  the data area.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param rendererIndex  the renderer index.
+* @param info  the plot rendering info.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYPolygonAnnotation, Method: equals
+Description: /**
+* Tests this annotation for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYPolygonAnnotation, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYPolygonAnnotation, Method: clone
+Description: /**
+* Returns a clone.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException not thrown by this class, but may be
+*                                    by subclasses.
+*/"
+

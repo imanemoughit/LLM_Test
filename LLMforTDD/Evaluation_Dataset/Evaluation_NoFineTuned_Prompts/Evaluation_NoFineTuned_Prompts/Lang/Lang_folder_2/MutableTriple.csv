@@ -1,0 +1,64 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableTriple
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableTriple, Method: of
+Description: /*** <p>Obtains an mutable triple of three objects inferring the generic types.</p>
+*
+* <p>This factory allows the triple to be created using inference to
+* obtain the generic types.</p>
+*
+* @param <L> the left element type
+* @param <M> the middle element type
+* @param <R> the right element type
+* @param left  the left element, may be null
+* @param middle  the middle element, may be null
+* @param right  the right element, may be null
+* @return a triple formed from the three parameters, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableTriple, Method: getLeft
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableTriple, Method: setLeft
+Description: /*** Sets the left element of the triple.
+*
+* @param left  the new value of the left element, may be null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableTriple, Method: getMiddle
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableTriple, Method: setMiddle
+Description: /*** Sets the middle element of the triple.
+*
+* @param middle  the new value of the middle element, may be null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableTriple, Method: getRight
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableTriple, Method: setRight
+Description: /*** Sets the right element of the triple.
+*
+* @param right  the new value of the right element, may be null
+*/"
+

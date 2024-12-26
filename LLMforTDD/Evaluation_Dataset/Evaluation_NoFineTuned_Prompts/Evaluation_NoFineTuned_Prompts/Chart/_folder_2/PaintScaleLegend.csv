@@ -1,0 +1,290 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: getScale
+Description: /**
+* Returns the scale used to convert values to colors.
+*
+* @return The scale (never <code>null</code>).
+*
+* @see #setScale(PaintScale)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: setScale
+Description: /**
+* Sets the scale and sends a {@link TitleChangeEvent} to all registered
+* listeners.
+*
+* @param scale  the scale (<code>null</code> not permitted).
+*
+* @see #getScale()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: getAxis
+Description: /**
+* Returns the axis for the paint scale.
+*
+* @return The axis (never <code>null</code>).
+*
+* @see #setAxis(ValueAxis)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: setAxis
+Description: /**
+* Sets the axis for the paint scale and sends a {@link TitleChangeEvent}
+* to all registered listeners.
+*
+* @param axis  the axis (<code>null</code> not permitted).
+*
+* @see #getAxis()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: getAxisLocation
+Description: /**
+* Returns the axis location.
+*
+* @return The axis location (never <code>null</code>).
+*
+* @see #setAxisLocation(AxisLocation)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: setAxisLocation
+Description: /**
+* Sets the axis location and sends a {@link TitleChangeEvent} to all
+* registered listeners.
+*
+* @param location  the location (<code>null</code> not permitted).
+*
+* @see #getAxisLocation()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: getAxisOffset
+Description: /**
+* Returns the offset between the axis and the paint strip.
+*
+* @return The offset between the axis and the paint strip.
+*
+* @see #setAxisOffset(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: setAxisOffset
+Description: /**
+* Sets the offset between the axis and the paint strip and sends a
+* {@link TitleChangeEvent} to all registered listeners.
+*
+* @param offset  the offset.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: getStripWidth
+Description: /**
+* Returns the width of the paint strip, in Java2D units.
+*
+* @return The width of the paint strip.
+*
+* @see #setStripWidth(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: setStripWidth
+Description: /**
+* Sets the width of the paint strip and sends a {@link TitleChangeEvent}
+* to all registered listeners.
+*
+* @param width  the width.
+*
+* @see #getStripWidth()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: isStripOutlineVisible
+Description: /**
+* Returns the flag that controls whether or not an outline is drawn
+* around the paint strip.
+*
+* @return A boolean.
+*
+* @see #setStripOutlineVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: setStripOutlineVisible
+Description: /**
+* Sets the flag that controls whether or not an outline is drawn around
+* the paint strip, and sends a {@link TitleChangeEvent} to all registered
+* listeners.
+*
+* @param visible  the flag.
+*
+* @see #isStripOutlineVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: getStripOutlinePaint
+Description: /**
+* Returns the paint used to draw the outline of the paint strip.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setStripOutlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: setStripOutlinePaint
+Description: /**
+* Sets the paint used to draw the outline of the paint strip, and sends
+* a {@link TitleChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getStripOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: getStripOutlineStroke
+Description: /**
+* Returns the stroke used to draw the outline around the paint strip.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setStripOutlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: setStripOutlineStroke
+Description: /**
+* Sets the stroke used to draw the outline around the paint strip and
+* sends a {@link TitleChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getStripOutlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: getBackgroundPaint
+Description: /**
+* Returns the background paint.
+*
+* @return The background paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: setBackgroundPaint
+Description: /**
+* Sets the background paint and sends a {@link TitleChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: getSubdivisionCount
+Description: /**
+* Returns the number of subdivisions used to draw the scale.
+*
+* @return The subdivision count.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: setSubdivisionCount
+Description: /**
+* Sets the subdivision count and sends a {@link TitleChangeEvent} to
+* all registered listeners.
+*
+* @param count  the count.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: axisChanged
+Description: /**
+* Receives notification of an axis change event and responds by firing
+* a title change event.
+*
+* @param event  the event.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: arrange
+Description: /**
+* Arranges the contents of the block, within the given constraints, and
+* returns the block size.
+*
+* @param g2  the graphics device.
+* @param constraint  the constraint (<code>null</code> not permitted).
+*
+* @return The block size (in Java2D units, never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: draw
+Description: /**
+* Draws the legend within the specified area.
+*
+* @param g2  the graphics target (<code>null</code> not permitted).
+* @param area  the drawing area (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: draw
+Description: /**
+* Draws the legend within the specified area.
+*
+* @param g2  the graphics target (<code>null</code> not permitted).
+* @param area  the drawing area (<code>null</code> not permitted).
+* @param params  drawing parameters (ignored here).
+*
+* @return <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PaintScaleLegend, Method: equals
+Description: /**
+* Tests this legend for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

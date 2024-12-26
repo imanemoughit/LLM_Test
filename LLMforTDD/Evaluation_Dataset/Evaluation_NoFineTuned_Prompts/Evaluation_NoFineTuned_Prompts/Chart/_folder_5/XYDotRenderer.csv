@@ -1,0 +1,146 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYDotRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYDotRenderer, Method: getDotWidth
+Description: /**
+* Returns the dot width (the default value is 1).
+*
+* @return The dot width.
+*
+* @since 1.0.2
+* @see #setDotWidth(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYDotRenderer, Method: setDotWidth
+Description: /**
+* Sets the dot width and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param w  the new width (must be greater than zero).
+*
+* @throws IllegalArgumentException if <code>w</code> is less than one.
+*
+* @since 1.0.2
+* @see #getDotWidth()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYDotRenderer, Method: getDotHeight
+Description: /**
+* Returns the dot height (the default value is 1).
+*
+* @return The dot height.
+*
+* @since 1.0.2
+* @see #setDotHeight(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYDotRenderer, Method: setDotHeight
+Description: /**
+* Sets the dot height and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param h  the new height (must be greater than zero).
+*
+* @throws IllegalArgumentException if <code>h</code> is less than one.
+*
+* @since 1.0.2
+* @see #getDotHeight()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYDotRenderer, Method: getLegendShape
+Description: /**
+* Returns the shape used to represent an item in the legend.
+*
+* @return The legend shape (never <code>null</code>).
+*
+* @see #setLegendShape(Shape)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYDotRenderer, Method: setLegendShape
+Description: /**
+* Sets the shape used as a line in each legend item and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param shape  the shape (<code>null</code> not permitted).
+*
+* @see #getLegendShape()
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYDotRenderer, Method: drawItem
+Description: /**
+* Draws the visual representation of a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area within which the data is being drawn.
+* @param plot  the plot (can be used to obtain standard color
+*              information etc).
+* @param domainAxis  the domain (horizontal) axis.
+* @param rangeAxis  the range (vertical) axis.
+* @param dataset  the dataset.
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYDotRenderer, Method: getLegendItem
+Description: /**
+* Returns a legend item for the specified series.
+*
+* @param datasetIndex  the dataset index (zero-based).
+* @param series  the series index (zero-based).
+*
+* @return A legend item for the series (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYDotRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.  This method
+* returns <code>true</code> if and only if:
+*
+* <ul>
+* <li><code>obj</code> is not <code>null</code>;</li>
+* <li><code>obj</code> is an instance of <code>XYDotRenderer</code>;</li>
+* <li>both renderers have the same attribute values.
+* </ul>
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYDotRenderer, Method: clone
+Description: /**
+* Returns a clone of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the renderer cannot be cloned.
+*/"
+

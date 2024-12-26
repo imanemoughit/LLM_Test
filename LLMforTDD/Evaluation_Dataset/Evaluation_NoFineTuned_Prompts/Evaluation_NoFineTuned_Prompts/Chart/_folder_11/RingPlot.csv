@@ -1,0 +1,187 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: getSeparatorsVisible
+Description: /**
+* Returns a flag that indicates whether or not separators are drawn between
+* the sections in the chart.
+*
+* @return A boolean.
+*
+* @see #setSeparatorsVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: setSeparatorsVisible
+Description: /**
+* Sets the flag that controls whether or not separators are drawn between
+* the sections in the chart, and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param visible  the flag.
+*
+* @see #getSeparatorsVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: getSeparatorStroke
+Description: /**
+* Returns the separator stroke.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setSeparatorStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: setSeparatorStroke
+Description: /**
+* Sets the stroke used to draw the separator between sections and sends
+* a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getSeparatorStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: getSeparatorPaint
+Description: /**
+* Returns the separator paint.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setSeparatorPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: setSeparatorPaint
+Description: /**
+* Sets the paint used to draw the separator between sections and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getSeparatorPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: getInnerSeparatorExtension
+Description: /**
+* Returns the length of the inner extension of the separator line that
+* is drawn between sections, expressed as a percentage of the depth of
+* the section.
+*
+* @return The inner separator extension (as a percentage).
+*
+* @see #setInnerSeparatorExtension(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: setInnerSeparatorExtension
+Description: /**
+* Sets the length of the inner extension of the separator line that is
+* drawn between sections, as a percentage of the depth of the
+* sections, and sends a {@link PlotChangeEvent} to all registered
+* listeners.
+*
+* @param percent  the percentage.
+*
+* @see #getInnerSeparatorExtension()
+* @see #setOuterSeparatorExtension(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: getOuterSeparatorExtension
+Description: /**
+* Returns the length of the outer extension of the separator line that
+* is drawn between sections, expressed as a percentage of the depth of
+* the section.
+*
+* @return The outer separator extension (as a percentage).
+*
+* @see #setOuterSeparatorExtension(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: setOuterSeparatorExtension
+Description: /**
+* Sets the length of the outer extension of the separator line that is
+* drawn between sections, as a percentage of the depth of the
+* sections, and sends a {@link PlotChangeEvent} to all registered
+* listeners.
+*
+* @param percent  the percentage.
+*
+* @see #getOuterSeparatorExtension()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: getSectionDepth
+Description: /**
+* Returns the depth of each section, expressed as a percentage of the
+* plot radius.
+*
+* @return The depth of each section.
+*
+* @see #setSectionDepth(double)
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: setSectionDepth
+Description: /**
+* The section depth is given as percentage of the plot radius.
+* Specifying 1.0 results in a straightforward pie chart.
+*
+* @param sectionDepth  the section depth.
+*
+* @see #getSectionDepth()
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: initialise
+Description: /**
+* Initialises the plot state (which will store the total of all dataset
+* values, among other things).  This method is called once at the
+* beginning of each drawing.
+*
+* @param g2  the graphics device.
+* @param plotArea  the plot area (<code>null</code> not permitted).
+* @param plot  the plot.
+* @param index  the secondary index (<code>null</code> for primary
+*               renderer).
+* @param info  collects chart rendering information for return to caller.
+*
+* @return A state object (maintains state information relevant to one
+*         chart drawing).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RingPlot, Method: equals
+Description: /**
+* Tests this plot for equality with an arbitrary object.
+*
+* @param obj  the object to test against (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

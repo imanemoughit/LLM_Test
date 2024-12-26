@@ -1,0 +1,94 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPointer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPointer, Method: getDatasetIndex
+Description: /**
+* Returns the dataset index that the pointer maps to.
+*
+* @return The dataset index.
+*
+* @see #getDatasetIndex()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPointer, Method: setDatasetIndex
+Description: /**
+* Sets the dataset index for the pointer and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param index  the index.
+*
+* @see #getDatasetIndex()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPointer, Method: getRadius
+Description: /**
+* Returns the radius of the pointer, as a percentage of the dial's
+* framing rectangle.
+*
+* @return The radius.
+*
+* @see #setRadius(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPointer, Method: setRadius
+Description: /**
+* Sets the radius of the pointer and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param radius  the radius.
+*
+* @see #getRadius()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPointer, Method: isClippedToWindow
+Description: /**
+* Returns <code>true</code> to indicate that this layer should be
+* clipped within the dial window.
+*
+* @return <code>true</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPointer, Method: equals
+Description: /**
+* Checks this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> not permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPointer, Method: hashCode
+Description: /**
+* Returns a hash code.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialPointer, Method: clone
+Description: /**
+* Returns a clone of the pointer.
+*
+* @return a clone.
+*
+* @throws CloneNotSupportedException if one of the attributes cannot
+*     be cloned.
+*/"
+

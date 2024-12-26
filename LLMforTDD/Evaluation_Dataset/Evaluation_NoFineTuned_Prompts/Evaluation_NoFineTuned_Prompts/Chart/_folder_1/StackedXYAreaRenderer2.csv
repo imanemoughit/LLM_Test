@@ -1,0 +1,97 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRenderer2
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRenderer2, Method: getRoundXCoordinates
+Description: /**
+* Returns the flag that controls whether or not the x-coordinates (in
+* Java2D space) are rounded to integer values.
+*
+* @return The flag.
+*
+* @since 1.0.4
+*
+* @see #setRoundXCoordinates(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRenderer2, Method: setRoundXCoordinates
+Description: /**
+* Sets the flag that controls whether or not the x-coordinates (in
+* Java2D space) are rounded to integer values, and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param round  the new flag value.
+*
+* @since 1.0.4
+*
+* @see #getRoundXCoordinates()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRenderer2, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (or <code>null</code> if the dataset is
+*         <code>null</code> or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRenderer2, Method: getPassCount
+Description: /**
+* Returns the number of passes required by the renderer.
+*
+* @return 1.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRenderer2, Method: drawItem
+Description: /**
+* Draws the visual representation of a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area within which the data is being drawn.
+* @param plot  the plot (can be used to obtain standard color information
+*              etc).
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRenderer2, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRenderer2, Method: clone
+Description: /**
+* Returns a clone of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the renderer cannot be cloned.
+*/"
+

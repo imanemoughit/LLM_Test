@@ -1,0 +1,204 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: getWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassLoaderSource
+Description: /**
+* Returns the internal configuration entry, whether the classloader of
+* the thread context or the context classloader should be used.
+*
+* @return the classloader source, either THREAD_CONTEXT or CLASS_CONTEXT.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: setWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassLoaderSource
+Description: /**
+* Defines the internal configuration entry, whether the classloader of
+* the thread context or the context classloader should be used.
+* <p/>
+* This setting can only be defined using the API, there is no safe way
+* to put this into an external configuration file.
+*
+* @param classLoaderSource the classloader source,
+*                          either THREAD_CONTEXT or CLASS_CONTEXT.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: equal
+Description: /**
+* Returns <code>true</code> if the two objects are equal OR both
+* <code>null</code>.
+*
+* @param o1 object 1 (<code>null</code> permitted).
+* @param o2 object 2 (<code>null</code> permitted).
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: hashCode
+Description: /**
+* Returns a hash code for an object, or zero if the object is
+* <code>null</code>.
+*
+* @param object the object (<code>null</code> permitted).
+* @return The object's hash code (or zero if the object is
+*         <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: clone
+Description: /**
+* Returns a clone of the specified object, if it can be cloned, otherwise
+* throws a CloneNotSupportedException.
+*
+* @param object the object to clone (<code>null</code> not permitted).
+* @return A clone of the specified object.
+* @throws CloneNotSupportedException if the object cannot be cloned.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: deepClone
+Description: /**
+* Returns a new collection containing clones of all the items in the
+* specified collection.
+*
+* @param collection the collection (<code>null</code> not permitted).
+* @return A new collection containing clones of all the items in the
+*         specified collection.
+* @throws CloneNotSupportedException if any of the items in the collection
+*                                    cannot be cloned.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: setWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassLoader
+Description: /**
+* Redefines the custom classloader.
+*
+* @param classLoader the new classloader or null to use the default.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: getWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassLoader
+Description: /**
+* Returns the custom classloader or null, if no custom classloader is defined.
+*
+* @return the custom classloader or null to use the default.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: getWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassLoader
+Description: /**
+* Returns the classloader, which was responsible for loading the given
+* class.
+*
+* @param c the classloader, either an application class loader or the
+*          boot loader.
+* @return the classloader, never null.
+* @throws SecurityException if the SecurityManager does not allow to grab
+*                           the context classloader.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: getResource
+Description: /**
+* Returns the resource specified by the <strong>absolute</strong> name.
+*
+* @param name the name of the resource
+* @param c    the source class
+* @return the url of the resource or null, if not found.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: getResourceRelative
+Description: /**
+* Returns the resource specified by the <strong>relative</strong> name.
+*
+* @param name the name of the resource relative to the given class
+* @param c    the source class
+* @return the url of the resource or null, if not found.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: getResourceAsStream
+Description: /**
+* Returns the inputstream for the resource specified by the
+* <strong>absolute</strong> name.
+*
+* @param name the name of the resource
+* @param context the source class
+* @return the url of the resource or null, if not found.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: getResourceRelativeAsStream
+Description: /**
+* Returns the inputstream for the resource specified by the
+* <strong>relative</strong> name.
+*
+* @param name the name of the resource relative to the given class
+* @param context the source class
+* @return the url of the resource or null, if not found.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: loadAndInstantiate
+Description: /**
+* Tries to create a new instance of the given class. This is a short cut
+* for the common bean instantiation code.
+*
+* @param className the class name as String, never null.
+* @param source    the source class, from where to get the classloader.
+* @return the instantiated object or null, if an error occured.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: loadAndInstantiate
+Description: /**
+* Tries to create a new instance of the given class. This is a short cut
+* for the common bean instantiation code. This method is a type-safe method
+* and will not instantiate the class unless it is an instance of the given
+* type.
+*
+* @param className the class name as String, never null.
+* @param source    the source class, from where to get the classloader.
+* @param type  the type.
+*
+* @return the instantiated object or null, if an error occured.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectUtilities, Method: isJDK14
+Description: /**
+* Returns <code>true</code> if we are running on JRE 1.4 or later.
+*
+* @return A boolean.
+*/"
+

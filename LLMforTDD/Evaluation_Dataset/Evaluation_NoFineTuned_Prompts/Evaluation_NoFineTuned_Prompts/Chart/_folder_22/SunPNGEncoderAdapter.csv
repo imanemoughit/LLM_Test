@@ -1,0 +1,68 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SunPNGEncoderAdapter
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SunPNGEncoderAdapter, Method: getQuality
+Description: /**
+* Get the quality of the image encoding (always 0.0).
+*
+* @return A float representing the quality.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SunPNGEncoderAdapter, Method: setQuality
+Description: /**
+* Set the quality of the image encoding (not supported in this
+* ImageEncoder).
+*
+* @param quality  A float representing the quality.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SunPNGEncoderAdapter, Method: isEncodingAlpha
+Description: /**
+* Get whether the encoder should encode alpha transparency (always false).
+*
+* @return Whether the encoder is encoding alpha transparency.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SunPNGEncoderAdapter, Method: setEncodingAlpha
+Description: /**
+* Set whether the encoder should encode alpha transparency (not
+* supported in this ImageEncoder).
+*
+* @param encodingAlpha  Whether the encoder should encode alpha
+*                       transparency.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SunPNGEncoderAdapter, Method: encode
+Description: /**
+* Encodes an image in PNG format.
+*
+* @param bufferedImage  The image to be encoded.
+*
+* @return The byte[] that is the encoded image.
+*
+* @throws IOException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SunPNGEncoderAdapter, Method: encode
+Description: /**
+* Encodes an image in PNG format and writes it to an OutputStream.
+*
+* @param bufferedImage  The image to be encoded.
+* @param outputStream  The OutputStream to write the encoded image to.
+* @throws IOException
+*/"
+

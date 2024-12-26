@@ -1,0 +1,167 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: getGap
+Description: /**
+* Returns the space between subplots.
+*
+* @return The gap (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: setGap
+Description: /**
+* Sets the amount of space between subplots and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param gap  the gap between subplots (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: add
+Description: /**
+* Adds a subplot (with a default 'weight' of 1) and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+* <br><br>
+* You must ensure that the subplot has a non-null domain axis.  The range
+* axis for the subplot will be set to <code>null</code>.
+*
+* @param subplot  the subplot (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: add
+Description: /**
+* Adds a subplot and sends a {@link PlotChangeEvent} to all registered
+* listeners.
+* <br><br>
+* You must ensure that the subplot has a non-null domain axis.  The range
+* axis for the subplot will be set to <code>null</code>.
+*
+* @param subplot  the subplot (<code>null</code> not permitted).
+* @param weight  the weight (must be >= 1).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: remove
+Description: /**
+* Removes a subplot from the combined chart.
+*
+* @param subplot  the subplot (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: getSubplots
+Description: /**
+* Returns the list of subplots.  The returned list may be empty, but is
+* never <code>null</code>.
+*
+* @return An unmodifiable list of subplots.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: draw
+Description: /**
+* Draws the plot on a Java 2D graphics device (such as the screen or a
+* printer).  Will perform all the placement calculations for each
+* sub-plots and then tell these to draw themselves.
+*
+* @param g2  the graphics device.
+* @param area  the area within which the plot (including axis labels)
+*              should be drawn.
+* @param anchor  the anchor point (<code>null</code> permitted).
+* @param parentState  the parent state.
+* @param info  collects information about the drawing (<code>null</code>
+*              permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: setOrientation
+Description: /**
+* Sets the orientation for the plot (and all the subplots).
+*
+* @param orientation  the orientation.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: getDataRange
+Description: /**
+* Returns a range representing the extent of the data values in this plot
+* (obtained from the subplots) that will be rendered against the specified
+* axis.  NOTE: This method is intended for internal JFreeChart use, and
+* is public only so that code in the axis classes can call it.  Since
+* only the range axis is shared between subplots, the JFreeChart code
+* will only call this method for the range values (although this is not
+* checked/enforced).
+*
+* @param axis  the axis.
+*
+* @return The range.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: getLegendItems
+Description: /**
+* Returns a collection of legend items for the plot.
+*
+* @return The legend items.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: handleClick
+Description: /**
+* Handles a 'click' on the plot by updating the anchor value.
+*
+* @param x  x-coordinate of the click.
+* @param y  y-coordinate of the click.
+* @param info  information about the plot's dimensions.
+*
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: plotChanged
+Description: /**
+* Receives a {@link PlotChangeEvent} and responds by notifying all
+* listeners.
+*
+* @param event  the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: equals
+Description: /**
+* Tests the plot for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeCategoryPlot, Method: clone
+Description: /**
+* Returns a clone of the plot.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  this class will not throw this
+*         exception, but subclasses (if any) might.
+*/"
+

@@ -1,0 +1,547 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getLowerBound
+Description: /**
+* Returns the lower bound for the scale.
+*
+* @return The lower bound for the scale.
+*
+* @see #setLowerBound(double)
+*
+* @since 1.0.8
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setLowerBound
+Description: /**
+* Sets the lower bound for the scale and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param lower  the lower bound.
+*
+* @see #getLowerBound()
+*
+* @since 1.0.8
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getUpperBound
+Description: /**
+* Returns the upper bound for the scale.
+*
+* @return The upper bound for the scale.
+*
+* @see #setUpperBound(double)
+*
+* @since 1.0.8
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setUpperBound
+Description: /**
+* Sets the upper bound for the scale and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param upper  the upper bound.
+*
+* @see #getUpperBound()
+*
+* @since 1.0.8
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getStartAngle
+Description: /**
+* Returns the start angle for the scale (in degrees using the same
+* orientation as Java's <code>Arc2D</code> class).
+*
+* @return The start angle.
+*
+* @see #setStartAngle(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setStartAngle
+Description: /**
+* Sets the start angle for the scale and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param angle  the angle (in degrees).
+*
+* @see #getStartAngle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getExtent
+Description: /**
+* Returns the extent.
+*
+* @return The extent.
+*
+* @see #setExtent(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setExtent
+Description: /**
+* Sets the extent and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param extent  the extent.
+*
+* @see #getExtent()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getTickRadius
+Description: /**
+* Returns the radius (as a percentage of the maximum space available) of
+* the outer limit of the tick marks.
+*
+* @return The tick radius.
+*
+* @see #setTickRadius(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setTickRadius
+Description: /**
+* Sets the tick radius and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param radius  the radius.
+*
+* @see #getTickRadius()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getMajorTickIncrement
+Description: /**
+* Returns the increment (in data units) between major tick labels.
+*
+* @return The increment between major tick labels.
+*
+* @see #setMajorTickIncrement(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setMajorTickIncrement
+Description: /**
+* Sets the increment (in data units) between major tick labels and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param increment  the increment.
+*
+* @see #getMajorTickIncrement()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getMajorTickLength
+Description: /**
+* Returns the length factor for the major tick marks.  The value is
+* subtracted from the tick radius to determine the inner starting point
+* for the tick marks.
+*
+* @return The length factor.
+*
+* @see #setMajorTickLength(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setMajorTickLength
+Description: /**
+* Sets the length factor for the major tick marks and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param length  the length.
+*
+* @see #getMajorTickLength()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getMajorTickPaint
+Description: /**
+* Returns the major tick paint.
+*
+* @return The major tick paint (never <code>null</code>).
+*
+* @see #setMajorTickPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setMajorTickPaint
+Description: /**
+* Sets the major tick paint and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getMajorTickPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getMajorTickStroke
+Description: /**
+* Returns the stroke used to draw the major tick marks.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setMajorTickStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setMajorTickStroke
+Description: /**
+* Sets the stroke used to draw the major tick marks and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getMajorTickStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getMinorTickCount
+Description: /**
+* Returns the number of minor tick marks between major tick marks.
+*
+* @return The number of minor tick marks between major tick marks.
+*
+* @see #setMinorTickCount(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setMinorTickCount
+Description: /**
+* Sets the number of minor tick marks between major tick marks and sends
+* a {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param count  the count.
+*
+* @see #getMinorTickCount()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getMinorTickLength
+Description: /**
+* Returns the length factor for the minor tick marks.  The value is
+* subtracted from the tick radius to determine the inner starting point
+* for the tick marks.
+*
+* @return The length factor.
+*
+* @see #setMinorTickLength(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setMinorTickLength
+Description: /**
+* Sets the length factor for the minor tick marks and sends
+* a {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param length  the length.
+*
+* @see #getMinorTickLength()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getMinorTickPaint
+Description: /**
+* Returns the paint used to draw the minor tick marks.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setMinorTickPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setMinorTickPaint
+Description: /**
+* Sets the paint used to draw the minor tick marks and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getMinorTickPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getMinorTickStroke
+Description: /**
+* Returns the stroke used to draw the minor tick marks.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setMinorTickStroke(Stroke)
+*
+* @since 1.0.8
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setMinorTickStroke
+Description: /**
+* Sets the stroke used to draw the minor tick marks and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getMinorTickStroke()
+*
+* @since 1.0.8
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getTickLabelOffset
+Description: /**
+* Returns the tick label offset.
+*
+* @return The tick label offset.
+*
+* @see #setTickLabelOffset(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setTickLabelOffset
+Description: /**
+* Sets the tick label offset and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param offset  the offset.
+*
+* @see #getTickLabelOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getTickLabelFont
+Description: /**
+* Returns the font used to draw the tick labels.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setTickLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setTickLabelFont
+Description: /**
+* Sets the font used to display the tick labels and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getTickLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getTickLabelPaint
+Description: /**
+* Returns the paint used to draw the tick labels.
+*
+* @return The paint (<code>null</code> not permitted).
+*
+* @see #setTickLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setTickLabelPaint
+Description: /**
+* Sets the paint used to draw the tick labels and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getTickLabelsVisible
+Description: /**
+* Returns <code>true</code> if the tick labels should be displayed,
+* and <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @see #setTickLabelsVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setTickLabelsVisible
+Description: /**
+* Sets the flag that controls whether or not the tick labels are
+* displayed, and sends a {@link DialLayerChangeEvent} to all registered
+* listeners.
+*
+* @param visible  the new flag value.
+*
+* @see #getTickLabelsVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getTickLabelFormatter
+Description: /**
+* Returns the number formatter used to convert the tick label values to
+* strings.
+*
+* @return The formatter (never <code>null</code>).
+*
+* @see #setTickLabelFormatter(NumberFormat)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setTickLabelFormatter
+Description: /**
+* Sets the number formatter used to convert the tick label values to
+* strings, and sends a {@link DialLayerChangeEvent} to all registered
+* listeners.
+*
+* @param formatter  the formatter (<code>null</code> not permitted).
+*
+* @see #getTickLabelFormatter()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: getFirstTickLabelVisible
+Description: /**
+* Returns a flag that controls whether or not the first tick label is
+* visible.
+*
+* @return A boolean.
+*
+* @see #setFirstTickLabelVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: setFirstTickLabelVisible
+Description: /**
+* Sets a flag that controls whether or not the first tick label is
+* visible, and sends a {@link DialLayerChangeEvent} to all registered
+* listeners.
+*
+* @param visible  the new flag value.
+*
+* @see #getFirstTickLabelVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: isClippedToWindow
+Description: /**
+* Returns <code>true</code> to indicate that this layer should be
+* clipped within the dial window.
+*
+* @return <code>true</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: draw
+Description: /**
+* Draws the scale on the dial plot.
+*
+* @param g2  the graphics target (<code>null</code> not permitted).
+* @param plot  the dial plot (<code>null</code> not permitted).
+* @param frame  the reference frame that is used to construct the
+*     geometry of the plot (<code>null</code> not permitted).
+* @param view  the visible part of the plot (<code>null</code> not
+*     permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: valueToAngle
+Description: /**
+* Converts a data value to an angle against this scale.
+*
+* @param value  the data value.
+*
+* @return The angle (in degrees, using the same specification as Java's
+*     Arc2D class).
+*
+* @see #angleToValue(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: angleToValue
+Description: /**
+* Converts the given angle to a data value, based on this scale.
+*
+* @param angle  the angle.
+*
+* @return The data value.
+*
+* @see #valueToAngle(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: equals
+Description: /**
+* Tests this <code>StandardDialScale</code> for equality with an arbitrary
+* object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialScale, Method: clone
+Description: /**
+* Returns a clone of this instance.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if this instance is not cloneable.
+*/"
+

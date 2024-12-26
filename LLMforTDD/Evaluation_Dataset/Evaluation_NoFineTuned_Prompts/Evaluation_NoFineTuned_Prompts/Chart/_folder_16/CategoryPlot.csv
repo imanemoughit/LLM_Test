@@ -1,0 +1,2581 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getPlotType
+Description: /**
+* Returns a string describing the type of plot.
+*
+* @return The type.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getOrientation
+Description: /**
+* Returns the orientation of the plot.
+*
+* @return The orientation of the plot (never <code>null</code>).
+*
+* @see #setOrientation(PlotOrientation)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setOrientation
+Description: /**
+* Sets the orientation for the plot and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param orientation  the orientation (<code>null</code> not permitted).
+*
+* @see #getOrientation()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getAxisOffset
+Description: /**
+* Returns the axis offset.
+*
+* @return The axis offset (never <code>null</code>).
+*
+* @see #setAxisOffset(RectangleInsets)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setAxisOffset
+Description: /**
+* Sets the axis offsets (gap between the data area and the axes) and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param offset  the offset (<code>null</code> not permitted).
+*
+* @see #getAxisOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainAxis
+Description: /**
+* Returns the domain axis for the plot.  If the domain axis for this plot
+* is <code>null</code>, then the method will return the parent plot's
+* domain axis (if there is a parent plot).
+*
+* @return The domain axis (<code>null</code> permitted).
+*
+* @see #setDomainAxis(CategoryAxis)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainAxis
+Description: /**
+* Returns a domain axis.
+*
+* @param index  the axis index.
+*
+* @return The axis (<code>null</code> possible).
+*
+* @see #setDomainAxis(int, CategoryAxis)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainAxis
+Description: /**
+* Sets the domain axis for the plot and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param axis  the axis (<code>null</code> permitted).
+*
+* @see #getDomainAxis()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainAxis
+Description: /**
+* Sets a domain axis and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param index  the axis index.
+* @param axis  the axis (<code>null</code> permitted).
+*
+* @see #getDomainAxis(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainAxis
+Description: /**
+* Sets a domain axis and, if requested, sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param index  the axis index.
+* @param axis  the axis (<code>null</code> permitted).
+* @param notify  notify listeners?
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainAxes
+Description: /**
+* Sets the domain axes for this plot and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param axes  the axes (<code>null</code> not permitted).
+*
+* @see #setRangeAxes(ValueAxis[])
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainAxisIndex
+Description: /**
+* Returns the index of the specified axis, or <code>-1</code> if the axis
+* is not assigned to the plot.
+*
+* @param axis  the axis (<code>null</code> not permitted).
+*
+* @return The axis index.
+*
+* @see #getDomainAxis(int)
+* @see #getRangeAxisIndex(ValueAxis)
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainAxisLocation
+Description: /**
+* Returns the domain axis location for the primary domain axis.
+*
+* @return The location (never <code>null</code>).
+*
+* @see #getRangeAxisLocation()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainAxisLocation
+Description: /**
+* Returns the location for a domain axis.
+*
+* @param index  the axis index.
+*
+* @return The location.
+*
+* @see #setDomainAxisLocation(int, AxisLocation)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainAxisLocation
+Description: /**
+* Sets the location of the domain axis and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param location  the axis location (<code>null</code> not permitted).
+*
+* @see #getDomainAxisLocation()
+* @see #setDomainAxisLocation(int, AxisLocation)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainAxisLocation
+Description: /**
+* Sets the location of the domain axis and, if requested, sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param location  the axis location (<code>null</code> not permitted).
+* @param notify  a flag that controls whether listeners are notified.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainAxisLocation
+Description: /**
+* Sets the location for a domain axis and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param index  the axis index.
+* @param location  the location.
+*
+* @see #getDomainAxisLocation(int)
+* @see #setRangeAxisLocation(int, AxisLocation)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainAxisLocation
+Description: /**
+* Sets the location for a domain axis and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param index  the axis index.
+* @param location  the location.
+* @param notify  notify listeners?
+*
+* @since 1.0.5
+*
+* @see #getDomainAxisLocation(int)
+* @see #setRangeAxisLocation(int, AxisLocation, boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainAxisEdge
+Description: /**
+* Returns the domain axis edge.  This is derived from the axis location
+* and the plot orientation.
+*
+* @return The edge (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainAxisEdge
+Description: /**
+* Returns the edge for a domain axis.
+*
+* @param index  the axis index.
+*
+* @return The edge (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainAxisCount
+Description: /**
+* Returns the number of domain axes.
+*
+* @return The axis count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: clearDomainAxes
+Description: /**
+* Clears the domain axes from the plot and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: configureDomainAxes
+Description: /**
+* Configures the domain axes.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeAxis
+Description: /**
+* Returns the range axis for the plot.  If the range axis for this plot is
+* null, then the method will return the parent plot's range axis (if there
+* is a parent plot).
+*
+* @return The range axis (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeAxis
+Description: /**
+* Returns a range axis.
+*
+* @param index  the axis index.
+*
+* @return The axis (<code>null</code> possible).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeAxis
+Description: /**
+* Sets the range axis for the plot and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param axis  the axis (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeAxis
+Description: /**
+* Sets a range axis and sends a {@link PlotChangeEvent} to all registered
+* listeners.
+*
+* @param index  the axis index.
+* @param axis  the axis.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeAxis
+Description: /**
+* Sets a range axis and, if requested, sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param index  the axis index.
+* @param axis  the axis.
+* @param notify  notify listeners?
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeAxes
+Description: /**
+* Sets the range axes for this plot and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param axes  the axes (<code>null</code> not permitted).
+*
+* @see #setDomainAxes(CategoryAxis[])
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeAxisIndex
+Description: /**
+* Returns the index of the specified axis, or <code>-1</code> if the axis
+* is not assigned to the plot.
+*
+* @param axis  the axis (<code>null</code> not permitted).
+*
+* @return The axis index.
+*
+* @see #getRangeAxis(int)
+* @see #getDomainAxisIndex(CategoryAxis)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeAxisLocation
+Description: /**
+* Returns the range axis location.
+*
+* @return The location (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeAxisLocation
+Description: /**
+* Returns the location for a range axis.
+*
+* @param index  the axis index.
+*
+* @return The location.
+*
+* @see #setRangeAxisLocation(int, AxisLocation)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeAxisLocation
+Description: /**
+* Sets the location of the range axis and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param location  the location (<code>null</code> not permitted).
+*
+* @see #setRangeAxisLocation(AxisLocation, boolean)
+* @see #setDomainAxisLocation(AxisLocation)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeAxisLocation
+Description: /**
+* Sets the location of the range axis and, if requested, sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param location  the location (<code>null</code> not permitted).
+* @param notify  notify listeners?
+*
+* @see #setDomainAxisLocation(AxisLocation, boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeAxisLocation
+Description: /**
+* Sets the location for a range axis and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param index  the axis index.
+* @param location  the location.
+*
+* @see #getRangeAxisLocation(int)
+* @see #setRangeAxisLocation(int, AxisLocation, boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeAxisLocation
+Description: /**
+* Sets the location for a range axis and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param index  the axis index.
+* @param location  the location.
+* @param notify  notify listeners?
+*
+* @see #getRangeAxisLocation(int)
+* @see #setDomainAxisLocation(int, AxisLocation, boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeAxisEdge
+Description: /**
+* Returns the edge where the primary range axis is located.
+*
+* @return The edge (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeAxisEdge
+Description: /**
+* Returns the edge for a range axis.
+*
+* @param index  the axis index.
+*
+* @return The edge.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeAxisCount
+Description: /**
+* Returns the number of range axes.
+*
+* @return The axis count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: clearRangeAxes
+Description: /**
+* Clears the range axes from the plot and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: configureRangeAxes
+Description: /**
+* Configures the range axes.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDataset
+Description: /**
+* Returns the primary dataset for the plot.
+*
+* @return The primary dataset (possibly <code>null</code>).
+*
+* @see #setDataset(CategoryDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDataset
+Description: /**
+* Returns the dataset at the given index.
+*
+* @param index  the dataset index.
+*
+* @return The dataset (possibly <code>null</code>).
+*
+* @see #setDataset(int, CategoryDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDataset
+Description: /**
+* Sets the dataset for the plot, replacing the existing dataset, if there
+* is one.  This method also calls the
+* {@link #datasetChanged(DatasetChangeEvent)} method, which adjusts the
+* axis ranges if necessary and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @see #getDataset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDataset
+Description: /**
+* Sets a dataset for the plot.
+*
+* @param index  the dataset index.
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @see #getDataset(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDatasetCount
+Description: /**
+* Returns the number of datasets.
+*
+* @return The number of datasets.
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: indexOf
+Description: /**
+* Returns the index of the specified dataset, or <code>-1</code> if the
+* dataset does not belong to the plot.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+*
+* @return The index.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: mapDatasetToDomainAxis
+Description: /**
+* Maps a dataset to a particular domain axis.
+*
+* @param index  the dataset index (zero-based).
+* @param axisIndex  the axis index (zero-based).
+*
+* @see #getDomainAxisForDataset(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: mapDatasetToDomainAxes
+Description: /**
+* Maps the specified dataset to the axes in the list.  Note that the
+* conversion of data values into Java2D space is always performed using
+* the first axis in the list.
+*
+* @param index  the dataset index (zero-based).
+* @param axisIndices  the axis indices (<code>null</code> permitted).
+*
+* @since 1.0.12
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainAxisForDataset
+Description: /**
+* Returns the domain axis for a dataset.  You can change the axis for a
+* dataset using the {@link #mapDatasetToDomainAxis(int, int)} method.
+*
+* @param index  the dataset index.
+*
+* @return The domain axis.
+*
+* @see #mapDatasetToDomainAxis(int, int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: mapDatasetToRangeAxis
+Description: /**
+* Maps a dataset to a particular range axis.
+*
+* @param index  the dataset index (zero-based).
+* @param axisIndex  the axis index (zero-based).
+*
+* @see #getRangeAxisForDataset(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: mapDatasetToRangeAxes
+Description: /**
+* Maps the specified dataset to the axes in the list.  Note that the
+* conversion of data values into Java2D space is always performed using
+* the first axis in the list.
+*
+* @param index  the dataset index (zero-based).
+* @param axisIndices  the axis indices (<code>null</code> permitted).
+*
+* @since 1.0.12
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeAxisForDataset
+Description: /**
+* Returns the range axis for a dataset.  You can change the axis for a
+* dataset using the {@link #mapDatasetToRangeAxis(int, int)} method.
+*
+* @param index  the dataset index.
+*
+* @return The range axis.
+*
+* @see #mapDatasetToRangeAxis(int, int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRendererCount
+Description: /**
+* Returns the number of renderer slots for this plot.
+*
+* @return The number of renderer slots.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRenderer
+Description: /**
+* Returns a reference to the renderer for the plot.
+*
+* @return The renderer.
+*
+* @see #setRenderer(CategoryItemRenderer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRenderer
+Description: /**
+* Returns the renderer at the given index.
+*
+* @param index  the renderer index.
+*
+* @return The renderer (possibly <code>null</code>).
+*
+* @see #setRenderer(int, CategoryItemRenderer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRenderer
+Description: /**
+* Sets the renderer at index 0 (sometimes referred to as the primary"""
+* renderer) and sends a {@link PlotChangeEvent} to all registered
+* listeners.
+*
+* @param renderer  the renderer (<code>null</code> permitted.
+*
+* @see #getRenderer()
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRenderer
+Description: /**
+* Sets the renderer at index 0 (sometimes referred to as the primary"""
+* renderer) and, if requested, sends a {@link PlotChangeEvent} to all
+* registered listeners.
+* <p>
+* You can set the renderer to <code>null</code>, but this is not
+* recommended because:
+* <ul>
+*   <li>no data will be displayed;</li>
+*   <li>the plot background will not be painted;</li>
+* </ul>
+*
+* @param renderer  the renderer (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getRenderer()
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRenderer
+Description: /**
+* Sets the renderer at the specified index and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param index  the index.
+* @param renderer  the renderer (<code>null</code> permitted).
+*
+* @see #getRenderer(int)
+* @see #setRenderer(int, CategoryItemRenderer, boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRenderer
+Description: /**
+* Sets a renderer.  A {@link PlotChangeEvent} is sent to all registered
+* listeners.
+*
+* @param index  the index.
+* @param renderer  the renderer (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getRenderer(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRenderers
+Description: /**
+* Sets the renderers for this plot and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param renderers  the renderers.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRendererForDataset
+Description: /**
+* Returns the renderer for the specified dataset.  If the dataset doesn't
+* belong to the plot, this method will return <code>null</code>.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The renderer (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getIndexOf
+Description: /**
+* Returns the index of the specified renderer, or <code>-1</code> if the
+* renderer is not assigned to this plot.
+*
+* @param renderer  the renderer (<code>null</code> permitted).
+*
+* @return The renderer index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDatasetRenderingOrder
+Description: /**
+* Returns the dataset rendering order.
+*
+* @return The order (never <code>null</code>).
+*
+* @see #setDatasetRenderingOrder(DatasetRenderingOrder)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDatasetRenderingOrder
+Description: /**
+* Sets the rendering order and sends a {@link PlotChangeEvent} to all
+* registered listeners.  By default, the plot renders the primary dataset
+* last (so that the primary dataset overlays the secondary datasets).  You
+* can reverse this if you want to.
+*
+* @param order  the rendering order (<code>null</code> not permitted).
+*
+* @see #getDatasetRenderingOrder()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getColumnRenderingOrder
+Description: /**
+* Returns the order in which the columns are rendered.  The default value
+* is <code>SortOrder.ASCENDING</code>.
+*
+* @return The column rendering order (never <code>null</code).
+*
+* @see #setColumnRenderingOrder(SortOrder)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setColumnRenderingOrder
+Description: /**
+* Sets the column order in which the items in each dataset should be
+* rendered and sends a {@link PlotChangeEvent} to all registered
+* listeners.  Note that this affects the order in which items are drawn,
+* NOT their position in the chart.
+*
+* @param order  the order (<code>null</code> not permitted).
+*
+* @see #getColumnRenderingOrder()
+* @see #setRowRenderingOrder(SortOrder)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRowRenderingOrder
+Description: /**
+* Returns the order in which the rows should be rendered.  The default
+* value is <code>SortOrder.ASCENDING</code>.
+*
+* @return The order (never <code>null</code>).
+*
+* @see #setRowRenderingOrder(SortOrder)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRowRenderingOrder
+Description: /**
+* Sets the row order in which the items in each dataset should be
+* rendered and sends a {@link PlotChangeEvent} to all registered
+* listeners.  Note that this affects the order in which items are drawn,
+* NOT their position in the chart.
+*
+* @param order  the order (<code>null</code> not permitted).
+*
+* @see #getRowRenderingOrder()
+* @see #setColumnRenderingOrder(SortOrder)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: isDomainGridlinesVisible
+Description: /**
+* Returns the flag that controls whether the domain grid-lines are visible.
+*
+* @return The <code>true</code> or <code>false</code>.
+*
+* @see #setDomainGridlinesVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainGridlinesVisible
+Description: /**
+* Sets the flag that controls whether or not grid-lines are drawn against
+* the domain axis.
+* <p>
+* If the flag value changes, a {@link PlotChangeEvent} is sent to all
+* registered listeners.
+*
+* @param visible  the new value of the flag.
+*
+* @see #isDomainGridlinesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainGridlinePosition
+Description: /**
+* Returns the position used for the domain gridlines.
+*
+* @return The gridline position (never <code>null</code>).
+*
+* @see #setDomainGridlinePosition(CategoryAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainGridlinePosition
+Description: /**
+* Sets the position used for the domain gridlines and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param position  the position (<code>null</code> not permitted).
+*
+* @see #getDomainGridlinePosition()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainGridlineStroke
+Description: /**
+* Returns the stroke used to draw grid-lines against the domain axis.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setDomainGridlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainGridlineStroke
+Description: /**
+* Sets the stroke used to draw grid-lines against the domain axis and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getDomainGridlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainGridlinePaint
+Description: /**
+* Returns the paint used to draw grid-lines against the domain axis.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setDomainGridlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainGridlinePaint
+Description: /**
+* Sets the paint used to draw the grid-lines (if any) against the domain
+* axis and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getDomainGridlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: isRangeZeroBaselineVisible
+Description: /**
+* Returns a flag that controls whether or not a zero baseline is
+* displayed for the range axis.
+*
+* @return A boolean.
+*
+* @see #setRangeZeroBaselineVisible(boolean)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeZeroBaselineVisible
+Description: /**
+* Sets the flag that controls whether or not the zero baseline is
+* displayed for the range axis, and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param visible  the flag.
+*
+* @see #isRangeZeroBaselineVisible()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeZeroBaselineStroke
+Description: /**
+* Returns the stroke used for the zero baseline against the range axis.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setRangeZeroBaselineStroke(Stroke)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeZeroBaselineStroke
+Description: /**
+* Sets the stroke for the zero baseline for the range axis,
+* and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getRangeZeroBaselineStroke()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeZeroBaselinePaint
+Description: /**
+* Returns the paint for the zero baseline (if any) plotted against the
+* range axis.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setRangeZeroBaselinePaint(Paint)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeZeroBaselinePaint
+Description: /**
+* Sets the paint for the zero baseline plotted against the range axis and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getRangeZeroBaselinePaint()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: isRangeGridlinesVisible
+Description: /**
+* Returns the flag that controls whether the range grid-lines are visible.
+*
+* @return The flag.
+*
+* @see #setRangeGridlinesVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeGridlinesVisible
+Description: /**
+* Sets the flag that controls whether or not grid-lines are drawn against
+* the range axis.  If the flag changes value, a {@link PlotChangeEvent} is
+* sent to all registered listeners.
+*
+* @param visible  the new value of the flag.
+*
+* @see #isRangeGridlinesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeGridlineStroke
+Description: /**
+* Returns the stroke used to draw the grid-lines against the range axis.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setRangeGridlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeGridlineStroke
+Description: /**
+* Sets the stroke used to draw the grid-lines against the range axis and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getRangeGridlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeGridlinePaint
+Description: /**
+* Returns the paint used to draw the grid-lines against the range axis.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setRangeGridlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeGridlinePaint
+Description: /**
+* Sets the paint used to draw the grid lines against the range axis and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getRangeGridlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: isRangeMinorGridlinesVisible
+Description: /**
+* Returns <code>true</code> if the range axis minor grid is visible, and
+* <code>false<code> otherwise.
+*
+* @return A boolean.
+*
+* @see #setRangeMinorGridlinesVisible(boolean)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeMinorGridlinesVisible
+Description: /**
+* Sets the flag that controls whether or not the range axis minor grid
+* lines are visible.
+* <p>
+* If the flag value is changed, a {@link PlotChangeEvent} is sent to all
+* registered listeners.
+*
+* @param visible  the new value of the flag.
+*
+* @see #isRangeMinorGridlinesVisible()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeMinorGridlineStroke
+Description: /**
+* Returns the stroke for the minor grid lines (if any) plotted against the
+* range axis.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setRangeMinorGridlineStroke(Stroke)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeMinorGridlineStroke
+Description: /**
+* Sets the stroke for the minor grid lines plotted against the range axis,
+* and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getRangeMinorGridlineStroke()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeMinorGridlinePaint
+Description: /**
+* Returns the paint for the minor grid lines (if any) plotted against the
+* range axis.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setRangeMinorGridlinePaint(Paint)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeMinorGridlinePaint
+Description: /**
+* Sets the paint for the minor grid lines plotted against the range axis
+* and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getRangeMinorGridlinePaint()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getFixedLegendItems
+Description: /**
+* Returns the fixed legend items, if any.
+*
+* @return The legend items (possibly <code>null</code>).
+*
+* @see #setFixedLegendItems(LegendItemCollection)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setFixedLegendItems
+Description: /**
+* Sets the fixed legend items for the plot.  Leave this set to
+* <code>null</code> if you prefer the legend items to be created
+* automatically.
+*
+* @param items  the legend items (<code>null</code> permitted).
+*
+* @see #getFixedLegendItems()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getLegendItems
+Description: /**
+* Returns the legend items for the plot.  By default, this method creates
+* a legend item for each series in each of the datasets.  You can change
+* this behaviour by overriding this method.
+*
+* @return The legend items.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: handleClick
+Description: /**
+* Handles a 'click' on the plot by updating the anchor value.
+*
+* @param x  x-coordinate of the click (in Java2D space).
+* @param y  y-coordinate of the click (in Java2D space).
+* @param info  information about the plot's dimensions.
+*
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: zoom
+Description: /**
+* Zooms (in or out) on the plot's value axis.
+* <p>
+* If the value 0.0 is passed in as the zoom percent, the auto-range
+* calculation for the axis is restored (which sets the range to include
+* the minimum and maximum data values, thus displaying all the data).
+*
+* @param percent  the zoom amount.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: annotationChanged
+Description: /**
+* Receives notification of a change to an {@link Annotation} added to
+* this plot.
+*
+* @param event  information about the event (not used here).
+*
+* @since 1.0.14
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: datasetChanged
+Description: /**
+* Receives notification of a change to the plot's dataset.
+* <P>
+* The range axis bounds will be recalculated if necessary.
+*
+* @param event  information about the event (not used here).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: rendererChanged
+Description: /**
+* Receives notification of a renderer change event.
+*
+* @param event  the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: addDomainMarker
+Description: /**
+* Adds a marker for display (in the foreground) against the domain axis and
+* sends a {@link PlotChangeEvent} to all registered listeners. Typically a
+* marker will be drawn by the renderer as a line perpendicular to the
+* domain axis, however this is entirely up to the renderer.
+*
+* @param marker  the marker (<code>null</code> not permitted).
+*
+* @see #removeDomainMarker(Marker)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: addDomainMarker
+Description: /**
+* Adds a marker for display against the domain axis and sends a
+* {@link PlotChangeEvent} to all registered listeners.  Typically a marker
+* will be drawn by the renderer as a line perpendicular to the domain
+* axis, however this is entirely up to the renderer.
+*
+* @param marker  the marker (<code>null</code> not permitted).
+* @param layer  the layer (foreground or background) (<code>null</code>
+*               not permitted).
+*
+* @see #removeDomainMarker(Marker, Layer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: addDomainMarker
+Description: /**
+* Adds a marker for display by a particular renderer and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+* <P>
+* Typically a marker will be drawn by the renderer as a line perpendicular
+* to a domain axis, however this is entirely up to the renderer.
+*
+* @param index  the renderer index.
+* @param marker  the marker (<code>null</code> not permitted).
+* @param layer  the layer (<code>null</code> not permitted).
+*
+* @see #removeDomainMarker(int, Marker, Layer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: addDomainMarker
+Description: /**
+* Adds a marker for display by a particular renderer and, if requested,
+* sends a {@link PlotChangeEvent} to all registered listeners.
+* <P>
+* Typically a marker will be drawn by the renderer as a line perpendicular
+* to a domain axis, however this is entirely up to the renderer.
+*
+* @param index  the renderer index.
+* @param marker  the marker (<code>null</code> not permitted).
+* @param layer  the layer (<code>null</code> not permitted).
+* @param notify  notify listeners?
+*
+* @since 1.0.10
+*
+* @see #removeDomainMarker(int, Marker, Layer, boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: clearDomainMarkers
+Description: /**
+* Clears all the domain markers for the plot and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @see #clearRangeMarkers()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainMarkers
+Description: /**
+* Returns the list of domain markers (read only) for the specified layer.
+*
+* @param layer  the layer (foreground or background).
+*
+* @return The list of domain markers.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainMarkers
+Description: /**
+* Returns a collection of domain markers for a particular renderer and
+* layer.
+*
+* @param index  the renderer index.
+* @param layer  the layer.
+*
+* @return A collection of markers (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: clearDomainMarkers
+Description: /**
+* Clears all the domain markers for the specified renderer.
+*
+* @param index  the renderer index.
+*
+* @see #clearRangeMarkers(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: removeDomainMarker
+Description: /**
+* Removes a marker for the domain axis and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param marker  the marker.
+*
+* @return A boolean indicating whether or not the marker was actually
+*         removed.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: removeDomainMarker
+Description: /**
+* Removes a marker for the domain axis in the specified layer and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param marker the marker (<code>null</code> not permitted).
+* @param layer the layer (foreground or background).
+*
+* @return A boolean indicating whether or not the marker was actually
+*         removed.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: removeDomainMarker
+Description: /**
+* Removes a marker for a specific dataset/renderer and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param index the dataset/renderer index.
+* @param marker the marker.
+* @param layer the layer (foreground or background).
+*
+* @return A boolean indicating whether or not the marker was actually
+*         removed.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: removeDomainMarker
+Description: /**
+* Removes a marker for a specific dataset/renderer and, if requested,
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param index the dataset/renderer index.
+* @param marker the marker.
+* @param layer the layer (foreground or background).
+* @param notify  notify listeners?
+*
+* @return A boolean indicating whether or not the marker was actually
+*         removed.
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: addRangeMarker
+Description: /**
+* Adds a marker for display (in the foreground) against the range axis and
+* sends a {@link PlotChangeEvent} to all registered listeners. Typically a
+* marker will be drawn by the renderer as a line perpendicular to the
+* range axis, however this is entirely up to the renderer.
+*
+* @param marker  the marker (<code>null</code> not permitted).
+*
+* @see #removeRangeMarker(Marker)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: addRangeMarker
+Description: /**
+* Adds a marker for display against the range axis and sends a
+* {@link PlotChangeEvent} to all registered listeners.  Typically a marker
+* will be drawn by the renderer as a line perpendicular to the range axis,
+* however this is entirely up to the renderer.
+*
+* @param marker  the marker (<code>null</code> not permitted).
+* @param layer  the layer (foreground or background) (<code>null</code>
+*               not permitted).
+*
+* @see #removeRangeMarker(Marker, Layer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: addRangeMarker
+Description: /**
+* Adds a marker for display by a particular renderer and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+* <P>
+* Typically a marker will be drawn by the renderer as a line perpendicular
+* to a range axis, however this is entirely up to the renderer.
+*
+* @param index  the renderer index.
+* @param marker  the marker.
+* @param layer  the layer.
+*
+* @see #removeRangeMarker(int, Marker, Layer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: addRangeMarker
+Description: /**
+* Adds a marker for display by a particular renderer and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+* <P>
+* Typically a marker will be drawn by the renderer as a line perpendicular
+* to a range axis, however this is entirely up to the renderer.
+*
+* @param index  the renderer index.
+* @param marker  the marker.
+* @param layer  the layer.
+* @param notify  notify listeners?
+*
+* @since 1.0.10
+*
+* @see #removeRangeMarker(int, Marker, Layer, boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: clearRangeMarkers
+Description: /**
+* Clears all the range markers for the plot and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @see #clearDomainMarkers()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeMarkers
+Description: /**
+* Returns the list of range markers (read only) for the specified layer.
+*
+* @param layer  the layer (foreground or background).
+*
+* @return The list of range markers.
+*
+* @see #getRangeMarkers(int, Layer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeMarkers
+Description: /**
+* Returns a collection of range markers for a particular renderer and
+* layer.
+*
+* @param index  the renderer index.
+* @param layer  the layer.
+*
+* @return A collection of markers (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: clearRangeMarkers
+Description: /**
+* Clears all the range markers for the specified renderer.
+*
+* @param index  the renderer index.
+*
+* @see #clearDomainMarkers(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: removeRangeMarker
+Description: /**
+* Removes a marker for the range axis and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param marker the marker.
+*
+* @return A boolean indicating whether or not the marker was actually
+*         removed.
+*
+* @since 1.0.7
+*
+* @see #addRangeMarker(Marker)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: removeRangeMarker
+Description: /**
+* Removes a marker for the range axis in the specified layer and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param marker the marker (<code>null</code> not permitted).
+* @param layer the layer (foreground or background).
+*
+* @return A boolean indicating whether or not the marker was actually
+*         removed.
+*
+* @since 1.0.7
+*
+* @see #addRangeMarker(Marker, Layer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: removeRangeMarker
+Description: /**
+* Removes a marker for a specific dataset/renderer and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param index the dataset/renderer index.
+* @param marker the marker.
+* @param layer the layer (foreground or background).
+*
+* @return A boolean indicating whether or not the marker was actually
+*         removed.
+*
+* @since 1.0.7
+*
+* @see #addRangeMarker(int, Marker, Layer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: removeRangeMarker
+Description: /**
+* Removes a marker for a specific dataset/renderer and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param index  the dataset/renderer index.
+* @param marker  the marker.
+* @param layer  the layer (foreground or background).
+* @param notify  notify listeners.
+*
+* @return A boolean indicating whether or not the marker was actually
+*         removed.
+*
+* @since 1.0.10
+*
+* @see #addRangeMarker(int, Marker, Layer, boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: isDomainCrosshairVisible
+Description: /**
+* Returns the flag that controls whether or not the domain crosshair is
+* displayed by the plot.
+*
+* @return A boolean.
+*
+* @since 1.0.11
+*
+* @see #setDomainCrosshairVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainCrosshairVisible
+Description: /**
+* Sets the flag that controls whether or not the domain crosshair is
+* displayed by the plot, and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param flag  the new flag value.
+*
+* @since 1.0.11
+*
+* @see #isDomainCrosshairVisible()
+* @see #setRangeCrosshairVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainCrosshairRowKey
+Description: /**
+* Returns the row key for the domain crosshair.
+*
+* @return The row key.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainCrosshairRowKey
+Description: /**
+* Sets the row key for the domain crosshair and sends a
+* {PlotChangeEvent} to all registered listeners.
+*
+* @param key  the key.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainCrosshairRowKey
+Description: /**
+* Sets the row key for the domain crosshair and, if requested, sends a
+* {PlotChangeEvent} to all registered listeners.
+*
+* @param key  the key.
+* @param notify  notify listeners?
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainCrosshairColumnKey
+Description: /**
+* Returns the column key for the domain crosshair.
+*
+* @return The column key.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainCrosshairColumnKey
+Description: /**
+* Sets the column key for the domain crosshair and sends
+* a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param key  the key.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainCrosshairColumnKey
+Description: /**
+* Sets the column key for the domain crosshair and, if requested, sends
+* a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param key  the key.
+* @param notify  notify listeners?
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getCrosshairDatasetIndex
+Description: /**
+* Returns the dataset index for the crosshair.
+*
+* @return The dataset index.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setCrosshairDatasetIndex
+Description: /**
+* Sets the dataset index for the crosshair and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param index  the index.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setCrosshairDatasetIndex
+Description: /**
+* Sets the dataset index for the crosshair and, if requested, sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param index  the index.
+* @param notify  notify listeners?
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainCrosshairPaint
+Description: /**
+* Returns the paint used to draw the domain crosshair.
+*
+* @return The paint (never <code>null</code>).
+*
+* @since 1.0.11
+*
+* @see #setDomainCrosshairPaint(Paint)
+* @see #getDomainCrosshairStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainCrosshairPaint
+Description: /**
+* Sets the paint used to draw the domain crosshair.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @since 1.0.11
+*
+* @see #getDomainCrosshairPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDomainCrosshairStroke
+Description: /**
+* Returns the stroke used to draw the domain crosshair.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @since 1.0.11
+*
+* @see #setDomainCrosshairStroke(Stroke)
+* @see #getDomainCrosshairPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDomainCrosshairStroke
+Description: /**
+* Sets the stroke used to draw the domain crosshair, and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @since 1.0.11
+*
+* @see #getDomainCrosshairStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: isRangeCrosshairVisible
+Description: /**
+* Returns a flag indicating whether or not the range crosshair is visible.
+*
+* @return The flag.
+*
+* @see #setRangeCrosshairVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeCrosshairVisible
+Description: /**
+* Sets the flag indicating whether or not the range crosshair is visible.
+*
+* @param flag  the new value of the flag.
+*
+* @see #isRangeCrosshairVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: isRangeCrosshairLockedOnData
+Description: /**
+* Returns a flag indicating whether or not the crosshair should lock-on"""
+* to actual data values.
+*
+* @return The flag.
+*
+* @see #setRangeCrosshairLockedOnData(boolean)
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeCrosshairLockedOnData
+Description: /**
+* Sets the flag indicating whether or not the range crosshair should
+* lock-on to actual data values""", and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #isRangeCrosshairLockedOnData()
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeCrosshairValue
+Description: /**
+* Returns the range crosshair value.
+*
+* @return The value.
+*
+* @see #setRangeCrosshairValue(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeCrosshairValue
+Description: /**
+* Sets the range crosshair value and, if the crosshair is visible, sends
+* a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param value  the new value.
+*
+* @see #getRangeCrosshairValue()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeCrosshairValue
+Description: /**
+* Sets the range crosshair value and, if requested, sends a
+* {@link PlotChangeEvent} to all registered listeners (but only if the
+* crosshair is visible).
+*
+* @param value  the new value.
+* @param notify  a flag that controls whether or not listeners are
+*                notified.
+*
+* @see #getRangeCrosshairValue()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeCrosshairStroke
+Description: /**
+* Returns the pen-style (<code>Stroke</code>) used to draw the crosshair
+* (if visible).
+*
+* @return The crosshair stroke (never <code>null</code>).
+*
+* @see #setRangeCrosshairStroke(Stroke)
+* @see #isRangeCrosshairVisible()
+* @see #getRangeCrosshairPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeCrosshairStroke
+Description: /**
+* Sets the pen-style (<code>Stroke</code>) used to draw the range
+* crosshair (if visible), and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param stroke  the new crosshair stroke (<code>null</code> not
+*         permitted).
+*
+* @see #getRangeCrosshairStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getRangeCrosshairPaint
+Description: /**
+* Returns the paint used to draw the range crosshair.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setRangeCrosshairPaint(Paint)
+* @see #isRangeCrosshairVisible()
+* @see #getRangeCrosshairStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangeCrosshairPaint
+Description: /**
+* Sets the paint used to draw the range crosshair (if visible) and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getRangeCrosshairPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getAnnotations
+Description: /**
+* Returns the list of annotations.
+*
+* @return The list of annotations (never <code>null</code>).
+*
+* @see #addAnnotation(CategoryAnnotation)
+* @see #clearAnnotations()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: addAnnotation
+Description: /**
+* Adds an annotation to the plot and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param annotation  the annotation (<code>null</code> not permitted).
+*
+* @see #removeAnnotation(CategoryAnnotation)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: addAnnotation
+Description: /**
+* Adds an annotation to the plot and, if requested, sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param annotation  the annotation (<code>null</code> not permitted).
+* @param notify  notify listeners?
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: removeAnnotation
+Description: /**
+* Removes an annotation from the plot and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param annotation  the annotation (<code>null</code> not permitted).
+*
+* @return A boolean (indicates whether or not the annotation was removed).
+*
+* @see #addAnnotation(CategoryAnnotation)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: removeAnnotation
+Description: /**
+* Removes an annotation from the plot and, if requested, sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param annotation  the annotation (<code>null</code> not permitted).
+* @param notify  notify listeners?
+*
+* @return A boolean (indicates whether or not the annotation was removed).
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: clearAnnotations
+Description: /**
+* Clears all the annotations and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getShadowGenerator
+Description: /**
+* Returns the shadow generator for the plot, if any.
+*
+* @return The shadow generator (possibly <code>null</code>).
+*
+* @since 1.0.14
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setShadowGenerator
+Description: /**
+* Sets the shadow generator for the plot and sends a
+* {@link PlotChangeEvent} to all registered listeners.  Note that this is
+* a btmap drop-shadow generation facility and is separate from the
+* vector based show option that is controlled via the
+* {@link setShadowPaint()} method.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @since 1.0.14
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: draw
+Description: /**
+* Draws the plot on a Java 2D graphics device (such as the screen or a
+* printer).
+* <P>
+* At your option, you may supply an instance of {@link PlotRenderingInfo}.
+* If you do, it will be populated with information about the drawing,
+* including various plot dimensions and tooltip info.
+*
+* @param g2  the graphics device.
+* @param area  the area within which the plot (including axes) should
+*              be drawn.
+* @param anchor  the anchor point (<code>null</code> permitted).
+* @param parentState  the state from the parent plot, if there is one.
+* @param state  collects info as the chart is drawn (possibly
+*               <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: drawBackground
+Description: /**
+* Draws the plot background (the background color and/or image).
+* <P>
+* This method will be called during the chart drawing process and is
+* declared public so that it can be accessed by the renderers used by
+* certain subclasses.  You shouldn't need to call this method directly.
+*
+* @param g2  the graphics device.
+* @param area  the area within which the plot should be drawn.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: render
+Description: /**
+* Draws a representation of a dataset within the dataArea region using the
+* appropriate renderer.
+*
+* @param g2  the graphics device.
+* @param dataArea  the region in which the data is to be drawn.
+* @param index  the dataset and renderer index.
+* @param info  an optional object for collection dimension information.
+* @param crosshairState  a state object for tracking crosshair info
+*        (<code>null</code> permitted).
+*
+* @return A boolean that indicates whether or not real data was found.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDataRange
+Description: /**
+* Returns the range of data values that will be plotted against the range
+* axis.  If the dataset is <code>null</code>, this method returns
+* <code>null</code>.
+*
+* @param axis  the axis.
+*
+* @return The data range.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getWeight
+Description: /**
+* Returns the weight for this plot when it is used as a subplot within a
+* combined plot.
+*
+* @return The weight.
+*
+* @see #setWeight(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setWeight
+Description: /**
+* Sets the weight for the plot and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param weight  the weight.
+*
+* @see #getWeight()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getFixedDomainAxisSpace
+Description: /**
+* Returns the fixed domain axis space.
+*
+* @return The fixed domain axis space (possibly <code>null</code>).
+*
+* @see #setFixedDomainAxisSpace(AxisSpace)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setFixedDomainAxisSpace
+Description: /**
+* Sets the fixed domain axis space and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param space  the space (<code>null</code> permitted).
+*
+* @see #getFixedDomainAxisSpace()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setFixedDomainAxisSpace
+Description: /**
+* Sets the fixed domain axis space and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param space  the space (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getFixedDomainAxisSpace()
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getFixedRangeAxisSpace
+Description: /**
+* Returns the fixed range axis space.
+*
+* @return The fixed range axis space (possibly <code>null</code>).
+*
+* @see #setFixedRangeAxisSpace(AxisSpace)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setFixedRangeAxisSpace
+Description: /**
+* Sets the fixed range axis space and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param space  the space (<code>null</code> permitted).
+*
+* @see #getFixedRangeAxisSpace()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setFixedRangeAxisSpace
+Description: /**
+* Sets the fixed range axis space and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param space  the space (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getFixedRangeAxisSpace()
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getCategories
+Description: /**
+* Returns a list of the categories in the plot's primary dataset.
+*
+* @return A list of the categories in the plot's primary dataset.
+*
+* @see #getCategoriesForAxis(CategoryAxis)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getCategoriesForAxis
+Description: /**
+* Returns a list of the categories that should be displayed for the
+* specified axis.
+*
+* @param axis  the axis (<code>null</code> not permitted)
+*
+* @return The categories.
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getDrawSharedDomainAxis
+Description: /**
+* Returns the flag that controls whether or not the shared domain axis is
+* drawn for each subplot.
+*
+* @return A boolean.
+*
+* @see #setDrawSharedDomainAxis(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setDrawSharedDomainAxis
+Description: /**
+* Sets the flag that controls whether the shared domain axis is drawn when
+* this plot is being used as a subplot.
+*
+* @param draw  a boolean.
+*
+* @see #getDrawSharedDomainAxis()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: isDomainPannable
+Description: /**
+* Returns <code>false</code> always, because the plot cannot be panned
+* along the domain axis/axes.
+*
+* @return A boolean.
+*
+* @see #isRangePannable()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: isRangePannable
+Description: /**
+* Returns <code>true</code> if panning is enabled for the range axes,
+* and <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @see #setRangePannable(boolean)
+* @see #isDomainPannable()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setRangePannable
+Description: /**
+* Sets the flag that enables or disables panning of the plot along
+* the range axes.
+*
+* @param pannable  the new flag value.
+*
+* @see #isRangePannable()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: panDomainAxes
+Description: /**
+* Pans the domain axes by the specified percentage.
+*
+* @param percent  the distance to pan (as a percentage of the axis length).
+* @param info the plot info
+* @param source the source point where the pan action started.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: panRangeAxes
+Description: /**
+* Pans the range axes by the specified percentage.
+*
+* @param percent  the distance to pan (as a percentage of the axis length).
+* @param info the plot info
+* @param source the source point where the pan action started.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: isDomainZoomable
+Description: /**
+* Returns <code>false</code> to indicate that the domain axes are not
+* zoomable.
+*
+* @return A boolean.
+*
+* @see #isRangeZoomable()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: isRangeZoomable
+Description: /**
+* Returns <code>true</code> to indicate that the range axes are zoomable.
+*
+* @return A boolean.
+*
+* @see #isDomainZoomable()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: zoomDomainAxes
+Description: /**
+* This method does nothing, because <code>CategoryPlot</code> doesn't
+* support zooming on the domain.
+*
+* @param factor  the zoom factor.
+* @param state  the plot state.
+* @param source  the source point (in Java2D space) for the zoom.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: zoomDomainAxes
+Description: /**
+* This method does nothing, because <code>CategoryPlot</code> doesn't
+* support zooming on the domain.
+*
+* @param lowerPercent  the lower bound.
+* @param upperPercent  the upper bound.
+* @param state  the plot state.
+* @param source  the source point (in Java2D space) for the zoom.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: zoomDomainAxes
+Description: /**
+* This method does nothing, because <code>CategoryPlot</code> doesn't
+* support zooming on the domain.
+*
+* @param factor  the zoom factor.
+* @param info  the plot rendering info.
+* @param source  the source point (in Java2D space).
+* @param useAnchor  use source point as zoom anchor?
+*
+* @see #zoomRangeAxes(double, PlotRenderingInfo, Point2D, boolean)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: zoomRangeAxes
+Description: /**
+* Multiplies the range on the range axis/axes by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param state  the plot state.
+* @param source  the source point (in Java2D space) for the zoom.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: zoomRangeAxes
+Description: /**
+* Multiplies the range on the range axis/axes by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param info  the plot rendering info.
+* @param source  the source point.
+* @param useAnchor  a flag that controls whether or not the source point
+*         is used for the zoom anchor.
+*
+* @see #zoomDomainAxes(double, PlotRenderingInfo, Point2D, boolean)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: zoomRangeAxes
+Description: /**
+* Zooms in on the range axes.
+*
+* @param lowerPercent  the lower bound.
+* @param upperPercent  the upper bound.
+* @param state  the plot state.
+* @param source  the source point (in Java2D space) for the zoom.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: getAnchorValue
+Description: /**
+* Returns the anchor value.
+*
+* @return The anchor value.
+*
+* @see #setAnchorValue(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setAnchorValue
+Description: /**
+* Sets the anchor value and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param value  the anchor value.
+*
+* @see #getAnchorValue()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: setAnchorValue
+Description: /**
+* Sets the anchor value and, if requested, sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param value  the value.
+* @param notify  notify listeners?
+*
+* @see #getAnchorValue()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: equals
+Description: /**
+* Tests the plot for equality with an arbitrary object.
+*
+* @param obj  the object to test against (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: clone
+Description: /**
+* Returns a clone of the plot.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the cloning is not supported.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: canSelectByPoint
+Description: /**
+* Returns <code>true</code> if the plot supports selection by point,
+* and <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: canSelectByRegion
+Description: /**
+* Returns <code>true</code> if the plot supports selection by region,
+* and <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: select
+Description: /**
+* Perform a select for the item(s) at the specified (x, y) coordinates
+* in Java2D space.
+*
+* @param x  the x-coordinate.
+* @param y  the y-coordinate.
+* @param dataArea  the data area.
+* @param source  the rendering source.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: select
+Description: /**
+* Perform a select for the item(s) within the specified region
+* in Java2D space.
+*
+* @param region  the region.
+* @param dataArea  the data area.
+* @param source  the rendering source.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CategoryPlot, Method: clearSelection
+Description: /**
+* Clears the selection.
+*
+* @since 1.2.0
+*/"
+

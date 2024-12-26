@@ -1,0 +1,16 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardURLTagFragmentGenerator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardURLTagFragmentGenerator, Method: generateURLFragment
+Description: /**
+* Generates a URL string to go in an HTML image map.
+*
+* @param urlText  the URL text (fully escaped).
+*
+* @return The formatted text
+*/"
+

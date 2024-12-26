@@ -1,0 +1,146 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: getBaseY
+Description: /**
+* Returns the base y-coordinate.  This is where the label will appear if
+* there is no overlapping of labels.
+*
+* @return The base y-coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: setBaseY
+Description: /**
+* Sets the base y-coordinate.
+*
+* @param base  the base y-coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: getLowerY
+Description: /**
+* Returns the lower bound of the label.
+*
+* @return The lower bound.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: getUpperY
+Description: /**
+* Returns the upper bound of the label.
+*
+* @return The upper bound.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: getAngle
+Description: /**
+* Returns the angle of the middle of the section, in radians.
+*
+* @return The angle, in radians.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: getKey
+Description: /**
+* Returns the key for the section that the label applies to.
+*
+* @return The key.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: getLabel
+Description: /**
+* Returns the label.
+*
+* @return The label.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: getLabelHeight
+Description: /**
+* Returns the label height (you could derive this from the label itself,
+* but we cache the value so it can be retrieved quickly).
+*
+* @return The label height (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: getAllocatedY
+Description: /**
+* Returns the allocated y-coordinate.
+*
+* @return The allocated y-coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: setAllocatedY
+Description: /**
+* Sets the allocated y-coordinate.
+*
+* @param y  the y-coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: getGap
+Description: /**
+* Returns the gap.
+*
+* @return The gap.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: getLinkPercent
+Description: /**
+* Returns the link percent.
+*
+* @return The link percent.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: compareTo
+Description: /**
+* Compares this object to an arbitrary object.
+*
+* @param obj  the object to compare against.
+*
+* @return An integer that specifies the relative order of the two objects.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: equals
+Description: /**
+* Tests this record for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelRecord, Method: toString
+Description: /**
+* Returns a string describing the object.  This is used for debugging only.
+*
+* @return A string.
+*/"
+

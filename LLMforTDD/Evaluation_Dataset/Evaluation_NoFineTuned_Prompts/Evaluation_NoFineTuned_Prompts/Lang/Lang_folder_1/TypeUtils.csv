@@ -1,0 +1,250 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: isAssignable
+Description: /*** <p> Checks if the subject type may be implicitly cast to the target type
+* following the Java generics rules. If both types are {@link Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class}
+* objects, the method returns the result of
+* {@link Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassUtils#isAssignable(Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class)}. </p>
+*
+* @param type the subject type to be assigned to the target type
+* @param toType the target type
+* @return <code>true</code> if <code>type</code> is assignable to <code>toType</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: getTypeArguments
+Description: /*** <p> Retrieves all the type arguments for this parameterized type
+* including owner hierarchy arguments such as <code>
+* Outer<K,V>.Inner<T>.DeepInner<E></code> . The arguments are returned in a
+* {@link Map} specifying the argument type for each {@link TypeVariable}.
+* </p>
+*
+* @param type specifies the subject parameterized type from which to
+* harvest the parameters.
+* @return a map of the type arguments to their respective type variables.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: getTypeArguments
+Description: /*** <p> Gets the type arguments of a class/interface based on a subtype. For
+* instance, this method will determine that both of the parameters for the
+* interface {@link Map} are {@link Object} for the subtype
+* {@link java.util.Properties Properties} even though the subtype does not
+* directly implement the <code>Map</code> interface. <p> </p> This method
+* returns <code>null</code> if <code>type</code> is not assignable to
+* <code>toWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class</code>. It returns an empty map if none of the classes or
+* interfaces in its inheritance hierarchy specify any type arguments. </p>
+* <p> A side-effect of this method is that it also retrieves the type
+* arguments for the classes and interfaces that are part of the hierarchy
+* between <code>type</code> and <code>toWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class</code>. So with the above
+* example, this method will also determine that the type arguments for
+* {@link java.util.Hashtable Hashtable} are also both <code>Object</code>.
+* In cases where the interface specified by <code>toWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class</code> is
+* (indirectly) implemented more than once (e.g. where <code>toWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class</code>
+* specifies the interface {@link java.lang.Iterable Iterable} and
+* <code>type</code> specifies a parameterized type that implements both
+* {@link java.util.Set Set} and {@link java.util.Collection Collection}),
+* this method will look at the inheritance hierarchy of only one of the
+* implementations/subclasses; the first interface encountered that isn't a
+* subinterface to one of the others in the <code>type</code> to
+* <code>toWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class</code> hierarchy. </p>
+*
+* @param type the type from which to determine the type parameters of
+* <code>toWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class</code>
+* @param toWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class the class whose type parameters are to be determined based
+* on the subtype <code>type</code>
+* @return a map of the type assignments for the type variables in each type
+* in the inheritance hierarchy from <code>type</code> to
+* <code>toWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class</code> inclusive.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: determineTypeArguments
+Description: /*** <p> Tries to determine the type arguments of a class/interface based on a
+* super parameterized type's type arguments. This method is the inverse of
+* {@link #getTypeArguments(Type, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class)} which gets a class/interface's
+* type arguments based on a subtype. It is far more limited in determining
+* the type arguments for the subject class's type variables in that it can
+* only determine those parameters that map from the subject {@link Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class}
+* object to the supertype. </p> <p> Example: {@link java.util.TreeSet
+* TreeSet} sets its parameter as the parameter for
+* {@link java.util.NavigableSet NavigableSet}, which in turn sets the
+* parameter of {@link java.util.SortedSet}, which in turn sets the
+* parameter of {@link Set}, which in turn sets the parameter of
+* {@link java.util.Collection}, which in turn sets the parameter of
+* {@link java.lang.Iterable}. Since <code>TreeSet</code>'s parameter maps
+* (indirectly) to <code>Iterable</code>'s parameter, it will be able to
+* determine that based on the super type <code>Iterable<? extends
+* Map<Integer,? extends Collection<?>>></code>, the parameter of
+* <code>TreeSet</code> is <code>? extends Map<Integer,? extends
+* Collection<?>></code>. </p>
+*
+* @param cls the class whose type parameters are to be determined
+* @param superType the super type from which <code>cls</code>'s type
+* arguments are to be determined
+* @return a map of the type assignments that could be determined for the
+* type variables in each type in the inheritance hierarchy from
+* <code>type</code> to <code>toWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class</code> inclusive.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: isInstance
+Description: /*** <p> Checks if the given value can be assigned to the target type
+* following the Java generics rules. </p>
+*
+* @param value the value to be checked
+* @param type the target type
+* @return true of <code>value</code> is an instance of <code>type</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: normalizeUpperBounds
+Description: /*** <p> This method strips out the redundant upper bound types in type
+* variable types and wildcard types (or it would with wildcard types if
+* multiple upper bounds were allowed). </p> <p> Example: with the variable
+* type declaration:
+*
+* <pre> &lt;K extends java.util.Collection&lt;String&gt; &amp;
+* java.util.List&lt;String&gt;&gt; </pre>
+*
+* since <code>List</code> is a subinterface of <code>Collection</code>,
+* this method will return the bounds as if the declaration had been:
+*
+* <pre> &lt;K extends java.util.List&lt;String&gt;&gt; </pre>
+*
+* </p>
+*
+* @param bounds an array of types representing the upper bounds of either
+* <code>WildcardType</code> or <code>TypeVariable</code>.
+* @return an array containing the values from <code>bounds</code> minus the
+* redundant types.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: getImplicitBounds
+Description: /*** <p> Returns an array containing the sole type of {@link Object} if
+* {@link TypeVariable#getBounds()} returns an empty array. Otherwise, it
+* returns the result of <code>TypeVariable.getBounds()</code> passed into
+* {@link #normalizeUpperBounds}. </p>
+*
+* @param typeVariable the subject type variable
+* @return a non-empty array containing the bounds of the type variable.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: getImplicitUpperBounds
+Description: /*** <p> Returns an array containing the sole value of {@link Object} if
+* {@link WildcardType#getUpperBounds()} returns an empty array. Otherwise,
+* it returns the result of <code>WildcardType.getUpperBounds()</code>
+* passed into {@link #normalizeUpperBounds}. </p>
+*
+* @param wildcardType the subject wildcard type
+* @return a non-empty array containing the upper bounds of the wildcard
+* type.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: getImplicitLowerBounds
+Description: /*** <p> Returns an array containing a single value of <code>null</code> if
+* {@link WildcardType#getLowerBounds()} returns an empty array. Otherwise,
+* it returns the result of <code>WildcardType.getLowerBounds()</code>. </p>
+*
+* @param wildcardType the subject wildcard type
+* @return a non-empty array containing the lower bounds of the wildcard
+* type.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: typesSatisfyVariables
+Description: /*** <p> Determines whether or not specified types satisfy the bounds of their
+* mapped type variables. When a type parameter extends another (such as
+* <code><T, S extends T></code>), uses another as a type parameter (such as
+* <code><T, S extends Comparable<T></code>), or otherwise depends on
+* another type variable to be specified, the dependencies must be included
+* in <code>typeVarAssigns</code>. </p>
+*
+* @param typeVarAssigns specifies the potential types to be assigned to the
+* type variables.
+* @return whether or not the types can be assigned to their respective type
+* variables.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: getRawType
+Description: /*** <p> Get the raw type of a Java type, given its context. Primarily for use
+* with {@link TypeVariable}s and {@link GenericArrayType}s, or when you do
+* not know the runtime type of <code>type</code>: if you know you have a
+* {@link Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class} instance, it is already raw; if you know you have a
+* {@link ParameterizedType}, its raw type is only a method call away. </p>
+*
+* @param type to resolve
+* @param assigningType type to be resolved against
+* @return the resolved <code>Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class</code> object or <code>null</code> if
+* the type could not be resolved
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: isArrayType
+Description: /*** Learn whether the specified type denotes an array type.
+* @param type the type to be checked
+* @return <code>true</code> if <code>type</code> is an array class or a {@link GenericArrayType}.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeUtils, Method: getArrayComponentType
+Description: /*** Get the array component type of <code>type</code>.
+* @param type the type to be checked
+* @return component type or null if type is not an array type
+*/"
+

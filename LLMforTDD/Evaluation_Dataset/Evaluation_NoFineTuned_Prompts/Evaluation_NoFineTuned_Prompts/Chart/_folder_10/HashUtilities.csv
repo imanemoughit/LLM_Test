@@ -1,0 +1,146 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HashUtilities
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HashUtilities, Method: hashCodeForPaint
+Description: /**
+* Returns a hash code for a <code>Paint</code> instance.  If
+* <code>p</code> is <code>null</code>, this method returns zero.
+*
+* @param p  the paint (<code>null</code> permitted).
+*
+* @return The hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HashUtilities, Method: hashCodeForDoubleArray
+Description: /**
+* Returns a hash code for a <code>double[]</code> instance.  If the array
+* is <code>null</code>, this method returns zero.
+*
+* @param a  the array (<code>null</code> permitted).
+*
+* @return The hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HashUtilities, Method: hashCode
+Description: /**
+* Returns a hash value based on a seed value and the value of a boolean
+* primitive.
+*
+* @param pre  the seed value.
+* @param b  the boolean value.
+*
+* @return A hash value.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HashUtilities, Method: hashCode
+Description: /**
+* Returns a hash value based on a seed value and the value of an int
+* primitive.
+*
+* @param pre  the seed value.
+* @param i  the int value.
+*
+* @return A hash value.
+*
+* @since 1.0.8
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HashUtilities, Method: hashCode
+Description: /**
+* Returns a hash value based on a seed value and the value of a double
+* primitive.
+*
+* @param pre  the seed value.
+* @param d  the double value.
+*
+* @return A hash value.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HashUtilities, Method: hashCode
+Description: /**
+* Returns a hash value based on a seed value and a paint instance.
+*
+* @param pre  the seed value.
+* @param p  the paint (<code>null</code> permitted).
+*
+* @return A hash value.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HashUtilities, Method: hashCode
+Description: /**
+* Returns a hash value based on a seed value and a stroke instance.
+*
+* @param pre  the seed value.
+* @param s  the stroke (<code>null</code> permitted).
+*
+* @return A hash value.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HashUtilities, Method: hashCode
+Description: /**
+* Returns a hash value based on a seed value and a string instance.
+*
+* @param pre  the seed value.
+* @param s  the string (<code>null</code> permitted).
+*
+* @return A hash value.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HashUtilities, Method: hashCode
+Description: /**
+* Returns a hash value based on a seed value and a <code>Comparable</code>
+* instance.
+*
+* @param pre  the seed value.
+* @param c  the comparable (<code>null</code> permitted).
+*
+* @return A hash value.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HashUtilities, Method: hashCode
+Description: /**
+* Returns a hash value based on a seed value and an <code>Object</code>
+* instance.
+*
+* @param pre  the seed value.
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A hash value.
+*
+* @since 1.0.8
+*/"
+

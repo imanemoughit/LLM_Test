@@ -1,0 +1,39 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectList
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectList, Method: get
+Description: /**
+* Returns the object at the specified index, if there is one, or
+* <code>null</code>.
+*
+* @param index  the object index.
+*
+* @return The object or <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectList, Method: set
+Description: /**
+* Sets an object reference (overwriting any existing object).
+*
+* @param index  the object index.
+* @param object  the object (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ObjectList, Method: indexOf
+Description: /**
+* Returns the index of the specified object, or -1 if the object is not
+* in the list.
+*
+* @param object  the object.
+*
+* @return The index or -1.
+*/"
+

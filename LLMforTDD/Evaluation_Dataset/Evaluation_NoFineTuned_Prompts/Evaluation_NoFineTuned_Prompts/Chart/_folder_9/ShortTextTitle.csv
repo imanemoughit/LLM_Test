@@ -1,0 +1,33 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShortTextTitle
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShortTextTitle, Method: arrange
+Description: /**
+* Performs a layout for this title, subject to the supplied constraint,
+* and returns the dimensions required for the title (if the title
+* cannot be displayed in the available space, this method will return
+* zero width and height for the dimensions).
+*
+* @param g2  the graphics target.
+* @param constraint  the layout constraints.
+*
+* @return The dimensions for the title.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ShortTextTitle, Method: draw
+Description: /**
+* Draws the title using the current font and paint.
+*
+* @param g2  the graphics target.
+* @param area  the title area.
+* @param params  optional parameters (ignored here).
+*
+* @return <code>null</code>.
+*/"
+

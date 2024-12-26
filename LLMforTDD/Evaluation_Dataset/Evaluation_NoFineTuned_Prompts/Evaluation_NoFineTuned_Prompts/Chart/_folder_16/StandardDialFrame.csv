@@ -1,0 +1,164 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: getRadius
+Description: /**
+* Returns the radius, relative to the framing rectangle.
+*
+* @return The radius.
+*
+* @see #setRadius(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: setRadius
+Description: /**
+* Sets the radius and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param radius  the radius (must be positive).
+*
+* @see #getRadius()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: getBackgroundPaint
+Description: /**
+* Returns the background paint.
+*
+* @return The background paint (never <code>null</code>).
+*
+* @see #setBackgroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: setBackgroundPaint
+Description: /**
+* Sets the background paint and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getBackgroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: getForegroundPaint
+Description: /**
+* Returns the foreground paint.
+*
+* @return The foreground paint (never <code>null</code>).
+*
+* @see #setForegroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: setForegroundPaint
+Description: /**
+* Sets the foreground paint and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getForegroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: getStroke
+Description: /**
+* Returns the stroke for the frame.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: setStroke
+Description: /**
+* Sets the stroke and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: getWindow
+Description: /**
+* Returns the shape for the window for this dial.  Some dial layers will
+* request that their drawing be clipped within this window.
+*
+* @param frame  the reference frame (<code>null</code> not permitted).
+*
+* @return The shape of the dial's window.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: isClippedToWindow
+Description: /**
+* Returns <code>false</code> to indicate that this dial layer is not
+* clipped to the dial window.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: draw
+Description: /**
+* Draws the frame.  This method is called by the {@link DialPlot} class,
+* you shouldn't need to call it directly.
+*
+* @param g2  the graphics target (<code>null</code> not permitted).
+* @param plot  the plot (<code>null</code> not permitted).
+* @param frame  the frame (<code>null</code> not permitted).
+* @param view  the view (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return The hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardDialFrame, Method: clone
+Description: /**
+* Returns a clone of this instance.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if any of the frame's attributes
+*     cannot be cloned.
+*/"
+

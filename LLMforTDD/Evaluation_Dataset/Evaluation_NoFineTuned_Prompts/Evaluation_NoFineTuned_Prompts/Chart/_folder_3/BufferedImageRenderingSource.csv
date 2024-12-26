@@ -1,0 +1,40 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BufferedImageRenderingSource
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BufferedImageRenderingSource, Method: createGraphics2D
+Description: /**
+* Returns a graphics context that a renderer can use to calculate
+* selection bounds.
+*
+* @return A graphics context.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BufferedImageRenderingSource, Method: getSelectionState
+Description: /**
+* Returns the selection state, if any, that this source is maintaining
+* for the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+*
+* @return The selection state (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BufferedImageRenderingSource, Method: putSelectionState
+Description: /**
+* Stores the selection state that is associated with the specified
+* dataset for this rendering source.  If two rendering sources are
+* displaying the same dataset, ideally they should have separate selection
+* states.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param state  the state (<code>null</code> permitted).
+*/"
+

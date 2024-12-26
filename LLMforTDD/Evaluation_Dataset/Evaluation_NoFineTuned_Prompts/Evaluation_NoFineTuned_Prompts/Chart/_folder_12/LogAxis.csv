@@ -1,0 +1,288 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: getBase
+Description: /**
+* Returns the base for the logarithm calculation.
+*
+* @return The base for the logarithm calculation.
+*
+* @see #setBase(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: setBase
+Description: /**
+* Sets the base for the logarithm calculation and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param base  the base value (must be > 1.0).
+*
+* @see #getBase()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: getSmallestValue
+Description: /**
+* Returns the smallest value represented by the axis.
+*
+* @return The smallest value represented by the axis.
+*
+* @see #setSmallestValue(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: setSmallestValue
+Description: /**
+* Sets the smallest value represented by the axis and sends an
+* {@link AxisChangeEvent} to all registered listeners.
+*
+* @param value  the value.
+*
+* @see #getSmallestValue()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: getTickUnit
+Description: /**
+* Returns the current tick unit.
+*
+* @return The current tick unit.
+*
+* @see #setTickUnit(NumberTickUnit)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: setTickUnit
+Description: /**
+* Sets the tick unit for the axis and sends an {@link AxisChangeEvent} to
+* all registered listeners.  A side effect of calling this method is that
+* the auto-select feature for tick units is switched off (you can"""
+* restore it using the {@link ValueAxis#setAutoTickUnitSelection(boolean)}
+* method).
+*
+* @param unit  the new tick unit (<code>null</code> not permitted).
+*
+* @see #getTickUnit()
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: setTickUnit
+Description: /**
+* Sets the tick unit for the axis and, if requested, sends an
+* {@link AxisChangeEvent} to all registered listeners.  In addition, an
+* option is provided to turn off the auto-select feature for tick units"""
+* (you can restore it using the
+* {@link ValueAxis#setAutoTickUnitSelection(boolean)} method).
+*
+* @param unit  the new tick unit (<code>null</code> not permitted).
+* @param notify  notify listeners?
+* @param turnOffAutoSelect  turn off the auto-tick selection?
+*
+* @see #getTickUnit()
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: getNumberFormatOverride
+Description: /**
+* Returns the number format override.  If this is non-null, then it will
+* be used to format the numbers on the axis.
+*
+* @return The number formatter (possibly <code>null</code>).
+*
+* @see #setNumberFormatOverride(NumberFormat)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: setNumberFormatOverride
+Description: /**
+* Sets the number format override.  If this is non-null, then it will be
+* used to format the numbers on the axis.
+*
+* @param formatter  the number formatter (<code>null</code> permitted).
+*
+* @see #getNumberFormatOverride()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: calculateLog
+Description: /**
+* Calculates the log of the given value, using the current base.
+*
+* @param value  the value.
+*
+* @return The log of the given value.
+*
+* @see #calculateValue(double)
+* @see #getBase()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: calculateValue
+Description: /**
+* Calculates the value from a given log.
+*
+* @param log  the log value (must be > 0.0).
+*
+* @return The value with the given log.
+*
+* @see #calculateLog(double)
+* @see #getBase()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: java2DToValue
+Description: /**
+* Converts a Java2D coordinate to an axis value, assuming that the
+* axis covers the specified <code>edge</code> of the <code>area</code>.
+*
+* @param java2DValue  the Java2D coordinate.
+* @param area  the area.
+* @param edge  the edge that the axis belongs to.
+*
+* @return A value along the axis scale.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: valueToJava2D
+Description: /**
+* Converts a value on the axis scale to a Java2D coordinate relative to
+* the given <code>area</code>, based on the axis running along the
+* specified <code>edge</code>.
+*
+* @param value  the data value.
+* @param area  the area.
+* @param edge  the edge.
+*
+* @return The Java2D coordinate corresponding to <code>value</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: configure
+Description: /**
+* Configures the axis.  This method is typically called when an axis
+* is assigned to a new plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: draw
+Description: /**
+* Draws the axis on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param cursor  the cursor location (determines where to draw the axis).
+* @param plotArea  the area within which the axes and plot should be drawn.
+* @param dataArea  the area within which the data should be drawn.
+* @param edge  the axis location (<code>null</code> not permitted).
+* @param plotState  collects information about the plot
+*                   (<code>null</code> permitted).
+*
+* @return The axis state (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: refreshTicks
+Description: /**
+* Calculates the positions of the tick labels for the axis, storing the
+* results in the tick label list (ready for drawing).
+*
+* @param g2  the graphics device.
+* @param state  the axis state.
+* @param dataArea  the area in which the plot should be drawn.
+* @param edge  the location of the axis.
+*
+* @return A list of ticks.
+*
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: exponentLengthToJava2D
+Description: /**
+* Converts a length in data coordinates into the corresponding length in
+* Java2D coordinates.
+*
+* @param length  the length.
+* @param area  the plot area.
+* @param edge  the edge along which the axis lies.
+*
+* @return The length in Java2D coordinates.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: zoomRange
+Description: /**
+* Zooms in on the current range.
+*
+* @param lowerPercent  the new lower bound.
+* @param upperPercent  the new upper bound.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: pan
+Description: /**
+* Slides the axis range by the specified percentage.
+*
+* @param percent  the percentage.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: equals
+Description: /**
+* Tests this axis for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LogAxis, Method: createLogTickUnits
+Description: /**
+* Returns a collection of tick units for log (base 10) values.
+* Uses a given Locale to create the DecimalFormats.
+*
+* @param locale the locale to use to represent Numbers.
+*
+* @return A collection of tick units for integer values.
+*
+* @since 1.0.7
+*/"
+

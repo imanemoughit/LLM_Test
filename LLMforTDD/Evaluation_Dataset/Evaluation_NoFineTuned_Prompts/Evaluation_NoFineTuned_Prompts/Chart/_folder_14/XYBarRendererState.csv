@@ -1,0 +1,441 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getG2Base
+Description: /**
+* Returns the base (range) value in Java 2D space.
+*
+* @return The base value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setG2Base
+Description: /**
+* Sets the range axis base in Java2D space.
+*
+* @param value  the value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getBase
+Description: /**
+* Returns the base value for the bars.
+*
+* @return The base value for the bars.
+*
+* @see #setBase(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setBase
+Description: /**
+* Sets the base value for the bars and sends a {@link RendererChangeEvent}
+* to all registered listeners.  The base value is not used if the dataset's
+* y-interval is being used to determine the bar length.
+*
+* @param base  the new base value.
+*
+* @see #getBase()
+* @see #getUseYInterval()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getUseYInterval
+Description: /**
+* Returns a flag that determines whether the y-interval from the dataset is
+* used to calculate the length of each bar.
+*
+* @return A boolean.
+*
+* @see #setUseYInterval(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setUseYInterval
+Description: /**
+* Sets the flag that determines whether the y-interval from the dataset is
+* used to calculate the length of each bar, and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param use  the flag.
+*
+* @see #getUseYInterval()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getMargin
+Description: /**
+* Returns the margin which is a percentage amount by which the bars are
+* trimmed.
+*
+* @return The margin.
+*
+* @see #setMargin(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setMargin
+Description: /**
+* Sets the percentage amount by which the bars are trimmed and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param margin  the new margin.
+*
+* @see #getMargin()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: isDrawBarOutline
+Description: /**
+* Returns a flag that controls whether or not bar outlines are drawn.
+*
+* @return A boolean.
+*
+* @see #setDrawBarOutline(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setDrawBarOutline
+Description: /**
+* Sets the flag that controls whether or not bar outlines are drawn and
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param draw  the flag.
+*
+* @see #isDrawBarOutline()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getGradientPaintTransformer
+Description: /**
+* Returns the gradient paint transformer (an object used to transform
+* gradient paint objects to fit each bar).
+*
+* @return A transformer (<code>null</code> possible).
+*
+* @see #setGradientPaintTransformer(GradientPaintTransformer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setGradientPaintTransformer
+Description: /**
+* Sets the gradient paint transformer and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param transformer  the transformer (<code>null</code> permitted).
+*
+* @see #getGradientPaintTransformer()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getLegendBar
+Description: /**
+* Returns the shape used to represent bars in each legend item.
+*
+* @return The shape used to represent bars in each legend item (never
+*         <code>null</code>).
+*
+* @see #setLegendBar(Shape)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setLegendBar
+Description: /**
+* Sets the shape used to represent bars in each legend item and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param bar  the bar shape (<code>null</code> not permitted).
+*
+* @see #getLegendBar()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getPositiveItemLabelPositionFallback
+Description: /**
+* Returns the fallback position for positive item labels that don't fit
+* within a bar.
+*
+* @return The fallback position (<code>null</code> possible).
+*
+* @see #setPositiveItemLabelPositionFallback(ItemLabelPosition)
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setPositiveItemLabelPositionFallback
+Description: /**
+* Sets the fallback position for positive item labels that don't fit
+* within a bar, and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param position  the position (<code>null</code> permitted).
+*
+* @see #getPositiveItemLabelPositionFallback()
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getNegativeItemLabelPositionFallback
+Description: /**
+* Returns the fallback position for negative item labels that don't fit
+* within a bar.
+*
+* @return The fallback position (<code>null</code> possible).
+*
+* @see #setNegativeItemLabelPositionFallback(ItemLabelPosition)
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setNegativeItemLabelPositionFallback
+Description: /**
+* Sets the fallback position for negative item labels that don't fit
+* within a bar, and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param position  the position (<code>null</code> permitted).
+*
+* @see #getNegativeItemLabelPositionFallback()
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getBarPainter
+Description: /**
+* Returns the bar painter.
+*
+* @return The bar painter (never <code>null</code>).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setBarPainter
+Description: /**
+* Sets the bar painter and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param painter  the painter (<code>null</code> not permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getShadowsVisible
+Description: /**
+* Returns the flag that controls whether or not shadows are drawn for
+* the bars.
+*
+* @return A boolean.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setShadowVisible
+Description: /**
+* Sets the flag that controls whether or not the renderer
+* draws shadows for the bars, and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param visible  the new flag value.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getShadowXOffset
+Description: /**
+* Returns the shadow x-offset.
+*
+* @return The shadow x-offset.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setShadowXOffset
+Description: /**
+* Sets the x-offset for the bar shadow and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param offset  the offset.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getShadowYOffset
+Description: /**
+* Returns the shadow y-offset.
+*
+* @return The shadow y-offset.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setShadowYOffset
+Description: /**
+* Sets the y-offset for the bar shadow and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param offset  the offset.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getBarAlignmentFactor
+Description: /**
+* Returns the bar alignment factor.
+*
+* @return The bar alignment factor.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: setBarAlignmentFactor
+Description: /**
+* Sets the bar alignment factor and sends a {@link RendererChangeEvent}
+* to all registered listeners.  If the alignment factor is outside the
+* range 0.0 to 1.0, no alignment will be performed by the renderer.
+*
+* @param factor  the factor.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: initialise
+Description: /**
+* Initialises the renderer and returns a state object that should be
+* passed to all subsequent calls to the drawItem() method.  Here we
+* calculate the Java2D y-coordinate for zero, since all the bars have
+* their bases fixed at zero.
+*
+* @param g2  the graphics device.
+* @param dataArea  the area inside the axes.
+* @param plot  the plot.
+* @param dataset  the data.
+* @param info  an optional info collection object to return data back to
+*              the caller.
+*
+* @return A state object.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: getLegendItem
+Description: /**
+* Returns a default legend item for the specified series.  Subclasses
+* should override this method to generate customised items.
+*
+* @param datasetIndex  the dataset index (zero-based).
+* @param series  the series index (zero-based).
+*
+* @return A legend item for the series.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: drawItem
+Description: /**
+* Draws the visual representation of a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area within which the plot is being drawn.
+* @param plot  the plot (can be used to obtain standard color
+*              information etc).
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: findDomainBounds
+Description: /**
+* Returns the lower and upper bounds (range) of the x-values in the
+* specified dataset.  Since this renderer uses the x-interval in the
+* dataset, this is taken into account for the range.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is
+*         <code>null</code> or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: findRangeBounds
+Description: /**
+* Returns the lower and upper bounds (range) of the y-values in the
+* specified dataset.  If the renderer is plotting the y-interval from the
+* dataset, this is taken into account for the range.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is
+*         <code>null</code> or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: clone
+Description: /**
+* Returns a clone of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the renderer cannot be cloned.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRendererState, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object to test against (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

@@ -1,0 +1,344 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: getText
+Description: /**
+* Returns the text for the annotation.
+*
+* @return The text (never <code>null</code>).
+*
+* @see #setText(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setText
+Description: /**
+* Sets the text for the annotation.
+*
+* @param text  the text (<code>null</code> not permitted).
+*
+* @see #getText()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: getFont
+Description: /**
+* Returns the font for the annotation.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setFont
+Description: /**
+* Sets the font for the annotation and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: getPaint
+Description: /**
+* Returns the paint for the annotation.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setPaint
+Description: /**
+* Sets the paint for the annotation and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: getTextAnchor
+Description: /**
+* Returns the text anchor.
+*
+* @return The text anchor (never <code>null</code>).
+*
+* @see #setTextAnchor(TextAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setTextAnchor
+Description: /**
+* Sets the text anchor (the point on the text bounding rectangle that is
+* aligned to the (x, y) coordinate of the annotation) and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param anchor  the anchor point (<code>null</code> not permitted).
+*
+* @see #getTextAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: getRotationAnchor
+Description: /**
+* Returns the rotation anchor.
+*
+* @return The rotation anchor point (never <code>null</code>).
+*
+* @see #setRotationAnchor(TextAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setRotationAnchor
+Description: /**
+* Sets the rotation anchor point and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param anchor  the anchor (<code>null</code> not permitted).
+*
+* @see #getRotationAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: getRotationAngle
+Description: /**
+* Returns the rotation angle.
+*
+* @return The rotation angle.
+*
+* @see #setRotationAngle(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setRotationAngle
+Description: /**
+* Sets the rotation angle and sends an {@link AnnotationChangeEvent} to
+* all registered listeners.  The angle is measured clockwise in radians.
+*
+* @param angle  the angle (in radians).
+*
+* @see #getRotationAngle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: getX
+Description: /**
+* Returns the x coordinate for the text anchor point (measured against the
+* domain axis).
+*
+* @return The x coordinate (in data space).
+*
+* @see #setX(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setX
+Description: /**
+* Sets the x coordinate for the text anchor point (measured against the
+* domain axis) and sends an {@link AnnotationChangeEvent} to all
+* registered listeners.
+*
+* @param x  the x coordinate (in data space).
+*
+* @see #getX()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: getY
+Description: /**
+* Returns the y coordinate for the text anchor point (measured against the
+* range axis).
+*
+* @return The y coordinate (in data space).
+*
+* @see #setY(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setY
+Description: /**
+* Sets the y coordinate for the text anchor point (measured against the
+* range axis) and sends an {@link AnnotationChangeEvent} to all registered
+* listeners.
+*
+* @param y  the y coordinate.
+*
+* @see #getY()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: getBackgroundPaint
+Description: /**
+* Returns the background paint for the annotation.
+*
+* @return The background paint (possibly <code>null</code>).
+*
+* @see #setBackgroundPaint(Paint)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setBackgroundPaint
+Description: /**
+* Sets the background paint for the annotation and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getBackgroundPaint()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: getOutlinePaint
+Description: /**
+* Returns the outline paint for the annotation.
+*
+* @return The outline paint (never <code>null</code>).
+*
+* @see #setOutlinePaint(Paint)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setOutlinePaint
+Description: /**
+* Sets the outline paint for the annotation and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getOutlinePaint()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: getOutlineStroke
+Description: /**
+* Returns the outline stroke for the annotation.
+*
+* @return The outline stroke (never <code>null</code>).
+*
+* @see #setOutlineStroke(Stroke)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setOutlineStroke
+Description: /**
+* Sets the outline stroke for the annotation and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getOutlineStroke()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: isOutlineVisible
+Description: /**
+* Returns the flag that controls whether or not the outline is drawn.
+*
+* @return A boolean.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: setOutlineVisible
+Description: /**
+* Sets the flag that controls whether or not the outline is drawn and
+* sends an {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param visible  the new flag value.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: draw
+Description: /**
+* Draws the annotation.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param dataArea  the data area.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param rendererIndex  the renderer index.
+* @param info  an optional info object that will be populated with
+*              entity information.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: equals
+Description: /**
+* Tests this annotation for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: hashCode
+Description: /**
+* Returns a hash code for the object.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYTextAnnotation, Method: clone
+Description: /**
+* Returns a clone of the annotation.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the annotation can't be cloned.
+*/"
+

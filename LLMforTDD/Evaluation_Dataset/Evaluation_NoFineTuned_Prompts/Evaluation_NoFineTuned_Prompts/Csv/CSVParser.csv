@@ -1,0 +1,34 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CSVParser
+"
+Method: getRecords
+Description: /**
+* Parses the CSV input according to the given format and returns the content
+* as an array of {@link CSVRecord} entries.
+* <p/>
+* The returned content starts at the current parse-position in the stream.
+*
+* @return list of {@link CSVRecord} entries, may be empty
+* @throws IOException on parse error or input read-failure
+*/
+"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CSVParser, Method: iterator"
+Description: /**
+* Returns an iterator on the records. IOExceptions occuring
+* during the iteration are wrapped in a RuntimeException.
+*/
+"
+Method: getLineNumber
+Description: /**
+* Returns the current line number in the input stream.
+* <p/>
+* ATTENTION: in case your csv has multiline-values the returned
+* number does not correspond to the record-number
+*
+* @return current line number
+*/
+"

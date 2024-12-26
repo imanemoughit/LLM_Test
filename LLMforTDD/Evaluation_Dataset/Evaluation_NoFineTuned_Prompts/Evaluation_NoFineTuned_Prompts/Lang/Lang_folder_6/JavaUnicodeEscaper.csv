@@ -1,0 +1,57 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JavaUnicodeEscaper
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JavaUnicodeEscaper, Method: above
+Description: /*** <p>
+* Constructs a <code>JavaUnicodeEscaper</code> above the specified value (exclusive).
+* </p>
+*
+* @param codepoint
+*            above which to escape
+* @return the newly created {@code UnicodeEscaper} instance
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JavaUnicodeEscaper, Method: below
+Description: /*** <p>
+* Constructs a <code>JavaUnicodeEscaper</code> below the specified value (exclusive).
+* </p>
+*
+* @param codepoint
+*            below which to escape
+* @return the newly created {@code UnicodeEscaper} instance
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JavaUnicodeEscaper, Method: between
+Description: /*** <p>
+* Constructs a <code>JavaUnicodeEscaper</code> between the specified values (inclusive).
+* </p>
+*
+* @param codepointLow
+*            above which to escape
+* @param codepointHigh
+*            below which to escape
+* @return the newly created {@code UnicodeEscaper} instance
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JavaUnicodeEscaper, Method: outsideOf
+Description: /*** <p>
+* Constructs a <code>JavaUnicodeEscaper</code> outside of the specified values (exclusive).
+* </p>
+*
+* @param codepointLow
+*            below which to escape
+* @param codepointHigh
+*            above which to escape
+* @return the newly created {@code UnicodeEscaper} instance
+*/"
+

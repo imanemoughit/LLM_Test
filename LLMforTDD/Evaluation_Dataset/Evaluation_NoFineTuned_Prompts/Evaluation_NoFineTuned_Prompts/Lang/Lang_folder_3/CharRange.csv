@@ -1,0 +1,134 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: is
+Description: /*** <p>Constructs a {@code CharRange} over a single character.</p>
+*
+* @param ch  only character in this range
+* @return the new CharRange object
+* @see CharRange#CharRange(char, char, boolean)
+* @since 2.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: isNot
+Description: /*** <p>Constructs a negated {@code CharRange} over a single character.</p>
+*
+* @param ch  only character in this range
+* @return the new CharRange object
+* @see CharRange#CharRange(char, char, boolean)
+* @since 2.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: isIn
+Description: /*** <p>Constructs a {@code CharRange} over a set of characters.</p>
+*
+* @param start  first character, inclusive, in this range
+* @param end  last character, inclusive, in this range
+* @return the new CharRange object
+* @see CharRange#CharRange(char, char, boolean)
+* @since 2.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: isNotIn
+Description: /*** <p>Constructs a negated {@code CharRange} over a set of characters.</p>
+*
+* @param start  first character, inclusive, in this range
+* @param end  last character, inclusive, in this range
+* @return the new CharRange object
+* @see CharRange#CharRange(char, char, boolean)
+* @since 2.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: getStart
+Description: /*** <p>Gets the start character for this character range.</p>
+*
+* @return the start char (inclusive)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: getEnd
+Description: /*** <p>Gets the end character for this character range.</p>
+*
+* @return the end char (inclusive)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: isNegated
+Description: /*** <p>Is this {@code CharRange} negated.</p>
+*
+* <p>A negated range includes everything except that defined by the
+* start and end characters.</p>
+*
+* @return {@code true} if negated
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: contains
+Description: /*** <p>Is the character specified contained in this range.</p>
+*
+* @param ch  the character to check
+* @return {@code true} if this range contains the input character
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: contains
+Description: /*** <p>Are all the characters of the passed in range contained in
+* this range.</p>
+*
+* @param range  the range to check against
+* @return {@code true} if this range entirely contains the input range
+* @throws IllegalArgumentException if {@code null} input
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: equals
+Description: /*** <p>Compares two CharRange objects, returning true if they represent
+* exactly the same range of characters defined in the same way.</p>
+*
+* @param obj  the object to compare to
+* @return true if equal
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: hashCode
+Description: /*** <p>Gets a hashCode compatible with the equals method.</p>
+*
+* @return a suitable hashCode
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: toString
+Description: /*** <p>Gets a string representation of the character range.</p>
+*
+* @return string representation of this range
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CharRange, Method: iterator
+Description: /*** <p>Returns an iterator which can be used to walk through the characters described by this range.</p>
+*
+* <p>#NotThreadSafe# the iterator is not thread-safe</p>
+* @return an iterator to the chars represented by this range
+* @since 2.5
+*/"
+

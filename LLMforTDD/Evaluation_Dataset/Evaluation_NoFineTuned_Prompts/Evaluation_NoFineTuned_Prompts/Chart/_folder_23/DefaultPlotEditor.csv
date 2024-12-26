@@ -1,0 +1,78 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPlotEditor
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPlotEditor, Method: getPlotInsets
+Description: /**
+* Returns the current plot insets.
+*
+* @return The current plot insets.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPlotEditor, Method: getBackgroundPaint
+Description: /**
+* Returns the current background paint.
+*
+* @return The current background paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPlotEditor, Method: getOutlineStroke
+Description: /**
+* Returns the current outline stroke.
+*
+* @return The current outline stroke (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPlotEditor, Method: getOutlinePaint
+Description: /**
+* Returns the current outline paint.
+*
+* @return The current outline paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPlotEditor, Method: getDomainAxisPropertyEditPanel
+Description: /**
+* Returns a reference to the panel for editing the properties of the
+* domain axis.
+*
+* @return A reference to a panel.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPlotEditor, Method: getRangeAxisPropertyEditPanel
+Description: /**
+* Returns a reference to the panel for editing the properties of the
+* range axis.
+*
+* @return A reference to a panel.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPlotEditor, Method: actionPerformed
+Description: /**
+* Handles user actions generated within the panel.
+* @param event     the event
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPlotEditor, Method: updatePlotProperties
+Description: /**
+* Updates the plot properties to match the properties defined on the panel.
+*
+* @param plot  The plot.
+*/"
+

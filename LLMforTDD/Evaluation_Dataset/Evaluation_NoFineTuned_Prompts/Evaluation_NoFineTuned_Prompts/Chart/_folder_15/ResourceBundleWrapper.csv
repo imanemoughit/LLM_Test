@@ -1,0 +1,60 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ResourceBundleWrapper
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ResourceBundleWrapper, Method: removeCodeBase
+Description: /**
+* Instantiate a {@link URLWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassLoader} for resource lookups where the
+* codeBase URL is removed.  This method is typically called from an
+* applet's init() method.  If this method is never called, the
+* <code>getBundle()</code> methods map to the standard
+* {@link ResourceBundle} lookup methods.
+*
+* @param codeBase  the codeBase URL.
+* @param urlWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassLoader  the class loader.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ResourceBundleWrapper, Method: getBundle
+Description: /**
+* Finds and returns the specified resource bundle.
+*
+* @param baseName  the base name.
+*
+* @return The resource bundle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ResourceBundleWrapper, Method: getBundle
+Description: /**
+* Finds and returns the specified resource bundle.
+*
+* @param baseName  the base name.
+* @param locale  the locale.
+*
+* @return The resource bundle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ResourceBundleWrapper, Method: getBundle
+Description: /**
+* Maps directly to <code>ResourceBundle.getBundle(baseName, locale,
+* loader)</code>.
+*
+* @param baseName  the base name.
+* @param locale  the locale.
+* @param loader  the class loader.
+*
+* @return The resource bundle.
+*/"
+

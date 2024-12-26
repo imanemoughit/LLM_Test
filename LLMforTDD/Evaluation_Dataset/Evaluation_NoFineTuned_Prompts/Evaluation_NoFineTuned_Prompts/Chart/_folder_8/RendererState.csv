@@ -1,0 +1,25 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RendererState
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RendererState, Method: getInfo
+Description: /**
+* Returns the plot rendering info.
+*
+* @return The info.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RendererState, Method: getEntityCollection
+Description: /**
+* A convenience method that returns a reference to the entity
+* collection (may be <code>null</code>) being used to record
+* chart entities.
+*
+* @return The entity collection (possibly <code>null</code>).
+*/"
+

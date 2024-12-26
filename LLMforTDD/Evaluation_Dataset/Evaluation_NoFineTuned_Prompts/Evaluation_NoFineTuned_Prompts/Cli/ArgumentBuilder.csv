@@ -1,0 +1,121 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: create,/**
+     * Creates a new Argument instance using the options specified in this
+     * ArgumentBuilder.
+     *
+     * @return A new Argument instance using the options specified in this
+     * ArgumentBuilder.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: reset,/**
+     * Resets the ArgumentBuilder to the defaults for a new Argument. The
+     * method is called automatically at the end of a create() call.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: withName,/**
+     * Sets the name of the argument. The name is used when displaying usage
+     * information and to allow lookups in the CommandLine object.
+     *
+     * @see org.apache.commons.cli2.CommandLine#getValue(String)
+     *
+     * @param newName the name of the argument
+     * @return this ArgumentBuilder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: withDescription,/**
+     * Sets the description of the argument.
+     *
+     * The description is used when displaying online help.
+     *
+     * @param newDescription a description of the argument
+     * @return this ArgumentBuilder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: withMinimum,/**
+     * Sets the minimum number of values needed for the argument to be valid.
+     *
+     * @param newMinimum the number of values needed
+     * @return this ArgumentBuilder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: withMaximum,/**
+     * Sets the maximum number of values allowed for the argument to be valid.
+     *
+     * @param newMaximum the number of values allowed
+     * @return this ArgumentBuilder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: withInitialSeparator,/**
+     * Sets the character used to separate the values from the option. When an
+     * argument is of the form -libs:dir1,dir2,dir3 the initialSeparator would
+     * be ':'.
+     *
+     * @param newInitialSeparator the character used to separate the values
+     * from the option
+     * @return this ArgumentBuilder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: withSubsequentSeparator,/**
+     * Sets the character used to separate the values from each other. When an
+     * argument is of the form -libs:dir1,dir2,dir3 the subsequentSeparator
+     * would be ','.
+     *
+     * @param newSubsequentSeparator the character used to separate the values
+     * from each other
+     * @return this ArgumentBuilder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: withValidator,/**
+     * Sets the validator instance used to perform validation on the Argument
+     * values.
+     *
+     * @param newValidator a Validator instance
+     * @return this ArgumentBuilder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: withConsumeRemaining,/**
+     * Sets the ""consume remaining"" option, defaults to ""--"". Use this if you
+     * want to allow values that might be confused with option strings.
+     *
+     * @param newConsumeRemaining the string to use for the consume
+     * remaining option
+     * @return this ArgumentBuilder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: withDefault,/**
+     * Sets the default value.
+     *
+     * @param defaultValue the default value for the Argument
+     * @return this ArgumentBuilder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: withDefaults,/**
+     * Sets the default values.
+     *
+     * @param newDefaultValues the default values for the Argument
+     * @return this ArgumentBuilder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArgumentBuilder, Method: withId,/**
+     * Sets the id
+     *
+     * @param newId the id of the Argument
+     * @return this ArgumentBuilder
+     */"

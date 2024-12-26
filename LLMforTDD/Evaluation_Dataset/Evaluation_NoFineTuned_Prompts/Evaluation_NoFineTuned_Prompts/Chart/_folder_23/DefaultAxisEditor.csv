@@ -1,0 +1,136 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: getInstance
+Description: /**
+* A static method that returns a panel that is appropriate for the axis
+* type.
+*
+* @param axis  the axis whose properties are to be displayed/edited in
+*              the panel.
+*
+* @return A panel or <code>null</code< if axis is <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: getLabel
+Description: /**
+* Returns the current axis label.
+*
+* @return The current axis label.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: getLabelFont
+Description: /**
+* Returns the current label font.
+*
+* @return The current label font.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: getLabelPaint
+Description: /**
+* Returns the current label paint.
+*
+* @return The current label paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: isTickLabelsVisible
+Description: /**
+* Returns a flag that indicates whether or not the tick labels are visible.
+*
+* @return <code>true</code> if ick mark labels are visible.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: getTickLabelFont
+Description: /**
+* Returns the font used to draw the tick labels (if they are showing).
+*
+* @return The font used to draw the tick labels.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: getTickLabelPaint
+Description: /**
+* Returns the current tick label paint.
+*
+* @return The current tick label paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: isTickMarksVisible
+Description: /**
+* Returns the current value of the flag that determines whether or not
+* tick marks are visible.
+*
+* @return <code>true</code> if tick marks are visible.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: getTickLabelInsets
+Description: /**
+* Returns the current tick label insets value
+*
+* @return The current tick label insets value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: getLabelInsets
+Description: /**
+* Returns the current label insets value
+*
+* @return The current label insets value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: getOtherTabs
+Description: /**
+* Returns a reference to the tabbed pane.
+*
+* @return A reference to the tabbed pane.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: actionPerformed
+Description: /**
+* Handles user interaction with the property panel.
+*
+* @param event  information about the event that triggered the call to
+*      this method.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: attemptTickLabelFontSelection
+Description: /**
+* Presents a tick label font selection dialog to the user.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultAxisEditor, Method: setAxisProperties
+Description: /**
+* Sets the properties of the specified axis to match the properties
+* defined on this panel.
+*
+* @param axis  the axis.
+*/"
+

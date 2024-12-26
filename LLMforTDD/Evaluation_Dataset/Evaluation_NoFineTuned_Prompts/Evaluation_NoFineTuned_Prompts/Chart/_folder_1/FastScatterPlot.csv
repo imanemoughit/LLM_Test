@@ -1,0 +1,511 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: getPlotType
+Description: /**
+* Returns a short string describing the plot type.
+*
+* @return A short string describing the plot type.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: getData
+Description: /**
+* Returns the data array used by the plot.
+*
+* @return The data array (possibly <code>null</code>).
+*
+* @see #setData(float[][])
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setData
+Description: /**
+* Sets the data array used by the plot and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param data  the data array (<code>null</code> permitted).
+*
+* @see #getData()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: getOrientation
+Description: /**
+* Returns the orientation of the plot.
+*
+* @return The orientation (always {@link PlotOrientation#VERTICAL}).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: getDomainAxis
+Description: /**
+* Returns the domain axis for the plot.
+*
+* @return The domain axis (never <code>null</code>).
+*
+* @see #setDomainAxis(ValueAxis)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setDomainAxis
+Description: /**
+* Sets the domain axis and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param axis  the axis (<code>null</code> not permitted).
+*
+* @since 1.0.3
+*
+* @see #getDomainAxis()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: getRangeAxis
+Description: /**
+* Returns the range axis for the plot.
+*
+* @return The range axis (never <code>null</code>).
+*
+* @see #setRangeAxis(ValueAxis)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setRangeAxis
+Description: /**
+* Sets the range axis and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param axis  the axis (<code>null</code> not permitted).
+*
+* @since 1.0.3
+*
+* @see #getRangeAxis()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: getPaint
+Description: /**
+* Returns the paint used to plot data points.  The default is
+* <code>Color.red</code>.
+*
+* @return The paint.
+*
+* @see #setPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setPaint
+Description: /**
+* Sets the color for the data points and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: isDomainGridlinesVisible
+Description: /**
+* Returns <code>true</code> if the domain gridlines are visible, and
+* <code>false<code> otherwise.
+*
+* @return <code>true</code> or <code>false</code>.
+*
+* @see #setDomainGridlinesVisible(boolean)
+* @see #setDomainGridlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setDomainGridlinesVisible
+Description: /**
+* Sets the flag that controls whether or not the domain grid-lines are
+* visible.  If the flag value is changed, a {@link PlotChangeEvent} is
+* sent to all registered listeners.
+*
+* @param visible  the new value of the flag.
+*
+* @see #getDomainGridlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: getDomainGridlineStroke
+Description: /**
+* Returns the stroke for the grid-lines (if any) plotted against the
+* domain axis.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setDomainGridlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setDomainGridlineStroke
+Description: /**
+* Sets the stroke for the grid lines plotted against the domain axis and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getDomainGridlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: getDomainGridlinePaint
+Description: /**
+* Returns the paint for the grid lines (if any) plotted against the domain
+* axis.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setDomainGridlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setDomainGridlinePaint
+Description: /**
+* Sets the paint for the grid lines plotted against the domain axis and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getDomainGridlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: isRangeGridlinesVisible
+Description: /**
+* Returns <code>true</code> if the range axis grid is visible, and
+* <code>false<code> otherwise.
+*
+* @return <code>true</code> or <code>false</code>.
+*
+* @see #setRangeGridlinesVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setRangeGridlinesVisible
+Description: /**
+* Sets the flag that controls whether or not the range axis grid lines are
+* visible.  If the flag value is changed, a {@link PlotChangeEvent} is
+* sent to all registered listeners.
+*
+* @param visible  the new value of the flag.
+*
+* @see #isRangeGridlinesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: getRangeGridlineStroke
+Description: /**
+* Returns the stroke for the grid lines (if any) plotted against the range
+* axis.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setRangeGridlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setRangeGridlineStroke
+Description: /**
+* Sets the stroke for the grid lines plotted against the range axis and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> permitted).
+*
+* @see #getRangeGridlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: getRangeGridlinePaint
+Description: /**
+* Returns the paint for the grid lines (if any) plotted against the range
+* axis.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setRangeGridlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setRangeGridlinePaint
+Description: /**
+* Sets the paint for the grid lines plotted against the range axis and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getRangeGridlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: draw
+Description: /**
+* Draws the fast scatter plot on a Java 2D graphics device (such as the
+* screen or a printer).
+*
+* @param g2  the graphics device.
+* @param area   the area within which the plot (including axis labels)
+*                   should be drawn.
+* @param anchor  the anchor point (<code>null</code> permitted).
+* @param parentState  the state from the parent plot (ignored).
+* @param info  collects chart drawing information (<code>null</code>
+*              permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: render
+Description: /**
+* Draws a representation of the data within the dataArea region.  The
+* <code>info</code> and <code>crosshairState</code> arguments may be
+* <code>null</code>.
+*
+* @param g2  the graphics device.
+* @param dataArea  the region in which the data is to be drawn.
+* @param info  an optional object for collection dimension information.
+* @param crosshairState  collects crosshair information (<code>null</code>
+*                        permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: getDataRange
+Description: /**
+* Returns the range of data values to be plotted along the axis, or
+* <code>null</code> if the specified axis isn't the domain axis or the
+* range axis for the plot.
+*
+* @param axis  the axis (<code>null</code> permitted).
+*
+* @return The range (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: zoomDomainAxes
+Description: /**
+* Multiplies the range on the domain axis by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param info  the plot rendering info.
+* @param source  the source point.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: zoomDomainAxes
+Description: /**
+* Multiplies the range on the domain axis by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param info  the plot rendering info.
+* @param source  the source point (in Java2D space).
+* @param useAnchor  use source point as zoom anchor?
+*
+* @see #zoomRangeAxes(double, PlotRenderingInfo, Point2D, boolean)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: zoomDomainAxes
+Description: /**
+* Zooms in on the domain axes.
+*
+* @param lowerPercent  the new lower bound as a percentage of the current
+*                      range.
+* @param upperPercent  the new upper bound as a percentage of the current
+*                      range.
+* @param info  the plot rendering info.
+* @param source  the source point.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: zoomRangeAxes
+Description: /**
+* Multiplies the range on the range axis/axes by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param info  the plot rendering info.
+* @param source  the source point.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: zoomRangeAxes
+Description: /**
+* Multiplies the range on the range axis by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param info  the plot rendering info.
+* @param source  the source point (in Java2D space).
+* @param useAnchor  use source point as zoom anchor?
+*
+* @see #zoomDomainAxes(double, PlotRenderingInfo, Point2D, boolean)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: zoomRangeAxes
+Description: /**
+* Zooms in on the range axes.
+*
+* @param lowerPercent  the new lower bound as a percentage of the current
+*                      range.
+* @param upperPercent  the new upper bound as a percentage of the current
+*                      range.
+* @param info  the plot rendering info.
+* @param source  the source point.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: isDomainZoomable
+Description: /**
+* Returns <code>true</code>.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: isRangeZoomable
+Description: /**
+* Returns <code>true</code>.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: isDomainPannable
+Description: /**
+* Returns <code>true</code> if panning is enabled for the domain axes,
+* and <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setDomainPannable
+Description: /**
+* Sets the flag that enables or disables panning of the plot along the
+* domain axes.
+*
+* @param pannable  the new flag value.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: isRangePannable
+Description: /**
+* Returns <code>true</code> if panning is enabled for the range axes,
+* and <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: setRangePannable
+Description: /**
+* Sets the flag that enables or disables panning of the plot along
+* the range axes.
+*
+* @param pannable  the new flag value.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: panDomainAxes
+Description: /**
+* Pans the domain axes by the specified percentage.
+*
+* @param percent  the distance to pan (as a percentage of the axis length).
+* @param info the plot info
+* @param source the source point where the pan action started.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: panRangeAxes
+Description: /**
+* Pans the range axes by the specified percentage.
+*
+* @param percent  the distance to pan (as a percentage of the axis length).
+* @param info the plot info
+* @param source the source point where the pan action started.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: equals
+Description: /**
+* Tests an arbitrary object for equality with this plot.  Note that
+* <code>FastScatterPlot</code> carries its data around with it (rather
+* than referencing a dataset), and the data is included in the
+* equality test.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastScatterPlot, Method: clone
+Description: /**
+* Returns a clone of the plot.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if some component of the plot does
+*                                    not support cloning.
+*/"
+

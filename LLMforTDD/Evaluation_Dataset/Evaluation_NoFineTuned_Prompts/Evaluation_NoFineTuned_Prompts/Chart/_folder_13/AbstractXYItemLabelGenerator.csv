@@ -1,0 +1,106 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemLabelGenerator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemLabelGenerator, Method: getFormatString
+Description: /**
+* Returns the format string (this controls the overall structure of the
+* label).
+*
+* @return The format string (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemLabelGenerator, Method: getXFormat
+Description: /**
+* Returns the number formatter for the x-values.
+*
+* @return The number formatter (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemLabelGenerator, Method: getXDateFormat
+Description: /**
+* Returns the date formatter for the x-values.
+*
+* @return The date formatter (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemLabelGenerator, Method: getYFormat
+Description: /**
+* Returns the number formatter for the y-values.
+*
+* @return The number formatter (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemLabelGenerator, Method: getYDateFormat
+Description: /**
+* Returns the date formatter for the y-values.
+*
+* @return The date formatter (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemLabelGenerator, Method: generateLabelString
+Description: /**
+* Generates a label string for an item in the dataset.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param series  the series (zero-based index).
+* @param item  the item (zero-based index).
+*
+* @return The label (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemLabelGenerator, Method: getNullYString
+Description: /**
+* Returns the string representing a null value.
+*
+* @return The string representing a null value.
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemLabelGenerator, Method: equals
+Description: /**
+* Tests this object for equality with an arbitrary object.
+*
+* @param obj  the other object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemLabelGenerator, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemLabelGenerator, Method: clone
+Description: /**
+* Returns an independent copy of the generator.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if cloning is not supported.
+*/"
+

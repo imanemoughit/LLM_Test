@@ -1,0 +1,69 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BubbleXYItemLabelGenerator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BubbleXYItemLabelGenerator, Method: getZFormat
+Description: /**
+* Returns the number formatter for the z-values.
+*
+* @return The number formatter (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BubbleXYItemLabelGenerator, Method: getZDateFormat
+Description: /**
+* Returns the date formatter for the z-values.
+*
+* @return The date formatter (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BubbleXYItemLabelGenerator, Method: generateLabel
+Description: /**
+* Generates an item label for a particular item within a series.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+*
+* @return The item label (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BubbleXYItemLabelGenerator, Method: generateLabelString
+Description: /**
+* Generates a label string for an item in the dataset.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param series  the series (zero-based index).
+* @param item  the item (zero-based index).
+*
+* @return The label (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BubbleXYItemLabelGenerator, Method: equals
+Description: /**
+* Tests this object for equality with an arbitrary object.
+*
+* @param obj  the other object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BubbleXYItemLabelGenerator, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+

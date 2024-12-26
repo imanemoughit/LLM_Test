@@ -1,0 +1,361 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getPaint
+Description: /**
+* Returns the paint.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setPaint
+Description: /**
+* Sets the paint and sends a {@link MarkerChangeEvent} to all registered
+* listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getStroke
+Description: /**
+* Returns the stroke.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setStroke
+Description: /**
+* Sets the stroke and sends a {@link MarkerChangeEvent} to all registered
+* listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getOutlinePaint
+Description: /**
+* Returns the outline paint.
+*
+* @return The outline paint (possibly <code>null</code>).
+*
+* @see #setOutlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setOutlinePaint
+Description: /**
+* Sets the outline paint and sends a {@link MarkerChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getOutlineStroke
+Description: /**
+* Returns the outline stroke.
+*
+* @return The outline stroke (possibly <code>null</code>).
+*
+* @see #setOutlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setOutlineStroke
+Description: /**
+* Sets the outline stroke and sends a {@link MarkerChangeEvent} to all
+* registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> permitted).
+*
+* @see #getOutlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getAlpha
+Description: /**
+* Returns the alpha transparency.
+*
+* @return The alpha transparency.
+*
+* @see #setAlpha(float)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setAlpha
+Description: /**
+* Sets the alpha transparency that should be used when drawing the
+* marker, and sends a {@link MarkerChangeEvent} to all registered
+* listeners.  The alpha transparency is a value in the range 0.0f
+* (completely transparent) to 1.0f (completely opaque).
+*
+* @param alpha  the alpha transparency (must be in the range 0.0f to
+*     1.0f).
+*
+* @throws IllegalArgumentException if <code>alpha</code> is not in the
+*     specified range.
+*
+* @see #getAlpha()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getLabel
+Description: /**
+* Returns the label (if <code>null</code> no label is displayed).
+*
+* @return The label (possibly <code>null</code>).
+*
+* @see #setLabel(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setLabel
+Description: /**
+* Sets the label (if <code>null</code> no label is displayed) and sends a
+* {@link MarkerChangeEvent} to all registered listeners.
+*
+* @param label  the label (<code>null</code> permitted).
+*
+* @see #getLabel()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getLabelFont
+Description: /**
+* Returns the label font.
+*
+* @return The label font (never <code>null</code>).
+*
+* @see #setLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setLabelFont
+Description: /**
+* Sets the label font and sends a {@link MarkerChangeEvent} to all
+* registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getLabelPaint
+Description: /**
+* Returns the label paint.
+*
+* @return The label paint (never </code>null</code>).
+*
+* @see #setLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setLabelPaint
+Description: /**
+* Sets the label paint and sends a {@link MarkerChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getLabelAnchor
+Description: /**
+* Returns the label anchor.  This defines the position of the label
+* anchor, relative to the bounds of the marker.
+*
+* @return The label anchor (never <code>null</code>).
+*
+* @see #setLabelAnchor(RectangleAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setLabelAnchor
+Description: /**
+* Sets the label anchor and sends a {@link MarkerChangeEvent} to all
+* registered listeners.  The anchor defines the position of the label
+* anchor, relative to the bounds of the marker.
+*
+* @param anchor  the anchor (<code>null</code> not permitted).
+*
+* @see #getLabelAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getLabelOffset
+Description: /**
+* Returns the label offset.
+*
+* @return The label offset (never <code>null</code>).
+*
+* @see #setLabelOffset(RectangleInsets)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setLabelOffset
+Description: /**
+* Sets the label offset and sends a {@link MarkerChangeEvent} to all
+* registered listeners.
+*
+* @param offset  the label offset (<code>null</code> not permitted).
+*
+* @see #getLabelOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getLabelOffsetType
+Description: /**
+* Returns the label offset type.
+*
+* @return The type (never <code>null</code>).
+*
+* @see #setLabelOffsetType(LengthAdjustmentType)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setLabelOffsetType
+Description: /**
+* Sets the label offset type and sends a {@link MarkerChangeEvent} to all
+* registered listeners.
+*
+* @param adj  the type (<code>null</code> not permitted).
+*
+* @see #getLabelOffsetType()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getLabelTextAnchor
+Description: /**
+* Returns the label text anchor.
+*
+* @return The label text anchor (never <code>null</code>).
+*
+* @see #setLabelTextAnchor(TextAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: setLabelTextAnchor
+Description: /**
+* Sets the label text anchor and sends a {@link MarkerChangeEvent} to
+* all registered listeners.
+*
+* @param anchor  the label text anchor (<code>null</code> not permitted).
+*
+* @see #getLabelTextAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: addChangeListener
+Description: /**
+* Registers an object for notification of changes to the marker.
+*
+* @param listener  the object to be registered.
+*
+* @see #removeChangeListener(MarkerChangeListener)
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: removeChangeListener
+Description: /**
+* Unregisters an object for notification of changes to the marker.
+*
+* @param listener  the object to be unregistered.
+*
+* @see #addChangeListener(MarkerChangeListener)
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: notifyListeners
+Description: /**
+* Notifies all registered listeners that the marker has been modified.
+*
+* @param event  information about the change event.
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: getListeners
+Description: /**
+* Returns an array containing all the listeners of the specified type.
+*
+* @param listenerType  the listener type.
+*
+* @return The array of listeners.
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: equals
+Description: /**
+* Tests the marker for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Marker, Method: clone
+Description: /**
+* Creates a clone of the marker.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException never.
+*/"
+

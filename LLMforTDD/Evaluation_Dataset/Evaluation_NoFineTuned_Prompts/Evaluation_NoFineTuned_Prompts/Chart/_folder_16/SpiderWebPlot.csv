@@ -1,0 +1,673 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getPlotType
+Description: /**
+* Returns a short string describing the type of plot.
+*
+* @return The plot type.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getDataset
+Description: /**
+* Returns the dataset.
+*
+* @return The dataset (possibly <code>null</code>).
+*
+* @see #setDataset(CategoryDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setDataset
+Description: /**
+* Sets the dataset used by the plot and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @see #getDataset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: isWebFilled
+Description: /**
+* Method to determine if the web chart is to be filled.
+*
+* @return A boolean.
+*
+* @see #setWebFilled(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setWebFilled
+Description: /**
+* Sets the webFilled flag and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #isWebFilled()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getDataExtractOrder
+Description: /**
+* Returns the data extract order (by row or by column).
+*
+* @return The data extract order (never <code>null</code>).
+*
+* @see #setDataExtractOrder(TableOrder)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setDataExtractOrder
+Description: /**
+* Sets the data extract order (by row or by column) and sends a
+* {@link PlotChangeEvent}to all registered listeners.
+*
+* @param order the order (<code>null</code> not permitted).
+*
+* @throws IllegalArgumentException if <code>order</code> is
+*     <code>null</code>.
+*
+* @see #getDataExtractOrder()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getHeadPercent
+Description: /**
+* Returns the head percent.
+*
+* @return The head percent.
+*
+* @see #setHeadPercent(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setHeadPercent
+Description: /**
+* Sets the head percent and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param percent  the percent.
+*
+* @see #getHeadPercent()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getStartAngle
+Description: /**
+* Returns the start angle for the first radar axis.
+* <BR>
+* This is measured in degrees starting from 3 o'clock (Java Arc2D default)
+* and measuring anti-clockwise.
+*
+* @return The start angle.
+*
+* @see #setStartAngle(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setStartAngle
+Description: /**
+* Sets the starting angle and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+* <P>
+* The initial default value is 90 degrees, which corresponds to 12 o'clock.
+* A value of zero corresponds to 3 o'clock... this is the encoding used by
+* Java's Arc2D class.
+*
+* @param angle  the angle (in degrees).
+*
+* @see #getStartAngle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getMaxValue
+Description: /**
+* Returns the maximum value any category axis can take.
+*
+* @return The maximum value.
+*
+* @see #setMaxValue(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setMaxValue
+Description: /**
+* Sets the maximum value any category axis can take and sends
+* a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param value  the maximum value.
+*
+* @see #getMaxValue()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getDirection
+Description: /**
+* Returns the direction in which the radar axes are drawn
+* (clockwise or anti-clockwise).
+*
+* @return The direction (never <code>null</code>).
+*
+* @see #setDirection(Rotation)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setDirection
+Description: /**
+* Sets the direction in which the radar axes are drawn and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param direction  the direction (<code>null</code> not permitted).
+*
+* @see #getDirection()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getInteriorGap
+Description: /**
+* Returns the interior gap, measured as a percentage of the available
+* drawing space.
+*
+* @return The gap (as a percentage of the available drawing space).
+*
+* @see #setInteriorGap(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setInteriorGap
+Description: /**
+* Sets the interior gap and sends a {@link PlotChangeEvent} to all
+* registered listeners. This controls the space between the edges of the
+* plot and the plot area itself (the region where the axis labels appear).
+*
+* @param percent  the gap (as a percentage of the available drawing space).
+*
+* @see #getInteriorGap()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getAxisLabelGap
+Description: /**
+* Returns the axis label gap.
+*
+* @return The axis label gap.
+*
+* @see #setAxisLabelGap(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setAxisLabelGap
+Description: /**
+* Sets the axis label gap and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param gap  the gap.
+*
+* @see #getAxisLabelGap()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getAxisLinePaint
+Description: /**
+* Returns the paint used to draw the axis lines.
+*
+* @return The paint used to draw the axis lines (never <code>null</code>).
+*
+* @see #setAxisLinePaint(Paint)
+* @see #getAxisLineStroke()
+* @since 1.0.4
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setAxisLinePaint
+Description: /**
+* Sets the paint used to draw the axis lines and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getAxisLinePaint()
+* @since 1.0.4
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getAxisLineStroke
+Description: /**
+* Returns the stroke used to draw the axis lines.
+*
+* @return The stroke used to draw the axis lines (never <code>null</code>).
+*
+* @see #setAxisLineStroke(Stroke)
+* @see #getAxisLinePaint()
+* @since 1.0.4
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setAxisLineStroke
+Description: /**
+* Sets the stroke used to draw the axis lines and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getAxisLineStroke()
+* @since 1.0.4
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getSeriesPaint
+Description: /**
+* Returns the paint for ALL series in the plot.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setSeriesPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setSeriesPaint
+Description: /**
+* Sets the paint for ALL series in the plot. If this is set to</code> null
+* </code>, then a list of paints is used instead (to allow different colors
+* to be used for each series of the radar group).
+*
+* @param paint the paint (<code>null</code> permitted).
+*
+* @see #getSeriesPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getSeriesPaint
+Description: /**
+* Returns the paint for the specified series.
+*
+* @param series  the series index (zero-based).
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setSeriesPaint(int, Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setSeriesPaint
+Description: /**
+* Sets the paint used to fill a series of the radar and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getSeriesPaint(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getBaseSeriesPaint
+Description: /**
+* Returns the base series paint. This is used when no other paint is
+* available.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setBaseSeriesPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setBaseSeriesPaint
+Description: /**
+* Sets the base series paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getBaseSeriesPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getSeriesOutlinePaint
+Description: /**
+* Returns the outline paint for ALL series in the plot.
+*
+* @return The paint (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setSeriesOutlinePaint
+Description: /**
+* Sets the outline paint for ALL series in the plot. If this is set to
+* </code> null</code>, then a list of paints is used instead (to allow
+* different colors to be used for each series).
+*
+* @param paint  the paint (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getSeriesOutlinePaint
+Description: /**
+* Returns the paint for the specified series.
+*
+* @param series  the series index (zero-based).
+*
+* @return The paint (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setSeriesOutlinePaint
+Description: /**
+* Sets the paint used to fill a series of the radar and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param paint  the paint (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getBaseSeriesOutlinePaint
+Description: /**
+* Returns the base series paint. This is used when no other paint is
+* available.
+*
+* @return The paint (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setBaseSeriesOutlinePaint
+Description: /**
+* Sets the base series paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getSeriesOutlineStroke
+Description: /**
+* Returns the outline stroke for ALL series in the plot.
+*
+* @return The stroke (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setSeriesOutlineStroke
+Description: /**
+* Sets the outline stroke for ALL series in the plot. If this is set to
+* </code> null</code>, then a list of paints is used instead (to allow
+* different colors to be used for each series).
+*
+* @param stroke  the stroke (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getSeriesOutlineStroke
+Description: /**
+* Returns the stroke for the specified series.
+*
+* @param series  the series index (zero-based).
+*
+* @return The stroke (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setSeriesOutlineStroke
+Description: /**
+* Sets the stroke used to fill a series of the radar and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param stroke  the stroke (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getBaseSeriesOutlineStroke
+Description: /**
+* Returns the base series stroke. This is used when no other stroke is
+* available.
+*
+* @return The stroke (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setBaseSeriesOutlineStroke
+Description: /**
+* Sets the base series stroke.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getLegendItemShape
+Description: /**
+* Returns the shape used for legend items.
+*
+* @return The shape (never <code>null</code>).
+*
+* @see #setLegendItemShape(Shape)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setLegendItemShape
+Description: /**
+* Sets the shape used for legend items and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param shape  the shape (<code>null</code> not permitted).
+*
+* @see #getLegendItemShape()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getLabelFont
+Description: /**
+* Returns the series label font.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setLabelFont
+Description: /**
+* Sets the series label font and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getLabelPaint
+Description: /**
+* Returns the series label paint.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setLabelPaint
+Description: /**
+* Sets the series label paint and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getLabelGenerator
+Description: /**
+* Returns the label generator.
+*
+* @return The label generator (never <code>null</code>).
+*
+* @see #setLabelGenerator(CategoryItemLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setLabelGenerator
+Description: /**
+* Sets the label generator and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param generator  the generator (<code>null</code> not permitted).
+*
+* @see #getLabelGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getToolTipGenerator
+Description: /**
+* Returns the tool tip generator for the plot.
+*
+* @return The tool tip generator (possibly <code>null</code>).
+*
+* @see #setToolTipGenerator(CategoryToolTipGenerator)
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setToolTipGenerator
+Description: /**
+* Sets the tool tip generator for the plot and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getToolTipGenerator()
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getURLGenerator
+Description: /**
+* Returns the URL generator for the plot.
+*
+* @return The URL generator (possibly <code>null</code>).
+*
+* @see #setURLGenerator(CategoryURLGenerator)
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: setURLGenerator
+Description: /**
+* Sets the URL generator for the plot and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getURLGenerator()
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: getLegendItems
+Description: /**
+* Returns a collection of legend items for the spider web chart.
+*
+* @return The legend items (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: draw
+Description: /**
+* Draws the plot on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device.
+* @param area  the area within which the plot should be drawn.
+* @param anchor  the anchor point (<code>null</code> permitted).
+* @param parentState  the state from the parent plot, if there is one.
+* @param info  collects info about the drawing.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: equals
+Description: /**
+* Tests this plot for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SpiderWebPlot, Method: clone
+Description: /**
+* Returns a clone of this plot.
+*
+* @return A clone of this plot.
+*
+* @throws CloneNotSupportedException if the plot cannot be cloned for
+*         any reason.
+*/"
+

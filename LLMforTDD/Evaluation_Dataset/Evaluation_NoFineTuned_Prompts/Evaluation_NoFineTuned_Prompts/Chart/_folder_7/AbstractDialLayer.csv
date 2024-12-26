@@ -1,0 +1,97 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractDialLayer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractDialLayer, Method: isVisible
+Description: /**
+* Returns <code>true</code> if this layer is visible (should be displayed),
+* and <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @see #setVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractDialLayer, Method: setVisible
+Description: /**
+* Sets the flag that determines whether or not this layer is drawn by
+* the plot, and sends a {@link DialLayerChangeEvent} to all registered
+* listeners.
+*
+* @param visible  the flag.
+*
+* @see #isVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractDialLayer, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractDialLayer, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractDialLayer, Method: clone
+Description: /**
+* Returns a clone of this instance.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if there is a problem cloning this
+*     instance.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractDialLayer, Method: addChangeListener
+Description: /**
+* Registers an object for notification of changes to the dial layer.
+*
+* @param listener  the object that is being registered.
+*
+* @see #removeChangeListener(DialLayerChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractDialLayer, Method: removeChangeListener
+Description: /**
+* Deregisters an object for notification of changes to the dial layer.
+*
+* @param listener  the object to deregister.
+*
+* @see #addChangeListener(DialLayerChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractDialLayer, Method: hasListener
+Description: /**
+* Returns <code>true</code> if the specified object is registered with
+* the dataset as a listener.  Most applications won't need to call this
+* method, it exists mainly for use by unit testing code.
+*
+* @param listener  the listener.
+*
+* @return A boolean.
+*/"
+

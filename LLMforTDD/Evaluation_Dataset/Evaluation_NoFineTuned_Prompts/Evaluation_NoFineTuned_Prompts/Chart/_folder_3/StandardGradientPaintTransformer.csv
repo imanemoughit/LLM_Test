@@ -1,0 +1,60 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardGradientPaintTransformer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardGradientPaintTransformer, Method: getType
+Description: /**
+* Returns the type of transform.
+*
+* @return The type of transform (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardGradientPaintTransformer, Method: transform
+Description: /**
+* Transforms a <code>GradientPaint</code> instance to fit the specified
+* <code>target</code> shape.
+*
+* @param paint  the original paint (<code>null</code> not permitted).
+* @param target  the target shape (<code>null</code> not permitted).
+*
+* @return The transformed paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardGradientPaintTransformer, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardGradientPaintTransformer, Method: clone
+Description: /**
+* Returns a clone of the transformer.  Note that instances of this class
+* are immutable, so cloning an instance isn't really necessary.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException not thrown by this class, but
+*         subclasses (if any) might.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardGradientPaintTransformer, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+

@@ -1,0 +1,26 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYCoordinateType
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYCoordinateType, Method: toString
+Description: /**
+* Returns a string representing the object.
+*
+* @return The string.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYCoordinateType, Method: equals
+Description: /**
+* Returns <code>true</code> if this object is equal to the specified
+* object, and <code>false</code> otherwise.
+*
+* @param obj  the other object.
+*
+* @return A boolean.
+*/"
+

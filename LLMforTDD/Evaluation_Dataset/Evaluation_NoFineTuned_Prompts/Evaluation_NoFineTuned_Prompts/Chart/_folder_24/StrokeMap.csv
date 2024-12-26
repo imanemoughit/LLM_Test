@@ -1,0 +1,73 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeMap
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeMap, Method: getStroke
+Description: /**
+* Returns the stroke associated with the specified key, or
+* <code>null</code>.
+*
+* @param key  the key (<code>null</code> not permitted).
+*
+* @return The stroke, or <code>null</code>.
+*
+* @throws IllegalArgumentException if <code>key</code> is
+*     <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeMap, Method: containsKey
+Description: /**
+* Returns <code>true</code> if the map contains the specified key, and
+* <code>false</code> otherwise.
+*
+* @param key  the key.
+*
+* @return <code>true</code> if the map contains the specified key, and
+* <code>false</code> otherwise.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeMap, Method: put
+Description: /**
+* Adds a mapping between the specified <code>key</code> and
+* <code>stroke</code> values.
+*
+* @param key  the key (<code>null</code> not permitted).
+* @param stroke  the stroke.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeMap, Method: clear
+Description: /**
+* Resets the map to empty.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeMap, Method: equals
+Description: /**
+* Tests this map for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeMap, Method: clone
+Description: /**
+* Returns a clone of this <code>StrokeMap</code>.
+*
+* @return A clone of this instance.
+*
+* @throws CloneNotSupportedException if any key is not cloneable.
+*/"
+

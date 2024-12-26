@@ -1,0 +1,33 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MemoryRefStack
+"Method: push
+Description: /**
+* Adds a new element to the top of the stack.
+*
+* @param obj the object to add to the stack
+* @return the object that was added
+*/"
+"Method: pop
+Description: /**
+* Removes the top element from the stack.
+*
+* @return the element being removed from the stack
+* @throws java.util.EmptyStackException thrown if the stack is empty
+*/"
+"Method: peek
+Description: /**
+* Retrieves the item from the top of the stack, but does not remove it.
+*
+* @return the item from the top of the stack
+* @throws java.util.EmptyStackException thrown if the stack is empty
+*/"
+"Method: contains
+Description: /**
+* Performs a memory reference check to see it the {@code obj} exists in
+* the stack.
+*
+* @param obj the object to search for in the stack
+* @return true if this object is already in the stack otherwise false
+*/"

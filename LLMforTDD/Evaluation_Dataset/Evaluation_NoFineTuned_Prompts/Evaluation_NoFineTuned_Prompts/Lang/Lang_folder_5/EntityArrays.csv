@@ -1,0 +1,90 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays, Method: ISO8859_1_ESCAPE
+Description: /*** Mapping to escape <a href=https://secure.wikimedia.org/wikipedia/en/wiki/ISO/IEC_8859-1>ISO-8859-1</a>
+* characters to their named HTML 3.x equivalents.
+* @return the mapping table
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays, Method: ISO8859_1_UNESCAPE
+Description: /*** Reverse of {@link #ISO8859_1_ESCAPE()} for unescaping purposes.
+* @return the mapping table
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays, Method: HTML40_EXTENDED_ESCAPE
+Description: /*** Mapping to escape additional <a href=http://www.w3.org/TR/REC-html40/sgml/entities.html>character entity
+* references</a>. Note that this must be used with {@link #ISO8859_1_ESCAPE()} to get the full list of
+* HTML 4.0 character entities.
+* @return the mapping table
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays, Method: HTML40_EXTENDED_UNESCAPE
+Description: /*** Reverse of {@link #HTML40_EXTENDED_ESCAPE()} for unescaping purposes.
+* @return the mapping table
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays, Method: BASIC_ESCAPE
+Description: /*** Mapping to escape the basic XML and HTML character entities.
+*
+* Namely: {@code  & < >}
+* @return the mapping table
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays, Method: BASIC_UNESCAPE
+Description: /*** Reverse of {@link #BASIC_ESCAPE()} for unescaping purposes.
+* @return the mapping table
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays, Method: APOS_ESCAPE
+Description: /*** Mapping to escape the apostrophe character to its XML character entity.
+* @return the mapping table
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays, Method: APOS_UNESCAPE
+Description: /*** Reverse of {@link #APOS_ESCAPE()} for unescaping purposes.
+* @return the mapping table
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays, Method: JAVA_CTRL_CHARS_ESCAPE
+Description: /*** Mapping to escape the Java control characters.
+*
+* Namely: {@code \b \n \t \f \r}
+* @return the mapping table
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays, Method: JAVA_CTRL_CHARS_UNESCAPE
+Description: /*** Reverse of {@link #JAVA_CTRL_CHARS_ESCAPE()} for unescaping purposes.
+* @return the mapping table
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EntityArrays, Method: invert
+Description: /*** Used to invert an escape array into an unescape array
+* @param array String[][] to be inverted
+* @return String[][] inverted array
+*/"
+

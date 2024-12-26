@@ -1,0 +1,83 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierList
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierList, Method: add
+Description: /**
+* Adds an outlier to the list.
+*
+* @param outlier  the outlier.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierList, Method: getItemCount
+Description: /**
+* Returns the number of outliers in the list.
+*
+* @return The item count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierList, Method: getAveragedOutlier
+Description: /**
+* Returns the averaged outlier.
+*
+* @return The averaged outlier.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierList, Method: setAveragedOutlier
+Description: /**
+* Sets the averaged outlier.
+*
+* @param averagedOutlier  the averaged outlier.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierList, Method: isMultiple
+Description: /**
+* Returns <code>true</code> if the list contains multiple outliers, and
+* <code>false</code> otherwise.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierList, Method: setMultiple
+Description: /**
+* Sets the flag that indicates whether or not this list represents
+* multiple outliers.
+*
+* @param multiple  the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierList, Method: isOverlapped
+Description: /**
+* Returns <code>true</code> if the outlier overlaps, and
+* <code>false</code> otherwise.
+*
+* @param other  the outlier.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierList, Method: updateAveragedOutlier
+Description: /**
+* Updates the averaged outlier.
+*
+*/"
+

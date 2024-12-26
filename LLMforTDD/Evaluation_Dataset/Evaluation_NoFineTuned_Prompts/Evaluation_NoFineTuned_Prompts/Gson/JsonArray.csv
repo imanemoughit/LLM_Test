@@ -1,0 +1,150 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JsonArray
+"Method: add
+Description: /**
+* Adds the specified element to self.
+*
+* @param element the element that needs to be added to the array.
+*/"
+"Method: addAll
+Description: /**
+* Adds all the elements of the specified array to self.
+*
+* @param array the array whose elements need to be added to the array.
+*/"
+"Method: size
+Description: /**
+* Returns the number of elements in the array.
+*
+* @return the number of elements in the array.
+*/"
+"Method: iterator
+Description: /**
+* Returns an iterator to navigate the elemetns of the array. Since the array is an ordered list,
+* the iterator navigates the elements in the order they were inserted.
+*
+* @return an iterator to navigate the elements of the array.
+*/"
+"Method: get
+Description: /**
+* Returns the ith element of the array.
+*
+* @param i the index of the element that is being sought.
+* @return the element present at the ith index.
+* @throws IndexOutOfBoundsException if i is negative or greater than or equal to the
+* {@link #size()} of the array.
+*/"
+"Method: getAsNumber
+Description: /**
+* convenience method to get this array as a {@link Number} if it contains a single element.
+*
+* @return get this element as a number if it is single element array.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the element in the array is of not a {@link JsonPrimitive} and
+* is not a valid Number.
+* @throws IllegalStateException if the array has more than one element.
+*/"
+"Method: getAsString
+Description: /**
+* convenience method to get this array as a {@link String} if it contains a single element.
+*
+* @return get this element as a String if it is single element array.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the element in the array is of not a {@link JsonPrimitive} and
+* is not a valid String.
+* @throws IllegalStateException if the array has more than one element.
+*/"
+"Method: getAsDouble
+Description: /**
+* convenience method to get this array as a double if it contains a single element.
+*
+* @return get this element as a double if it is single element array.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the element in the array is of not a {@link JsonPrimitive} and
+* is not a valid double.
+* @throws IllegalStateException if the array has more than one element.
+*/"
+"Method: getAsBigDecimal
+Description: /**
+* convenience method to get this array as a {@link BigDecimal} if it contains a single element.
+*
+* @return get this element as a {@link BigDecimal} if it is single element array.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the element in the array is of not a {@link JsonPrimitive}.
+* @throws NumberFormatException if the element at index 0 is not a valid {@link BigDecimal}.
+* @throws IllegalStateException if the array has more than one element.
+* @since 1.2
+*/"
+"Method: getAsBigInteger
+Description: /**
+* convenience method to get this array as a {@link BigInteger} if it contains a single element.
+*
+* @return get this element as a {@link BigInteger} if it is single element array.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the element in the array is of not a {@link JsonPrimitive}.
+* @throws NumberFormatException if the element at index 0 is not a valid {@link BigInteger}.
+* @throws IllegalStateException if the array has more than one element.
+* @since 1.2
+*/"
+"Method: getAsFloat
+Description: /**
+* convenience method to get this array as a float if it contains a single element.
+*
+* @return get this element as a float if it is single element array.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the element in the array is of not a {@link JsonPrimitive} and
+* is not a valid float.
+* @throws IllegalStateException if the array has more than one element.
+*/"
+"Method: getAsLong
+Description: /**
+* convenience method to get this array as a long if it contains a single element.
+*
+* @return get this element as a long if it is single element array.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the element in the array is of not a {@link JsonPrimitive} and
+* is not a valid long.
+* @throws IllegalStateException if the array has more than one element.
+*/"
+"Method: getAsInt
+Description: /**
+* convenience method to get this array as an integer if it contains a single element.
+*
+* @return get this element as an integer if it is single element array.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the element in the array is of not a {@link JsonPrimitive} and
+* is not a valid integer.
+* @throws IllegalStateException if the array has more than one element.
+*/"
+"Method: getAsShort
+Description: /**
+* convenience method to get this array as a primitive short if it contains a single element.
+*
+* @return get this element as a primitive short if it is single element array.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the element in the array is of not a {@link JsonPrimitive} and
+* is not a valid short.
+* @throws IllegalStateException if the array has more than one element.
+*/"
+"Method: getAsBoolean
+Description: /**
+* convenience method to get this array as a boolean if it contains a single element.
+*
+* @return get this element as a boolean if it is single element array.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the element in the array is of not a {@link JsonPrimitive} and
+* is not a valid boolean.
+* @throws IllegalStateException if the array has more than one element.
+*/"

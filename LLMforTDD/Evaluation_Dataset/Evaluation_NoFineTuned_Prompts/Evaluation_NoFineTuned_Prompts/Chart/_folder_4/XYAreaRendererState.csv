@@ -1,0 +1,203 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: getPlotShapes
+Description: /**
+* Returns true if shapes are being plotted by the renderer.
+*
+* @return <code>true</code> if shapes are being plotted by the renderer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: getPlotLines
+Description: /**
+* Returns true if lines are being plotted by the renderer.
+*
+* @return <code>true</code> if lines are being plotted by the renderer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: getPlotArea
+Description: /**
+* Returns true if Area is being plotted by the renderer.
+*
+* @return <code>true</code> if Area is being plotted by the renderer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: isOutline
+Description: /**
+* Returns a flag that controls whether or not outlines of the areas are
+* drawn.
+*
+* @return The flag.
+*
+* @see #setOutline(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: setOutline
+Description: /**
+* Sets a flag that controls whether or not outlines of the areas are drawn
+* and sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param show  the flag.
+*
+* @see #isOutline()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: getLegendArea
+Description: /**
+* Returns the shape used to represent an area in the legend.
+*
+* @return The legend area (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: setLegendArea
+Description: /**
+* Sets the shape used as an area in each legend item and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param area  the area (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: getUseFillPaint
+Description: /**
+* Returns the flag that controls whether the series fill paint is used to
+* fill the area under the line.
+*
+* @return A boolean.
+*
+* @since 1.0.14
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: setUseFillPaint
+Description: /**
+* Sets the flag that controls whether or not the series fill paint is
+* used to fill the area under the line and sends a
+* {@link RendererChangeEvent} to all listeners.
+*
+* @param use  the new flag value.
+*
+* @since 1.0.14
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: getGradientTransformer
+Description: /**
+* Returns the gradient paint transformer.
+*
+* @return The gradient paint transformer (never <code>null</code>).
+*
+* @since 1.0.14
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: setGradientTransformer
+Description: /**
+* Sets the gradient paint transformer and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param transformer  the transformer (<code>null</code> not permitted).
+*
+* @since 1.0.14
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: initialise
+Description: /**
+* Initialises the renderer and returns a state object that should be
+* passed to all subsequent calls to the drawItem() method.
+*
+* @param g2  the graphics device.
+* @param dataArea  the area inside the axes.
+* @param plot  the plot.
+* @param data  the data.
+* @param info  an optional info collection object to return data back to
+*              the caller.
+*
+* @return A state object for use by the renderer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: getLegendItem
+Description: /**
+* Returns a default legend item for the specified series.  Subclasses
+* should override this method to generate customised items.
+*
+* @param datasetIndex  the dataset index (zero-based).
+* @param series  the series index (zero-based).
+*
+* @return A legend item for the series.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: drawItem
+Description: /**
+* Draws the visual representation of a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area within which the data is being drawn.
+* @param plot  the plot (can be used to obtain standard color information
+*              etc).
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: clone
+Description: /**
+* Returns a clone of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the renderer cannot be cloned.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYAreaRendererState, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+

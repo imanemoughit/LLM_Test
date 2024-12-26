@@ -1,0 +1,1977 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getDrawingSupplier
+Description: /**
+* Returns the drawing supplier from the plot.
+*
+* @return The drawing supplier.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSelectedItemAttributes
+Description: /**
+* Returns the set of attributes that will override the standard
+* attributes for selected items.
+*
+* @return The attributes (never <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getItemVisible
+Description: /**
+* Returns a boolean that indicates whether or not the specified item
+* should be drawn (this is typically used to hide an entire series).
+*
+* @param series  the series index.
+* @param item  the item index.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: isSeriesVisible
+Description: /**
+* Returns a boolean that indicates whether or not the specified series
+* should be drawn.
+*
+* @param series  the series index.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesVisible
+Description: /**
+* Returns the flag that controls whether a series is visible.
+*
+* @param series  the series index (zero-based).
+*
+* @return The flag (possibly <code>null</code>).
+*
+* @see #setSeriesVisible(int, Boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesVisible
+Description: /**
+* Sets the flag that controls whether a series is visible and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param visible  the flag (<code>null</code> permitted).
+*
+* @see #getSeriesVisible(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesVisible
+Description: /**
+* Sets the flag that controls whether a series is visible and, if
+* requested, sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param series  the series index.
+* @param visible  the flag (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getSeriesVisible(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseSeriesVisible
+Description: /**
+* Returns the base visibility for all series.
+*
+* @return The base visibility.
+*
+* @see #setBaseSeriesVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseSeriesVisible
+Description: /**
+* Sets the base visibility and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param visible  the flag.
+*
+* @see #getBaseSeriesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseSeriesVisible
+Description: /**
+* Sets the base visibility and, if requested, sends
+* a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param visible  the visibility.
+* @param notify  notify listeners?
+*
+* @see #getBaseSeriesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: isSeriesVisibleInLegend
+Description: /**
+* Returns <code>true</code> if the series should be shown in the legend,
+* and <code>false</code> otherwise.
+*
+* @param series  the series index.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesVisibleInLegend
+Description: /**
+* Returns the flag that controls whether a series is visible in the
+* legend.  This method returns only the per series settings - to"""
+* do a lookup that falls back to the default, you need to use the
+* {@link #isSeriesVisibleInLegend(int)} method.
+*
+* @param series  the series index (zero-based).
+*
+* @return The flag (possibly <code>null</code>).
+*
+* @see #setSeriesVisibleInLegend(int, Boolean)
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesVisibleInLegend
+Description: /**
+* Sets the flag that controls whether a series is visible in the legend
+* and sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param visible  the flag (<code>null</code> permitted).
+*
+* @see #getSeriesVisibleInLegend(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesVisibleInLegend
+Description: /**
+* Sets the flag that controls whether a series is visible in the legend
+* and, if requested, sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param series  the series index.
+* @param visible  the flag (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getSeriesVisibleInLegend(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseSeriesVisibleInLegend
+Description: /**
+* Returns the base visibility in the legend for all series.
+*
+* @return The base visibility.
+*
+* @see #setBaseSeriesVisibleInLegend(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseSeriesVisibleInLegend
+Description: /**
+* Sets the base visibility in the legend and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param visible  the flag.
+*
+* @see #getBaseSeriesVisibleInLegend()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseSeriesVisibleInLegend
+Description: /**
+* Sets the base visibility in the legend and, if requested, sends
+* a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param visible  the visibility.
+* @param notify  notify listeners?
+*
+* @see #getBaseSeriesVisibleInLegend()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getItemPaint
+Description: /**
+* Returns the paint used to fill data items as they are drawn.  The
+* default implementation passes control to the
+* {@link #lookupSeriesPaint(int)}  method. You can override this method
+* if you require different behaviour.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param selected  is the item selected?
+*
+* @return The paint (never <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: lookupSeriesPaint
+Description: /**
+* Returns the paint used to fill an item drawn by the renderer.
+*
+* @param series  the series index (zero-based).
+*
+* @return The paint (never <code>null</code>).
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesPaint
+Description: /**
+* Returns the paint used to fill an item drawn by the renderer.
+*
+* @param series  the series index (zero-based).
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setSeriesPaint(int, Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesPaint
+Description: /**
+* Sets the paint used for a series and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getSeriesPaint(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesPaint
+Description: /**
+* Sets the paint used for a series and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index.
+* @param paint  the paint (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getSeriesPaint(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: clearSeriesPaints
+Description: /**
+* Clears the series paint settings for this renderer and, if requested,
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param notify  notify listeners?
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBasePaint
+Description: /**
+* Returns the base paint.
+*
+* @return The base paint (never <code>null</code>).
+*
+* @see #setBasePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBasePaint
+Description: /**
+* Sets the base paint and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getBasePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBasePaint
+Description: /**
+* Sets the base paint and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+* @param notify  notify listeners?
+*
+* @see #getBasePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getAutoPopulateSeriesPaint
+Description: /**
+* Returns the flag that controls whether or not the series paint list is
+* automatically populated when {@link #lookupSeriesPaint(int)} is called.
+*
+* @return A boolean.
+*
+* @since 1.0.6
+*
+* @see #setAutoPopulateSeriesPaint(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setAutoPopulateSeriesPaint
+Description: /**
+* Sets the flag that controls whether or not the series paint list is
+* automatically populated when {@link #lookupSeriesPaint(int)} is called.
+*
+* @param auto  the new flag value.
+*
+* @since 1.0.6
+*
+* @see #getAutoPopulateSeriesPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getItemFillPaint
+Description: /**
+* Returns the paint used to fill data items as they are drawn.  The
+* default implementation passes control to the
+* {@link #lookupSeriesFillPaint(int)} method - you can override this
+* method if you require different behaviour.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param selected  is the item selected?
+*
+* @return The paint (never <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: lookupSeriesFillPaint
+Description: /**
+* Returns the paint used to fill an item drawn by the renderer.
+*
+* @param series  the series (zero-based index).
+*
+* @return The paint (never <code>null</code>).
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesFillPaint
+Description: /**
+* Returns the paint used to fill an item drawn by the renderer.
+*
+* @param series  the series (zero-based index).
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setSeriesFillPaint(int, Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesFillPaint
+Description: /**
+* Sets the paint used for a series fill and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getSeriesFillPaint(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesFillPaint
+Description: /**
+* Sets the paint used to fill a series and, if requested,
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param paint  the paint (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getSeriesFillPaint(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseFillPaint
+Description: /**
+* Returns the base fill paint.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setBaseFillPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseFillPaint
+Description: /**
+* Sets the base fill paint and sends a {@link RendererChangeEvent} to
+* all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getBaseFillPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseFillPaint
+Description: /**
+* Sets the base fill paint and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+* @param notify  notify listeners?
+*
+* @see #getBaseFillPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getAutoPopulateSeriesFillPaint
+Description: /**
+* Returns the flag that controls whether or not the series fill paint list
+* is automatically populated when {@link #lookupSeriesFillPaint(int)} is
+* called.
+*
+* @return A boolean.
+*
+* @since 1.0.6
+*
+* @see #setAutoPopulateSeriesFillPaint(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setAutoPopulateSeriesFillPaint
+Description: /**
+* Sets the flag that controls whether or not the series fill paint list is
+* automatically populated when {@link #lookupSeriesFillPaint(int)} is
+* called.
+*
+* @param auto  the new flag value.
+*
+* @since 1.0.6
+*
+* @see #getAutoPopulateSeriesFillPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getItemOutlinePaint
+Description: /**
+* Returns the paint used to outline data items as they are drawn.  The
+* default implementation passes control to the
+* {@link #lookupSeriesOutlinePaint(int)} method.  You can override this
+* method if you require different behaviour.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param selected  is the item selected?
+*
+* @return The paint (never <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: lookupSeriesOutlinePaint
+Description: /**
+* Returns the paint used to outline an item drawn by the renderer.
+*
+* @param series  the series (zero-based index).
+*
+* @return The paint (never <code>null</code>).
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesOutlinePaint
+Description: /**
+* Returns the paint used to outline an item drawn by the renderer.
+*
+* @param series  the series (zero-based index).
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setSeriesOutlinePaint(int, Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesOutlinePaint
+Description: /**
+* Sets the paint used for a series outline and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getSeriesOutlinePaint(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesOutlinePaint
+Description: /**
+* Sets the paint used to draw the outline for a series and, if requested,
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param paint  the paint (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getSeriesOutlinePaint(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseOutlinePaint
+Description: /**
+* Returns the base outline paint.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setBaseOutlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseOutlinePaint
+Description: /**
+* Sets the base outline paint and sends a {@link RendererChangeEvent} to
+* all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getBaseOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseOutlinePaint
+Description: /**
+* Sets the base outline paint and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+* @param notify  notify listeners?
+*
+* @see #getBaseOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getAutoPopulateSeriesOutlinePaint
+Description: /**
+* Returns the flag that controls whether or not the series outline paint
+* list is automatically populated when
+* {@link #lookupSeriesOutlinePaint(int)} is called.
+*
+* @return A boolean.
+*
+* @since 1.0.6
+*
+* @see #setAutoPopulateSeriesOutlinePaint(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setAutoPopulateSeriesOutlinePaint
+Description: /**
+* Sets the flag that controls whether or not the series outline paint list
+* is automatically populated when {@link #lookupSeriesOutlinePaint(int)}
+* is called.
+*
+* @param auto  the new flag value.
+*
+* @since 1.0.6
+*
+* @see #getAutoPopulateSeriesOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getItemStroke
+Description: /**
+* Returns the stroke used to draw data items. The default implementation
+* passes control to the {@link #lookupSeriesStroke(int)} method.
+* You can override this method if you require different behaviour.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param selected  is the item selected?
+*
+* @return The stroke (never <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: lookupSeriesStroke
+Description: /**
+* Returns the stroke used to draw the items in a series.
+*
+* @param series  the series (zero-based index).
+*
+* @return The stroke (never <code>null</code>).
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesStroke
+Description: /**
+* Returns the stroke used to draw the items in a series.
+*
+* @param series  the series (zero-based index).
+*
+* @return The stroke (possibly <code>null</code>).
+*
+* @see #setSeriesStroke(int, Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesStroke
+Description: /**
+* Sets the stroke used for a series and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param stroke  the stroke (<code>null</code> permitted).
+*
+* @see #getSeriesStroke(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesStroke
+Description: /**
+* Sets the stroke for a series and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param stroke  the stroke (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getSeriesStroke(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: clearSeriesStrokes
+Description: /**
+* Clears the series stroke settings for this renderer and, if requested,
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param notify  notify listeners?
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseStroke
+Description: /**
+* Returns the base stroke.
+*
+* @return The base stroke (never <code>null</code>).
+*
+* @see #setBaseStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseStroke
+Description: /**
+* Sets the base stroke and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getBaseStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseStroke
+Description: /**
+* Sets the base stroke and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+* @param notify  notify listeners?
+*
+* @see #getBaseStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getAutoPopulateSeriesStroke
+Description: /**
+* Returns the flag that controls whether or not the series stroke list is
+* automatically populated when {@link #lookupSeriesStroke(int)} is called.
+*
+* @return A boolean.
+*
+* @since 1.0.6
+*
+* @see #setAutoPopulateSeriesStroke(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setAutoPopulateSeriesStroke
+Description: /**
+* Sets the flag that controls whether or not the series stroke list is
+* automatically populated when {@link #lookupSeriesStroke(int)} is called.
+*
+* @param auto  the new flag value.
+*
+* @since 1.0.6
+*
+* @see #getAutoPopulateSeriesStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getItemOutlineStroke
+Description: /**
+* Returns the stroke used to outline data items.  The default
+* implementation passes control to the
+* {@link #lookupSeriesOutlineStroke(int)} method. You can override this
+* method if you require different behaviour.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param selected  is the item selected?
+*
+* @return The stroke (never <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: lookupSeriesOutlineStroke
+Description: /**
+* Returns the stroke used to outline the items in a series.
+*
+* @param series  the series (zero-based index).
+*
+* @return The stroke (never <code>null</code>).
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesOutlineStroke
+Description: /**
+* Returns the stroke used to outline the items in a series.
+*
+* @param series  the series (zero-based index).
+*
+* @return The stroke (possibly <code>null</code>).
+*
+* @see #setSeriesOutlineStroke(int, Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesOutlineStroke
+Description: /**
+* Sets the outline stroke used for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param stroke  the stroke (<code>null</code> permitted).
+*
+* @see #getSeriesOutlineStroke(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesOutlineStroke
+Description: /**
+* Sets the outline stroke for a series and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index.
+* @param stroke  the stroke (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getSeriesOutlineStroke(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseOutlineStroke
+Description: /**
+* Returns the base outline stroke.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setBaseOutlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseOutlineStroke
+Description: /**
+* Sets the base outline stroke and sends a {@link RendererChangeEvent} to
+* all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getBaseOutlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseOutlineStroke
+Description: /**
+* Sets the base outline stroke and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+* @param notify  a flag that controls whether or not listeners are
+*                notified.
+*
+* @see #getBaseOutlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getAutoPopulateSeriesOutlineStroke
+Description: /**
+* Returns the flag that controls whether or not the series outline stroke
+* list is automatically populated when
+* {@link #lookupSeriesOutlineStroke(int)} is called.
+*
+* @return A boolean.
+*
+* @since 1.0.6
+*
+* @see #setAutoPopulateSeriesOutlineStroke(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setAutoPopulateSeriesOutlineStroke
+Description: /**
+* Sets the flag that controls whether or not the series outline stroke list
+* is automatically populated when {@link #lookupSeriesOutlineStroke(int)}
+* is called.
+*
+* @param auto  the new flag value.
+*
+* @since 1.0.6
+*
+* @see #getAutoPopulateSeriesOutlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getItemShape
+Description: /**
+* Returns a shape used to represent a data item. The default
+* implementation passes control to the {@link #lookupSeriesShape(int)}
+* method.  You can override this method if you require different
+* behaviour.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param selected  is the item selected?
+*
+* @return The shape (never <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: lookupSeriesShape
+Description: /**
+* Returns a shape used to represent the items in a series.
+*
+* @param series  the series (zero-based index).
+*
+* @return The shape (never <code>null</code>).
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesShape
+Description: /**
+* Returns a shape used to represent the items in a series.
+*
+* @param series  the series (zero-based index).
+*
+* @return The shape (possibly <code>null</code>).
+*
+* @see #setSeriesShape(int, Shape)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesShape
+Description: /**
+* Sets the shape used for a series and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param shape  the shape (<code>null</code> permitted).
+*
+* @see #getSeriesShape(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesShape
+Description: /**
+* Sets the shape for a series and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero based).
+* @param shape  the shape (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getSeriesShape(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseShape
+Description: /**
+* Returns the base shape.
+*
+* @return The shape (never <code>null</code>).
+*
+* @see #setBaseShape(Shape)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseShape
+Description: /**
+* Sets the base shape and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param shape  the shape (<code>null</code> not permitted).
+*
+* @see #getBaseShape()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseShape
+Description: /**
+* Sets the base shape and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param shape  the shape (<code>null</code> not permitted).
+* @param notify  notify listeners?
+*
+* @see #getBaseShape()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getAutoPopulateSeriesShape
+Description: /**
+* Returns the flag that controls whether or not the series shape list is
+* automatically populated when {@link #lookupSeriesShape(int)} is called.
+*
+* @return A boolean.
+*
+* @since 1.0.6
+*
+* @see #setAutoPopulateSeriesShape(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setAutoPopulateSeriesShape
+Description: /**
+* Sets the flag that controls whether or not the series shape list is
+* automatically populated when {@link #lookupSeriesShape(int)} is called.
+*
+* @param auto  the new flag value.
+*
+* @since 1.0.6
+*
+* @see #getAutoPopulateSeriesShape()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: isItemLabelVisible
+Description: /**
+* Returns <code>true</code> if an item label is visible, and
+* <code>false</code> otherwise.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param selected  is the item selected?
+*
+* @return A boolean.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: isSeriesItemLabelsVisible
+Description: /**
+* Returns <code>true</code> if the item labels for a series are visible,
+* and <code>false</code> otherwise.
+*
+* @param series  the series index (zero-based).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesItemLabelsVisible
+Description: /**
+* Returns a flag that controls whether or not item labels are displayed
+* for the data items in the specified series.
+*
+* @param series  the series index.
+*
+* @return The flag (possibly <code>null</code>).
+*
+* @since 1.2.0
+*
+* @see #isSeriesItemLabelsVisible(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesItemLabelsVisible
+Description: /**
+* Sets a flag that controls the visibility of the item labels for a series,
+* and sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param visible  the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesItemLabelsVisible
+Description: /**
+* Sets the visibility of the item labels for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param visible  the flag (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesItemLabelsVisible
+Description: /**
+* Sets the visibility of item labels for a series and, if requested, sends
+* a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param visible  the visible flag.
+* @param notify  a flag that controls whether or not listeners are
+*                notified.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseItemLabelsVisible
+Description: /**
+* Returns the base setting for item label visibility.  A <code>null</code>
+* result should be interpreted as equivalent to <code>Boolean.FALSE</code>.
+*
+* @return A flag (possibly <code>null</code>).
+*
+* @see #setBaseItemLabelsVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseItemLabelsVisible
+Description: /**
+* Sets the base flag that controls whether or not item labels are visible,
+* and sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param visible  the flag.
+*
+* @see #getBaseItemLabelsVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseItemLabelsVisible
+Description: /**
+* Sets the base visibility for item labels and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param visible  the flag.
+* @param notify  notify listeners?
+*
+* @see #getBaseItemLabelsVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getItemLabelFont
+Description: /**
+* Returns the font for an item label.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param selected  is the item selected?
+*
+* @return The font (never <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesItemLabelFont
+Description: /**
+* Returns the font for all the item labels in a series.
+*
+* @param series  the series index (zero-based).
+*
+* @return The font (possibly <code>null</code>).
+*
+* @see #setSeriesItemLabelFont(int, Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesItemLabelFont
+Description: /**
+* Sets the item label font for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param font  the font (<code>null</code> permitted).
+*
+* @see #getSeriesItemLabelFont(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesItemLabelFont
+Description: /**
+* Sets the item label font for a series and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero based).
+* @param font  the font (<code>null</code> permitted).
+* @param notify  a flag that controls whether or not listeners are
+*                notified.
+*
+* @see #getSeriesItemLabelFont(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseItemLabelFont
+Description: /**
+* Returns the base item label font (this is used when no other font
+* setting is available).
+*
+* @return The font (<code>never</code> null).
+*
+* @see #setBaseItemLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseItemLabelFont
+Description: /**
+* Sets the base item label font and sends a {@link RendererChangeEvent} to
+* all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getBaseItemLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseItemLabelFont
+Description: /**
+* Sets the base item label font and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+* @param notify  a flag that controls whether or not listeners are
+*                notified.
+*
+* @see #getBaseItemLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getItemLabelPaint
+Description: /**
+* Returns the paint used to draw an item label.
+*
+* @param series  the series index (zero based).
+* @param item  the item index (zero based).
+* @param selected  is the item selected?
+*
+* @return The paint (never <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesItemLabelPaint
+Description: /**
+* Returns the paint used to draw the item labels for a series.
+*
+* @param series  the series index (zero based).
+*
+* @return The paint (possibly <code>null<code>).
+*
+* @see #setSeriesItemLabelPaint(int, Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesItemLabelPaint
+Description: /**
+* Sets the item label paint for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series (zero based index).
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getSeriesItemLabelPaint(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesItemLabelPaint
+Description: /**
+* Sets the item label paint for a series and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero based).
+* @param paint  the paint (<code>null</code> permitted).
+* @param notify  a flag that controls whether or not listeners are
+*                notified.
+*
+* @see #getSeriesItemLabelPaint(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseItemLabelPaint
+Description: /**
+* Returns the base item label paint.
+*
+* @return The paint (never <code>null<code>).
+*
+* @see #setBaseItemLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseItemLabelPaint
+Description: /**
+* Sets the base item label paint and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getBaseItemLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseItemLabelPaint
+Description: /**
+* Sets the base item label paint and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners..
+*
+* @param paint  the paint (<code>null</code> not permitted).
+* @param notify  a flag that controls whether or not listeners are
+*                notified.
+*
+* @see #getBaseItemLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getPositiveItemLabelPosition
+Description: /**
+* Returns the item label position for positive values.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param selected  is the item selected?
+*
+* @return The item label position (never <code>null</code>).
+*
+* @see #getNegativeItemLabelPosition(int, int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesPositiveItemLabelPosition
+Description: /**
+* Returns the item label position for all positive values in a series.
+*
+* @param series  the series index (zero-based).
+*
+* @return The item label position (never <code>null</code>).
+*
+* @see #setSeriesPositiveItemLabelPosition(int, ItemLabelPosition)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesPositiveItemLabelPosition
+Description: /**
+* Sets the item label position for all positive values in a series and
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param position  the position (<code>null</code> permitted).
+*
+* @see #getSeriesPositiveItemLabelPosition(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesPositiveItemLabelPosition
+Description: /**
+* Sets the item label position for all positive values in a series and (if
+* requested) sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param series  the series index (zero-based).
+* @param position  the position (<code>null</code> permitted).
+* @param notify  notify registered listeners?
+*
+* @see #getSeriesPositiveItemLabelPosition(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBasePositiveItemLabelPosition
+Description: /**
+* Returns the base positive item label position.
+*
+* @return The position (never <code>null</code>).
+*
+* @see #setBasePositiveItemLabelPosition(ItemLabelPosition)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBasePositiveItemLabelPosition
+Description: /**
+* Sets the base positive item label position.
+*
+* @param position  the position (<code>null</code> not permitted).
+*
+* @see #getBasePositiveItemLabelPosition()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBasePositiveItemLabelPosition
+Description: /**
+* Sets the base positive item label position and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param position  the position (<code>null</code> not permitted).
+* @param notify  notify registered listeners?
+*
+* @see #getBasePositiveItemLabelPosition()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getNegativeItemLabelPosition
+Description: /**
+* Returns the item label position for negative values.  This method can be
+* overridden to provide customisation of the item label position for
+* individual data items.
+*
+* @param series  the series index (zero-based).
+* @param item  the item (zero-based).
+* @param selected  is the item selected?
+*
+* @return The item label position (never <code>null</code>).
+*
+* @see #getPositiveItemLabelPosition(int, int, selected)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesNegativeItemLabelPosition
+Description: /**
+* Returns the item label position for all negative values in a series.
+*
+* @param series  the series index (zero-based).
+*
+* @return The item label position (never <code>null</code>).
+*
+* @see #setSeriesNegativeItemLabelPosition(int, ItemLabelPosition)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesNegativeItemLabelPosition
+Description: /**
+* Sets the item label position for negative values in a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param position  the position (<code>null</code> permitted).
+*
+* @see #getSeriesNegativeItemLabelPosition(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesNegativeItemLabelPosition
+Description: /**
+* Sets the item label position for negative values in a series and (if
+* requested) sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param series  the series index (zero-based).
+* @param position  the position (<code>null</code> permitted).
+* @param notify  notify registered listeners?
+*
+* @see #getSeriesNegativeItemLabelPosition(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseNegativeItemLabelPosition
+Description: /**
+* Returns the base item label position for negative values.
+*
+* @return The position (never <code>null</code>).
+*
+* @see #setBaseNegativeItemLabelPosition(ItemLabelPosition)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseNegativeItemLabelPosition
+Description: /**
+* Sets the base item label position for negative values and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param position  the position (<code>null</code> not permitted).
+*
+* @see #getBaseNegativeItemLabelPosition()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseNegativeItemLabelPosition
+Description: /**
+* Sets the base negative item label position and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param position  the position (<code>null</code> not permitted).
+* @param notify  notify registered listeners?
+*
+* @see #getBaseNegativeItemLabelPosition()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getItemLabelAnchorOffset
+Description: /**
+* Returns the item label anchor offset.
+*
+* @return The offset.
+*
+* @see #setItemLabelAnchorOffset(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setItemLabelAnchorOffset
+Description: /**
+* Sets the item label anchor offset.
+*
+* @param offset  the offset.
+*
+* @see #getItemLabelAnchorOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getItemCreateEntity
+Description: /**
+* Returns a boolean that indicates whether or not the specified item
+* should have a chart entity created for it.
+*
+* @param series  the series index.
+* @param item  the item index.
+* @param selected  is the item selected?
+*
+* @return A boolean.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getSeriesCreateEntities
+Description: /**
+* Returns the flag that controls whether entities are created for a
+* series.
+*
+* @param series  the series index (zero-based).
+*
+* @return The flag (possibly <code>null</code>).
+*
+* @see #setSeriesCreateEntities(int, Boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesCreateEntities
+Description: /**
+* Sets the flag that controls whether entities are created for a series,
+* and sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param create  the flag (<code>null</code> permitted).
+*
+* @see #getSeriesCreateEntities(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setSeriesCreateEntities
+Description: /**
+* Sets the flag that controls whether entities are created for a series
+* and, if requested, sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param series  the series index.
+* @param create  the flag (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getSeriesCreateEntities(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseCreateEntities
+Description: /**
+* Returns the base visibility for all series.
+*
+* @return The base visibility.
+*
+* @see #setBaseCreateEntities(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseCreateEntities
+Description: /**
+* Sets the base flag that controls whether entities are created
+* for a series, and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param create  the flag.
+*
+* @see #getBaseCreateEntities()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseCreateEntities
+Description: /**
+* Sets the base flag that controls whether entities are created and,
+* if requested, sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param create  the visibility.
+* @param notify  notify listeners?
+*
+* @see #getBaseCreateEntities()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getDefaultEntityRadius
+Description: /**
+* Returns the radius of the circle used for the default entity area
+* when no area is specified.
+*
+* @return A radius.
+*
+* @see #setDefaultEntityRadius(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setDefaultEntityRadius
+Description: /**
+* Sets the radius of the circle used for the default entity area
+* when no area is specified.
+*
+* @param radius  the radius.
+*
+* @see #getDefaultEntityRadius()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: lookupLegendShape
+Description: /**
+* Performs a lookup for the legend shape.
+*
+* @param series  the series index.
+*
+* @return The shape (possibly <code>null</code>).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getLegendShape
+Description: /**
+* Returns the legend shape defined for the specified series (possibly
+* <code>null</code>).
+*
+* @param series  the series index.
+*
+* @return The shape (possibly <code>null</code>).
+*
+* @see #lookupLegendShape(int)
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setLegendShape
+Description: /**
+* Sets the shape used for the legend item for the specified series, and
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index.
+* @param shape  the shape (<code>null</code> permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseLegendShape
+Description: /**
+* Returns the default legend shape, which may be <code>null</code>.
+*
+* @return The default legend shape.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseLegendShape
+Description: /**
+* Sets the default legend shape and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param shape  the shape (<code>null</code> permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: lookupLegendTextFont
+Description: /**
+* Performs a lookup for the legend text font.
+*
+* @param series  the series index.
+*
+* @return The font (possibly <code>null</code>).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getLegendTextFont
+Description: /**
+* Returns the legend text font defined for the specified series (possibly
+* <code>null</code>).
+*
+* @param series  the series index.
+*
+* @return The font (possibly <code>null</code>).
+*
+* @see #lookupLegendTextFont(int)
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setLegendTextFont
+Description: /**
+* Sets the font used for the legend text for the specified series, and
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index.
+* @param font  the font (<code>null</code> permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseLegendTextFont
+Description: /**
+* Returns the default legend text font, which may be <code>null</code>.
+*
+* @return The default legend text font.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseLegendTextFont
+Description: /**
+* Sets the default legend text font and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param font  the font (<code>null</code> permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: lookupLegendTextPaint
+Description: /**
+* Performs a lookup for the legend text paint.
+*
+* @param series  the series index.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getLegendTextPaint
+Description: /**
+* Returns the legend text paint defined for the specified series (possibly
+* <code>null</code>).
+*
+* @param series  the series index.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #lookupLegendTextPaint(int)
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setLegendTextPaint
+Description: /**
+* Sets the paint used for the legend text for the specified series, and
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index.
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getBaseLegendTextPaint
+Description: /**
+* Returns the default legend text paint, which may be <code>null</code>.
+*
+* @return The default legend text paint.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setBaseLegendTextPaint
+Description: /**
+* Sets the default legend text paint and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: getDataBoundsIncludesVisibleSeriesOnly
+Description: /**
+* Returns the flag that controls whether or not the data bounds reported
+* by this renderer will exclude non-visible series.
+*
+* @return A boolean.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: setDataBoundsIncludesVisibleSeriesOnly
+Description: /**
+* Sets the flag that controls whether or not the data bounds reported
+* by this renderer will exclude non-visible series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param visibleOnly  include only visible series.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: addChangeListener
+Description: /**
+* Registers an object to receive notification of changes to the renderer.
+*
+* @param listener  the listener (<code>null</code> not permitted).
+*
+* @see #removeChangeListener(RendererChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: removeChangeListener
+Description: /**
+* Deregisters an object so that it no longer receives
+* notification of changes to the renderer.
+*
+* @param listener  the object (<code>null</code> not permitted).
+*
+* @see #addChangeListener(RendererChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: hasListener
+Description: /**
+* Returns <code>true</code> if the specified object is registered with
+* the dataset as a listener.  Most applications won't need to call this
+* method, it exists mainly for use by unit testing code.
+*
+* @param listener  the listener.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: notifyListeners
+Description: /**
+* Notifies all registered listeners that the renderer has been modified.
+*
+* @param event  information about the change event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with another object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractRenderer, Method: hashCode
+Description: /**
+* Returns a hashcode for the renderer.
+*
+* @return The hashcode.
+*/"
+

@@ -1,0 +1,131 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer, Method: setPlot
+Description: /**
+* Set the plot associated with this renderer.
+*
+* @param plot  the plot.
+*
+* @see #getPlot()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer, Method: getPlot
+Description: /**
+* Return the plot associated with this renderer.
+*
+* @return The plot.
+*
+* @see #setPlot(PolarPlot)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer, Method: getDrawingSupplier
+Description: /**
+* Returns the drawing supplier from the plot.
+*
+* @return The drawing supplier.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer, Method: isSeriesFilled
+Description: /**
+* Returns <code>true</code> if the renderer should fill the specified
+* series, and <code>false</code> otherwise.
+*
+* @param series  the series index (zero-based).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer, Method: setSeriesFilled
+Description: /**
+* Sets a flag that controls whether or not a series is filled.
+*
+* @param series  the series index.
+* @param filled  the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer, Method: drawSeries
+Description: /**
+* Plots the data for a given series.
+*
+* @param g2  the drawing surface.
+* @param dataArea  the data area.
+* @param info  collects plot rendering info.
+* @param plot  the plot.
+* @param dataset  the dataset.
+* @param seriesIndex  the series index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer, Method: drawAngularGridLines
+Description: /**
+* Draw the angular gridlines - the spokes.
+*
+* @param g2  the drawing surface.
+* @param plot  the plot.
+* @param ticks  the ticks.
+* @param dataArea  the data area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer, Method: drawRadialGridLines
+Description: /**
+* Draw the radial gridlines - the rings.
+*
+* @param g2  the drawing surface.
+* @param plot  the plot.
+* @param radialAxis  the radial axis.
+* @param ticks  the ticks.
+* @param dataArea  the data area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer, Method: getLegendItem
+Description: /**
+* Return the legend for the given series.
+*
+* @param series  the series index.
+*
+* @return The legend item.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> not permitted).
+*
+* @return <code>true</code> if this renderer is equal to <code>obj</code>,
+*     and <code>false</code> otherwise.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultPolarItemRenderer, Method: clone
+Description: /**
+* Returns a clone of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if the renderer cannot be cloned.
+*/"
+

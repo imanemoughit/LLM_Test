@@ -1,0 +1,64 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BlockParams
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BlockParams, Method: getGenerateEntities
+Description: /**
+* Returns the flag that controls whether or not chart entities are
+* generated.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BlockParams, Method: setGenerateEntities
+Description: /**
+* Sets the flag that controls whether or not chart entities are generated.
+*
+* @param generate  the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BlockParams, Method: getTranslateX
+Description: /**
+* Returns the translation required to convert local x-coordinates back to
+* the coordinate space of the container.
+*
+* @return The x-translation amount.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BlockParams, Method: setTranslateX
+Description: /**
+* Sets the translation required to convert local x-coordinates into the
+* coordinate space of the container.
+*
+* @param x  the x-translation amount.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BlockParams, Method: getTranslateY
+Description: /**
+* Returns the translation required to convert local y-coordinates back to
+* the coordinate space of the container.
+*
+* @return The y-translation amount.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BlockParams, Method: setTranslateY
+Description: /**
+* Sets the translation required to convert local y-coordinates into the
+* coordinate space of the container.
+*
+* @param y  the y-translation amount.
+*/"
+

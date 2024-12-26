@@ -1,0 +1,45 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Rotation
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Rotation, Method: toString
+Description: /**
+* Returns a string representing the object.
+*
+* @return the string (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Rotation, Method: getFactor
+Description: /**
+* Returns the rotation factor, which is -1.0 for <code>CLOCKWISE</code>
+* and 1.0 for <code>ANTICLOCKWISE</code>.
+*
+* @return the rotation factor.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Rotation, Method: equals
+Description: /**
+* Compares this object for equality with an other object.
+* Implementation note: This simply compares the factor instead
+* of the name.
+*
+* @param o the other object
+* @return true or false
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Rotation, Method: hashCode
+Description: /**
+* Returns a hash code value for the object.
+*
+* @return the hashcode
+*/"
+

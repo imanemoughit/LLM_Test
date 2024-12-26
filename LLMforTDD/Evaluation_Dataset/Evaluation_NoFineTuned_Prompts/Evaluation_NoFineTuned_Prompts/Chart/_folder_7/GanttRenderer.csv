@@ -1,0 +1,148 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer, Method: getCompletePaint
+Description: /**
+* Returns the paint used to show the percentage complete.
+*
+* @return The paint (never <code>null</code>.
+*
+* @see #setCompletePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer, Method: setCompletePaint
+Description: /**
+* Sets the paint used to show the percentage complete and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getCompletePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer, Method: getIncompletePaint
+Description: /**
+* Returns the paint used to show the percentage incomplete.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setCompletePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer, Method: setIncompletePaint
+Description: /**
+* Sets the paint used to show the percentage incomplete and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getIncompletePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer, Method: getStartPercent
+Description: /**
+* Returns the position of the start of the progress indicator, as a
+* percentage of the bar width.
+*
+* @return The start percent.
+*
+* @see #setStartPercent(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer, Method: setStartPercent
+Description: /**
+* Sets the position of the start of the progress indicator, as a
+* percentage of the bar width, and sends a {@link RendererChangeEvent} to
+* all registered listeners.
+*
+* @param percent  the percent.
+*
+* @see #getStartPercent()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer, Method: getEndPercent
+Description: /**
+* Returns the position of the end of the progress indicator, as a
+* percentage of the bar width.
+*
+* @return The end percent.
+*
+* @see #setEndPercent(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer, Method: setEndPercent
+Description: /**
+* Sets the position of the end of the progress indicator, as a percentage
+* of the bar width, and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param percent  the percent.
+*
+* @see #getEndPercent()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer, Method: drawItem
+Description: /**
+* Draws the bar for a single (series, category) data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the data area.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer, Method: getItemMiddle
+Description: /**
+* Returns the Java2D coordinate for the middle of the specified data item.
+*
+* @param rowKey  the row key.
+* @param columnKey  the column key.
+* @param dataset  the dataset.
+* @param axis  the axis.
+* @param area  the drawing area.
+* @param edge  the edge along which the axis lies.
+*
+* @return The Java2D coordinate.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GanttRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

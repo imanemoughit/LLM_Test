@@ -1,0 +1,34 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEditorManager
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEditorManager, Method: getChartEditorFactory
+Description: /**
+* Returns the current factory.
+*
+* @return The current factory (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEditorManager, Method: setChartEditorFactory
+Description: /**
+* Sets the chart editor factory.
+*
+* @param f  the new factory (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartEditorManager, Method: getChartEditor
+Description: /**
+* Returns a component that can be used to edit the given chart.
+*
+* @param chart  the chart.
+*
+* @return The chart editor.
+*/"
+

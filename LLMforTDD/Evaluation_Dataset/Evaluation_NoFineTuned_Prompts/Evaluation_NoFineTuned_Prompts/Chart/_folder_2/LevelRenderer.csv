@@ -1,0 +1,131 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LevelRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LevelRenderer, Method: getItemMargin
+Description: /**
+* Returns the item margin.
+*
+* @return The margin.
+*
+* @see #setItemMargin(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LevelRenderer, Method: setItemMargin
+Description: /**
+* Sets the item margin and sends a {@link RendererChangeEvent} to all
+* registered listeners.  The value is expressed as a percentage of the
+* available width for plotting all the bars, with the resulting amount to
+* be distributed between all the bars evenly.
+*
+* @param percent  the new margin.
+*
+* @see #getItemMargin()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LevelRenderer, Method: getMaximumItemWidth
+Description: /**
+* Returns the maximum width, as a percentage of the available drawing
+* space.
+*
+* @return The maximum width.
+*
+* @see #setMaximumItemWidth(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LevelRenderer, Method: setMaximumItemWidth
+Description: /**
+* Sets the maximum item width, which is specified as a percentage of the
+* available space for all items, and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param percent  the percent.
+*
+* @see #getMaximumItemWidth()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LevelRenderer, Method: initialise
+Description: /**
+* Initialises the renderer and returns a state object that will be passed
+* to subsequent calls to the drawItem method.
+* <p>
+* This method gets called once at the start of the process of drawing a
+* chart.
+*
+* @param g2  the graphics device.
+* @param dataArea  the area in which the data is to be plotted.
+* @param plot  the plot.
+* @param rendererIndex  the renderer index.
+* @param info  collects chart rendering information for return to caller.
+*
+* @return The renderer state.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LevelRenderer, Method: drawItem
+Description: /**
+* Draws the bar for a single (series, category) data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the data area.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param selected  is the item selected?
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LevelRenderer, Method: getItemMiddle
+Description: /**
+* Returns the Java2D coordinate for the middle of the specified data item.
+*
+* @param rowKey  the row key.
+* @param columnKey  the column key.
+* @param dataset  the dataset.
+* @param axis  the axis.
+* @param area  the drawing area.
+* @param edge  the edge along which the axis lies.
+*
+* @return The Java2D coordinate.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LevelRenderer, Method: equals
+Description: /**
+* Tests an object for equality with this instance.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LevelRenderer, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+

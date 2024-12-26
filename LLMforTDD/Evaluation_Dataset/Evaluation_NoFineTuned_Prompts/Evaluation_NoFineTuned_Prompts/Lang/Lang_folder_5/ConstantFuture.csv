@@ -1,0 +1,40 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ConstantFuture
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ConstantFuture, Method: isDone
+Description: /*** {@inheritDoc} This implementation always returns <b>true</b> because
+* the constant object managed by this {@code Future} implementation is
+* always available.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ConstantFuture, Method: get
+Description: /*** {@inheritDoc} This implementation just returns the constant value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ConstantFuture, Method: get
+Description: /*** {@inheritDoc} This implementation just returns the constant value; it
+* does not block, therefore the timeout has no meaning.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ConstantFuture, Method: isCancelled
+Description: /*** {@inheritDoc} This implementation always returns <b>false</b>; there
+* is no background process which could be cancelled.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ConstantFuture, Method: cancel
+Description: /*** {@inheritDoc} The cancel operation is not supported. This
+* implementation always returns <b>false</b>.
+*/"
+

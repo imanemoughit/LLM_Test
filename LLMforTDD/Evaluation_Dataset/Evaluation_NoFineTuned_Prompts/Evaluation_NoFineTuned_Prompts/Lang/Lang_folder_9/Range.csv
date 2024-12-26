@@ -1,0 +1,297 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: is
+Description: /*** <p>Obtains a range using the specified element as both the minimum
+* and maximum in this range.</p>
+*
+* <p>The range uses the natural ordering of the elements to determine where
+* values lie in the range.</p>
+*
+* @param <T> the type of the elements in this range
+* @param element  the value to use for this range, not null
+* @return the range object, not null
+* @throws IllegalArgumentException if the element is null
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the element is not {@code Comparable}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: is
+Description: /*** <p>Obtains a range using the specified element as both the minimum
+* and maximum in this range.</p>
+*
+* <p>The range uses the specified {@code Comparator} to determine where
+* values lie in the range.</p>
+*
+* @param <T> the type of the elements in this range
+* @param element  the value to use for this range, must not be {@code null}
+* @param comparator  the comparator to be used, null for natural ordering
+* @return the range object, not null
+* @throws IllegalArgumentException if the element is null
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if using natural ordering and the elements are not {@code Comparable}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: between
+Description: /*** <p>Obtains a range with the specified minimum and maximum values (both inclusive).</p>
+*
+* <p>The range uses the natural ordering of the elements to determine where
+* values lie in the range.</p>
+*
+* <p>The arguments may be passed in the order (min,max) or (max,min).
+* The getMinimum and getMaximum methods will return the correct values.</p>
+*
+* @param <T> the type of the elements in this range
+* @param fromInclusive  the first value that defines the edge of the range, inclusive
+* @param toInclusive  the second value that defines the edge of the range, inclusive
+* @return the range object, not null
+* @throws IllegalArgumentException if either element is null
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the elements are not {@code Comparable}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: between
+Description: /*** <p>Obtains a range with the specified minimum and maximum values (both inclusive).</p>
+*
+* <p>The range uses the specified {@code Comparator} to determine where
+* values lie in the range.</p>
+*
+* <p>The arguments may be passed in the order (min,max) or (max,min).
+* The getMinimum and getMaximum methods will return the correct values.</p>
+*
+* @param <T> the type of the elements in this range
+* @param fromInclusive  the first value that defines the edge of the range, inclusive
+* @param toInclusive  the second value that defines the edge of the range, inclusive
+* @param comparator  the comparator to be used, null for natural ordering
+* @return the range object, not null
+* @throws IllegalArgumentException if either element is null
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if using natural ordering and the elements are not {@code Comparable}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: getMinimum
+Description: /*** <p>Gets the minimum value in this range.</p>
+*
+* @return the minimum value in this range, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: getMaximum
+Description: /*** <p>Gets the maximum value in this range.</p>
+*
+* @return the maximum value in this range, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: getComparator
+Description: /*** <p>Gets the comparator being used to determine if objects are within the range.</p>
+*
+* <p>Natural ordering uses an internal comparator implementation, thus this
+* method never returns null. See {@link #isNaturalOrdering()}.</p>
+*
+* @return the comparator being used, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: isNaturalOrdering
+Description: /*** <p>Whether or not the Range is using the natural ordering of the elements.</p>
+*
+* <p>Natural ordering uses an internal comparator implementation, thus this
+* method is the only way to check if a null comparator was specified.</p>
+*
+* @return true if using natural ordering
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: contains
+Description: /*** <p>Checks whether the specified element occurs within this range.</p>
+*
+* @param element  the element to check for, null returns false
+* @return true if the specified element occurs within this range
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: isAfter
+Description: /*** <p>Checks whether this range is after the specified element.</p>
+*
+* @param element  the element to check for, null returns false
+* @return true if this range is entirely after the specified element
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: isStartedBy
+Description: /*** <p>Checks whether this range starts with the specified element.</p>
+*
+* @param element  the element to check for, null returns false
+* @return true if the specified element occurs within this range
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: isEndedBy
+Description: /*** <p>Checks whether this range starts with the specified element.</p>
+*
+* @param element  the element to check for, null returns false
+* @return true if the specified element occurs within this range
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: isBefore
+Description: /*** <p>Checks whether this range is before the specified element.</p>
+*
+* @param element  the element to check for, null returns false
+* @return true if this range is entirely before the specified element
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: elementCompareTo
+Description: /*** <p>Checks where the specified element occurs relative to this range.</p>
+*
+* <p>The API is reminiscent of the Comparable interface returning {@code -1} if
+* the element is before the range, {@code 0} if contained within the range and
+* {@code 1} if the element is after the range. </p>
+*
+* @param element  the element to check for, not null
+* @return -1, 0 or +1 depending on the element's location relative to the range
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: containsRange
+Description: /*** <p>Checks whether this range contains all the elements of the specified range.</p>
+*
+* <p>This method may fail if the ranges have two different comparators or element types.</p>
+*
+* @param otherRange  the range to check, null returns false
+* @return true if this range contains the specified range
+* @throws RuntimeException if ranges cannot be compared
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: isAfterRange
+Description: /*** <p>Checks whether this range is completely after the specified range.</p>
+*
+* <p>This method may fail if the ranges have two different comparators or element types.</p>
+*
+* @param otherRange  the range to check, null returns false
+* @return true if this range is completely after the specified range
+* @throws RuntimeException if ranges cannot be compared
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: isOverlappedBy
+Description: /*** <p>Checks whether this range is overlapped by the specified range.</p>
+*
+* <p>Two ranges overlap if there is at least one element in common.</p>
+*
+* <p>This method may fail if the ranges have two different comparators or element types.</p>
+*
+* @param otherRange  the range to test, null returns false
+* @return true if the specified range overlaps with this
+*  range; otherwise, {@code false}
+* @throws RuntimeException if ranges cannot be compared
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: isBeforeRange
+Description: /*** <p>Checks whether this range is completely before the specified range.</p>
+*
+* <p>This method may fail if the ranges have two different comparators or element types.</p>
+*
+* @param otherRange  the range to check, null returns false
+* @return true if this range is completely before the specified range
+* @throws RuntimeException if ranges cannot be compared
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: intersectionWith
+Description: /*** Calculate the intersection of {@code this} and an overlapping Range.
+* @param other overlapping Range
+* @return range representing the intersection of {@code this} and {@code other} ({@code this} if equal)
+* @throws IllegalArgumentException if {@code other} does not overlap {@code this}
+* @since 3.0.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: equals
+Description: /*** <p>Compares this range to another object to test if they are equal.</p>.
+*
+* <p>To be equal, the minimum and maximum values must be equal, which
+* ignores any differences in the comparator.</p>
+*
+* @param obj the reference object with which to compare
+* @return true if this object is equal
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: hashCode
+Description: /*** <p>Gets a suitable hash code for the range.</p>
+*
+* @return a hash code value for this object
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: toString
+Description: /*** <p>Gets the range as a {@code String}.</p>
+*
+* <p>The format of the String is '[<i>min</i>..<i>max</i>]'.</p>
+*
+* @return the {@code String} representation of this range
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: toString
+Description: /*** <p>Formats the receiver using the given format.</p>
+*
+* <p>This uses {@link java.util.Formattable} to perform the formatting. Three variables may
+* be used to embed the minimum, maximum and comparator.
+* Use {@code %1$s} for the minimum element, {@code %2$s} for the maximum element
+* and {@code %3$s} for the comparator.
+* The default format used by {@code toString()} is {@code [%1$s..%2$s]}.</p>
+*
+* @param format  the format string, optionally containing {@code %1$s}, {@code %2$s} and  {@code %3$s}, not null
+* @return the formatted string, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Range, Method: compare
+Description: /*** Comparable based compare implementation.
+*
+* @param obj1 left hand side of comparison
+* @param obj2 right hand side of comparison
+* @return negative, 0, positive comparison value
+*/"
+

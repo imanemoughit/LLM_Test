@@ -1,0 +1,234 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: getPlotType
+Description: /**
+* Returns a string describing the type of plot.
+*
+* @return The type of plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: getGap
+Description: /**
+* Returns the space between subplots.
+*
+* @return The gap
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: setGap
+Description: /**
+* Sets the amount of space between subplots.
+*
+* @param gap  the gap between subplots
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: add
+Description: /**
+* Adds a subplot, with a default 'weight' of 1.
+* <br><br>
+* You must ensure that the subplot has a non-null domain axis.  The range
+* axis for the subplot will be set to <code>null</code>.
+*
+* @param subplot  the subplot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: add
+Description: /**
+* Adds a subplot with a particular weight (greater than or equal to one).
+* The weight determines how much space is allocated to the subplot
+* relative to all the other subplots.
+* <br><br>
+* You must ensure that the subplot has a non-null domain axis.  The range
+* axis for the subplot will be set to <code>null</code>.
+*
+* @param subplot  the subplot.
+* @param weight  the weight (must be 1 or greater).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: remove
+Description: /**
+* Removes a subplot from the combined chart.
+*
+* @param subplot  the subplot (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: getSubplots
+Description: /**
+* Returns the list of subplots.  The returned list may be empty, but is
+* never <code>null</code>.
+*
+* @return An unmodifiable list of subplots.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: draw
+Description: /**
+* Draws the plot within the specified area on a graphics device.
+*
+* @param g2  the graphics device.
+* @param area  the plot area (in Java2D space).
+* @param anchor  an anchor point in Java2D space (<code>null</code>
+*                permitted).
+* @param parentState  the state from the parent plot, if there is one
+*                     (<code>null</code> permitted).
+* @param info  collects chart drawing information (<code>null</code>
+*              permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: getLegendItems
+Description: /**
+* Returns a collection of legend items for the plot.
+*
+* @return The legend items.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: zoomDomainAxes
+Description: /**
+* Multiplies the range on the domain axis/axes by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param info  the plot rendering info (<code>null</code> not permitted).
+* @param source  the source point (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: zoomDomainAxes
+Description: /**
+* Multiplies the range on the domain axis/axes by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param info  the plot rendering info (<code>null</code> not permitted).
+* @param source  the source point (<code>null</code> not permitted).
+* @param useAnchor  zoom about the anchor point?
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: zoomDomainAxes
+Description: /**
+* Zooms in on the domain axes.
+*
+* @param lowerPercent  the lower bound.
+* @param upperPercent  the upper bound.
+* @param info  the plot rendering info (<code>null</code> not permitted).
+* @param source  the source point (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: findSubplot
+Description: /**
+* Returns the subplot (if any) that contains the (x, y) point (specified
+* in Java2D space).
+*
+* @param info  the chart rendering info (<code>null</code> not permitted).
+* @param source  the source point (<code>null</code> not permitted).
+*
+* @return A subplot (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: setRenderer
+Description: /**
+* Sets the item renderer FOR ALL SUBPLOTS.  Registered listeners are
+* notified that the plot has been modified.
+* <P>
+* Note: usually you will want to set the renderer independently for each
+* subplot, which is NOT what this method does.
+*
+* @param renderer the new renderer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: setOrientation
+Description: /**
+* Sets the orientation for the plot (and all its subplots).
+*
+* @param orientation  the orientation.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: getDataRange
+Description: /**
+* Returns a range representing the extent of the data values in this plot
+* (obtained from the subplots) that will be rendered against the specified
+* axis.  NOTE: This method is intended for internal JFreeChart use, and
+* is public only so that code in the axis classes can call it.  Since
+* only the range axis is shared between subplots, the JFreeChart code
+* will only call this method for the range values (although this is not
+* checked/enforced).
+*
+* @param axis  the axis.
+*
+* @return The range.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: handleClick
+Description: /**
+* Handles a 'click' on the plot by updating the anchor values...
+*
+* @param x  x-coordinate, where the click occured.
+* @param y  y-coordinate, where the click occured.
+* @param info  object containing information about the plot dimensions.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: plotChanged
+Description: /**
+* Receives a {@link PlotChangeEvent} and responds by notifying all
+* listeners.
+*
+* @param event  the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: equals
+Description: /**
+* Tests this plot for equality with another object.
+*
+* @param obj  the other object.
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CombinedRangeXYPlot, Method: clone
+Description: /**
+* Returns a clone of the plot.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  this class will not throw this
+*         exception, but subclasses (if any) might.
+*/"
+

@@ -1,0 +1,187 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: getDrawXError
+Description: /**
+* Returns the flag that controls whether or not the renderer draws error
+* bars for the x-values.
+*
+* @return A boolean.
+*
+* @see #setDrawXError(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: setDrawXError
+Description: /**
+* Sets the flag that controls whether or not the renderer draws error
+* bars for the x-values and, if the flag changes, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param draw  the flag value.
+*
+* @see #getDrawXError()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: getDrawYError
+Description: /**
+* Returns the flag that controls whether or not the renderer draws error
+* bars for the y-values.
+*
+* @return A boolean.
+*
+* @see #setDrawYError(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: setDrawYError
+Description: /**
+* Sets the flag that controls whether or not the renderer draws error
+* bars for the y-values and, if the flag changes, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param draw  the flag value.
+*
+* @see #getDrawYError()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: getCapLength
+Description: /**
+* Returns the length (in Java2D units) of the cap at the end of the error
+* bars.
+*
+* @return The cap length.
+*
+* @see #setCapLength(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: setCapLength
+Description: /**
+* Sets the length of the cap at the end of the error bars, and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param length  the length (in Java2D units).
+*
+* @see #getCapLength()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: getErrorPaint
+Description: /**
+* Returns the paint used to draw the error bars.  If this is
+* <code>null</code> (the default), the item paint is used instead.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setErrorPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: setErrorPaint
+Description: /**
+* Sets the paint used to draw the error bars and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getErrorPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: getErrorStroke
+Description: /**
+* Returns the stroke used to draw the error bars.  If this is
+* <code>null</code> (the default), the item outline stroke is used
+* instead.
+*
+* @return The stroke (possibly <code>null</code>).
+*
+* @see #setErrorStroke(Stroke)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: setErrorStroke
+Description: /**
+* Sets the stroke used to draw the error bars and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param stroke   the stroke (<code>null</code> permitted).
+*
+* @see #getErrorStroke()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: findDomainBounds
+Description: /**
+* Returns the range required by this renderer to display all the domain
+* values in the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range, or <code>null</code> if the dataset is
+*     <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range required by this renderer to display all the range
+* values in the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range, or <code>null</code> if the dataset is
+*     <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: drawItem
+Description: /**
+* Draws the visual representation for one data item.
+*
+* @param g2  the graphics output target.
+* @param state  the renderer state.
+* @param dataArea  the data area.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param series  the series index.
+* @param item  the item index.
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYErrorRenderer, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

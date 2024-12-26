@@ -1,0 +1,220 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: getValue
+Description: /*** <p>Obtains the value for the specified BitField, appropriately
+* shifted right.</p>
+*
+* <p>Many users of a BitField will want to treat the specified
+* bits as an int value, and will not want to be aware that the
+* value is stored as a BitField (and so shifted left so many
+* bits).</p>
+*
+* @see #setValue(int,int)
+* @param holder the int data containing the bits we're interested
+*  in
+* @return the selected bits, shifted right appropriately
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: getShortValue
+Description: /*** <p>Obtains the value for the specified BitField, appropriately
+* shifted right, as a short.</p>
+*
+* <p>Many users of a BitField will want to treat the specified
+* bits as an int value, and will not want to be aware that the
+* value is stored as a BitField (and so shifted left so many
+* bits).</p>
+*
+* @see #setShortValue(short,short)
+* @param holder the short data containing the bits we're
+*  interested in
+* @return the selected bits, shifted right appropriately
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: getRawValue
+Description: /*** <p>Obtains the value for the specified BitField, unshifted.</p>
+*
+* @param holder the int data containing the bits we're
+*  interested in
+* @return the selected bits
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: getShortRawValue
+Description: /*** <p>Obtains the value for the specified BitField, unshifted.</p>
+*
+* @param holder the short data containing the bits we're
+*  interested in
+* @return the selected bits
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: isSet
+Description: /*** <p>Returns whether the field is set or not.</p>
+*
+* <p>This is most commonly used for a single-bit field, which is
+* often used to represent a boolean value; the results of using
+* it for a multi-bit field is to determine whether *any* of its
+* bits are set.</p>
+*
+* @param holder the int data containing the bits we're interested
+*  in
+* @return {@code true} if any of the bits are set,
+*  else {@code false}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: isAllSet
+Description: /*** <p>Returns whether all of the bits are set or not.</p>
+*
+* <p>This is a stricter test than {@link #isSet(int)},
+* in that all of the bits in a multi-bit set must be set
+* for this method to return {@code true}.</p>
+*
+* @param holder the int data containing the bits we're
+*  interested in
+* @return {@code true} if all of the bits are set,
+*  else {@code false}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: setValue
+Description: /*** <p>Replaces the bits with new values.</p>
+*
+* @see #getValue(int)
+* @param holder the int data containing the bits we're
+*  interested in
+* @param value the new value for the specified bits
+* @return the value of holder with the bits from the value
+*  parameter replacing the old bits
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: setShortValue
+Description: /*** <p>Replaces the bits with new values.</p>
+*
+* @see #getShortValue(short)
+* @param holder the short data containing the bits we're
+*  interested in
+* @param value the new value for the specified bits
+* @return the value of holder with the bits from the value
+*  parameter replacing the old bits
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: clear
+Description: /*** <p>Clears the bits.</p>
+*
+* @param holder the int data containing the bits we're
+*  interested in
+* @return the value of holder with the specified bits cleared
+*  (set to {@code 0})
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: clearShort
+Description: /*** <p>Clears the bits.</p>
+*
+* @param holder the short data containing the bits we're
+*  interested in
+* @return the value of holder with the specified bits cleared
+*  (set to {@code 0})
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: clearByte
+Description: /*** <p>Clears the bits.</p>
+*
+* @param holder the byte data containing the bits we're
+*  interested in
+*
+* @return the value of holder with the specified bits cleared
+*  (set to {@code 0})
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: set
+Description: /*** <p>Sets the bits.</p>
+*
+* @param holder the int data containing the bits we're
+*  interested in
+* @return the value of holder with the specified bits set
+*  to {@code 1}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: setShort
+Description: /*** <p>Sets the bits.</p>
+*
+* @param holder the short data containing the bits we're
+*  interested in
+* @return the value of holder with the specified bits set
+*  to {@code 1}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: setByte
+Description: /*** <p>Sets the bits.</p>
+*
+* @param holder the byte data containing the bits we're
+*  interested in
+*
+* @return the value of holder with the specified bits set
+*  to {@code 1}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: setBoolean
+Description: /*** <p>Sets a boolean BitField.</p>
+*
+* @param holder the int data containing the bits we're
+*  interested in
+* @param flag indicating whether to set or clear the bits
+* @return the value of holder with the specified bits set or
+*         cleared
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: setShortBoolean
+Description: /*** <p>Sets a boolean BitField.</p>
+*
+* @param holder the short data containing the bits we're
+*  interested in
+* @param flag indicating whether to set or clear the bits
+* @return the value of holder with the specified bits set or
+*  cleared
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BitField, Method: setByteBoolean
+Description: /*** <p>Sets a boolean BitField.</p>
+*
+* @param holder the byte data containing the bits we're
+*  interested in
+* @param flag indicating whether to set or clear the bits
+* @return the value of holder with the specified bits set or
+*  cleared
+*/"
+

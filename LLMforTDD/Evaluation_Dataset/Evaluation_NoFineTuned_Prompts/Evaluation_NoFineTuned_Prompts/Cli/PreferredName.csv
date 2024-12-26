@@ -1,0 +1,20 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PreferredName
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PreferredName, Method: requiredFirst,/**
+     * Orders Options grouping required Options first
+     *
+     * @see Option#isRequired()
+     * @return a new comparator
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PreferredName, Method: requiredLast,/**
+     * Orders Options grouping required Options last
+     *
+     * @see Option#isRequired()
+     * @return a new comparator
+     */"

@@ -1,0 +1,109 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialBackground
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialBackground, Method: getPaint
+Description: /**
+* Returns the paint used to fill the background.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialBackground, Method: setPaint
+Description: /**
+* Sets the paint for the dial background and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialBackground, Method: getGradientPaintTransformer
+Description: /**
+* Returns the transformer used to adjust the coordinates of any
+* <code>GradientPaint</code> instance used for the background paint.
+*
+* @return The transformer (never <code>null</code>).
+*
+* @see #setGradientPaintTransformer(GradientPaintTransformer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialBackground, Method: setGradientPaintTransformer
+Description: /**
+* Sets the transformer used to adjust the coordinates of any
+* <code>GradientPaint</code> instance used for the background paint, and
+* sends a {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param t  the transformer (<code>null</code> not permitted).
+*
+* @see #getGradientPaintTransformer()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialBackground, Method: isClippedToWindow
+Description: /**
+* Returns <code>true</code> to indicate that this layer should be
+* clipped within the dial window.
+*
+* @return <code>true</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialBackground, Method: draw
+Description: /**
+* Draws the background to the specified graphics device.  If the dial
+* frame specifies a window, the clipping region will already have been
+* set to this window before this method is called.
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param plot  the plot (ignored here).
+* @param frame  the dial frame (ignored here).
+* @param view  the view rectangle (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialBackground, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialBackground, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return The hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialBackground, Method: clone
+Description: /**
+* Returns a clone of this instance.
+*
+* @return The clone.
+*
+* @throws CloneNotSupportedException if some attribute of this instance
+*     cannot be cloned.
+*/"
+

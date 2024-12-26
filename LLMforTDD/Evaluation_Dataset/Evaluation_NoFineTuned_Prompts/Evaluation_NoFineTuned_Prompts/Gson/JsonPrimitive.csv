@@ -1,0 +1,108 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JsonPrimitive
+"Method: isBoolean
+Description: /**
+* Check whether this primitive contains a boolean value.
+*
+* @return true if this primitive contains a boolean value, false otherwise.
+*/"
+"Method: getAsBoolean
+Description: /**
+* convenience method to get this element as a boolean value.
+*
+* @return get this element as a primitive boolean value.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the value contained is not a valid boolean value.
+*/"
+"Method: isNumber
+Description: /**
+* Check whether this primitive contains a Number.
+*
+* @return true if this primitive contains a Number, false otherwise.
+*/"
+"Method: getAsNumber
+Description: /**
+* convenience method to get this element as a Number.
+*
+* @return get this element as a Number.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the value contained is not a valid Number.
+*/"
+"Method: isString
+Description: /**
+* Check whether this primitive contains a String value.
+*
+* @return true if this primitive contains a String value, false otherwise.
+*/"
+"Method: getAsString
+Description: /**
+* convenience method to get this element as a String.
+*
+* @return get this element as a String.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the value contained is not a valid String.
+*/"
+"Method: getAsDouble
+Description: /**
+* convenience method to get this element as a primitive double.
+*
+* @return get this element as a primitive double.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the value contained is not a valid double.
+*/"
+"Method: getAsBigDecimal
+Description: /**
+* convenience method to get this element as a {@link BigDecimal}.
+*
+* @return get this element as a {@link BigDecimal}.
+* @throws NumberFormatException if the value contained is not a valid {@link BigDecimal}.
+*/"
+"Method: getAsBigInteger
+Description: /**
+* convenience method to get this element as a {@link BigInteger}.
+*
+* @return get this element as a {@link BigInteger}.
+* @throws NumberFormatException if the value contained is not a valid {@link BigInteger}.
+*/"
+"Method: getAsFloat
+Description: /**
+* convenience method to get this element as a float.
+*
+* @return get this element as a float.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the value contained is not a valid float.
+*/"
+"Method: getAsLong
+Description: /**
+* convenience method to get this element as a primitive long.
+*
+* @return get this element as a primitive long.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the value contained is not a valid long.
+*/"
+"Method: getAsShort
+Description: /**
+* convenience method to get this element as a primitive short.
+*
+* @return get this element as a primitive short.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the value contained is not a valid short value.
+*/"
+"Method: getAsInt
+Description: /**
+* convenience method to get this element as a primitive integer.
+*
+* @return get this element as a primitive integer.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if the value contained is not a valid integer.
+*/"

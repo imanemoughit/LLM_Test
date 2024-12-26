@@ -1,0 +1,138 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: getLineAlignment
+Description: /**
+* Returns the alignment of the lines of text within the block.
+*
+* @return The alignment (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: setLineAlignment
+Description: /**
+* Sets the alignment of the lines of text within the block.
+*
+* @param alignment  the alignment (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: addLine
+Description: /**
+* Adds a line of text that will be displayed using the specified font.
+*
+* @param text  the text.
+* @param font  the font.
+* @param paint  the paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: addLine
+Description: /**
+* Adds a {@link TextLine} to the block.
+*
+* @param line  the line.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: getLastLine
+Description: /**
+* Returns the last line in the block.
+*
+* @return The last line in the block.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: getLines
+Description: /**
+* Returns an unmodifiable list containing the lines for the text block.
+*
+* @return A list of {@link TextLine} objects.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: calculateDimensions
+Description: /**
+* Returns the width and height of the text block.
+*
+* @param g2  the graphics device.
+*
+* @return The width and height.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: calculateBounds
+Description: /**
+* Returns the bounds of the text block.
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param anchorX  the x-coordinate for the anchor point.
+* @param anchorY  the y-coordinate for the anchor point.
+* @param anchor  the text block anchor (<code>null</code> not permitted).
+* @param rotateX  the x-coordinate for the rotation point.
+* @param rotateY  the y-coordinate for the rotation point.
+* @param angle  the rotation angle.
+*
+* @return The bounds.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: draw
+Description: /**
+* Draws the text block at a specific location.
+*
+* @param g2  the graphics device.
+* @param x  the x-coordinate for the anchor point.
+* @param y  the y-coordinate for the anchor point.
+* @param anchor  the anchor point.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: draw
+Description: /**
+* Draws the text block, aligning it with the specified anchor point and
+* rotating it about the specified rotation point.
+*
+* @param g2  the graphics device.
+* @param anchorX  the x-coordinate for the anchor point.
+* @param anchorY  the y-coordinate for the anchor point.
+* @param anchor  the point on the text block that is aligned to the
+*                anchor point.
+* @param rotateX  the x-coordinate for the rotation point.
+* @param rotateY  the x-coordinate for the rotation point.
+* @param angle  the rotation (in radians).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: equals
+Description: /**
+* Tests this object for equality with an arbitrary object.
+*
+* @param obj  the object to test against (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextBlock, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+

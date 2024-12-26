@@ -1,0 +1,606 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: addCornerTextItem
+Description: /**
+* Add text to be displayed in the lower right hand corner and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param text  the text to display (<code>null</code> not permitted).
+*
+* @see #removeCornerTextItem(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: removeCornerTextItem
+Description: /**
+* Remove the given text from the list of corner text items and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param text  the text to remove (<code>null</code> ignored).
+*
+* @see #addCornerTextItem(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: clearCornerTextItems
+Description: /**
+* Clear the list of corner text items and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @see #addCornerTextItem(String)
+* @see #removeCornerTextItem(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getPlotType
+Description: /**
+* Returns the plot type as a string.
+*
+* @return A short string describing the type of plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getAxis
+Description: /**
+* Returns the axis for the plot.
+*
+* @return The radius axis (possibly <code>null</code>).
+*
+* @see #setAxis(ValueAxis)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setAxis
+Description: /**
+* Sets the axis for the plot and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param axis  the new axis (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getDataset
+Description: /**
+* Returns the primary dataset for the plot.
+*
+* @return The primary dataset (possibly <code>null</code>).
+*
+* @see #setDataset(XYDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setDataset
+Description: /**
+* Sets the dataset for the plot, replacing the existing dataset if there
+* is one.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @see #getDataset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getRenderer
+Description: /**
+* Returns the item renderer.
+*
+* @return The renderer (possibly <code>null</code>).
+*
+* @see #setRenderer(PolarItemRenderer)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setRenderer
+Description: /**
+* Sets the item renderer, and notifies all listeners of a change to the
+* plot.
+* <P>
+* If the renderer is set to <code>null</code>, no chart will be drawn.
+*
+* @param renderer  the new renderer (<code>null</code> permitted).
+*
+* @see #getRenderer()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getAngleTickUnit
+Description: /**
+* Returns the tick unit that controls the spacing of the angular grid
+* lines.
+*
+* @return The tick unit (never <code>null</code>).
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setAngleTickUnit
+Description: /**
+* Sets the tick unit that controls the spacing of the angular grid
+* lines, and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param unit  the tick unit (<code>null</code> not permitted).
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: isAngleLabelsVisible
+Description: /**
+* Returns a flag that controls whether or not the angle labels are visible.
+*
+* @return A boolean.
+*
+* @see #setAngleLabelsVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setAngleLabelsVisible
+Description: /**
+* Sets the flag that controls whether or not the angle labels are visible,
+* and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param visible  the flag.
+*
+* @see #isAngleLabelsVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getAngleLabelFont
+Description: /**
+* Returns the font used to display the angle labels.
+*
+* @return A font (never <code>null</code>).
+*
+* @see #setAngleLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setAngleLabelFont
+Description: /**
+* Sets the font used to display the angle labels and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getAngleLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getAngleLabelPaint
+Description: /**
+* Returns the paint used to display the angle labels.
+*
+* @return A paint (never <code>null</code>).
+*
+* @see #setAngleLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setAngleLabelPaint
+Description: /**
+* Sets the paint used to display the angle labels and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: isAngleGridlinesVisible
+Description: /**
+* Returns <code>true</code> if the angular gridlines are visible, and
+* <code>false<code> otherwise.
+*
+* @return <code>true</code> or <code>false</code>.
+*
+* @see #setAngleGridlinesVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setAngleGridlinesVisible
+Description: /**
+* Sets the flag that controls whether or not the angular grid-lines are
+* visible.
+* <p>
+* If the flag value is changed, a {@link PlotChangeEvent} is sent to all
+* registered listeners.
+*
+* @param visible  the new value of the flag.
+*
+* @see #isAngleGridlinesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getAngleGridlineStroke
+Description: /**
+* Returns the stroke for the grid-lines (if any) plotted against the
+* angular axis.
+*
+* @return The stroke (possibly <code>null</code>).
+*
+* @see #setAngleGridlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setAngleGridlineStroke
+Description: /**
+* Sets the stroke for the grid lines plotted against the angular axis and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+* <p>
+* If you set this to <code>null</code>, no grid lines will be drawn.
+*
+* @param stroke  the stroke (<code>null</code> permitted).
+*
+* @see #getAngleGridlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getAngleGridlinePaint
+Description: /**
+* Returns the paint for the grid lines (if any) plotted against the
+* angular axis.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setAngleGridlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setAngleGridlinePaint
+Description: /**
+* Sets the paint for the grid lines plotted against the angular axis.
+* <p>
+* If you set this to <code>null</code>, no grid lines will be drawn.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getAngleGridlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: isRadiusGridlinesVisible
+Description: /**
+* Returns <code>true</code> if the radius axis grid is visible, and
+* <code>false<code> otherwise.
+*
+* @return <code>true</code> or <code>false</code>.
+*
+* @see #setRadiusGridlinesVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setRadiusGridlinesVisible
+Description: /**
+* Sets the flag that controls whether or not the radius axis grid lines
+* are visible.
+* <p>
+* If the flag value is changed, a {@link PlotChangeEvent} is sent to all
+* registered listeners.
+*
+* @param visible  the new value of the flag.
+*
+* @see #isRadiusGridlinesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getRadiusGridlineStroke
+Description: /**
+* Returns the stroke for the grid lines (if any) plotted against the
+* radius axis.
+*
+* @return The stroke (possibly <code>null</code>).
+*
+* @see #setRadiusGridlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setRadiusGridlineStroke
+Description: /**
+* Sets the stroke for the grid lines plotted against the radius axis and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+* <p>
+* If you set this to <code>null</code>, no grid lines will be drawn.
+*
+* @param stroke  the stroke (<code>null</code> permitted).
+*
+* @see #getRadiusGridlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getRadiusGridlinePaint
+Description: /**
+* Returns the paint for the grid lines (if any) plotted against the radius
+* axis.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setRadiusGridlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: setRadiusGridlinePaint
+Description: /**
+* Sets the paint for the grid lines plotted against the radius axis and
+* sends a {@link PlotChangeEvent} to all registered listeners.
+* <p>
+* If you set this to <code>null</code>, no grid lines will be drawn.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getRadiusGridlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: draw
+Description: /**
+* Draws the plot on a Java 2D graphics device (such as the screen or a
+* printer).
+* <P>
+* This plot relies on a {@link PolarItemRenderer} to draw each
+* item in the plot.  This allows the visual representation of the data to
+* be changed easily.
+* <P>
+* The optional info argument collects information about the rendering of
+* the plot (dimensions, tooltip information etc).  Just pass in
+* <code>null</code> if you do not need this information.
+*
+* @param g2  the graphics device.
+* @param area  the area within which the plot (including axes and
+*              labels) should be drawn.
+* @param anchor  the anchor point (<code>null</code> permitted).
+* @param parentState  ignored.
+* @param info  collects chart drawing information (<code>null</code>
+*              permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: zoom
+Description: /**
+* Zooms the axis ranges by the specified percentage about the anchor point.
+*
+* @param percent  the amount of the zoom.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getDataRange
+Description: /**
+* Returns the range for the specified axis.
+*
+* @param axis  the axis.
+*
+* @return The range.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: datasetChanged
+Description: /**
+* Receives notification of a change to the plot's m_Dataset.
+* <P>
+* The axis ranges are updated if necessary.
+*
+* @param event  information about the event (not used here).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: rendererChanged
+Description: /**
+* Notifies all registered listeners of a property change.
+* <P>
+* One source of property change events is the plot's m_Renderer.
+*
+* @param event  information about the property change.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getSeriesCount
+Description: /**
+* Returns the number of series in the dataset for this plot.  If the
+* dataset is <code>null</code>, the method returns 0.
+*
+* @return The series count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getLegendItems
+Description: /**
+* Returns the legend items for the plot.  Each legend item is generated by
+* the plot's m_Renderer, since the m_Renderer is responsible for the visual
+* representation of the data.
+*
+* @return The legend items.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: equals
+Description: /**
+* Tests this plot for equality with another object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: clone
+Description: /**
+* Returns a clone of the plot.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  this can occur if some component of
+*         the plot cannot be cloned.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: zoomDomainAxes
+Description: /**
+* This method is required by the {@link Zoomable} interface, but since
+* the plot does not have any domain axes, it does nothing.
+*
+* @param factor  the zoom factor.
+* @param state  the plot state.
+* @param source  the source point (in Java2D coordinates).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: zoomDomainAxes
+Description: /**
+* This method is required by the {@link Zoomable} interface, but since
+* the plot does not have any domain axes, it does nothing.
+*
+* @param factor  the zoom factor.
+* @param state  the plot state.
+* @param source  the source point (in Java2D coordinates).
+* @param useAnchor  use source point as zoom anchor?
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: zoomDomainAxes
+Description: /**
+* This method is required by the {@link Zoomable} interface, but since
+* the plot does not have any domain axes, it does nothing.
+*
+* @param lowerPercent  the new lower bound.
+* @param upperPercent  the new upper bound.
+* @param state  the plot state.
+* @param source  the source point (in Java2D coordinates).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: zoomRangeAxes
+Description: /**
+* Multiplies the range on the range axis/axes by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param state  the plot state.
+* @param source  the source point (in Java2D coordinates).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: zoomRangeAxes
+Description: /**
+* Multiplies the range on the range axis by the specified factor.
+*
+* @param factor  the zoom factor.
+* @param info  the plot rendering info.
+* @param source  the source point (in Java2D space).
+* @param useAnchor  use source point as zoom anchor?
+*
+* @see #zoomDomainAxes(double, PlotRenderingInfo, Point2D, boolean)
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: zoomRangeAxes
+Description: /**
+* Zooms in on the range axes.
+*
+* @param lowerPercent  the new lower bound.
+* @param upperPercent  the new upper bound.
+* @param state  the plot state.
+* @param source  the source point (in Java2D coordinates).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: isDomainZoomable
+Description: /**
+* Returns <code>false</code> always.
+*
+* @return <code>false</code> always.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: isRangeZoomable
+Description: /**
+* Returns <code>true</code> to indicate that the range axis is zoomable.
+*
+* @return <code>true</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getOrientation
+Description: /**
+* Returns the orientation of the plot.
+*
+* @return The orientation.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: getMaxRadius
+Description: /**
+* Returns the upper bound of the radius axis.
+*
+* @return The upper bound.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PolarPlot, Method: translateValueThetaRadiusToJava2D
+Description: /**
+* Translates a (theta, radius) pair into Java2D coordinates.  If
+* <code>radius</code> is less than the lower bound of the axis, then
+* this method returns the centre point.
+*
+* @param angleDegrees  the angle in degrees.
+* @param radius  the radius.
+* @param dataArea  the data area.
+*
+* @return A point in Java2D space.
+*/"
+

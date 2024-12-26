@@ -1,0 +1,44 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ImmutablePair
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ImmutablePair, Method: of
+Description: /*** <p>Obtains an immutable pair of from two objects inferring the generic types.</p>
+*
+* <p>This factory allows the pair to be created using inference to
+* obtain the generic types.</p>
+*
+* @param <L> the left element type
+* @param <R> the right element type
+* @param left  the left element, may be null
+* @param right  the right element, may be null
+* @return a pair formed from the two parameters, not null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ImmutablePair, Method: getLeft
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ImmutablePair, Method: getRight
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ImmutablePair, Method: setValue
+Description: /*** <p>Throws {@code UnsupportedOperationException}.</p>
+*
+* <p>This pair is immutable, so this operation is not supported.</p>
+*
+* @param value  the value to set
+* @return never
+* @throws UnsupportedOperationException as this operation is not supported
+*/"
+

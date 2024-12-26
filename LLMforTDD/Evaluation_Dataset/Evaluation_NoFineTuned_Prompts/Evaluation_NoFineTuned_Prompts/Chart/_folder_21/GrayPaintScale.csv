@@ -1,0 +1,88 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GrayPaintScale
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GrayPaintScale, Method: getLowerBound
+Description: /**
+* Returns the lower bound.
+*
+* @return The lower bound.
+*
+* @see #getUpperBound()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GrayPaintScale, Method: getUpperBound
+Description: /**
+* Returns the upper bound.
+*
+* @return The upper bound.
+*
+* @see #getLowerBound()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GrayPaintScale, Method: getAlpha
+Description: /**
+* Returns the alpha transparency that was specified in the constructor.
+*
+* @return The alpha transparency (in the range 0 to 255).
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GrayPaintScale, Method: getPaint
+Description: /**
+* Returns a paint for the specified value.
+*
+* @param value  the value (must be within the range specified by the
+*         lower and upper bounds for the scale).
+*
+* @return A paint for the specified value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GrayPaintScale, Method: equals
+Description: /**
+* Tests this <code>GrayPaintScale</code> instance for equality with an
+* arbitrary object.  This method returns <code>true</code> if and only
+* if:
+* <ul>
+* <li><code>obj</code> is not <code>null</code>;</li>
+* <li><code>obj</code> is an instance of <code>GrayPaintScale</code>;</li>
+* </ul>
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GrayPaintScale, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: GrayPaintScale, Method: clone
+Description: /**
+* Returns a clone of this <code>GrayPaintScale</code> instance.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if there is a problem cloning this
+*     instance.
+*/"
+

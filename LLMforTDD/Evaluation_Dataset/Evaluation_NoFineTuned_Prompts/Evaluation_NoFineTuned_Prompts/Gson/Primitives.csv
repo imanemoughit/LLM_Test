@@ -1,0 +1,33 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Primitives
+"Method: isWrapperType
+Description: /**
+* Returns {@code true} if {@code type} is one of the nine
+* primitive-wrapper types, such as {@link Integer}.
+*
+* @see Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class#isPrimitive
+*/"
+"Method: wrap
+Description: /**
+* Returns the corresponding wrapper type of {@code type} if it is a primitive
+* type; otherwise returns {@code type} itself. Idempotent.
+* <pre>
+*     wrap(int.class) == Integer.class
+*     wrap(Integer.class) == Integer.class
+*     wrap(String.class) == String.class
+* </pre>
+*/"
+"Method: unwrap
+Description: /**
+* Returns the corresponding primitive type of {@code type} if it is a
+* wrapper type; otherwise returns {@code type} itself. Idempotent.
+* <pre>
+*     unwrap(Integer.class) == int.class
+*     unwrap(int.class) == int.class
+*     unwrap(String.class) == String.class
+* </pre>
+*/"

@@ -1,0 +1,187 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: isOutline
+Description: /**
+* Returns a flag that controls whether or not outlines of the areas are
+* drawn.
+*
+* @return The flag.
+*
+* @see #setOutline(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: setOutline
+Description: /**
+* Sets a flag that controls whether or not outlines of the areas are
+* drawn, and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param show  the flag.
+*
+* @see #isOutline()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: getShapesVisible
+Description: /**
+* Returns true if shapes are being plotted by the renderer.
+*
+* @return <code>true</code> if shapes are being plotted by the renderer.
+*
+* @see #setShapesVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: setShapesVisible
+Description: /**
+* Sets the flag that controls whether or not shapes are displayed for each
+* data item, and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param flag  the flag.
+*
+* @see #getShapesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: isShapesFilled
+Description: /**
+* Returns the flag that controls whether or not the shapes are filled.
+*
+* @return A boolean.
+*
+* @see #setShapesFilled(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: setShapesFilled
+Description: /**
+* Sets the 'shapes filled' for ALL series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param filled  the flag.
+*
+* @see #isShapesFilled()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: getPlotArea
+Description: /**
+* Returns true if Area is being plotted by the renderer.
+*
+* @return <code>true</code> if Area is being plotted by the renderer.
+*
+* @see #setPlotArea(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: setPlotArea
+Description: /**
+* Sets a flag that controls whether or not areas are drawn for each data
+* item and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param flag  the flag.
+*
+* @see #getPlotArea()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: getRangeBase
+Description: /**
+* Returns the value on the range axis which defines the 'lower' border of
+* the area.
+*
+* @return <code>double</code> the value on the range axis which defines
+*         the 'lower' border of the area.
+*
+* @see #setRangeBase(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: setRangeBase
+Description: /**
+* Sets the value on the range axis which defines the default border of the
+* area, and sends a {@link RendererChangeEvent} to all registered
+* listeners.  E.g. setRangeBase(Double.NEGATIVE_INFINITY) lets areas always
+* reach the lower border of the plotArea.
+*
+* @param val  the value on the range axis which defines the default border
+*             of the area.
+*
+* @see #getRangeBase()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: initialise
+Description: /**
+* Initialises the renderer.  Here we calculate the Java2D y-coordinate for
+* zero, since all the bars have their bases fixed at zero.
+*
+* @param g2  the graphics device.
+* @param dataArea  the area inside the axes.
+* @param plot  the plot.
+* @param data  the data.
+* @param info  an optional info collection object to return data back to
+*              the caller.
+*
+* @return The number of passes required by the renderer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: drawItem
+Description: /**
+* Draws the visual representation of a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area within which the data is being drawn.
+* @param plot  the plot (can be used to obtain standard color information
+*              etc).
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYStepAreaRenderer, Method: clone
+Description: /**
+* Returns a clone of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the renderer cannot be cloned.
+*/"
+

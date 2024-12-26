@@ -1,0 +1,16 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SamplingXYLineRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SamplingXYLineRenderer, Method: getPassCount
+Description: /**
+* Returns the number of passes through the data that the renderer requires
+* in order to draw the chart.  Most charts will require a single pass, but
+* some require two passes.
+*
+* @return The pass count.
+*/"
+

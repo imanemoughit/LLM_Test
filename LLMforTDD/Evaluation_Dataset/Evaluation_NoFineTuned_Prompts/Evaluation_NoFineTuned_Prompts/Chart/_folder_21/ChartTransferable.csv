@@ -1,0 +1,39 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartTransferable
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartTransferable, Method: getTransferDataFlavors
+Description: /**
+* Returns the data flavors supported.
+*
+* @return The data flavors supported.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartTransferable, Method: isDataFlavorSupported
+Description: /**
+* Returns <code>true</code> if the specified flavor is supported.
+*
+* @param flavor  the flavor.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartTransferable, Method: getTransferData
+Description: /**
+* Returns the content for the requested flavor, if it is supported.
+*
+* @param flavor  the requested flavor.
+*
+* @return The content.
+*
+* @throws UnsupportedFlavorException
+* @throws IOException
+*/"
+

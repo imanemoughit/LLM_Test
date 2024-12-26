@@ -1,0 +1,57 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardBarPainter
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardBarPainter, Method: paintBar
+Description: /**
+* Paints a single bar instance.
+*
+* @param g2  the graphics target.
+* @param renderer  the renderer.
+* @param row  the row index.
+* @param column  the column index.
+* @param selected  is the item selected?
+* @param bar  the bar
+* @param base  indicates which side of the rectangle is the base of the
+*              bar.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardBarPainter, Method: paintBarShadow
+Description: /**
+* Paints a single bar instance.
+*
+* @param g2  the graphics target.
+* @param renderer  the renderer.
+* @param row  the row index.
+* @param column  the column index.
+* @param bar  the bar
+* @param base  indicates which side of the rectangle is the base of the
+*              bar.
+* @param pegShadow  peg the shadow to the base of the bar?
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardBarPainter, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the obj (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardBarPainter, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+

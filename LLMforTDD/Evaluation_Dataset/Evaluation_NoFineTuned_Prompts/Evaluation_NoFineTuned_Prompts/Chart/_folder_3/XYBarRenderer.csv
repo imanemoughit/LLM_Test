@@ -1,0 +1,53 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRenderer, Method: getDefaultBarPainter
+Description: /**
+* Returns the default bar painter.
+*
+* @return The default bar painter.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRenderer, Method: setDefaultBarPainter
+Description: /**
+* Sets the default bar painter.
+*
+* @param painter  the painter (<code>null</code> not permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRenderer, Method: getDefaultShadowsVisible
+Description: /**
+* Returns the default value for the <code>shadowsVisible</code> flag.
+*
+* @return A boolean.
+*
+* @see #setDefaultShadowsVisible(boolean)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYBarRenderer, Method: setDefaultShadowsVisible
+Description: /**
+* Sets the default value for the shadows visible flag.
+*
+* @param visible  the new value for the default.
+*
+* @see #getDefaultShadowsVisible()
+*
+* @since 1.0.13
+*/"
+

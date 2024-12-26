@@ -1,0 +1,304 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: getBaseMillis
+Description: /**
+* Returns the base date/time used to calculate the elapsed time for
+* display.
+*
+* @return The base date/time in milliseconds since 1-Jan-1970.
+*
+* @see #setBaseMillis(long)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setBaseMillis
+Description: /**
+* Sets the base date/time used to calculate the elapsed time for display.
+* This should be specified in milliseconds using the same encoding as
+* <code>java.util.Date</code>.
+*
+* @param baseMillis  the base date/time in milliseconds.
+*
+* @see #getBaseMillis()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: getShowZeroDays
+Description: /**
+* Returns the flag that controls whether or not zero day counts are
+* shown in the formatted output.
+*
+* @return The flag.
+*
+* @see #setShowZeroDays(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setShowZeroDays
+Description: /**
+* Sets the flag that controls whether or not zero day counts are shown
+* in the formatted output.
+*
+* @param show  the flag.
+*
+* @see #getShowZeroDays()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: getShowZeroHours
+Description: /**
+* Returns the flag that controls whether or not zero hour counts are
+* shown in the formatted output.
+*
+* @return The flag.
+*
+* @see #setShowZeroHours(boolean)
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setShowZeroHours
+Description: /**
+* Sets the flag that controls whether or not zero hour counts are shown
+* in the formatted output.
+*
+* @param show  the flag.
+*
+* @see #getShowZeroHours()
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: getPositivePrefix
+Description: /**
+* Returns the string that is prepended to the format if the relative time
+* is positive.
+*
+* @return The string (never <code>null</code>).
+*
+* @see #setPositivePrefix(String)
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setPositivePrefix
+Description: /**
+* Sets the string that is prepended to the format if the relative time is
+* positive.
+*
+* @param prefix  the prefix (<code>null</code> not permitted).
+*
+* @see #getPositivePrefix()
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setDayFormatter
+Description: /**
+* Sets the formatter for the days.
+*
+* @param formatter  the formatter (<code>null</code> not permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: getDaySuffix
+Description: /**
+* Returns the string that is appended to the day count.
+*
+* @return The string.
+*
+* @see #setDaySuffix(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setDaySuffix
+Description: /**
+* Sets the string that is appended to the day count.
+*
+* @param suffix  the suffix (<code>null</code> not permitted).
+*
+* @see #getDaySuffix()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setHourFormatter
+Description: /**
+* Sets the formatter for the hours.
+*
+* @param formatter  the formatter (<code>null</code> not permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: getHourSuffix
+Description: /**
+* Returns the string that is appended to the hour count.
+*
+* @return The string.
+*
+* @see #setHourSuffix(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setHourSuffix
+Description: /**
+* Sets the string that is appended to the hour count.
+*
+* @param suffix  the suffix (<code>null</code> not permitted).
+*
+* @see #getHourSuffix()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setMinuteFormatter
+Description: /**
+* Sets the formatter for the minutes.
+*
+* @param formatter  the formatter (<code>null</code> not permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: getMinuteSuffix
+Description: /**
+* Returns the string that is appended to the minute count.
+*
+* @return The string.
+*
+* @see #setMinuteSuffix(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setMinuteSuffix
+Description: /**
+* Sets the string that is appended to the minute count.
+*
+* @param suffix  the suffix (<code>null</code> not permitted).
+*
+* @see #getMinuteSuffix()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: getSecondSuffix
+Description: /**
+* Returns the string that is appended to the second count.
+*
+* @return The string.
+*
+* @see #setSecondSuffix(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setSecondSuffix
+Description: /**
+* Sets the string that is appended to the second count.
+*
+* @param suffix  the suffix (<code>null</code> not permitted).
+*
+* @see #getSecondSuffix()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: setSecondFormatter
+Description: /**
+* Sets the formatter for the seconds and milliseconds.
+*
+* @param formatter  the formatter (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: format
+Description: /**
+* Formats the given date as the amount of elapsed time (relative to the
+* base date specified in the constructor).
+*
+* @param date  the date.
+* @param toAppendTo  the string buffer.
+* @param fieldPosition  the field position.
+*
+* @return The formatted date.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: parse
+Description: /**
+* Parses the given string (not implemented).
+*
+* @param source  the date string.
+* @param pos  the parse position.
+*
+* @return <code>null</code>, as this method has not been implemented.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: equals
+Description: /**
+* Tests this formatter for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: clone
+Description: /**
+* Returns a clone of this instance.
+*
+* @return A clone.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RelativeDateFormat, Method: main
+Description: /**
+* Some test code.
+*
+* @param args  ignored.
+*/"
+

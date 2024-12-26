@@ -1,0 +1,105 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StatisticalBarRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StatisticalBarRenderer, Method: getErrorIndicatorPaint
+Description: /**
+* Returns the paint used for the error indicators.
+*
+* @return The paint used for the error indicators (possibly
+*         <code>null</code>).
+*
+* @see #setErrorIndicatorPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StatisticalBarRenderer, Method: setErrorIndicatorPaint
+Description: /**
+* Sets the paint used for the error indicators (if <code>null</code>,
+* the item outline paint is used instead) and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getErrorIndicatorPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StatisticalBarRenderer, Method: getErrorIndicatorStroke
+Description: /**
+* Returns the stroke used to draw the error indicators.  If this is
+* <code>null</code>, the renderer will use the item outline stroke).
+*
+* @return The stroke (possibly <code>null</code>).
+*
+* @see #setErrorIndicatorStroke(Stroke)
+*
+* @since 1.0.8
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StatisticalBarRenderer, Method: setErrorIndicatorStroke
+Description: /**
+* Sets the stroke used to draw the error indicators, and sends a
+* {@link RendererChangeEvent} to all registered listeners.  If you set
+* this to <code>null</code>, the renderer will use the item outline
+* stroke.
+*
+* @param stroke  the stroke (<code>null</code> permitted).
+*
+* @see #getErrorIndicatorStroke()
+*
+* @since 1.0.8
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StatisticalBarRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset. This takes into account the range
+* between the min/max values, possibly ignoring invisible series.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (or <code>null</code> if the dataset is
+*         <code>null</code> or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StatisticalBarRenderer, Method: drawItem
+Description: /**
+* Draws the bar with its standard deviation line range for a single
+* (series, category) data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the data area.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param selected  is the item selected?
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StatisticalBarRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

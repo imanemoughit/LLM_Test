@@ -1,0 +1,249 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: getSources
+Description: /**
+* Returns the legend item sources.
+*
+* @return The sources.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: setSources
+Description: /**
+* Sets the legend item sources and sends a {@link TitleChangeEvent} to
+* all registered listeners.
+*
+* @param sources  the sources (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: getBackgroundPaint
+Description: /**
+* Returns the background paint.
+*
+* @return The background paint (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: setBackgroundPaint
+Description: /**
+* Sets the background paint for the legend and sends a
+* {@link TitleChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: getLegendItemGraphicEdge
+Description: /**
+* Returns the location of the shape within each legend item.
+*
+* @return The location (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: setLegendItemGraphicEdge
+Description: /**
+* Sets the location of the shape within each legend item.
+*
+* @param edge  the edge (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: getLegendItemGraphicAnchor
+Description: /**
+* Returns the legend item graphic anchor.
+*
+* @return The graphic anchor (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: setLegendItemGraphicAnchor
+Description: /**
+* Sets the anchor point used for the graphic in each legend item.
+*
+* @param anchor  the anchor point (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: getLegendItemGraphicLocation
+Description: /**
+* Returns the legend item graphic location.
+*
+* @return The location (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: setLegendItemGraphicLocation
+Description: /**
+* Sets the legend item graphic location.
+*
+* @param anchor  the anchor (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: getLegendItemGraphicPadding
+Description: /**
+* Returns the padding that will be applied to each item graphic.
+*
+* @return The padding (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: setLegendItemGraphicPadding
+Description: /**
+* Sets the padding that will be applied to each item graphic in the
+* legend and sends a {@link TitleChangeEvent} to all registered listeners.
+*
+* @param padding  the padding (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: getItemFont
+Description: /**
+* Returns the item font.
+*
+* @return The font (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: setItemFont
+Description: /**
+* Sets the item font and sends a {@link TitleChangeEvent} to
+* all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: getItemPaint
+Description: /**
+* Returns the item paint.
+*
+* @return The paint (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: setItemPaint
+Description: /**
+* Sets the item paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: getItemLabelPadding
+Description: /**
+* Returns the padding used for the items labels.
+*
+* @return The padding (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: setItemLabelPadding
+Description: /**
+* Sets the padding used for the item labels in the legend.
+*
+* @param padding  the padding (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: getItemContainer
+Description: /**
+* Returns the container that holds the legend items.
+*
+* @return The container for the legend items.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: arrange
+Description: /**
+* Arranges the contents of the block, within the given constraints, and
+* returns the block size.
+*
+* @param g2  the graphics device.
+* @param constraint  the constraint (<code>null</code> not permitted).
+*
+* @return The block size (in Java2D units, never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: draw
+Description: /**
+* Draws the title on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device.
+* @param area  the available area for the title.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: draw
+Description: /**
+* Draws the block within the specified area.
+*
+* @param g2  the graphics device.
+* @param area  the area.
+* @param params  ignored (<code>null</code> permitted).
+*
+* @return An {@link EntityBlockResult} or
+*         <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: getWrapper
+Description: /**
+* Returns the wrapper container, if any.
+*
+* @return The wrapper container (possibly <code>null</code>).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: setWrapper
+Description: /**
+* Sets the wrapper container for the legend.
+*
+* @param wrapper  the wrapper container.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendTitle, Method: equals
+Description: /**
+* Tests this title for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

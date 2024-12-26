@@ -1,0 +1,80 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CommandBuilder
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CommandBuilder, Method: create,/**
+     * Creates a new <code>Command</code> instance using the properties of the
+     * <code>CommandBuilder</code>.
+     *
+     * @return the new Command instance
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CommandBuilder, Method: reset,/**
+     * Resets the CommandBuilder to the defaults for a new Command.
+     *
+     * This method is called automatically at the end of the
+     * {@link #create() create} method.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CommandBuilder, Method: withName,/**
+     * Specifies the name for the next <code>Command</code>
+     * that is created.  The first name is used as the preferred
+     * display name for the <code>Command</code> and then
+     * later names are used as aliases.
+     *
+     * @param name the name for the next <code>Command</code>
+     * that is created.
+     * @return this <code>CommandBuilder</code>.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CommandBuilder, Method: withDescription,/**
+     * Specifies the description for the next <code>Command</code>
+     * that is created.  This description is used to produce
+     * help documentation for the <code>Command</code>.
+     *
+     * @param newDescription the description for the next
+     * <code>Command</code> that is created.
+     * @return this <code>CommandBuilder</code>.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CommandBuilder, Method: withRequired,/**
+     * Specifies whether the next <code>Command</code> created is
+     * required or not.
+     * @param newRequired whether the next <code>Command</code> created is
+     * required or not.
+     * @return this <code>CommandBuilder</code>.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CommandBuilder, Method: withChildren,/**
+     * Specifies the children for the next <code>Command</code>
+     * that is created.
+     *
+     * @param newChildren the child options for the next <code>Command</code>
+     * that is created.
+     * @return this <code>CommandBuilder</code>.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CommandBuilder, Method: withArgument,/**
+     * Specifies the argument for the next <code>Command</code>
+     * that is created.
+     *
+     * @param newArgument the argument for the next <code>Command</code>
+     * that is created.
+     * @return this <code>CommandBuilder</code>.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CommandBuilder, Method: withId,/**
+     * Specifies the id for the next <code>Command</code> that is created.
+     *
+     * @param newId the id for the next <code>Command</code> that is created.
+     * @return this <code>CommandBuilder</code>.
+     */"

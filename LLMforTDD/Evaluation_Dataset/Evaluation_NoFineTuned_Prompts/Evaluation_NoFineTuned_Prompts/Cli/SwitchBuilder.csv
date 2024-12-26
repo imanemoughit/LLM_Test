@@ -1,0 +1,69 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SwitchBuilder
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SwitchBuilder, Method: create,/**
+     * Creates a new Switch instance
+     * @return a new Switch instance
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SwitchBuilder, Method: reset,/**
+     * Resets the builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SwitchBuilder, Method: withDescription,/**
+     * Use this option description
+     * @param newDescription the description to use
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SwitchBuilder, Method: withName,/**
+     * Use this option name. The first name is used as the preferred
+     * display name for the Command and then later names are used as aliases.
+     *
+     * @param name the name to use
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SwitchBuilder, Method: withRequired,/**
+     * Use this optionality
+     * @param newRequired true iff the Option is required
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SwitchBuilder, Method: withArgument,/**
+     * Use this Argument
+     * @param newArgument the argument to use
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SwitchBuilder, Method: withChildren,/**
+     * Use this child Group
+     * @param newChildren the child Group to use
+     * @return this builder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SwitchBuilder, Method: withId,/**
+     * Sets the id
+     *
+     * @param newId
+     *            the id of the Switch
+     * @return this SwitchBuilder
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SwitchBuilder, Method: withSwitchDefault,/**
+     * Sets the default state for this switch
+     *
+     * @param newSwitchDefault the default state
+     * @return this SwitchBuilder
+     */"

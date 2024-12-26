@@ -1,0 +1,23 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberCellRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberCellRenderer, Method: getTableCellRendererComponent
+Description: /**
+* Returns itself as the renderer. Supports the TableCellRenderer interface.
+*
+* @param table  the table.
+* @param value  the data to be rendered.
+* @param isSelected  a boolean that indicates whether or not the cell is
+*                    selected.
+* @param hasFocus  a boolean that indicates whether or not the cell has
+*                  the focus.
+* @param row  the (zero-based) row index.
+* @param column  the (zero-based) column index.
+*
+* @return the component that can render the contents of the cell.
+*/"
+

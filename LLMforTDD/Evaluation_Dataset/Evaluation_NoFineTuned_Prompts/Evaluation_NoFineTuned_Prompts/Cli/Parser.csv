@@ -1,0 +1,57 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Parser
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Parser, Method: parse,/**
+     * Parse the arguments according to the specified options and properties.
+     *
+     * @param arguments
+     *            the command line arguments
+     *
+     * @return the list of atomic option and value tokens
+     * @throws OptionException
+     *             if there are any problems encountered while parsing the
+     *             command line tokens.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Parser, Method: parseAndHelp,/**
+     * Parse the arguments according to the specified options and properties and
+     * displays the usage screen if the CommandLine is not valid or the help
+     * option was specified.
+     *
+     * @param arguments the command line arguments
+     * @return a valid CommandLine or null if the parse was unsuccessful
+     * @throws IOException if an error occurs while formatting help
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Parser, Method: setGroup,/**
+     * Sets the Group of options to parse against
+     * @param group the group of options to parse against
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Parser, Method: setHelpFormatter,/**
+     * Sets the HelpFormatter to use with the simplified parsing.
+     * @see #parseAndHelp(String[])
+     * @param helpFormatter the HelpFormatter to use with the simplified parsing
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Parser, Method: setHelpOption,/**
+     * Sets the help option to use with the simplified parsing.  For example
+     * <code>--help</code>, <code>-h</code> and <code>-?</code> are often used.
+     * @see #parseAndHelp(String[])
+     * @param helpOption the help Option
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Parser, Method: setHelpTrigger,/**
+     * Sets the help option to use with the simplified parsing.  For example
+     * <code>--help</code>, <code>-h</code> and <code>-?</code> are often used.
+     * @see #parseAndHelp(String[])
+     * @param helpTrigger the trigger of the help Option
+     */"

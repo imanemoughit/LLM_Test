@@ -1,0 +1,24 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JsonStreamParser
+"Method: next
+Description: /**
+* Returns the next available {@link JsonElement} on the reader. Null if none available.
+*
+* @return the next available {@link JsonElement} on the reader. Null if none available.
+* @throws JsonParseException if the incoming stream is malformed JSON.
+* @since 1.4
+*/"
+"Method: hasNext
+Description: /**
+* Returns true if a {@link JsonElement} is available on the input for consumption
+* @return true if a {@link JsonElement} is available on the input, false otherwise
+* @since 1.4
+*/"
+"Method: remove
+Description: /**
+* This optional {@link Iterator} method is not relevant for stream parsing and hence is not
+* implemented.
+* @since 1.4
+*/"

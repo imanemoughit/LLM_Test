@@ -1,0 +1,515 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getDialShape
+Description: /**
+* Returns the dial shape.  The default is {@link DialShape#CIRCLE}).
+*
+* @return The dial shape (never <code>null</code>).
+*
+* @see #setDialShape(DialShape)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setDialShape
+Description: /**
+* Sets the dial shape and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param shape  the shape (<code>null</code> not permitted).
+*
+* @see #getDialShape()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getMeterAngle
+Description: /**
+* Returns the meter angle in degrees.  This defines, in part, the shape
+* of the dial.  The default is 270 degrees.
+*
+* @return The meter angle (in degrees).
+*
+* @see #setMeterAngle(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setMeterAngle
+Description: /**
+* Sets the angle (in degrees) for the whole range of the dial and sends
+* a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param angle  the angle (in degrees, in the range 1-360).
+*
+* @see #getMeterAngle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getRange
+Description: /**
+* Returns the overall range for the dial.
+*
+* @return The overall range (never <code>null</code>).
+*
+* @see #setRange(Range)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setRange
+Description: /**
+* Sets the range for the dial and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param range  the range (<code>null</code> not permitted and zero-length
+*               ranges not permitted).
+*
+* @see #getRange()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getTickSize
+Description: /**
+* Returns the tick size (the interval between ticks on the dial).
+*
+* @return The tick size.
+*
+* @see #setTickSize(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setTickSize
+Description: /**
+* Sets the tick size and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param size  the tick size (must be > 0).
+*
+* @see #getTickSize()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getTickPaint
+Description: /**
+* Returns the paint used to draw the ticks around the dial.
+*
+* @return The paint used to draw the ticks around the dial (never
+*         <code>null</code>).
+*
+* @see #setTickPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setTickPaint
+Description: /**
+* Sets the paint used to draw the tick labels around the dial and sends
+* a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getTickPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getUnits
+Description: /**
+* Returns a string describing the units for the dial.
+*
+* @return The units (possibly <code>null</code>).
+*
+* @see #setUnits(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setUnits
+Description: /**
+* Sets the units for the dial and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param units  the units (<code>null</code> permitted).
+*
+* @see #getUnits()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getNeedlePaint
+Description: /**
+* Returns the paint for the needle.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setNeedlePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setNeedlePaint
+Description: /**
+* Sets the paint used to display the needle and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getNeedlePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getTickLabelsVisible
+Description: /**
+* Returns the flag that determines whether or not tick labels are visible.
+*
+* @return The flag.
+*
+* @see #setTickLabelsVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setTickLabelsVisible
+Description: /**
+* Sets the flag that controls whether or not the tick labels are visible
+* and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param visible  the flag.
+*
+* @see #getTickLabelsVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getTickLabelFont
+Description: /**
+* Returns the tick label font.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setTickLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setTickLabelFont
+Description: /**
+* Sets the tick label font and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getTickLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getTickLabelPaint
+Description: /**
+* Returns the tick label paint.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setTickLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setTickLabelPaint
+Description: /**
+* Sets the tick label paint and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getTickLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getTickLabelFormat
+Description: /**
+* Returns the tick label format.
+*
+* @return The tick label format (never <code>null</code>).
+*
+* @see #setTickLabelFormat(NumberFormat)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setTickLabelFormat
+Description: /**
+* Sets the format for the tick labels and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param format  the format (<code>null</code> not permitted).
+*
+* @see #getTickLabelFormat()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getValueFont
+Description: /**
+* Returns the font for the value label.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setValueFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setValueFont
+Description: /**
+* Sets the font used to display the value label and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getValueFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getValuePaint
+Description: /**
+* Returns the paint for the value label.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setValuePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setValuePaint
+Description: /**
+* Sets the paint used to display the value label and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getValuePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getDialBackgroundPaint
+Description: /**
+* Returns the paint for the dial background.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setDialBackgroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setDialBackgroundPaint
+Description: /**
+* Sets the paint used to fill the dial background.  Set this to
+* <code>null</code> for no background.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getDialBackgroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getDrawBorder
+Description: /**
+* Returns a flag that controls whether or not a rectangular border is
+* drawn around the plot area.
+*
+* @return A flag.
+*
+* @see #setDrawBorder(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setDrawBorder
+Description: /**
+* Sets the flag that controls whether or not a rectangular border is drawn
+* around the plot area and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param draw  the flag.
+*
+* @see #getDrawBorder()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getDialOutlinePaint
+Description: /**
+* Returns the dial outline paint.
+*
+* @return The paint.
+*
+* @see #setDialOutlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setDialOutlinePaint
+Description: /**
+* Sets the dial outline paint and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint.
+*
+* @see #getDialOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getDataset
+Description: /**
+* Returns the dataset for the plot.
+*
+* @return The dataset (possibly <code>null</code>).
+*
+* @see #setDataset(ValueDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: setDataset
+Description: /**
+* Sets the dataset for the plot, replacing the existing dataset if there
+* is one, and triggers a {@link PlotChangeEvent}.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @see #getDataset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getIntervals
+Description: /**
+* Returns an unmodifiable list of the intervals for the plot.
+*
+* @return A list.
+*
+* @see #addInterval(MeterInterval)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: addInterval
+Description: /**
+* Adds an interval and sends a {@link PlotChangeEvent} to all registered
+* listeners.
+*
+* @param interval  the interval (<code>null</code> not permitted).
+*
+* @see #getIntervals()
+* @see #clearIntervals()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: clearIntervals
+Description: /**
+* Clears the intervals for the plot and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @see #addInterval(MeterInterval)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getLegendItems
+Description: /**
+* Returns an item for each interval.
+*
+* @return A collection of legend items.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: draw
+Description: /**
+* Draws the plot on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device.
+* @param area  the area within which the plot should be drawn.
+* @param anchor  the anchor point (<code>null</code> permitted).
+* @param parentState  the state from the parent plot, if there is one.
+* @param info  collects info about the drawing.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: valueToAngle
+Description: /**
+* Translates a data value to an angle on the dial.
+*
+* @param value  the value.
+*
+* @return The angle on the dial.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: getPlotType
+Description: /**
+* Returns a short string describing the type of plot.
+*
+* @return A string describing the type of plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: zoom
+Description: /**
+* A zoom method that does nothing.  Plots are required to support the
+* zoom operation.  In the case of a meter plot, it doesn't make sense to
+* zoom in or out, so the method is empty.
+*
+* @param percent   The zoom percentage.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: equals
+Description: /**
+* Tests the plot for equality with an arbitrary object.  Note that the
+* dataset is ignored for the purposes of testing equality.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MeterPlot, Method: clone
+Description: /**
+* Returns an independent copy (clone) of the plot.  The dataset is NOT
+* cloned - both the original and the clone will have a reference to the
+* same dataset.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if some component of the plot cannot
+*         be cloned.
+*/"
+

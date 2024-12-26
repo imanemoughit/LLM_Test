@@ -1,0 +1,51 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ColumnArrangement
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ColumnArrangement, Method: add
+Description: /**
+* Adds a block to be managed by this instance.  This method is usually
+* called by the {@link BlockContainer}, you shouldn't need to call it
+* directly.
+*
+* @param block  the block.
+* @param key  a key that controls the position of the block.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ColumnArrangement, Method: arrange
+Description: /**
+* Calculates and sets the bounds of all the items in the specified
+* container, subject to the given constraint.  The <code>Graphics2D</code>
+* can be used by some items (particularly items containing text) to
+* calculate sizing parameters.
+*
+* @param container  the container whose items are being arranged.
+* @param g2  the graphics device.
+* @param constraint  the size constraint.
+*
+* @return The size of the container after arrangement of the contents.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ColumnArrangement, Method: clear
+Description: /**
+* Clears any cached information.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ColumnArrangement, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

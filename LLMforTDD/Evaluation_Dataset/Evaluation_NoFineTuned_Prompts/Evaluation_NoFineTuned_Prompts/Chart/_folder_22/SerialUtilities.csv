@@ -1,0 +1,196 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: isSerializable
+Description: /**
+* Returns <code>true</code> if a class implements <code>Serializable</code>
+* and <code>false</code> otherwise.
+*
+* @param c  the class.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: readPaint
+Description: /**
+* Reads a <code>Paint</code> object that has been serialised by the
+* {@link SerialUtilities#writePaint(Paint, ObjectOutputStream)} method.
+*
+* @param stream  the input stream (<code>null</code> not permitted).
+*
+* @return The paint object (possibly <code>null</code>).
+*
+* @throws IOException  if there is an I/O problem.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassNotFoundException  if there is a problem loading a class.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: writePaint
+Description: /**
+* Serialises a <code>Paint</code> object.
+*
+* @param paint  the paint object (<code>null</code> permitted).
+* @param stream  the output stream (<code>null</code> not permitted).
+*
+* @throws IOException if there is an I/O error.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: readStroke
+Description: /**
+* Reads a <code>Stroke</code> object that has been serialised by the
+* {@link SerialUtilities#writeStroke(Stroke, ObjectOutputStream)} method.
+*
+* @param stream  the input stream (<code>null</code> not permitted).
+*
+* @return The stroke object (possibly <code>null</code>).
+*
+* @throws IOException  if there is an I/O problem.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassNotFoundException  if there is a problem loading a class.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: writeStroke
+Description: /**
+* Serialises a <code>Stroke</code> object.  This code handles the
+* <code>BasicStroke</code> class which is the only <code>Stroke</code>
+* implementation provided by the JDK (and isn't directly
+* <code>Serializable</code>).
+*
+* @param stroke  the stroke object (<code>null</code> permitted).
+* @param stream  the output stream (<code>null</code> not permitted).
+*
+* @throws IOException if there is an I/O error.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: readShape
+Description: /**
+* Reads a <code>Shape</code> object that has been serialised by the
+* {@link #writeShape(Shape, ObjectOutputStream)} method.
+*
+* @param stream  the input stream (<code>null</code> not permitted).
+*
+* @return The shape object (possibly <code>null</code>).
+*
+* @throws IOException  if there is an I/O problem.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassNotFoundException  if there is a problem loading a class.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: writeShape
+Description: /**
+* Serialises a <code>Shape</code> object.
+*
+* @param shape  the shape object (<code>null</code> permitted).
+* @param stream  the output stream (<code>null</code> not permitted).
+*
+* @throws IOException if there is an I/O error.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: readPoint2D
+Description: /**
+* Reads a <code>Point2D</code> object that has been serialised by the
+* {@link #writePoint2D(Point2D, ObjectOutputStream)} method.
+*
+* @param stream  the input stream (<code>null</code> not permitted).
+*
+* @return The point object (possibly <code>null</code>).
+*
+* @throws IOException  if there is an I/O problem.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: writePoint2D
+Description: /**
+* Serialises a <code>Point2D</code> object.
+*
+* @param p  the point object (<code>null</code> permitted).
+* @param stream  the output stream (<code>null</code> not permitted).
+*
+* @throws IOException if there is an I/O error.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: readAttributedString
+Description: /**
+* Reads a <code>AttributedString</code> object that has been serialised by
+* the {@link SerialUtilities#writeAttributedString(AttributedString,
+* ObjectOutputStream)} method.
+*
+* @param stream  the input stream (<code>null</code> not permitted).
+*
+* @return The attributed string object (possibly <code>null</code>).
+*
+* @throws IOException  if there is an I/O problem.
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassNotFoundException  if there is a problem loading a class.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: writeAttributedString
+Description: /**
+* Serialises an <code>AttributedString</code> object.
+*
+* @param as  the attributed string object (<code>null</code> permitted).
+* @param stream  the output stream (<code>null</code> not permitted).
+*
+* @throws IOException if there is an I/O error.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: readImage
+Description: /**
+* Reads a boolean from the specified stream and, if the boolean is
+* <code>false</code>, reads a PNG byte stream, then returns  the
+* corresponding image.  If the boolean is <code>true</code>, this
+* signifies that the original streamed image was <code>null</code>, and
+* so the method returns <code>null</code>.
+*
+* @param stream  the input stream (<code>null</code> not permitted).
+*
+* @return An image, or <code>null</code>.
+*
+* @throws IOException if there is an input/output problem.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SerialUtilities, Method: writeImage
+Description: /**
+* Writes an image to the stream in PNG format.
+*
+* @param image  the image.
+* @param stream  the output stream.
+*
+* @throws IOException if there is an input/output error.
+*
+* @since 1.2.0
+*/"
+

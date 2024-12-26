@@ -1,0 +1,232 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: getBackgroundPaint
+Description: /**
+* Returns the background paint (never <code>null</code>).
+*
+* @return The background paint.
+*
+* @see #setBackgroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: setBackgroundPaint
+Description: /**
+* Sets the background paint and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getBackgroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: getForegroundPaint
+Description: /**
+* Returns the foreground paint.
+*
+* @return The foreground paint (never <code>null</code>).
+*
+* @see #setForegroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: setForegroundPaint
+Description: /**
+* Sets the foreground paint and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getForegroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: getStroke
+Description: /**
+* Returns the stroke.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: setStroke
+Description: /**
+* Sets the stroke and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: getInnerRadius
+Description: /**
+* Returns the inner radius, relative to the framing rectangle.
+*
+* @return The inner radius.
+*
+* @see #setInnerRadius(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: setInnerRadius
+Description: /**
+* Sets the inner radius and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param radius  the inner radius.
+*
+* @see #getInnerRadius()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: getOuterRadius
+Description: /**
+* Returns the outer radius, relative to the framing rectangle.
+*
+* @return The outer radius.
+*
+* @see #setOuterRadius(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: setOuterRadius
+Description: /**
+* Sets the outer radius and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param radius  the outer radius.
+*
+* @see #getOuterRadius()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: getStartAngle
+Description: /**
+* Returns the start angle.
+*
+* @return The start angle.
+*
+* @see #setStartAngle(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: setStartAngle
+Description: /**
+* Sets the start angle and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param angle  the angle.
+*
+* @see #getStartAngle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: getExtent
+Description: /**
+* Returns the extent.
+*
+* @return The extent.
+*
+* @see #setExtent(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: setExtent
+Description: /**
+* Sets the extent and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param extent  the extent.
+*
+* @see #getExtent()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: getWindow
+Description: /**
+* Returns the shape for the window for this dial.  Some dial layers will
+* request that their drawing be clipped within this window.
+*
+* @param frame  the reference frame (<code>null</code> not permitted).
+*
+* @return The shape of the dial's window.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: draw
+Description: /**
+* Draws the frame.
+*
+* @param g2  the graphics target.
+* @param plot  the plot.
+* @param frame  the dial's reference frame.
+* @param view  the dial's view rectangle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: isClippedToWindow
+Description: /**
+* Returns <code>false</code> to indicate that this dial layer is not
+* clipped to the dial window.
+*
+* @return <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return The hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArcDialFrame, Method: clone
+Description: /**
+* Returns a clone of this instance.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if any attribute of this instance
+*     cannot be cloned.
+*/"
+

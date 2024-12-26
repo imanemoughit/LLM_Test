@@ -1,0 +1,54 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EmptyBlock
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EmptyBlock, Method: arrange
+Description: /**
+* Arranges the contents of the block, within the given constraints, and
+* returns the block size.
+*
+* @param g2  the graphics device.
+* @param constraint  the constraint (<code>null</code> not permitted).
+*
+* @return The block size (in Java2D units, never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EmptyBlock, Method: draw
+Description: /**
+* Draws the block.  Since the block is empty, there is nothing to draw
+* except the optional border.
+*
+* @param g2  the graphics device.
+* @param area  the area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EmptyBlock, Method: draw
+Description: /**
+* Draws the block within the specified area.  Since the block is empty,
+* there is nothing to draw except the optional border.
+*
+* @param g2  the graphics device.
+* @param area  the area.
+* @param params  ignored (<code>null</code> permitted).
+*
+* @return Always <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EmptyBlock, Method: clone
+Description: /**
+* Returns a clone of the block.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if there is a problem cloning.
+*/"
+

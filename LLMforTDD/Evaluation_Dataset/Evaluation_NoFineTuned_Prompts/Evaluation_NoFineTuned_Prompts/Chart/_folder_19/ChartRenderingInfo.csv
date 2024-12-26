@@ -1,0 +1,114 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartRenderingInfo
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartRenderingInfo, Method: getChartArea
+Description: /**
+* Returns the area in which the chart was drawn.
+*
+* @return The area in which the chart was drawn.
+*
+* @see #setChartArea(Rectangle2D)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartRenderingInfo, Method: setChartArea
+Description: /**
+* Sets the area in which the chart was drawn.
+*
+* @param area  the chart area.
+*
+* @see #getChartArea()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartRenderingInfo, Method: getEntityCollection
+Description: /**
+* Returns the collection of entities maintained by this instance.
+*
+* @return The entity collection (possibly <code>null</code>).
+*
+* @see #setEntityCollection(EntityCollection)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartRenderingInfo, Method: setEntityCollection
+Description: /**
+* Sets the entity collection.
+*
+* @param entities  the entity collection (<code>null</code> permitted).
+*
+* @see #getEntityCollection()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartRenderingInfo, Method: getRenderingSource
+Description: /**
+* Returns the rendering source, or <code>null</code>.
+*
+* @return The rendering source (possibly <code>null</code>).
+*
+* @see #setRenderingSource(RenderingSource)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartRenderingInfo, Method: setRenderingSource
+Description: /**
+* Sets the rendering source.
+*
+* @param source  the source (<code>null</code> permitted).
+*
+* @see #getRenderingSource()
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartRenderingInfo, Method: clear
+Description: /**
+* Clears the information recorded by this object, but not the
+* rendering source.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartRenderingInfo, Method: getPlotInfo
+Description: /**
+* Returns the rendering info for the chart's plot.
+*
+* @return The rendering info for the plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartRenderingInfo, Method: equals
+Description: /**
+* Tests this object for equality with an arbitrary object.
+*
+* @param obj  the object to test against (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartRenderingInfo, Method: clone
+Description: /**
+* Returns a clone of this object.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if the object cannot be cloned.
+*/"
+

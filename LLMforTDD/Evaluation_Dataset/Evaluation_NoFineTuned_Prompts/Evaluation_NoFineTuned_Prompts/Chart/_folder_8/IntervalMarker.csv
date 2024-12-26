@@ -1,0 +1,89 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalMarker
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalMarker, Method: getStartValue
+Description: /**
+* Returns the start value for the interval.
+*
+* @return The start value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalMarker, Method: setStartValue
+Description: /**
+* Sets the start value for the marker and sends a
+* {@link MarkerChangeEvent} to all registered listeners.
+*
+* @param value  the value.
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalMarker, Method: getEndValue
+Description: /**
+* Returns the end value for the interval.
+*
+* @return The end value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalMarker, Method: setEndValue
+Description: /**
+* Sets the end value for the marker and sends a
+* {@link MarkerChangeEvent} to all registered listeners.
+*
+* @param value  the value.
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalMarker, Method: getGradientPaintTransformer
+Description: /**
+* Returns the gradient paint transformer.
+*
+* @return The gradient paint transformer (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalMarker, Method: setGradientPaintTransformer
+Description: /**
+* Sets the gradient paint transformer and sends a
+* {@link MarkerChangeEvent} to all registered listeners.
+*
+* @param transformer  the transformer (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalMarker, Method: equals
+Description: /**
+* Tests the marker for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: IntervalMarker, Method: clone
+Description: /**
+* Returns a clone of the marker.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException Not thrown by this class, but the
+*         exception is declared for the use of subclasses.
+*/"
+

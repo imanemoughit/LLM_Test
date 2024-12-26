@@ -1,0 +1,58 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeList
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeList, Method: getStroke
+Description: /**
+* Returns a {@link Stroke} object from the list.
+*
+* @param index the index (zero-based).
+*
+* @return The object.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeList, Method: setStroke
+Description: /**
+* Sets the {@link Stroke} for an item in the list.  The list is expanded
+* if necessary.
+*
+* @param index  the index (zero-based).
+* @param stroke  the {@link Stroke}.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeList, Method: clone
+Description: /**
+* Returns an independent copy of the list.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if an item in the list cannot be cloned.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeList, Method: equals
+Description: /**
+* Tests the list for equality with another object (typically also a list).
+*
+* @param obj  the other object.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrokeList, Method: hashCode
+Description: /**
+* Returns a hash code value for the object.
+*
+* @return the hashcode
+*/"
+

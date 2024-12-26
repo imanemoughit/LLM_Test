@@ -1,0 +1,74 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedMessageFormat
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedMessageFormat, Method: toPattern
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedMessageFormat, Method: applyPattern
+Description: /*** Apply the specified pattern.
+*
+* @param pattern String
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedMessageFormat, Method: setFormat
+Description: /*** Throws UnsupportedOperationException - see class Javadoc for details.
+*
+* @param formatElementIndex format element index
+* @param newFormat the new format
+* @throws UnsupportedOperationException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedMessageFormat, Method: setFormatByArgumentIndex
+Description: /*** Throws UnsupportedOperationException - see class Javadoc for details.
+*
+* @param argumentIndex argument index
+* @param newFormat the new format
+* @throws UnsupportedOperationException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedMessageFormat, Method: setFormats
+Description: /*** Throws UnsupportedOperationException - see class Javadoc for details.
+*
+* @param newFormats new formats
+* @throws UnsupportedOperationException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedMessageFormat, Method: setFormatsByArgumentIndex
+Description: /*** Throws UnsupportedOperationException - see class Javadoc for details.
+*
+* @param newFormats new formats
+* @throws UnsupportedOperationException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedMessageFormat, Method: equals
+Description: /*** Check if this extended message format is equal to another object.
+*
+* @param obj the object to compare to
+* @return true if this object equals the other, otherwise false
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtendedMessageFormat, Method: hashCode
+Description: /*** Return the hashcode.
+*
+* @return the hashcode
+*/"
+

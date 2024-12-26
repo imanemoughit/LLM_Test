@@ -1,0 +1,20 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiBackgroundInitializer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiBackgroundInitializer, Method: addInitializer
+Description: /*** Adds a new {@code BackgroundInitializer} to this object. When this
+* {@code MultiBackgroundInitializer} is started, the given initializer will
+* be processed. This method must not be called after {@link #start()} has
+* been invoked.
+*
+* @param name the name of the initializer (must not be <b>null</b>)
+* @param init the {@code BackgroundInitializer} to add (must not be
+* <b>null</b>)
+* @throws IllegalArgumentException if a required parameter is missing
+* @throws IllegalStateException if {@code start()} has already been called
+*/"
+

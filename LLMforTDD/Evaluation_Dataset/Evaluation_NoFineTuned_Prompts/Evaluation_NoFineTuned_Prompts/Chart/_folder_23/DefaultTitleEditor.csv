@@ -1,0 +1,69 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTitleEditor
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTitleEditor, Method: getTitleText
+Description: /**
+* Returns the title text entered in the panel.
+*
+* @return The title text entered in the panel.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTitleEditor, Method: getTitleFont
+Description: /**
+* Returns the font selected in the panel.
+*
+* @return The font selected in the panel.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTitleEditor, Method: getTitlePaint
+Description: /**
+* Returns the paint selected in the panel.
+*
+* @return The paint selected in the panel.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTitleEditor, Method: actionPerformed
+Description: /**
+* Handles button clicks by passing control to an appropriate handler
+* method.
+*
+* @param event  the event
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTitleEditor, Method: attemptFontSelection
+Description: /**
+* Presents a font selection dialog to the user.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTitleEditor, Method: attemptPaintSelection
+Description: /**
+* Allow the user the opportunity to select a Paint object.  For now, we
+* just use the standard color chooser - all colors are Paint objects, but
+* not all Paint objects are colors (later we can implement a more general
+* Paint chooser).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultTitleEditor, Method: setTitleProperties
+Description: /**
+* Sets the properties of the specified title to match the properties
+* defined on this panel.
+*
+* @param chart  the chart whose title is to be modified.
+*/"
+

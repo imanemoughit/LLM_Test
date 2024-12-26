@@ -1,0 +1,17 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AtomicInitializer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AtomicInitializer, Method: get
+Description: /*** Returns the object managed by this initializer. The object is created if
+* it is not available yet and stored internally. This method always returns
+* the same object.
+*
+* @return the object created by this {@code AtomicInitializer}
+* @throws ConcurrentException if an error occurred during initialization of
+* the object
+*/"
+

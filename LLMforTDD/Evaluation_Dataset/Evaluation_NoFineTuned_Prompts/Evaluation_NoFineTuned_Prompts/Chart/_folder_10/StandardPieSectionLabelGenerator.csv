@@ -1,0 +1,92 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieSectionLabelGenerator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieSectionLabelGenerator, Method: getAttributedLabel
+Description: /**
+* Returns the attributed label for a section, or <code>null</code> if none
+* is defined.
+*
+* @param section  the section index.
+*
+* @return The attributed label.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieSectionLabelGenerator, Method: setAttributedLabel
+Description: /**
+* Sets the attributed label for a section.
+*
+* @param section  the section index.
+* @param label  the label (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieSectionLabelGenerator, Method: generateSectionLabel
+Description: /**
+* Generates a label for a pie section.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param key  the section key (<code>null</code> not permitted).
+*
+* @return The label (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieSectionLabelGenerator, Method: generateAttributedSectionLabel
+Description: /**
+* Generates an attributed label for the specified series, or
+* <code>null</code> if no attributed label is available (in which case,
+* the string returned by
+* {@link #generateSectionLabel(PieDataset, Comparable)} will
+* provide the fallback).  Only certain attributes are recognised by the
+* code that ultimately displays the labels:
+* <ul>
+* <li>{@link TextAttribute#FONT}: will set the font;</li>
+* <li>{@link TextAttribute#POSTURE}: a value of
+*     {@link TextAttribute#POSTURE_OBLIQUE} will add {@link Font#ITALIC} to
+*     the current font;</li>
+* <li>{@link TextAttribute#WEIGHT}: a value of
+*     {@link TextAttribute#WEIGHT_BOLD} will add {@link Font#BOLD} to the
+*     current font;</li>
+* <li>{@link TextAttribute#FOREGROUND}: this will set the {@link Paint}
+*     for the current</li>
+* <li>{@link TextAttribute#SUPERSCRIPT}: the values
+*     {@link TextAttribute#SUPERSCRIPT_SUB} and
+*     {@link TextAttribute#SUPERSCRIPT_SUPER} are recognised.</li>
+* </ul>
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param key  the key.
+*
+* @return An attributed label (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieSectionLabelGenerator, Method: equals
+Description: /**
+* Tests the generator for equality with an arbitrary object.
+*
+* @param obj  the object to test against (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardPieSectionLabelGenerator, Method: clone
+Description: /**
+* Returns an independent copy of the generator.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  should not happen.
+*/"
+

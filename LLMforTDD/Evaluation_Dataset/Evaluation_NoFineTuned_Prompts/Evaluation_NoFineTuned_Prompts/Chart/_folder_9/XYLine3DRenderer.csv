@@ -1,0 +1,86 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLine3DRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLine3DRenderer, Method: getXOffset
+Description: /**
+* Returns the x-offset for the 3D effect.
+*
+* @return The 3D effect.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLine3DRenderer, Method: getYOffset
+Description: /**
+* Returns the y-offset for the 3D effect.
+*
+* @return The 3D effect.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLine3DRenderer, Method: setXOffset
+Description: /**
+* Sets the x-offset and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param xOffset  the x-offset.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLine3DRenderer, Method: setYOffset
+Description: /**
+* Sets the y-offset and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param yOffset  the y-offset.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLine3DRenderer, Method: getWallPaint
+Description: /**
+* Returns the paint used to highlight the left and bottom wall in the plot
+* background.
+*
+* @return The paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLine3DRenderer, Method: setWallPaint
+Description: /**
+* Sets the paint used to hightlight the left and bottom walls in the plot
+* background and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param paint  the paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLine3DRenderer, Method: getPassCount
+Description: /**
+* Returns the number of passes through the data that the renderer requires
+* in order to draw the chart.  Most charts will require a single pass,
+* but some require two passes.
+*
+* @return The pass count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLine3DRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

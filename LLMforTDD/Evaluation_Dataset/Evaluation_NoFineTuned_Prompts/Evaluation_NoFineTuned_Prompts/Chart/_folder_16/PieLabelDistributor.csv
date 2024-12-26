@@ -1,0 +1,32 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelDistributor
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelDistributor, Method: distributeLabels
+Description: /**
+* Distributes the labels.
+*
+* @param minY  the minimum y-coordinate in Java2D-space.
+* @param height  the available height (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelDistributor, Method: sort
+Description: /**
+* Sorts the label records into ascending order by y-value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PieLabelDistributor, Method: toString
+Description: /**
+* Returns a string containing a description of the object for
+* debugging purposes.
+*
+* @return A string.
+*/"
+

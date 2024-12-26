@@ -1,0 +1,85 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemBlockContainer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemBlockContainer, Method: getDataset
+Description: /**
+* Returns a reference to the dataset for the associated legend item.
+*
+* @return A dataset reference.
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemBlockContainer, Method: getSeriesKey
+Description: /**
+* Returns the series key.
+*
+* @return The series key.
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemBlockContainer, Method: getToolTipText
+Description: /**
+* Returns the tool tip text.
+*
+* @return The tool tip text (possibly <code>null</code>).
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemBlockContainer, Method: setToolTipText
+Description: /**
+* Sets the tool tip text.
+*
+* @param text  the text (<code>null</code> permitted).
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemBlockContainer, Method: getURLText
+Description: /**
+* Returns the URL text.
+*
+* @return The URL text (possibly <code>null</code>).
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemBlockContainer, Method: setURLText
+Description: /**
+* Sets the URL text.
+*
+* @param text  the text (<code>null</code> permitted).
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LegendItemBlockContainer, Method: draw
+Description: /**
+* Draws the block within the specified area.
+*
+* @param g2  the graphics device.
+* @param area  the area.
+* @param params  passed on to blocks within the container
+*                (<code>null</code> permitted).
+*
+* @return An instance of {@link EntityBlockResult}, or <code>null</code>.
+*/"
+

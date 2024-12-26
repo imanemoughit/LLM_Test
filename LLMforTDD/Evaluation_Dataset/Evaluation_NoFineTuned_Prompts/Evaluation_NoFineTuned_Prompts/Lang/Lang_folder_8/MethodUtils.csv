@@ -1,0 +1,273 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils, Method: invokeMethod
+Description: /*** <p>Invokes a named method whose parameter type matches the object type.</p>
+*
+* <p>This method delegates the method search to {@link #getMatchingAccessibleMethod(Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class, String, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class[])}.</p>
+*
+* <p>This method supports calls to methods taking primitive parameters
+* via passing in wrapping classes. So, for example, a <code>Boolean</code> object
+* would match a <code>boolean</code> primitive.</p>
+*
+* <p>This is a convenient wrapper for
+* {@link #invokeMethod(Object object,String methodName, Object[] args, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class[] parameterTypes)}.
+* </p>
+*
+* @param object invoke method on this object
+* @param methodName get method with this name
+* @param args use these arguments - treat null as empty array
+* @return The value returned by the invoked method
+*
+* @throws NoSuchMethodException if there is no such accessible method
+* @throws InvocationTargetException wraps an exception thrown by the method invoked
+* @throws IllegalAccessException if the requested method is not accessible via reflection
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils, Method: invokeMethod
+Description: /*** <p>Invokes a named method whose parameter type matches the object type.</p>
+*
+* <p>This method delegates the method search to {@link #getMatchingAccessibleMethod(Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class, String, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class[])}.</p>
+*
+* <p>This method supports calls to methods taking primitive parameters
+* via passing in wrapping classes. So, for example, a <code>Boolean</code> object
+* would match a <code>boolean</code> primitive.</p>
+*
+* @param object invoke method on this object
+* @param methodName get method with this name
+* @param args use these arguments - treat null as empty array
+* @param parameterTypes match these parameters - treat null as empty array
+* @return The value returned by the invoked method
+*
+* @throws NoSuchMethodException if there is no such accessible method
+* @throws InvocationTargetException wraps an exception thrown by the method invoked
+* @throws IllegalAccessException if the requested method is not accessible via reflection
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils, Method: invokeExactMethod
+Description: /*** <p>Invokes a method whose parameter types match exactly the object
+* types.</p>
+*
+* <p>This uses reflection to invoke the method obtained from a call to
+* <code>getAccessibleMethod()</code>.</p>
+*
+* @param object invoke method on this object
+* @param methodName get method with this name
+* @param args use these arguments - treat null as empty array
+* @return The value returned by the invoked method
+*
+* @throws NoSuchMethodException if there is no such accessible method
+* @throws InvocationTargetException wraps an exception thrown by the
+*  method invoked
+* @throws IllegalAccessException if the requested method is not accessible
+*  via reflection
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils, Method: invokeExactMethod
+Description: /*** <p>Invokes a method whose parameter types match exactly the parameter
+* types given.</p>
+*
+* <p>This uses reflection to invoke the method obtained from a call to
+* <code>getAccessibleMethod()</code>.</p>
+*
+* @param object invoke method on this object
+* @param methodName get method with this name
+* @param args use these arguments - treat null as empty array
+* @param parameterTypes match these parameters - treat null as empty array
+* @return The value returned by the invoked method
+*
+* @throws NoSuchMethodException if there is no such accessible method
+* @throws InvocationTargetException wraps an exception thrown by the
+*  method invoked
+* @throws IllegalAccessException if the requested method is not accessible
+*  via reflection
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils, Method: invokeExactStaticMethod
+Description: /*** <p>Invokes a static method whose parameter types match exactly the parameter
+* types given.</p>
+*
+* <p>This uses reflection to invoke the method obtained from a call to
+* {@link #getAccessibleMethod(Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class, String, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class[])}.</p>
+*
+* @param cls invoke static method on this class
+* @param methodName get method with this name
+* @param args use these arguments - treat null as empty array
+* @param parameterTypes match these parameters - treat null as empty array
+* @return The value returned by the invoked method
+*
+* @throws NoSuchMethodException if there is no such accessible method
+* @throws InvocationTargetException wraps an exception thrown by the
+*  method invoked
+* @throws IllegalAccessException if the requested method is not accessible
+*  via reflection
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils, Method: invokeStaticMethod
+Description: /*** <p>Invokes a named static method whose parameter type matches the object type.</p>
+*
+* <p>This method delegates the method search to {@link #getMatchingAccessibleMethod(Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class, String, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class[])}.</p>
+*
+* <p>This method supports calls to methods taking primitive parameters
+* via passing in wrapping classes. So, for example, a <code>Boolean</code> class
+* would match a <code>boolean</code> primitive.</p>
+*
+* <p>This is a convenient wrapper for
+* {@link #invokeStaticMethod(Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class objectWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class,String methodName,Object [] args,Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class[] parameterTypes)}.
+* </p>
+*
+* @param cls invoke static method on this class
+* @param methodName get method with this name
+* @param args use these arguments - treat null as empty array
+* @return The value returned by the invoked method
+*
+* @throws NoSuchMethodException if there is no such accessible method
+* @throws InvocationTargetException wraps an exception thrown by the
+*  method invoked
+* @throws IllegalAccessException if the requested method is not accessible
+*  via reflection
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils, Method: invokeStaticMethod
+Description: /*** <p>Invokes a named static method whose parameter type matches the object type.</p>
+*
+* <p>This method delegates the method search to {@link #getMatchingAccessibleMethod(Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class, String, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class[])}.</p>
+*
+* <p>This method supports calls to methods taking primitive parameters
+* via passing in wrapping classes. So, for example, a <code>Boolean</code> class
+* would match a <code>boolean</code> primitive.</p>
+*
+*
+* @param cls invoke static method on this class
+* @param methodName get method with this name
+* @param args use these arguments - treat null as empty array
+* @param parameterTypes match these parameters - treat null as empty array
+* @return The value returned by the invoked method
+*
+* @throws NoSuchMethodException if there is no such accessible method
+* @throws InvocationTargetException wraps an exception thrown by the
+*  method invoked
+* @throws IllegalAccessException if the requested method is not accessible
+*  via reflection
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils, Method: invokeExactStaticMethod
+Description: /*** <p>Invokes a static method whose parameter types match exactly the object
+* types.</p>
+*
+* <p>This uses reflection to invoke the method obtained from a call to
+* {@link #getAccessibleMethod(Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class, String, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class[])}.</p>
+*
+* @param cls invoke static method on this class
+* @param methodName get method with this name
+* @param args use these arguments - treat null as empty array
+* @return The value returned by the invoked method
+*
+* @throws NoSuchMethodException if there is no such accessible method
+* @throws InvocationTargetException wraps an exception thrown by the
+*  method invoked
+* @throws IllegalAccessException if the requested method is not accessible
+*  via reflection
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils, Method: getAccessibleMethod
+Description: /*** <p>Returns an accessible method (that is, one that can be invoked via
+* reflection) with given name and parameters.  If no such method
+* can be found, return <code>null</code>.
+* This is just a convenient wrapper for
+* {@link #getAccessibleMethod(Method method)}.</p>
+*
+* @param cls get method from this class
+* @param methodName get method with this name
+* @param parameterTypes with these parameters types
+* @return The accessible method
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils, Method: getAccessibleMethod
+Description: /*** <p>Returns an accessible method (that is, one that can be invoked via
+* reflection) that implements the specified Method.  If no such method
+* can be found, return <code>null</code>.</p>
+*
+* @param method The method that we wish to call
+* @return The accessible method
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MethodUtils, Method: getMatchingAccessibleMethod
+Description: /*** <p>Finds an accessible method that matches the given name and has compatible parameters.
+* Compatible parameters mean that every method parameter is assignable from
+* the given parameters.
+* In other words, it finds a method with the given name
+* that will take the parameters given.<p>
+*
+* <p>This method is used by
+* {@link
+* #invokeMethod(Object object, String methodName, Object[] args, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class[] parameterTypes)}.
+*
+* <p>This method can match primitive parameter by passing in wrapper classes.
+* For example, a <code>Boolean</code> will match a primitive <code>boolean</code>
+* parameter.
+*
+* @param cls find method in this class
+* @param methodName find method with this name
+* @param parameterTypes find method with most compatible parameters
+* @return The accessible method
+*/"
+

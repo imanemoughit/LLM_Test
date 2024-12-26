@@ -1,0 +1,220 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: getDataset
+Description: /**
+* Returns the dataset used by the plot.
+*
+* @return The dataset (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: setDataset
+Description: /**
+* Sets the dataset used by the plot and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: getPieChart
+Description: /**
+* Returns the pie chart that is used to draw the individual pie plots.
+* Note that there are some attributes on this chart instance that will
+* be ignored at rendering time (for example, legend item settings).
+*
+* @return The pie chart (never <code>null</code>).
+*
+* @see #setPieChart(JFreeChart)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: setPieChart
+Description: /**
+* Sets the chart that is used to draw the individual pie plots.  The
+* chart's plot must be an instance of {@link PiePlot}.
+*
+* @param pieChart  the pie chart (<code>null</code> not permitted).
+*
+* @see #getPieChart()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: getDataExtractOrder
+Description: /**
+* Returns the data extract order (by row or by column).
+*
+* @return The data extract order (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: setDataExtractOrder
+Description: /**
+* Sets the data extract order (by row or by column) and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param order  the order (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: getLimit
+Description: /**
+* Returns the limit (as a percentage) below which small pie sections are
+* aggregated.
+*
+* @return The limit percentage.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: setLimit
+Description: /**
+* Sets the limit below which pie sections are aggregated.
+* Set this to 0.0 if you don't want any aggregation to occur.
+*
+* @param limit  the limit percent.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: getAggregatedItemsKey
+Description: /**
+* Returns the key for aggregated items in the pie plots, if there are any.
+* The default value is Other."""
+*
+* @return The aggregated items key.
+*
+* @since 1.0.2
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: setAggregatedItemsKey
+Description: /**
+* Sets the key for aggregated items in the pie plots.  You must ensure
+* that this doesn't clash with any keys in the dataset.
+*
+* @param key  the key (<code>null</code> not permitted).
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: getAggregatedItemsPaint
+Description: /**
+* Returns the paint used to draw the pie section representing the
+* aggregated items.  The default value is <code>Color.lightGray</code>.
+*
+* @return The paint.
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: setAggregatedItemsPaint
+Description: /**
+* Sets the paint used to draw the pie section representing the aggregated
+* items and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @since 1.0.2
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: getPlotType
+Description: /**
+* Returns a short string describing the type of plot.
+*
+* @return The plot type.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: getLegendItemShape
+Description: /**
+* Returns the shape used for legend items.
+*
+* @return The shape (never <code>null</code>).
+*
+* @see #setLegendItemShape(Shape)
+*
+* @since 1.0.12
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: setLegendItemShape
+Description: /**
+* Sets the shape used for legend items and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param shape  the shape (<code>null</code> not permitted).
+*
+* @see #getLegendItemShape()
+*
+* @since 1.0.12
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: draw
+Description: /**
+* Draws the plot on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device.
+* @param area  the area within which the plot should be drawn.
+* @param anchor  the anchor point (<code>null</code> permitted).
+* @param parentState  the state from the parent plot, if there is one.
+* @param info  collects info about the drawing.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: getLegendItems
+Description: /**
+* Returns a collection of legend items for the pie chart.
+*
+* @return The legend items.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: equals
+Description: /**
+* Tests this plot for equality with an arbitrary object.  Note that the
+* plot's dataset is not considered in the equality test.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> if this plot is equal to <code>obj</code>, and
+*     <code>false</code> otherwise.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MultiplePiePlot, Method: clone
+Description: /**
+* Returns a clone of the plot.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if some component of the plot does
+*         not support cloning.
+*/"
+

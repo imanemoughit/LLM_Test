@@ -1,0 +1,12 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JsonNull
+"Method: hashCode
+Description: /**
+* All instances of JsonNull have the same hash code since they are indistinguishable
+*/"
+"Method: equals
+Description: /**
+* All instances of JsonNull are the same
+*/"

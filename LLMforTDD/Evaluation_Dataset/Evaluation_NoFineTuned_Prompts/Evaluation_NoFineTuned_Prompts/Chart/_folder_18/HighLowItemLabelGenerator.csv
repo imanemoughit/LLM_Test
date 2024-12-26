@@ -1,0 +1,63 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HighLowItemLabelGenerator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HighLowItemLabelGenerator, Method: generateToolTip
+Description: /**
+* Generates a tooltip text item for a particular item within a series.
+*
+* @param dataset  the dataset.
+* @param series  the series (zero-based index).
+* @param item  the item (zero-based index).
+*
+* @return The tooltip text.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HighLowItemLabelGenerator, Method: generateLabel
+Description: /**
+* Generates a label for the specified item. The label is typically a
+* formatted version of the data value, but any text can be used.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param series  the series index (zero-based).
+* @param category  the category index (zero-based).
+*
+* @return The label (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HighLowItemLabelGenerator, Method: clone
+Description: /**
+* Returns an independent copy of the generator.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if cloning is not supported.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HighLowItemLabelGenerator, Method: equals
+Description: /**
+* Tests if this object is equal to another.
+*
+* @param obj  the other object.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HighLowItemLabelGenerator, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+

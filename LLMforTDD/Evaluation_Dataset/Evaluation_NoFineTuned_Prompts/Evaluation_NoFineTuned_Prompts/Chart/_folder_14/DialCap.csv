@@ -1,0 +1,155 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: getRadius
+Description: /**
+* Returns the radius of the cap, as a percentage of the dial's framing
+* rectangle.
+*
+* @return The radius.
+*
+* @see #setRadius(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: setRadius
+Description: /**
+* Sets the radius of the cap, as a percentage of the dial's framing
+* rectangle, and sends a {@link DialLayerChangeEvent} to all registered
+* listeners.
+*
+* @param radius  the radius (must be greater than zero).
+*
+* @see #getRadius()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: getFillPaint
+Description: /**
+* Returns the paint used to fill the cap.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setFillPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: setFillPaint
+Description: /**
+* Sets the paint for the cap background and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getFillPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: getOutlinePaint
+Description: /**
+* Returns the paint used to draw the outline of the cap.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setOutlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: setOutlinePaint
+Description: /**
+* Sets the paint used to draw the outline of the cap and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: getOutlineStroke
+Description: /**
+* Returns the stroke used to draw the outline of the cap.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setOutlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: setOutlineStroke
+Description: /**
+* Sets the stroke used to draw the outline of the cap and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getOutlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: isClippedToWindow
+Description: /**
+* Returns <code>true</code> to indicate that this layer should be
+* clipped within the dial window.
+*
+* @return <code>true</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: draw
+Description: /**
+* Draws the background to the specified graphics device.  If the dial
+* frame specifies a window, the clipping region will already have been
+* set to this window before this method is called.
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param plot  the plot (ignored here).
+* @param frame  the dial frame (ignored here).
+* @param view  the view rectangle (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return The hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialCap, Method: clone
+Description: /**
+* Returns a clone of this instance.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if some attribute of the cap cannot
+*     be cloned.
+*/"
+

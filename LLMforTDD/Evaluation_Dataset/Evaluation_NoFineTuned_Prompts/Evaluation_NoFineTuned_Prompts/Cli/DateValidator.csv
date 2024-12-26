@@ -1,0 +1,113 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: getDateInstance,/**
+     * Creates a Validator for dates.
+     *
+     * @return DateValidator a Validator for dates
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: getTimeInstance,/**
+     * Creates a Validator for times.
+     *
+     * @return DateValidator a Validator for times
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: getDateTimeInstance,/**
+     * Creates a Validator for date/times
+     *
+     * @return DateValidator a Validator for date/times
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: validate,/**
+     * Validate each String value in the specified List against this instances
+     * permitted DateFormats.
+     *
+     * If a value is valid then it's <code>String</code> value in the list is
+     * replaced with it's <code>Date</code> value.
+     *
+     * @see org.apache.commons.cli2.validation.Validator#validate(java.util.List)
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: setLenient,/**
+     * Sets whether this validator uses lenient parsing.
+     *
+     * @param lenient whether this validator uses lenient parsing
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: isLenient,/**
+     * Returns whether this validator uses lenient parsing.
+     *
+     * @return whether this validator uses lenient parsing
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: getMaximum,/**
+     * Returns the maximum date permitted.
+     *
+     * @return Date the maximum date permitted. If no maximum date has been
+     *         specified then return <code>null</code>.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: setMaximum,/**
+     * Sets the maximum Date to the specified value.
+     *
+     * @param maximum
+     *            the maximum Date permitted
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: getMinimum,/**
+     * Returns the minimum date permitted.
+     *
+     * @return Date the minimum date permitted. If no minimum date has been
+     *         specified then return <code>null</code>.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: setMinimum,/**
+     * Sets the minimum Date to the specified value.
+     *
+     * @param minimum
+     *            the minimum Date permitted
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: setFormat,/**
+     * Sets the date format permitted.
+     *
+     * @param format
+     *              the format to use
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: setFormats,/**
+     * Sets the date formats permitted.
+     *
+     * @param formats
+     *               the List of DateFormats to use
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: setFormats,/**
+     * Sets the date formats permitted.
+     *
+     * @param formats
+     *               the array of DateFormats to use
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DateValidator, Method: getFormats,/**
+     * Gets the date formats permitted.
+     *
+     * @return the permitted formats
+     */"

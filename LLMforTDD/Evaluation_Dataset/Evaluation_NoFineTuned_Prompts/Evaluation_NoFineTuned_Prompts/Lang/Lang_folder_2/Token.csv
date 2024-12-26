@@ -1,0 +1,32 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Token
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Token, Method: equals
+Description: /*** Supports equality of this Token to another Token.
+*
+* @param obj2 Object to consider equality of
+* @return boolean <code>true</code> if equal
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Token, Method: hashCode
+Description: /*** Returns a hash code for the token equal to the
+* hash code for the token's value. Thus 'TT' and 'TTTT'
+* will have the same hash code.
+*
+* @return The hash code for the token
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Token, Method: toString
+Description: /*** Represents this token as a String.
+*
+* @return String representation of the token
+*/"
+

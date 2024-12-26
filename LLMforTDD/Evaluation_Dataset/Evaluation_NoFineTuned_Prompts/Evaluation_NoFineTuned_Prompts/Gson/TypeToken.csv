@@ -1,0 +1,50 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TypeToken
+"Method: getRawType
+Description: /**
+* Gets the raw type.
+*/"
+"Method: getType
+Description: /**
+* Gets underlying {@code Type} instance.
+*/"
+"Method: isAssignableFrom
+Description: /**
+* Check if this type is assignable from the given class object.
+*/"
+"Method: isAssignableFrom
+Description: /**
+* Check if this type is assignable from the given Type.
+*/"
+"Method: isAssignableFrom
+Description: /**
+* Check if this type is assignable from the given type token.
+*/"
+"Method: hashCode
+Description: /**
+* Hashcode for this object.
+* @return hashcode for this object.
+*/"
+"Method: equals
+Description: /**
+* Method to test equality.
+*
+* @return true if this object is logically equal to the specified object, false otherwise.
+*/"
+"Method: toString
+Description: /**
+* Returns a string representation of this object.
+* @return a string representation of this object.
+*/"
+"Method: get
+Description: /**
+* Gets type token for the given {@code Type} instance.
+*/"
+"Method: get
+Description: /**
+* Gets type token for the given {@code Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class} instance.
+*/"

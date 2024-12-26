@@ -1,0 +1,220 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: getArtifactPaint
+Description: /**
+* Returns the paint used to color the median and average markers.
+*
+* @return The paint used to draw the median and average markers (never
+*     <code>null</code>).
+*
+* @see #setArtifactPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: setArtifactPaint
+Description: /**
+* Sets the paint used to color the median and average markers and sends
+* a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getArtifactPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: getFillBox
+Description: /**
+* Returns the flag that controls whether or not the box is filled.
+*
+* @return A boolean.
+*
+* @see #setFillBox(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: setFillBox
+Description: /**
+* Sets the flag that controls whether or not the box is filled and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #getFillBox()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: getItemMargin
+Description: /**
+* Returns the item margin.  This is a percentage of the available space
+* that is allocated to the space between items in the chart.
+*
+* @return The margin.
+*
+* @see #setItemMargin(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: setItemMargin
+Description: /**
+* Sets the item margin and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param margin  the margin (a percentage).
+*
+* @see #getItemMargin()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: getMaximumBarWidth
+Description: /**
+* Returns the maximum bar width as a percentage of the available drawing
+* space.
+*
+* @return The maximum bar width.
+*
+* @see #setMaximumBarWidth(double)
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: setMaximumBarWidth
+Description: /**
+* Sets the maximum bar width, which is specified as a percentage of the
+* available space for all bars, and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param percent  the maximum Bar Width (a percentage).
+*
+* @see #getMaximumBarWidth()
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: isMeanVisible
+Description: /**
+* Returns the flag that controls whether or not the mean indicator is
+* draw for each item.
+*
+* @return A boolean.
+*
+* @see #setMeanVisible(boolean)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: setMeanVisible
+Description: /**
+* Sets the flag that controls whether or not the mean indicator is drawn
+* for each item, and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param visible  the new flag value.
+*
+* @see #isMeanVisible()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: isMedianVisible
+Description: /**
+* Returns the flag that controls whether or not the median indicator is
+* draw for each item.
+*
+* @return A boolean.
+*
+* @see #setMedianVisible(boolean)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: setMedianVisible
+Description: /**
+* Sets the flag that controls whether or not the median indicator is drawn
+* for each item, and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param visible  the new flag value.
+*
+* @see #isMedianVisible()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: getLegendItem
+Description: /**
+* Returns a legend item for a series.
+*
+* @param datasetIndex  the dataset index (zero-based).
+* @param series  the series index (zero-based).
+*
+* @return The legend item (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: initialise
+Description: /**
+* Initialises the renderer.  This method gets called once at the start of
+* the process of drawing a chart.
+*
+* @param g2  the graphics device.
+* @param dataArea  the area in which the data is to be plotted.
+* @param plot  the plot.
+* @param info  collects chart rendering information for return to caller.
+*
+* @return The renderer state.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: drawItem
+Description: /**
+* Draw a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area in which the data is drawn.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the data (must be an instance of
+*                 {@link BoxAndWhiskerCategoryDataset}).
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BoxAndWhiskerRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+

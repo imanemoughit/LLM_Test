@@ -1,0 +1,81 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CustomXYToolTipGenerator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CustomXYToolTipGenerator, Method: getListCount
+Description: /**
+* Returns the number of tool tip lists stored by the renderer.
+*
+* @return The list count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CustomXYToolTipGenerator, Method: getToolTipCount
+Description: /**
+* Returns the number of tool tips in a given list.
+*
+* @param list  the list index (zero based).
+*
+* @return The tooltip count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CustomXYToolTipGenerator, Method: getToolTipText
+Description: /**
+* Returns the tool tip text for an item.
+*
+* @param series  the series index.
+* @param item  the item index.
+*
+* @return The tool tip text.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CustomXYToolTipGenerator, Method: addToolTipSeries
+Description: /**
+* Adds a list of tooltips for a series.
+*
+* @param toolTips  the list of tool tips.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CustomXYToolTipGenerator, Method: generateToolTip
+Description: /**
+* Generates a tool tip text item for a particular item within a series.
+*
+* @param data  the dataset (ignored in this implementation).
+* @param series  the series (zero-based index).
+* @param item  the item (zero-based index).
+*
+* @return The tooltip text.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CustomXYToolTipGenerator, Method: clone
+Description: /**
+* Returns an independent copy of the generator.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if cloning is not supported.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CustomXYToolTipGenerator, Method: equals
+Description: /**
+* Tests if this object is equal to another.
+*
+* @param obj  the other object.
+*
+* @return A boolean.
+*/"
+

@@ -1,0 +1,118 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EncoderUtil
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EncoderUtil, Method: encode
+Description: /**
+* Encode the image in a specific format.
+*
+* @param image  The image to be encoded.
+* @param format  The {@link ImageFormat} to use.
+*
+* @return The byte[] that is the encoded image.
+* @throws IOException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EncoderUtil, Method: encode
+Description: /**
+* Encode the image in a specific format.
+*
+* @param image  The image to be encoded.
+* @param format  The {@link ImageFormat} to use.
+* @param encodeAlpha  Whether to encode alpha transparency (not supported
+*                     by all ImageEncoders).
+* @return The byte[] that is the encoded image.
+* @throws IOException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EncoderUtil, Method: encode
+Description: /**
+* Encode the image in a specific format.
+*
+* @param image  The image to be encoded.
+* @param format  The {@link ImageFormat} to use.
+* @param quality  The quality to use for the image encoding (not supported
+*                 by all ImageEncoders).
+* @return The byte[] that is the encoded image.
+* @throws IOException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EncoderUtil, Method: encode
+Description: /**
+* Encode the image in a specific format.
+*
+* @param image  The image to be encoded.
+* @param format  The {@link ImageFormat} to use.
+* @param quality  The quality to use for the image encoding (not supported
+*                 by all ImageEncoders).
+* @param encodeAlpha  Whether to encode alpha transparency (not supported
+*                     by all ImageEncoders).
+* @return The byte[] that is the encoded image.
+* @throws IOException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EncoderUtil, Method: writeBufferedImage
+Description: /**
+* Encode the image in a specific format and write it to an OutputStream.
+*
+* @param image  The image to be encoded.
+* @param format  The {@link ImageFormat} to use.
+* @param outputStream  The OutputStream to write the encoded image to.
+* @throws IOException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EncoderUtil, Method: writeBufferedImage
+Description: /**
+* Encode the image in a specific format and write it to an OutputStream.
+*
+* @param image  The image to be encoded.
+* @param format  The {@link ImageFormat} to use.
+* @param outputStream  The OutputStream to write the encoded image to.
+* @param quality  The quality to use for the image encoding (not
+*                 supported by all ImageEncoders).
+* @throws IOException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EncoderUtil, Method: writeBufferedImage
+Description: /**
+* Encode the image in a specific format and write it to an OutputStream.
+*
+* @param image  The image to be encoded.
+* @param format  The {@link ImageFormat} to use.
+* @param outputStream  The OutputStream to write the encoded image to.
+* @param encodeAlpha  Whether to encode alpha transparency (not
+*                     supported by all ImageEncoders).
+* @throws IOException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EncoderUtil, Method: writeBufferedImage
+Description: /**
+* Encode the image in a specific format and write it to an OutputStream.
+*
+* @param image  The image to be encoded.
+* @param format  The {@link ImageFormat} to use.
+* @param outputStream  The OutputStream to write the encoded image to.
+* @param quality  The quality to use for the image encoding (not
+*                 supported by all ImageEncoders).
+* @param encodeAlpha  Whether to encode alpha transparency (not supported
+*                     by all ImageEncoders).
+* @throws IOException
+*/"
+

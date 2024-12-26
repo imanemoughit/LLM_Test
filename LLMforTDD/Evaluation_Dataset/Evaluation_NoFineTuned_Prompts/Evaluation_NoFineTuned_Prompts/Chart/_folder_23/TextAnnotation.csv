@@ -1,0 +1,163 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: getText
+Description: /**
+* Returns the text for the annotation.
+*
+* @return The text (never <code>null</code>).
+*
+* @see #setText(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: setText
+Description: /**
+* Sets the text for the annotation.
+*
+* @param text  the text (<code>null</code> not permitted).
+*
+* @see #getText()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: getFont
+Description: /**
+* Returns the font for the annotation.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: setFont
+Description: /**
+* Sets the font for the annotation and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: getPaint
+Description: /**
+* Returns the paint for the annotation.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: setPaint
+Description: /**
+* Sets the paint for the annotation and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: getTextAnchor
+Description: /**
+* Returns the text anchor.
+*
+* @return The text anchor.
+*
+* @see #setTextAnchor(TextAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: setTextAnchor
+Description: /**
+* Sets the text anchor (the point on the text bounding rectangle that is
+* aligned to the (x, y) coordinate of the annotation) and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param anchor  the anchor point (<code>null</code> not permitted).
+*
+* @see #getTextAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: getRotationAnchor
+Description: /**
+* Returns the rotation anchor.
+*
+* @return The rotation anchor point (never <code>null</code>).
+*
+* @see #setRotationAnchor(TextAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: setRotationAnchor
+Description: /**
+* Sets the rotation anchor point and sends an
+* {@link AnnotationChangeEvent} to all registered listeners.
+*
+* @param anchor  the anchor (<code>null</code> not permitted).
+*
+* @see #getRotationAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: getRotationAngle
+Description: /**
+* Returns the rotation angle in radians.
+*
+* @return The rotation angle.
+*
+* @see #setRotationAngle(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: setRotationAngle
+Description: /**
+* Sets the rotation angle and sends an {@link AnnotationChangeEvent} to
+* all registered listeners.  The angle is measured clockwise in radians.
+*
+* @param angle  the angle (in radians).
+*
+* @see #getRotationAngle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: equals
+Description: /**
+* Tests this object for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: TextAnnotation, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+

@@ -1,0 +1,29 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: JsonParser
+"Method: parse
+Description: /**
+* Parses the specified JSON string into a parse tree
+*
+* @param json JSON text
+* @return a parse tree of {@link JsonElement}s corresponding to the specified JSON
+* @throws JsonParseException if the specified text is not valid JSON
+* @since 1.3
+*/"
+"Method: parse
+Description: /**
+* Parses the specified JSON string into a parse tree
+*
+* @param json JSON text
+* @return a parse tree of {@link JsonElement}s corresponding to the specified JSON
+* @throws JsonParseException if the specified text is not valid JSON
+* @since 1.3
+*/"
+"Method: parse
+Description: /**
+* Returns the next value from the JSON stream as a parse tree.
+*
+* @throws JsonParseException if there is an IOException or if the specified
+*     text is not valid JSON
+*/"

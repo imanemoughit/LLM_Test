@@ -1,0 +1,29 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FormatCache
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FormatCache, Method: getInstance
+Description: /*** <p>Gets a formatter instance using the default pattern in the
+* default timezone and locale.</p>
+*
+* @return a date/time formatter
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FormatCache, Method: getInstance
+Description: /*** <p>Gets a formatter instance using the specified pattern, time zone
+* and locale.</p>
+*
+* @param pattern  {@link java.text.SimpleDateFormat} compatible
+*  pattern, non-null
+* @param timeZone  the time zone, null means use the default TimeZone
+* @param locale  the locale, null means use the default Locale
+* @return a pattern based date/time formatter
+* @throws IllegalArgumentException if pattern is invalid
+*  or <code>null</code>
+*/"
+

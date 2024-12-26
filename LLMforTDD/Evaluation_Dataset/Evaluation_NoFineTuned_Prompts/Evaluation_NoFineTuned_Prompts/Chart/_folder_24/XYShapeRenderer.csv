@@ -1,0 +1,269 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: getPaintScale
+Description: /**
+* Returns the paint scale used by the renderer.
+*
+* @return The paint scale (never <code>null</code>).
+*
+* @see #setPaintScale(PaintScale)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: setPaintScale
+Description: /**
+* Sets the paint scale used by the renderer and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param scale  the scale (<code>null</code> not permitted).
+*
+* @see #getPaintScale()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: getDrawOutlines
+Description: /**
+* Returns <code>true</code> if outlines should be drawn for shapes, and
+* <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @see #setDrawOutlines(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: setDrawOutlines
+Description: /**
+* Sets the flag that controls whether outlines are drawn for
+* shapes, and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+* <P>
+* In some cases, shapes look better if they do NOT have an outline, but
+* this flag allows you to set your own preference.
+*
+* @param flag  the flag.
+*
+* @see #getDrawOutlines()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: getUseFillPaint
+Description: /**
+* Returns <code>true</code> if the renderer should use the fill paint
+* setting to fill shapes, and <code>false</code> if it should just
+* use the regular paint.
+* <p>
+* Refer to <code>XYLineAndShapeRendererDemo2.java</code> to see the
+* effect of this flag.
+*
+* @return A boolean.
+*
+* @see #setUseFillPaint(boolean)
+* @see #getUseOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: setUseFillPaint
+Description: /**
+* Sets the flag that controls whether the fill paint is used to fill
+* shapes, and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #getUseFillPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: getUseOutlinePaint
+Description: /**
+* Returns the flag that controls whether the outline paint is used for
+* shape outlines.  If not, the regular series paint is used.
+*
+* @return A boolean.
+*
+* @see #setUseOutlinePaint(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: setUseOutlinePaint
+Description: /**
+* Sets the flag that controls whether the outline paint is used for shape
+* outlines, and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param use  the flag.
+*
+* @see #getUseOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: isGuideLinesVisible
+Description: /**
+* Returns a flag that controls whether or not guide lines are drawn for
+* each data item (the lines are horizontal and vertical crosshairs"""
+* linking the data point to the axes).
+*
+* @return A boolean.
+*
+* @see #setGuideLinesVisible(boolean)
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: setGuideLinesVisible
+Description: /**
+* Sets the flag that controls whether or not guide lines are drawn for
+* each data item and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param visible  the new flag value.
+*
+* @see #isGuideLinesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: getGuideLinePaint
+Description: /**
+* Returns the paint used to draw the guide lines.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setGuideLinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: setGuideLinePaint
+Description: /**
+* Sets the paint used to draw the guide lines and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getGuideLinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: getGuideLineStroke
+Description: /**
+* Returns the stroke used to draw the guide lines.
+*
+* @return The stroke.
+*
+* @see #setGuideLineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: setGuideLineStroke
+Description: /**
+* Sets the stroke used to draw the guide lines and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getGuideLineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: findDomainBounds
+Description: /**
+* Returns the lower and upper bounds (range) of the x-values in the
+* specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: getPassCount
+Description: /**
+* Returns the number of passes required by this renderer.
+*
+* @return <code>2</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: drawItem
+Description: /**
+* Draws the block representing the specified item.
+*
+* @param g2  the graphics device.
+* @param state  the state.
+* @param dataArea  the data area.
+* @param plot  the plot.
+* @param domainAxis  the x-axis.
+* @param rangeAxis  the y-axis.
+* @param dataset  the dataset.
+* @param series  the series index.
+* @param item  the item index.
+* @param selected  is the data item selected?
+* @param pass  the pass index.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.  This method
+* returns <code>true</code> if and only if:
+* <ul>
+* <li><code>obj</code> is an instance of <code>XYShapeRenderer</code> (not
+*     <code>null</code>);</li>
+* <li><code>obj</code> has the same field values as this
+*     <code>XYShapeRenderer</code>;</li>
+* </ul>
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYShapeRenderer, Method: clone
+Description: /**
+* Returns a clone of this renderer.
+*
+* @return A clone of this renderer.
+*
+* @throws CloneNotSupportedException if there is a problem creating the
+*     clone.
+*/"
+

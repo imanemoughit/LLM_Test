@@ -1,0 +1,18 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineUtilities
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineUtilities, Method: clipLine
+Description: /**
+* Clips the specified line to the given rectangle.
+*
+* @param line  the line (<code>null</code> not permitted).
+* @param rect  the clipping rectangle (<code>null</code> not permitted).
+*
+* @return <code>true</code> if the clipped line is visible, and
+*     <code>false</code> otherwise.
+*/"
+

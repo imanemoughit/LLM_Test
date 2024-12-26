@@ -1,0 +1,100 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RegionSelectionHandler
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RegionSelectionHandler, Method: getFillPaint
+Description: /**
+* Returns the fill paint.
+*
+* @return The fill paint (possibly <code>null</code>).
+*
+* @see #setFillPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RegionSelectionHandler, Method: setFillPaint
+Description: /**
+* Sets the fill paint.
+*
+* @param paint  the fill paint (<code>null</code> permitted).
+*
+* @see #getFillPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RegionSelectionHandler, Method: getOutlinePaint
+Description: /**
+* Returns the outline paint.
+*
+* @return The outline paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RegionSelectionHandler, Method: setOutlinePaint
+Description: /**
+* Sets the outline paint.
+*
+* @param paint  the paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RegionSelectionHandler, Method: getOutlineStroke
+Description: /**
+* Returns the outline stroke.
+*
+* @return The outline stroke.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RegionSelectionHandler, Method: setOutlineStroke
+Description: /**
+* Sets the outline stroke.
+*
+* @param stroke  the outline stroke.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RegionSelectionHandler, Method: mousePressed
+Description: /**
+* Handles a mouse pressed event.
+*
+* @param e  the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RegionSelectionHandler, Method: mouseDragged
+Description: /**
+* Handles a mouse dragged event.
+*
+* @param e  the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RegionSelectionHandler, Method: mouseReleased
+Description: /**
+* Handles a mouse released event.
+*
+* @param e  the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RegionSelectionHandler, Method: mouseClicked
+Description: /**
+* Handle a mouse click - if the plot supports it, a single data item
+* can be selected (or added to the selection).
+*
+* @param e  the event.
+*/"
+

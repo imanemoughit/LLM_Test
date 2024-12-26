@@ -1,0 +1,48 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisLocation
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisLocation, Method: getOpposite
+Description: /**
+* Returns the location that is opposite to this location.
+*
+* @return The opposite location.
+*
+* @since 1.0.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisLocation, Method: toString
+Description: /**
+* Returns a string representing the object.
+*
+* @return The string.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisLocation, Method: equals
+Description: /**
+* Returns <code>true</code> if this object is equal to the specified
+* object, and <code>false</code> otherwise.
+*
+* @param obj  the other object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AxisLocation, Method: getOpposite
+Description: /**
+* Returns the location that is opposite to the supplied location.
+*
+* @param location  the location (<code>null</code> not permitted).
+*
+* @return The opposite location.
+*/"
+

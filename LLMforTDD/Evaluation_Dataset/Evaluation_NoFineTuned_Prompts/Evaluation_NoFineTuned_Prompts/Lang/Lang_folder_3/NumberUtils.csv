@@ -1,0 +1,673 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toInt
+Description: /*** <p>Convert a <code>String</code> to an <code>int</code>, returning
+* <code>zero</code> if the conversion fails.</p>
+*
+* <p>If the string is <code>null</code>, <code>zero</code> is returned.</p>
+*
+* <pre>
+*   NumberUtils.toInt(null) = 0
+*   NumberUtils.toInt()   = 0
+*   NumberUtils.toInt(1)  = 1
+* </pre>
+*
+* @param str  the string to convert, may be null
+* @return the int represented by the string, or <code>zero</code> if
+*  conversion fails
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toInt
+Description: /*** <p>Convert a <code>String</code> to an <code>int</code>, returning a
+* default value if the conversion fails.</p>
+*
+* <p>If the string is <code>null</code>, the default value is returned.</p>
+*
+* <pre>
+*   NumberUtils.toInt(null, 1) = 1
+*   NumberUtils.toInt(, 1)   = 1
+*   NumberUtils.toInt(1, 0)  = 1
+* </pre>
+*
+* @param str  the string to convert, may be null
+* @param defaultValue  the default value
+* @return the int represented by the string, or the default if conversion fails
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toLong
+Description: /*** <p>Convert a <code>String</code> to a <code>long</code>, returning
+* <code>zero</code> if the conversion fails.</p>
+*
+* <p>If the string is <code>null</code>, <code>zero</code> is returned.</p>
+*
+* <pre>
+*   NumberUtils.toLong(null) = 0L
+*   NumberUtils.toLong()   = 0L
+*   NumberUtils.toLong(1)  = 1L
+* </pre>
+*
+* @param str  the string to convert, may be null
+* @return the long represented by the string, or <code>0</code> if
+*  conversion fails
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toLong
+Description: /*** <p>Convert a <code>String</code> to a <code>long</code>, returning a
+* default value if the conversion fails.</p>
+*
+* <p>If the string is <code>null</code>, the default value is returned.</p>
+*
+* <pre>
+*   NumberUtils.toLong(null, 1L) = 1L
+*   NumberUtils.toLong(, 1L)   = 1L
+*   NumberUtils.toLong(1, 0L)  = 1L
+* </pre>
+*
+* @param str  the string to convert, may be null
+* @param defaultValue  the default value
+* @return the long represented by the string, or the default if conversion fails
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toFloat
+Description: /*** <p>Convert a <code>String</code> to a <code>float</code>, returning
+* <code>0.0f</code> if the conversion fails.</p>
+*
+* <p>If the string <code>str</code> is <code>null</code>,
+* <code>0.0f</code> is returned.</p>
+*
+* <pre>
+*   NumberUtils.toFloat(null)   = 0.0f
+*   NumberUtils.toFloat()     = 0.0f
+*   NumberUtils.toFloat(1.5)  = 1.5f
+* </pre>
+*
+* @param str the string to convert, may be <code>null</code>
+* @return the float represented by the string, or <code>0.0f</code>
+*  if conversion fails
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toFloat
+Description: /*** <p>Convert a <code>String</code> to a <code>float</code>, returning a
+* default value if the conversion fails.</p>
+*
+* <p>If the string <code>str</code> is <code>null</code>, the default
+* value is returned.</p>
+*
+* <pre>
+*   NumberUtils.toFloat(null, 1.1f)   = 1.0f
+*   NumberUtils.toFloat(, 1.1f)     = 1.1f
+*   NumberUtils.toFloat(1.5, 0.0f)  = 1.5f
+* </pre>
+*
+* @param str the string to convert, may be <code>null</code>
+* @param defaultValue the default value
+* @return the float represented by the string, or defaultValue
+*  if conversion fails
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toDouble
+Description: /*** <p>Convert a <code>String</code> to a <code>double</code>, returning
+* <code>0.0d</code> if the conversion fails.</p>
+*
+* <p>If the string <code>str</code> is <code>null</code>,
+* <code>0.0d</code> is returned.</p>
+*
+* <pre>
+*   NumberUtils.toDouble(null)   = 0.0d
+*   NumberUtils.toDouble()     = 0.0d
+*   NumberUtils.toDouble(1.5)  = 1.5d
+* </pre>
+*
+* @param str the string to convert, may be <code>null</code>
+* @return the double represented by the string, or <code>0.0d</code>
+*  if conversion fails
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toDouble
+Description: /*** <p>Convert a <code>String</code> to a <code>double</code>, returning a
+* default value if the conversion fails.</p>
+*
+* <p>If the string <code>str</code> is <code>null</code>, the default
+* value is returned.</p>
+*
+* <pre>
+*   NumberUtils.toDouble(null, 1.1d)   = 1.1d
+*   NumberUtils.toDouble(, 1.1d)     = 1.1d
+*   NumberUtils.toDouble(1.5, 0.0d)  = 1.5d
+* </pre>
+*
+* @param str the string to convert, may be <code>null</code>
+* @param defaultValue the default value
+* @return the double represented by the string, or defaultValue
+*  if conversion fails
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toByte
+Description: /*** <p>Convert a <code>String</code> to a <code>byte</code>, returning
+* <code>zero</code> if the conversion fails.</p>
+*
+* <p>If the string is <code>null</code>, <code>zero</code> is returned.</p>
+*
+* <pre>
+*   NumberUtils.toByte(null) = 0
+*   NumberUtils.toByte()   = 0
+*   NumberUtils.toByte(1)  = 1
+* </pre>
+*
+* @param str  the string to convert, may be null
+* @return the byte represented by the string, or <code>zero</code> if
+*  conversion fails
+* @since 2.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toByte
+Description: /*** <p>Convert a <code>String</code> to a <code>byte</code>, returning a
+* default value if the conversion fails.</p>
+*
+* <p>If the string is <code>null</code>, the default value is returned.</p>
+*
+* <pre>
+*   NumberUtils.toByte(null, 1) = 1
+*   NumberUtils.toByte(, 1)   = 1
+*   NumberUtils.toByte(1, 0)  = 1
+* </pre>
+*
+* @param str  the string to convert, may be null
+* @param defaultValue  the default value
+* @return the byte represented by the string, or the default if conversion fails
+* @since 2.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toShort
+Description: /*** <p>Convert a <code>String</code> to a <code>short</code>, returning
+* <code>zero</code> if the conversion fails.</p>
+*
+* <p>If the string is <code>null</code>, <code>zero</code> is returned.</p>
+*
+* <pre>
+*   NumberUtils.toShort(null) = 0
+*   NumberUtils.toShort()   = 0
+*   NumberUtils.toShort(1)  = 1
+* </pre>
+*
+* @param str  the string to convert, may be null
+* @return the short represented by the string, or <code>zero</code> if
+*  conversion fails
+* @since 2.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: toShort
+Description: /*** <p>Convert a <code>String</code> to an <code>short</code>, returning a
+* default value if the conversion fails.</p>
+*
+* <p>If the string is <code>null</code>, the default value is returned.</p>
+*
+* <pre>
+*   NumberUtils.toShort(null, 1) = 1
+*   NumberUtils.toShort(, 1)   = 1
+*   NumberUtils.toShort(1, 0)  = 1
+* </pre>
+*
+* @param str  the string to convert, may be null
+* @param defaultValue  the default value
+* @return the short represented by the string, or the default if conversion fails
+* @since 2.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: createNumber
+Description: /*** <p>Turns a string value into a java.lang.Number.</p>
+*
+* <p>If the string starts with {@code 0x} or {@code -0x} (lower or upper case) or {@code #} or {@code -#}, it
+* will be interpreted as a hexadecimal Integer - or Long, if the number of digits after the
+* prefix is more than 8 - or BigInteger if there are more than 16 digits.
+* </p>
+* <p>Then, the value is examined for a type qualifier on the end, i.e. one of
+* <code>'f','F','d','D','l','L'</code>.  If it is found, it starts
+* trying to create successively larger types from the type specified
+* until one is found that can represent the value.</p>
+*
+* <p>If a type specifier is not found, it will check for a decimal point
+* and then try successively larger types from <code>Integer</code> to
+* <code>BigInteger</code> and from <code>Float</code> to
+* <code>BigDecimal</code>.</p>
+*
+* <p>
+* Integral values with a leading {@code 0} will be interpreted as octal; the returned number will
+* be Integer, Long or BigDecimal as appropriate.
+* </p>
+*
+* <p>Returns <code>null</code> if the string is <code>null</code>.</p>
+*
+* <p>This method does not trim the input string, i.e., strings with leading
+* or trailing spaces will generate NumberFormatExceptions.</p>
+*
+* @param str  String containing a number, may be null
+* @return Number created from the string (or null if the input is null)
+* @throws NumberFormatException if the value cannot be converted
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: createFloat
+Description: /*** <p>Convert a <code>String</code> to a <code>Float</code>.</p>
+*
+* <p>Returns <code>null</code> if the string is <code>null</code>.</p>
+*
+* @param str  a <code>String</code> to convert, may be null
+* @return converted <code>Float</code> (or null if the input is null)
+* @throws NumberFormatException if the value cannot be converted
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: createDouble
+Description: /*** <p>Convert a <code>String</code> to a <code>Double</code>.</p>
+*
+* <p>Returns <code>null</code> if the string is <code>null</code>.</p>
+*
+* @param str  a <code>String</code> to convert, may be null
+* @return converted <code>Double</code> (or null if the input is null)
+* @throws NumberFormatException if the value cannot be converted
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: createInteger
+Description: /*** <p>Convert a <code>String</code> to a <code>Integer</code>, handling
+* hex and octal notations.</p>
+*
+* <p>Returns <code>null</code> if the string is <code>null</code>.</p>
+*
+* @param str  a <code>String</code> to convert, may be null
+* @return converted <code>Integer</code> (or null if the input is null)
+* @throws NumberFormatException if the value cannot be converted
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: createLong
+Description: /*** <p>Convert a <code>String</code> to a <code>Long</code>;
+* since 3.1 it handles hex and octal notations.</p>
+*
+* <p>Returns <code>null</code> if the string is <code>null</code>.</p>
+*
+* @param str  a <code>String</code> to convert, may be null
+* @return converted <code>Long</code> (or null if the input is null)
+* @throws NumberFormatException if the value cannot be converted
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: createBigInteger
+Description: /*** <p>Convert a <code>String</code> to a <code>BigInteger</code>;
+* since 3.2 it handles hex (0x or #) and octal (0) notations.</p>
+*
+* <p>Returns <code>null</code> if the string is <code>null</code>.</p>
+*
+* @param str  a <code>String</code> to convert, may be null
+* @return converted <code>BigInteger</code> (or null if the input is null)
+* @throws NumberFormatException if the value cannot be converted
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: createBigDecimal
+Description: /*** <p>Convert a <code>String</code> to a <code>BigDecimal</code>.</p>
+*
+* <p>Returns <code>null</code> if the string is <code>null</code>.</p>
+*
+* @param str  a <code>String</code> to convert, may be null
+* @return converted <code>BigDecimal</code> (or null if the input is null)
+* @throws NumberFormatException if the value cannot be converted
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Returns the minimum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Returns the minimum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Returns the minimum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Returns the minimum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Returns the minimum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+* @see IEEE754rUtils#min(double[]) IEEE754rUtils for a version of this method that handles NaN differently
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Returns the minimum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+* @see IEEE754rUtils#min(float[]) IEEE754rUtils for a version of this method that handles NaN differently
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Returns the maximum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Returns the maximum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Returns the maximum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Returns the maximum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Returns the maximum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+* @see IEEE754rUtils#max(double[]) IEEE754rUtils for a version of this method that handles NaN differently
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Returns the maximum value in an array.</p>
+*
+* @param array  an array, must not be null or empty
+* @return the minimum value in the array
+* @throws IllegalArgumentException if <code>array</code> is <code>null</code>
+* @throws IllegalArgumentException if <code>array</code> is empty
+* @see IEEE754rUtils#max(float[]) IEEE754rUtils for a version of this method that handles NaN differently
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Gets the minimum of three <code>long</code> values.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the smallest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Gets the minimum of three <code>int</code> values.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the smallest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Gets the minimum of three <code>short</code> values.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the smallest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Gets the minimum of three <code>byte</code> values.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the smallest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Gets the minimum of three <code>double</code> values.</p>
+*
+* <p>If any value is <code>NaN</code>, <code>NaN</code> is
+* returned. Infinity is handled.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the smallest of the values
+* @see IEEE754rUtils#min(double, double, double) for a version of this method that handles NaN differently
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: min
+Description: /*** <p>Gets the minimum of three <code>float</code> values.</p>
+*
+* <p>If any value is <code>NaN</code>, <code>NaN</code> is
+* returned. Infinity is handled.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the smallest of the values
+* @see IEEE754rUtils#min(float, float, float) for a version of this method that handles NaN differently
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Gets the maximum of three <code>long</code> values.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the largest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Gets the maximum of three <code>int</code> values.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the largest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Gets the maximum of three <code>short</code> values.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the largest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Gets the maximum of three <code>byte</code> values.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the largest of the values
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Gets the maximum of three <code>double</code> values.</p>
+*
+* <p>If any value is <code>NaN</code>, <code>NaN</code> is
+* returned. Infinity is handled.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the largest of the values
+* @see IEEE754rUtils#max(double, double, double) for a version of this method that handles NaN differently
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: max
+Description: /*** <p>Gets the maximum of three <code>float</code> values.</p>
+*
+* <p>If any value is <code>NaN</code>, <code>NaN</code> is
+* returned. Infinity is handled.</p>
+*
+* @param a  value 1
+* @param b  value 2
+* @param c  value 3
+* @return  the largest of the values
+* @see IEEE754rUtils#max(float, float, float) for a version of this method that handles NaN differently
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: isDigits
+Description: /*** <p>Checks whether the <code>String</code> contains only
+* digit characters.</p>
+*
+* <p><code>Null</code> and empty String will return
+* <code>false</code>.</p>
+*
+* @param str  the <code>String</code> to check
+* @return <code>true</code> if str contains only Unicode numeric
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberUtils, Method: isNumber
+Description: /*** <p>Checks whether the String a valid Java number.</p>
+*
+* <p>Valid numbers include hexadecimal marked with the <code>0x</code>
+* qualifier, scientific notation and numbers marked with a type
+* qualifier (e.g. 123L).</p>
+*
+* <p><code>Null</code> and empty String will return
+* <code>false</code>.</p>
+*
+* @param str  the <code>String</code> to check
+* @return <code>true</code> if the string is a correctly formatted number
+*/"
+

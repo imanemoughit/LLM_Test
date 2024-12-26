@@ -1,0 +1,19 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotUtilities
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PlotUtilities, Method: isEmptyOrNull
+Description: /**
+* Returns <code>true</code> if all the datasets belonging to the specified
+* plot are empty or <code>null</code>, and <code>false</code> otherwise.
+*
+* @param plot  the plot (<code>null</code> permitted).
+*
+* @return A boolean.
+*
+* @since 1.0.7
+*/"
+

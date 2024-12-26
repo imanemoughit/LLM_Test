@@ -1,0 +1,110 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Outlier
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Outlier, Method: getPoint
+Description: /**
+* Returns the xy coordinates of the bounding box containing the outlier
+* ellipse.
+*
+* @return The location of the outlier ellipse.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Outlier, Method: setPoint
+Description: /**
+* Sets the xy coordinates of the bounding box containing the outlier
+* ellipse.
+*
+* @param point  the location.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Outlier, Method: getX
+Description: /**
+* Returns the x coordinate of the bounding box containing the outlier
+* ellipse.
+*
+* @return The x coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Outlier, Method: getY
+Description: /**
+* Returns the y coordinate of the bounding box containing the outlier
+* ellipse.
+*
+* @return The y coordinate.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Outlier, Method: getRadius
+Description: /**
+* Returns the radius of the outlier ellipse.
+*
+* @return The radius.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Outlier, Method: setRadius
+Description: /**
+* Sets the radius of the outlier ellipse.
+*
+* @param radius  the new radius.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Outlier, Method: compareTo
+Description: /**
+* Compares this object with the specified object for order, based on
+* the outlier's point.
+*
+* @param   o the Object to be compared.
+* @return A negative integer, zero, or a positive integer as this object
+*      is less than, equal to, or greater than the specified object.
+*
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Outlier, Method: overlaps
+Description: /**
+* Returns a true if outlier is overlapped and false if it is not.
+* Overlapping is determined by the respective bounding boxes plus
+* a small margin.
+*
+* @param other  the other outlier.
+*
+* @return A <code>boolean</code> indicating whether or not an overlap has
+*         occurred.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Outlier, Method: equals
+Description: /**
+* Tests this outlier for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Outlier, Method: toString
+Description: /**
+* Returns a textual representation of the outlier.
+*
+* @return A <code>String</code> representing the outlier.
+*/"
+

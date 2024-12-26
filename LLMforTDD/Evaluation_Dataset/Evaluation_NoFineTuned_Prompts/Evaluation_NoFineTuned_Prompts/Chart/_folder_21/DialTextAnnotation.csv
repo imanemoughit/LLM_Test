@@ -1,0 +1,206 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: getLabel
+Description: /**
+* Returns the label text.
+*
+* @return The label text (never <code>null</code).
+*
+* @see #setLabel(String)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: setLabel
+Description: /**
+* Sets the label and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param label  the label (<code>null</code> not permitted).
+*
+* @see #getLabel()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: getFont
+Description: /**
+* Returns the font used to display the label.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: setFont
+Description: /**
+* Sets the font used to display the label and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: getPaint
+Description: /**
+* Returns the paint used to display the label.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: setPaint
+Description: /**
+* Sets the paint used to display the label and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: getAngle
+Description: /**
+* Returns the angle used to calculate the anchor point.
+*
+* @return The angle (in degrees).
+*
+* @see #setAngle(double)
+* @see #getRadius()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: setAngle
+Description: /**
+* Sets the angle used to calculate the anchor point and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param angle  the angle (in degrees).
+*
+* @see #getAngle()
+* @see #setRadius(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: getRadius
+Description: /**
+* Returns the radius used to calculate the anchor point.  This is
+* specified as a percentage relative to the dial's framing rectangle.
+*
+* @return The radius.
+*
+* @see #setRadius(double)
+* @see #getAngle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: setRadius
+Description: /**
+* Sets the radius used to calculate the anchor point and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param radius  the radius (as a percentage of the dial's framing
+*                rectangle).
+*
+* @see #getRadius()
+* @see #setAngle(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: getAnchor
+Description: /**
+* Returns the text anchor point that will be aligned to the position
+* specified by {@link #getAngle()} and {@link #getRadius()}.
+*
+* @return The anchor point.
+*
+* @see #setAnchor(TextAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: setAnchor
+Description: /**
+* Sets the text anchor point and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param anchor  the anchor point (<code>null</code> not permitted).
+*
+* @see #getAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: isClippedToWindow
+Description: /**
+* Returns <code>true</code> to indicate that this layer should be
+* clipped within the dial window.
+*
+* @return <code>true</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: draw
+Description: /**
+* Draws the background to the specified graphics device.  If the dial
+* frame specifies a window, the clipping region will already have been
+* set to this window before this method is called.
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param plot  the plot (ignored here).
+* @param frame  the dial frame (ignored here).
+* @param view  the view rectangle (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return The hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialTextAnnotation, Method: clone
+Description: /**
+* Returns a clone of this instance.
+*
+* @return The clone.
+*
+* @throws CloneNotSupportedException if some attribute of this instance
+*     cannot be cloned.
+*/"
+

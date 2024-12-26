@@ -1,0 +1,55 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassFormat
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassFormat, Method: getDirectionCode
+Description: /**
+* Returns a string representing the direction.
+*
+* @param direction  the direction.
+*
+* @return A string.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassFormat, Method: format
+Description: /**
+* Formats a number into the specified string buffer.
+*
+* @param number  the number to format.
+* @param toAppendTo  the string buffer.
+* @param pos  the field position (ignored here).
+*
+* @return The string buffer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassFormat, Method: format
+Description: /**
+* Formats a number into the specified string buffer.
+*
+* @param number  the number to format.
+* @param toAppendTo  the string buffer.
+* @param pos  the field position (ignored here).
+*
+* @return The string buffer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompassFormat, Method: parse
+Description: /**
+* This method returns <code>null</code> for all inputs.  This class cannot
+* be used for parsing.
+*
+* @param source  the source string.
+* @param parsePosition  the parse position.
+*
+* @return <code>null</code>.
+*/"
+

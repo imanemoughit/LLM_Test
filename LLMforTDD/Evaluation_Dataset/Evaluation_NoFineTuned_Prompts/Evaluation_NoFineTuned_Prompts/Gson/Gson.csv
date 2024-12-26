@@ -1,0 +1,280 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Gson
+ "Method: toJsonTree
+Description: /**
+* This method serializes the specified object into its equivalent representation as a tree of
+* {@link JsonElement}s. This method should be used when the specified object is not a generic
+* type. This method uses {@link Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class#getWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class()} to get the type for the specified object, but
+* the {@code getWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class()} loses the generic type information because of the Type Erasure feature
+* of Java. Note that this method works fine if the any of the object fields are of generic type,
+* just the object itself should not be of a generic type. If the object is of generic type, use
+* {@link #toJsonTree(Object, Type)} instead.
+*
+* @param src the object for which Json representation is to be created setting for Gson
+* @return Json representation of {@code src}.
+* @since 1.4
+*/"
+
+ "Method: toJsonTree
+Description: /**
+* This method serializes the specified object, including those of generic types, into its
+* equivalent representation as a tree of {@link JsonElement}s. This method must be used if the
+* specified object is a generic type. For non-generic objects, use {@link #toJsonTree(Object)}
+* instead.
+*
+* @param src the object for which JSON representation is to be created
+* @param typeOfSrc The specific genericized type of src. You can obtain
+* this type by using the {@link com.google.gson.reflect.TypeToken} class. For example,
+* to get the type for {@code Collection<Foo>}, you should use:
+* <pre>
+* Type typeOfSrc = new TypeToken&lt;Collection&lt;Foo&gt;&gt;(){}.getType();
+* </pre>
+* @return Json representation of {@code src}
+* @since 1.4
+*/"
+
+ "Method: toJson
+Description: /**
+* This method serializes the specified object into its equivalent Json representation.
+* This method should be used when the specified object is not a generic type. This method uses
+* {@link Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class#getWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class()} to get the type for the specified object, but the
+* {@code getWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class()} loses the generic type information because of the Type Erasure feature
+* of Java. Note that this method works fine if the any of the object fields are of generic type,
+* just the object itself should not be of a generic type. If the object is of generic type, use
+* {@link #toJson(Object, Type)} instead. If you want to write out the object to a
+* {@link Writer}, use {@link #toJson(Object, Appendable)} instead.
+*
+* @param src the object for which Json representation is to be created setting for Gson
+* @return Json representation of {@code src}.
+*/"
+
+ "Method: toJson
+Description: /**
+* This method serializes the specified object, including those of generic types, into its
+* equivalent Json representation. This method must be used if the specified object is a generic
+* type. For non-generic objects, use {@link #toJson(Object)} instead. If you want to write out
+* the object to a {@link Appendable}, use {@link #toJson(Object, Type, Appendable)} instead.
+*
+* @param src the object for which JSON representation is to be created
+* @param typeOfSrc The specific genericized type of src. You can obtain
+* this type by using the {@link com.google.gson.reflect.TypeToken} class. For example,
+* to get the type for {@code Collection<Foo>}, you should use:
+* <pre>
+* Type typeOfSrc = new TypeToken&lt;Collection&lt;Foo&gt;&gt;(){}.getType();
+* </pre>
+* @return Json representation of {@code src}
+*/"
+
+ "Method: toJson
+Description: /**
+* This method serializes the specified object into its equivalent Json representation.
+* This method should be used when the specified object is not a generic type. This method uses
+* {@link Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class#getWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class()} to get the type for the specified object, but the
+* {@code getWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class()} loses the generic type information because of the Type Erasure feature
+* of Java. Note that this method works fine if the any of the object fields are of generic type,
+* just the object itself should not be of a generic type. If the object is of generic type, use
+* {@link #toJson(Object, Type, Appendable)} instead.
+*
+* @param src the object for which Json representation is to be created setting for Gson
+* @param writer Writer to which the Json representation needs to be written
+* @since 1.2
+*/"
+
+ "Method: toJson
+Description: /**
+* This method serializes the specified object, including those of generic types, into its
+* equivalent Json representation. This method must be used if the specified object is a generic
+* type. For non-generic objects, use {@link #toJson(Object, Appendable)} instead.
+*
+* @param src the object for which JSON representation is to be created
+* @param typeOfSrc The specific genericized type of src. You can obtain
+* this type by using the {@link com.google.gson.reflect.TypeToken} class. For example,
+* to get the type for {@code Collection<Foo>}, you should use:
+* <pre>
+* Type typeOfSrc = new TypeToken&lt;Collection&lt;Foo&gt;&gt;(){}.getType();
+* </pre>
+* @param writer Writer to which the Json representation of src needs to be written.
+* @since 1.2
+*/"
+
+ "Method: toJson
+Description: /**
+* Writes the JSON representation of {@code src} of type {@code typeOfSrc} to
+* {@code writer}.
+*/"
+
+ "Method: toJson
+Description: /**
+* Converts a tree of {@link JsonElement}s into its equivalent JSON representation.
+*
+* @param jsonElement root of a tree of {@link JsonElement}s
+* @return JSON String representation of the tree
+* @since 1.4
+*/"
+
+ "Method: toJson
+Description: /**
+* Writes out the equivalent JSON for a tree of {@link JsonElement}s.
+*
+* @param jsonElement root of a tree of {@link JsonElement}s
+* @param writer Writer to which the Json representation needs to be written
+* @since 1.4
+*/"
+
+ "Method: toJson
+Description: /**
+* Writes the JSON for {@code jsonElement} to {@code writer}.
+*/"
+
+ "Method: fromJson
+Description: /**
+* This method deserializes the specified Json into an object of the specified class. It is not
+* suitable to use if the specified class is a generic type since it will not have the generic
+* type information because of the Type Erasure feature of Java. Therefore, this method should not
+* be used if the desired type is a generic type. Note that this method works fine if the any of
+* the fields of the specified object are generics, just the object itself should not be a
+* generic type. For the cases when the object is of generic type, invoke
+* {@link #fromJson(String, Type)}. If you have the Json in a {@link Reader} instead of
+* a String, use {@link #fromJson(Reader, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class)} instead.
+*
+* @param <T> the type of the desired object
+* @param json the string from which the object is to be deserialized
+* @param classOfT the class of T
+* @return an object of type T from the string
+* @throws JsonParseException if json is not a valid representation for an object of type
+* classOfT
+*/"
+
+ "Method: fromJson
+Description: /**
+* This method deserializes the specified Json into an object of the specified type. This method
+* is useful if the specified object is a generic type. For non-generic objects, use
+* {@link #fromJson(String, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class)} instead. If you have the Json in a {@link Reader} instead of
+* a String, use {@link #fromJson(Reader, Type)} instead.
+*
+* @param <T> the type of the desired object
+* @param json the string from which the object is to be deserialized
+* @param typeOfT The specific genericized type of src. You can obtain this type by using the
+* {@link com.google.gson.reflect.TypeToken} class. For example, to get the type for
+* {@code Collection<Foo>}, you should use:
+* <pre>
+* Type typeOfT = new TypeToken&lt;Collection&lt;Foo&gt;&gt;(){}.getType();
+* </pre>
+* @return an object of type T from the string
+* @throws JsonParseException if json is not a valid representation for an object of type typeOfT
+*/"
+
+ "Method: fromJson
+Description: /**
+* This method deserializes the Json read from the specified reader into an object of the
+* specified class. It is not suitable to use if the specified class is a generic type since it
+* will not have the generic type information because of the Type Erasure feature of Java.
+* Therefore, this method should not be used if the desired type is a generic type. Note that
+* this method works fine if the any of the fields of the specified object are generics, just the
+* object itself should not be a generic type. For the cases when the object is of generic type,
+* invoke {@link #fromJson(Reader, Type)}. If you have the Json in a String form instead of a
+* {@link Reader}, use {@link #fromJson(String, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class)} instead.
+*
+* @param <T> the type of the desired object
+* @param json the reader producing the Json from which the object is to be deserialized.
+* @param classOfT the class of T
+* @return an object of type T from the string
+* @throws JsonParseException if json is not a valid representation for an object of type
+* classOfT
+* @since 1.2
+*/"
+
+ "Method: fromJson
+Description: /**
+* This method deserializes the Json read from the specified reader into an object of the
+* specified type. This method is useful if the specified object is a generic type. For
+* non-generic objects, use {@link #fromJson(Reader, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class)} instead. If you have the Json in a
+* String form instead of a {@link Reader}, use {@link #fromJson(String, Type)} instead.
+*
+* @param <T> the type of the desired object
+* @param json the reader producing Json from which the object is to be deserialized
+* @param typeOfT The specific genericized type of src. You can obtain this type by using the
+* {@link com.google.gson.reflect.TypeToken} class. For example, to get the type for
+* {@code Collection<Foo>}, you should use:
+* <pre>
+* Type typeOfT = new TypeToken&lt;Collection&lt;Foo&gt;&gt;(){}.getType();
+* </pre>
+* @return an object of type T from the json
+* @throws JsonParseException if json is not a valid representation for an object of type typeOfT
+* @since 1.2
+*/"
+
+ "Method: fromJson
+Description: /**
+* Reads the next JSON value from {@code reader} and convert it to an object
+* of type {@code typeOfT}.
+*/"
+
+ "Method: fromJson
+Description: /**
+* This method deserializes the Json read from the specified parse tree into an object of the
+* specified type. It is not suitable to use if the specified class is a generic type since it
+* will not have the generic type information because of the Type Erasure feature of Java.
+* Therefore, this method should not be used if the desired type is a generic type. Note that
+* this method works fine if the any of the fields of the specified object are generics, just the
+* object itself should not be a generic type. For the cases when the object is of generic type,
+* invoke {@link #fromJson(JsonElement, Type)}.
+* @param <T> the type of the desired object
+* @param json the root of the parse tree of {@link JsonElement}s from which the object is to
+* be deserialized
+* @param classOfT The class of T
+* @return an object of type T from the json
+* @throws JsonParseException if json is not a valid representation for an object of type typeOfT
+* @since 1.3
+*/"
+
+ "Method: fromJson
+Description: /**
+* This method deserializes the Json read from the specified parse tree into an object of the
+* specified type. This method is useful if the specified object is a generic type. For
+* non-generic objects, use {@link #fromJson(JsonElement, Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class)} instead.
+*
+* @param <T> the type of the desired object
+* @param json the root of the parse tree of {@link JsonElement}s from which the object is to
+* be deserialized
+* @param typeOfT The specific genericized type of src. You can obtain this type by using the
+* {@link com.google.gson.reflect.TypeToken} class. For example, to get the type for
+* {@code Collection<Foo>}, you should use:
+* <pre>
+* Type typeOfT = new TypeToken&lt;Collection&lt;Foo&gt;&gt;(){}.getType();
+* </pre>
+* @return an object of type T from the json
+* @throws JsonParseException if json is not a valid representation for an object of type typeOfT
+* @since 1.3
+*/"
+

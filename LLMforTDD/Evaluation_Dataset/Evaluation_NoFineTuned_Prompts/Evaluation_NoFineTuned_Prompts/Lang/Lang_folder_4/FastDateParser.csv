@@ -1,0 +1,30 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastDateParser
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastDateParser, Method: equals
+Description: /*** <p>Compare another object for equality with this object.</p>
+*
+* @param obj  the object to compare to
+* @return <code>true</code>if equal to this instance
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastDateParser, Method: hashCode
+Description: /*** <p>Return a hashcode compatible with equals.</p>
+*
+* @return a hashcode compatible with equals
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FastDateParser, Method: toString
+Description: /*** <p>Get a string version of this formatter.</p>
+*
+* @return a debugging string
+*/"
+

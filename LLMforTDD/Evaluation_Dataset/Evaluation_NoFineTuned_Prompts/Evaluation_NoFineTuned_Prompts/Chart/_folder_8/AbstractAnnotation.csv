@@ -1,0 +1,82 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractAnnotation
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractAnnotation, Method: addChangeListener
+Description: /**
+* Registers an object to receive notification of changes to the
+* annotation.
+*
+* @param listener  the object to register.
+*
+* @see #removeChangeListener(AnnotationChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractAnnotation, Method: removeChangeListener
+Description: /**
+* Deregisters an object so that it no longer receives notification of
+* changes to the annotation.
+*
+* @param listener  the object to deregister.
+*
+* @see #addChangeListener(AnnotationChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractAnnotation, Method: hasListener
+Description: /**
+* Returns <code>true</code> if the specified object is registered with
+* the annotation as a listener.  Most applications won't need to call this
+* method, it exists mainly for use by unit testing code.
+*
+* @param listener  the listener.
+*
+* @return A boolean.
+*
+* @see #addChangeListener(AnnotationChangeListener)
+* @see #removeChangeListener(AnnotationChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractAnnotation, Method: getNotify
+Description: /**
+* Returns a flag that indicates whether listeners should be
+* notified about changes to the annotation.
+*
+* @return  the flag.
+*
+* @see #setNotify(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractAnnotation, Method: setNotify
+Description: /**
+* Sets a flag that indicates whether listeners should be notified about
+* changes of an annotation.
+*
+* @param flag  the flag
+*
+* @see #getNotify()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractAnnotation, Method: clone
+Description: /**
+* Returns a clone of the annotation. The cloned annotation will NOT
+* include the {@link AnnotationChangeListener} references that have been
+* registered with this annotation.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  if the annotation does not support
+*                                     cloning.
+*/"
+

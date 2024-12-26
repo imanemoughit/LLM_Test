@@ -1,0 +1,700 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getPassCount
+Description: /**
+* Returns the number of passes through the data that the renderer requires
+* in order to draw the chart.  Most charts will require a single pass, but
+* some require two passes.
+*
+* @return The pass count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getPlot
+Description: /**
+* Returns the plot that the renderer is assigned to.
+*
+* @return The plot (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setPlot
+Description: /**
+* Sets the plot that the renderer is assigned to.
+*
+* @param plot  the plot (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: initialise
+Description: /**
+* Initialises the renderer and returns a state object that should be
+* passed to all subsequent calls to the drawItem() method.
+* <P>
+* This method will be called before the first item is rendered, giving the
+* renderer an opportunity to initialise any state information it wants to
+* maintain.  The renderer can do nothing if it chooses.
+*
+* @param g2  the graphics device.
+* @param dataArea  the area inside the axes.
+* @param plot  the plot.
+* @param dataset  the dataset.
+* @param info  an optional info collection object to return data back to
+*              the caller.
+*
+* @return The renderer state (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getItemLabelGenerator
+Description: /**
+* Returns the label generator for a data item.  This implementation simply
+* passes control to the {@link #getSeriesItemLabelGenerator(int)} method.
+* If, for some reason, you want a different generator for individual
+* items, you can override this method.
+*
+* @param series  the series index (zero based).
+* @param item  the item index (zero based).
+* @param selected  is the item selected?
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getSeriesItemLabelGenerator
+Description: /**
+* Returns the item label generator for a series.
+*
+* @param series  the series index (zero based).
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @see #setSeriesItemLabelGenerator(int, XYItemLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setSeriesItemLabelGenerator
+Description: /**
+* Sets the item label generator for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero based).
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getSeriesItemLabelGenerator(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setSeriesItemLabelGenerator
+Description: /**
+* Sets the item label generator for the specified series and, if
+* requested, sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param series  the series index.
+* @param generator  the label generator (<code>null</code> permitted);
+* @param notify  notify listeners?
+*
+* @see #getSeriesItemLabelGenerator(int)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getBaseItemLabelGenerator
+Description: /**
+* Returns the base item label generator.
+*
+* @return The generator (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setBaseItemLabelGenerator
+Description: /**
+* Sets the base item label generator and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setBaseItemLabelGenerator
+Description: /**
+* Sets the default item label generator and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @since 1.2.0
+*
+* @see #getBaseItemLabelGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getToolTipGenerator
+Description: /**
+* Returns the tool tip generator for a data item.  If, for some reason,
+* you want a different generator for individual items, you can override
+* this method.
+*
+* @param series  the series index (zero based).
+* @param item  the item index (zero based).
+* @param selected  is the item selected?
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getSeriesToolTipGenerator
+Description: /**
+* Returns the tool tip generator for a series.
+*
+* @param series  the series index (zero based).
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @see #setSeriesToolTipGenerator(int, XYToolTipGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setSeriesToolTipGenerator
+Description: /**
+* Sets the tool tip generator for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero based).
+* @param generator  the generator (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setSeriesToolTipGenerator
+Description: /**
+* Sets the tool tip generator for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero based).
+* @param generator  the generator (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getBaseToolTipGenerator
+Description: /**
+* Returns the base tool tip generator.
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @see #setBaseToolTipGenerator(XYToolTipGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setBaseToolTipGenerator
+Description: /**
+* Sets the base tool tip generator and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getBaseToolTipGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setBaseToolTipGenerator
+Description: /**
+* Sets the default tool tip generator and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getBaseToolTipGenerator()
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getURLGenerator
+Description: /**
+* Returns the URL generator for the specified item.
+*
+* @param series  the series index.
+* @param item  the item index.
+* @param selected  is the item selected?
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getSeriesURLGenerator
+Description: /**
+* Returns the URL generator for the specified series, if one is defined.
+*
+* @param series  the series index.
+*
+* @return The URL generator (possibly <code>null</code>).
+*
+* @see #setSeriesURLGenerator(int, XYURLGenerator)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setSeriesURLGenerator
+Description: /**
+* Sets the URL generator for the specified series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index.
+* @param generator  the generator (<code>null</code> permitted)
+*
+* @see #getSeriesURLGenerator(int)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setSeriesURLGenerator
+Description: /**
+* Sets the URL generator for the specified series and, if requested,
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index.
+* @param generator  the generator (<code>null</code> permitted).
+* @param notify  notify listeners?
+*
+* @see #getSeriesURLGenerator(int)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getBaseURLGenerator
+Description: /**
+* Returns the default URL generator.
+*
+* @return The default URL generator (possibly <code>null</code>).
+*
+* @see #setBaseURLGenerator(XYURLGenerator)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setBaseURLGenerator
+Description: /**
+* Sets the default URL generator and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getBaseURLGenerator()
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setBaseURLGenerator
+Description: /**
+* Sets the default URL generator and, if requested, sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+* @param notify  notify listener?
+*
+* @see #getBaseURLGenerator()
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: addAnnotation
+Description: /**
+* Adds an annotation and sends a {@link RendererChangeEvent} to all
+* registered listeners.  The annotation is added to the foreground
+* layer.
+*
+* @param annotation  the annotation (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: addAnnotation
+Description: /**
+* Adds an annotation to the specified layer and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param annotation  the annotation (<code>null</code> not permitted).
+* @param layer  the layer (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: removeAnnotation
+Description: /**
+* Removes the specified annotation and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*
+* @param annotation  the annotation to remove (<code>null</code> not
+*                    permitted).
+*
+* @return A boolean to indicate whether or not the annotation was
+*         successfully removed.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: removeAnnotations
+Description: /**
+* Removes all annotations and sends a {@link RendererChangeEvent}
+* to all registered listeners.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: annotationChanged
+Description: /**
+* Receives notification of a change to an {@link Annotation} added to
+* this renderer.
+*
+* @param event  information about the event (not used here).
+*
+* @since 1.0.14
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getAnnotations
+Description: /**
+* Returns a collection of the annotations that are assigned to the
+* renderer.
+*
+* @return A collection of annotations (possibly empty but never
+*     <code>null</code>).
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getLegendItemLabelGenerator
+Description: /**
+* Returns the legend item label generator.
+*
+* @return The label generator (never <code>null</code>).
+*
+* @see #setLegendItemLabelGenerator(XYSeriesLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setLegendItemLabelGenerator
+Description: /**
+* Sets the legend item label generator and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> not permitted).
+*
+* @see #getLegendItemLabelGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getLegendItemToolTipGenerator
+Description: /**
+* Returns the legend item tool tip generator.
+*
+* @return The tool tip generator (possibly <code>null</code>).
+*
+* @see #setLegendItemToolTipGenerator(XYSeriesLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setLegendItemToolTipGenerator
+Description: /**
+* Sets the legend item tool tip generator and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getLegendItemToolTipGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getLegendItemURLGenerator
+Description: /**
+* Returns the legend item URL generator.
+*
+* @return The URL generator (possibly <code>null</code>).
+*
+* @see #setLegendItemURLGenerator(XYSeriesLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: setLegendItemURLGenerator
+Description: /**
+* Sets the legend item URL generator and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getLegendItemURLGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: findDomainBounds
+Description: /**
+* Returns the lower and upper bounds (range) of the x-values in the
+* specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*
+* @see #findRangeBounds(XYDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (<code>null</code> if the dataset is <code>null</code>
+*         or empty).
+*
+* @see #findDomainBounds(XYDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getLegendItems
+Description: /**
+* Returns a (possibly empty) collection of legend items for the series
+* that this renderer is responsible for drawing.
+*
+* @return The legend item collection (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getLegendItem
+Description: /**
+* Returns a default legend item for the specified series.  Subclasses
+* should override this method to generate customised items.
+*
+* @param datasetIndex  the dataset index (zero-based).
+* @param series  the series index (zero-based).
+*
+* @return A legend item for the series.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: hitTest
+Description: /**
+* Returns <code>true</code> if the specified point (xx, yy) in Java2D
+* space falls within the hot spot for the specified data item""", and
+* <code>false</code> otherwise.
+*
+* @param xx
+* @param yy
+* @param g2
+* @param dataArea
+* @param plot
+* @param domainAxis
+* @param rangeAxis
+* @param dataset
+* @param series
+* @param item
+* @param selected
+*
+* @return
+*
+* @since 1.2.0
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: fillDomainGridBand
+Description: /**
+* Fills a band between two values on the axis.  This can be used to color
+* bands between the grid lines.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param axis  the domain axis.
+* @param dataArea  the data area.
+* @param start  the start value.
+* @param end  the end value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: fillRangeGridBand
+Description: /**
+* Fills a band between two values on the range axis.  This can be used to
+* color bands between the grid lines.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param axis  the range axis.
+* @param dataArea  the data area.
+* @param start  the start value.
+* @param end  the end value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: drawDomainGridLine
+Description: /**
+* Draws a grid line against the range axis.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param axis  the value axis.
+* @param dataArea  the area for plotting data (not yet adjusted for any
+*                  3D effect).
+* @param value  the value at which the grid line should be drawn.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: drawDomainLine
+Description: /**
+* Draws a line perpendicular to the domain axis.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param axis  the value axis.
+* @param dataArea  the area for plotting data (not yet adjusted for any 3D
+*                  effect).
+* @param value  the value at which the grid line should be drawn.
+* @param paint  the paint (<code>null</code> not permitted).
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @since 1.0.5
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: drawRangeLine
+Description: /**
+* Draws a line perpendicular to the range axis.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param axis  the value axis.
+* @param dataArea  the area for plotting data (not yet adjusted for any 3D
+*                  effect).
+* @param value  the value at which the grid line should be drawn.
+* @param paint  the paint.
+* @param stroke  the stroke.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: drawDomainMarker
+Description: /**
+* Draws a vertical line on the chart to represent a 'range marker'.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param marker  the marker line.
+* @param dataArea  the axis data area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: drawRangeMarker
+Description: /**
+* Draws a horizontal line across the chart to represent a 'range marker'.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param rangeAxis  the range axis.
+* @param marker  the marker line.
+* @param dataArea  the axis data area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with another object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: getDrawingSupplier
+Description: /**
+* Returns the drawing supplier from the plot.
+*
+* @return The drawing supplier (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractXYItemRenderer, Method: drawAnnotations
+Description: /**
+* Draws all the annotations for the specified layer.
+*
+* @param g2  the graphics device.
+* @param dataArea  the data area.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param layer  the layer.
+* @param info  the plot rendering info.
+*/"
+

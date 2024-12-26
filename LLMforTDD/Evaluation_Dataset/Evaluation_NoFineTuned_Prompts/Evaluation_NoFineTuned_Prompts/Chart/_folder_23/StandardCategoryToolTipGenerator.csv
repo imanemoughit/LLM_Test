@@ -1,0 +1,31 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardCategoryToolTipGenerator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardCategoryToolTipGenerator, Method: generateToolTip
+Description: /**
+* Generates the tool tip text for an item in a dataset.  Note: in the
+* current dataset implementation, each row is a series, and each column
+* contains values for a particular category.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+*
+* @return The tooltip text (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardCategoryToolTipGenerator, Method: equals
+Description: /**
+* Tests this generator for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

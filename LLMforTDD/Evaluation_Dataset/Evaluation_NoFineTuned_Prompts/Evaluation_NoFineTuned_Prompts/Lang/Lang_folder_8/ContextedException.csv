@@ -1,0 +1,86 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ContextedException
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ContextedException, Method: addContextValue
+Description: /*** Adds information helpful to a developer in diagnosing and correcting the problem.
+* For the information to be meaningful, the value passed should have a reasonable
+* toString() implementation.
+* Different values can be added with the same label multiple times.
+* <p>
+* Note: This exception is only serializable if the object added is serializable.
+* </p>
+*
+* @param label  a textual label associated with information, {@code null} not recommended
+* @param value  information needed to understand exception, may be {@code null}
+* @return {@code this}, for method chaining, not {@code null}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ContextedException, Method: setContextValue
+Description: /*** Sets information helpful to a developer in diagnosing and correcting the problem.
+* For the information to be meaningful, the value passed should have a reasonable
+* toString() implementation.
+* Any existing values with the same labels are removed before the new one is added.
+* <p>
+* Note: This exception is only serializable if the object added as value is serializable.
+* </p>
+*
+* @param label  a textual label associated with information, {@code null} not recommended
+* @param value  information needed to understand exception, may be {@code null}
+* @return {@code this}, for method chaining, not {@code null}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ContextedException, Method: getContextValues
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ContextedException, Method: getFirstContextValue
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ContextedException, Method: getContextEntries
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ContextedException, Method: getContextLabels
+Description: /*** {@inheritDoc}
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ContextedException, Method: getMessage
+Description: /*** Provides the message explaining the exception, including the contextual data.
+*
+* @see java.lang.Throwable#getMessage()
+* @return the message, never null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ContextedException, Method: getRawMessage
+Description: /*** Provides the message explaining the exception without the contextual data.
+*
+* @see java.lang.Throwable#getMessage()
+* @return the message
+* @since 3.0.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ContextedException, Method: getFormattedExceptionMessage
+Description: /*** {@inheritDoc}
+*/"
+

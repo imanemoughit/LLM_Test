@@ -1,0 +1,48 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BorderArrangement
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BorderArrangement, Method: add
+Description: /**
+* Adds a block to the arrangement manager at the specified edge.
+*
+* @param block  the block (<code>null</code> permitted).
+* @param key  the edge (an instance of {@link RectangleEdge}) or
+*             <code>null</code> for the center block.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BorderArrangement, Method: arrange
+Description: /**
+* Arranges the items in the specified container, subject to the given
+* constraint.
+*
+* @param container  the container.
+* @param g2  the graphics device.
+* @param constraint  the constraint.
+*
+* @return The block size.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BorderArrangement, Method: clear
+Description: /**
+* Clears the layout.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: BorderArrangement, Method: equals
+Description: /**
+* Tests this arrangement for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

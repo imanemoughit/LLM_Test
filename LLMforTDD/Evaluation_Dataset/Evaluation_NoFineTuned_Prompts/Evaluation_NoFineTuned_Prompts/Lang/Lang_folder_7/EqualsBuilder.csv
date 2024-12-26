@@ -1,0 +1,365 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: reflectionEquals
+Description: /*** <p>This method uses reflection to determine if the two <code>Object</code>s
+* are equal.</p>
+*
+* <p>It uses <code>AccessibleObject.setAccessible</code> to gain access to private
+* fields. This means that it will throw a security exception if run under
+* a security manager, if the permissions are not set up correctly. It is also
+* not as efficient as testing explicitly.</p>
+*
+* <p>Transient members will be not be tested, as they are likely derived
+* fields, and not part of the value of the Object.</p>
+*
+* <p>Static fields will not be tested. Superclass fields will be included.</p>
+*
+* @param lhs  <code>this</code> object
+* @param rhs  the other object
+* @param excludeFields  Collection of String field names to exclude from testing
+* @return <code>true</code> if the two Objects have tested equals.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: reflectionEquals
+Description: /*** <p>This method uses reflection to determine if the two <code>Object</code>s
+* are equal.</p>
+*
+* <p>It uses <code>AccessibleObject.setAccessible</code> to gain access to private
+* fields. This means that it will throw a security exception if run under
+* a security manager, if the permissions are not set up correctly. It is also
+* not as efficient as testing explicitly.</p>
+*
+* <p>Transient members will be not be tested, as they are likely derived
+* fields, and not part of the value of the Object.</p>
+*
+* <p>Static fields will not be tested. Superclass fields will be included.</p>
+*
+* @param lhs  <code>this</code> object
+* @param rhs  the other object
+* @param excludeFields  array of field names to exclude from testing
+* @return <code>true</code> if the two Objects have tested equals.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: reflectionEquals
+Description: /*** <p>This method uses reflection to determine if the two <code>Object</code>s
+* are equal.</p>
+*
+* <p>It uses <code>AccessibleObject.setAccessible</code> to gain access to private
+* fields. This means that it will throw a security exception if run under
+* a security manager, if the permissions are not set up correctly. It is also
+* not as efficient as testing explicitly.</p>
+*
+* <p>If the TestTransients parameter is set to <code>true</code>, transient
+* members will be tested, otherwise they are ignored, as they are likely
+* derived fields, and not part of the value of the <code>Object</code>.</p>
+*
+* <p>Static fields will not be tested. Superclass fields will be included.</p>
+*
+* @param lhs  <code>this</code> object
+* @param rhs  the other object
+* @param testTransients  whether to include transient fields
+* @return <code>true</code> if the two Objects have tested equals.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: reflectionEquals
+Description: /*** <p>This method uses reflection to determine if the two <code>Object</code>s
+* are equal.</p>
+*
+* <p>It uses <code>AccessibleObject.setAccessible</code> to gain access to private
+* fields. This means that it will throw a security exception if run under
+* a security manager, if the permissions are not set up correctly. It is also
+* not as efficient as testing explicitly.</p>
+*
+* <p>If the testTransients parameter is set to <code>true</code>, transient
+* members will be tested, otherwise they are ignored, as they are likely
+* derived fields, and not part of the value of the <code>Object</code>.</p>
+*
+* <p>Static fields will not be included. Superclass fields will be appended
+* up to and including the specified superclass. A null superclass is treated
+* as java.lang.Object.</p>
+*
+* @param lhs  <code>this</code> object
+* @param rhs  the other object
+* @param testTransients  whether to include transient fields
+* @param reflectUpToWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class  the superclass to reflect up to (inclusive),
+*  may be <code>null</code>
+* @param excludeFields  array of field names to exclude from testing
+* @return <code>true</code> if the two Objects have tested equals.
+* @since 2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: appendSuper
+Description: /*** <p>Adds the result of <code>super.equals()</code> to this builder.</p>
+*
+* @param superEquals  the result of calling <code>super.equals()</code>
+* @return EqualsBuilder - used to chain calls.
+* @since 2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Test if two <code>Object</code>s are equal using their
+* <code>equals</code> method.</p>
+*
+* @param lhs  the left hand object
+* @param rhs  the right hand object
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>
+* Test if two <code>long</code> s are equal.
+* </p>
+*
+* @param lhs
+*                  the left hand <code>long</code>
+* @param rhs
+*                  the right hand <code>long</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Test if two <code>int</code>s are equal.</p>
+*
+* @param lhs  the left hand <code>int</code>
+* @param rhs  the right hand <code>int</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Test if two <code>short</code>s are equal.</p>
+*
+* @param lhs  the left hand <code>short</code>
+* @param rhs  the right hand <code>short</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Test if two <code>char</code>s are equal.</p>
+*
+* @param lhs  the left hand <code>char</code>
+* @param rhs  the right hand <code>char</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Test if two <code>byte</code>s are equal.</p>
+*
+* @param lhs  the left hand <code>byte</code>
+* @param rhs  the right hand <code>byte</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Test if two <code>double</code>s are equal by testing that the
+* pattern of bits returned by <code>doubleToLong</code> are equal.</p>
+*
+* <p>This handles NaNs, Infinities, and <code>-0.0</code>.</p>
+*
+* <p>It is compatible with the hash code generated by
+* <code>HashCodeBuilder</code>.</p>
+*
+* @param lhs  the left hand <code>double</code>
+* @param rhs  the right hand <code>double</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Test if two <code>float</code>s are equal byt testing that the
+* pattern of bits returned by doubleToLong are equal.</p>
+*
+* <p>This handles NaNs, Infinities, and <code>-0.0</code>.</p>
+*
+* <p>It is compatible with the hash code generated by
+* <code>HashCodeBuilder</code>.</p>
+*
+* @param lhs  the left hand <code>float</code>
+* @param rhs  the right hand <code>float</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Test if two <code>booleans</code>s are equal.</p>
+*
+* @param lhs  the left hand <code>boolean</code>
+* @param rhs  the right hand <code>boolean</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Performs a deep comparison of two <code>Object</code> arrays.</p>
+*
+* <p>This also will be called for the top level of
+* multi-dimensional, ragged, and multi-typed arrays.</p>
+*
+* @param lhs  the left hand <code>Object[]</code>
+* @param rhs  the right hand <code>Object[]</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Deep comparison of array of <code>long</code>. Length and all
+* values are compared.</p>
+*
+* <p>The method {@link #append(long, long)} is used.</p>
+*
+* @param lhs  the left hand <code>long[]</code>
+* @param rhs  the right hand <code>long[]</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Deep comparison of array of <code>int</code>. Length and all
+* values are compared.</p>
+*
+* <p>The method {@link #append(int, int)} is used.</p>
+*
+* @param lhs  the left hand <code>int[]</code>
+* @param rhs  the right hand <code>int[]</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Deep comparison of array of <code>short</code>. Length and all
+* values are compared.</p>
+*
+* <p>The method {@link #append(short, short)} is used.</p>
+*
+* @param lhs  the left hand <code>short[]</code>
+* @param rhs  the right hand <code>short[]</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Deep comparison of array of <code>char</code>. Length and all
+* values are compared.</p>
+*
+* <p>The method {@link #append(char, char)} is used.</p>
+*
+* @param lhs  the left hand <code>char[]</code>
+* @param rhs  the right hand <code>char[]</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Deep comparison of array of <code>byte</code>. Length and all
+* values are compared.</p>
+*
+* <p>The method {@link #append(byte, byte)} is used.</p>
+*
+* @param lhs  the left hand <code>byte[]</code>
+* @param rhs  the right hand <code>byte[]</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Deep comparison of array of <code>double</code>. Length and all
+* values are compared.</p>
+*
+* <p>The method {@link #append(double, double)} is used.</p>
+*
+* @param lhs  the left hand <code>double[]</code>
+* @param rhs  the right hand <code>double[]</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Deep comparison of array of <code>float</code>. Length and all
+* values are compared.</p>
+*
+* <p>The method {@link #append(float, float)} is used.</p>
+*
+* @param lhs  the left hand <code>float[]</code>
+* @param rhs  the right hand <code>float[]</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: append
+Description: /*** <p>Deep comparison of array of <code>boolean</code>. Length and all
+* values are compared.</p>
+*
+* <p>The method {@link #append(boolean, boolean)} is used.</p>
+*
+* @param lhs  the left hand <code>boolean[]</code>
+* @param rhs  the right hand <code>boolean[]</code>
+* @return EqualsBuilder - used to chain calls.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: isEquals
+Description: /*** <p>Returns <code>true</code> if the fields that have been checked
+* are all equal.</p>
+*
+* @return boolean
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: build
+Description: /*** <p>Returns <code>true</code> if the fields that have been checked
+* are all equal.</p>
+*
+* @return <code>true</code> if all of the fields that have been checked
+*         are equal, <code>false</code> otherwise.
+*
+* @since 3.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: EqualsBuilder, Method: reset
+Description: /*** Reset the EqualsBuilder so you can use the same object again
+* @since 2.5
+*/"
+

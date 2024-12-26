@@ -1,0 +1,64 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HexNumberFormat
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HexNumberFormat, Method: getNumberOfDigits
+Description: /**
+* Returns the number of digits.
+*
+* @return The number of digits.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HexNumberFormat, Method: setNumberOfDigits
+Description: /**
+* Sets the number of digits.
+*
+* @param digits  the number of digits.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HexNumberFormat, Method: format
+Description: /**
+* Formats the specified number as a hexadecimal string.  The decimal
+* fraction is ignored.
+*
+* @param number  the number to format.
+* @param toAppendTo  the buffer to append to (ignored here).
+* @param pos  the field position (ignored here).
+*
+* @return The string buffer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HexNumberFormat, Method: format
+Description: /**
+* Formats the specified number as a hexadecimal string.  The decimal
+* fraction is ignored.
+*
+* @param number  the number to format.
+* @param toAppendTo  the buffer to append to (ignored here).
+* @param pos  the field position (ignored here).
+*
+* @return The string buffer.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: HexNumberFormat, Method: parse
+Description: /**
+* Parsing is not implemented, so this method always returns
+* <code>null</code>.
+*
+* @param source  ignored.
+* @param parsePosition  ignored.
+*
+* @return Always <code>null</code>.
+*/"
+

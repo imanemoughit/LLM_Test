@@ -1,0 +1,36 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractOverlay
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractOverlay, Method: addChangeListener
+Description: /**
+* Registers an object for notification of changes to the overlay.
+*
+* @param listener  the listener (<code>null</code> not permitted).
+*
+* @see #removeChangeListener(OverlayChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractOverlay, Method: removeChangeListener
+Description: /**
+* Deregisters an object for notification of changes to the overlay.
+*
+* @param listener  the listener (<code>null</code> not permitted)
+*
+* @see #addChangeListener(OverlayChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractOverlay, Method: fireOverlayChanged
+Description: /**
+* Sends a default {@link ChartChangeEvent} to all registered listeners.
+* <P>
+* This method is for convenience only.
+*/"
+

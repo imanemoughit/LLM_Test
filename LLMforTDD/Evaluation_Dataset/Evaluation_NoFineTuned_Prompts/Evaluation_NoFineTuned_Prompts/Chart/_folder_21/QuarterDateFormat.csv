@@ -1,0 +1,41 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: QuarterDateFormat
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: QuarterDateFormat, Method: format
+Description: /**
+* Formats the given date.
+*
+* @param date  the date.
+* @param toAppendTo  the string buffer.
+* @param fieldPosition  the field position.
+*
+* @return The formatted date.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: QuarterDateFormat, Method: parse
+Description: /**
+* Parses the given string (not implemented).
+*
+* @param source  the date string.
+* @param pos  the parse position.
+*
+* @return <code>null</code>, as this method has not been implemented.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: QuarterDateFormat, Method: equals
+Description: /**
+* Tests this formatter for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

@@ -1,0 +1,149 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: getWidth
+Description: /**
+* Returns the fixed width.
+*
+* @return The width.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: getWidthRange
+Description: /**
+* Returns the width range.
+*
+* @return The range (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: getWidthConstraintType
+Description: /**
+* Returns the constraint type.
+*
+* @return The constraint type (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: getHeight
+Description: /**
+* Returns the fixed height.
+*
+* @return The height.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: getHeightRange
+Description: /**
+* Returns the width range.
+*
+* @return The range (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: getHeightConstraintType
+Description: /**
+* Returns the constraint type.
+*
+* @return The constraint type (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: toUnconstrainedWidth
+Description: /**
+* Returns a constraint that matches this one on the height attributes,
+* but has no width constraint.
+*
+* @return A new constraint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: toUnconstrainedHeight
+Description: /**
+* Returns a constraint that matches this one on the width attributes,
+* but has no height constraint.
+*
+* @return A new constraint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: toFixedWidth
+Description: /**
+* Returns a constraint that matches this one on the height attributes,
+* but has a fixed width constraint.
+*
+* @param width  the fixed width.
+*
+* @return A new constraint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: toFixedHeight
+Description: /**
+* Returns a constraint that matches this one on the width attributes,
+* but has a fixed height constraint.
+*
+* @param height  the fixed height.
+*
+* @return A new constraint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: toRangeWidth
+Description: /**
+* Returns a constraint that matches this one on the height attributes,
+* but has a range width constraint.
+*
+* @param range  the width range (<code>null</code> not permitted).
+*
+* @return A new constraint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: toRangeHeight
+Description: /**
+* Returns a constraint that matches this one on the width attributes,
+* but has a range height constraint.
+*
+* @param range  the height range (<code>null</code> not permitted).
+*
+* @return A new constraint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: toString
+Description: /**
+* Returns a string representation of this instance, mostly used for
+* debugging purposes.
+*
+* @return A string.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleConstraint, Method: calculateConstrainedSize
+Description: /**
+* Returns the new size that reflects the constraints defined by this
+* instance.
+*
+* @param base  the base size.
+*
+* @return The constrained size.
+*/"
+

@@ -1,0 +1,80 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberValidator
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberValidator, Method: getCurrencyInstance,/**
+     * Returns a <code>NumberValidator</code> for a currency format
+     * for the current default locale.
+     * @return a <code>NumberValidator</code> for a currency format
+     * for the current default locale.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberValidator, Method: getIntegerInstance,/**
+     * Returns a <code>NumberValidator</code> for an integer number format
+     * for the current default locale.
+     * @return a <code>NumberValidator</code> for an integer number format
+     * for the current default locale.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberValidator, Method: getPercentInstance,/**
+     * Returns a <code>NumberValidator</code> for a percentage format
+     * for the current default locale.
+     * @return a <code>NumberValidator</code> for a percentage format
+     * for the current default locale.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberValidator, Method: getNumberInstance,/**
+     * Returns a <code>NumberValidator</code> for a general-purpose
+     * number format for the current default locale.
+     * @return a <code>NumberValidator</code> for a general-purpose
+     * number format for the current default locale.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberValidator, Method: validate,/**
+     * Validate the list of values against the list of permitted values.
+     * If a value is valid, replace the string in the <code>values</code>
+     * {@link java.util.List} with the {@link java.lang.Number} instance.
+     *
+     * @see org.apache.commons.cli2.validation.Validator#validate(java.util.List)
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberValidator, Method: getFormat,/**
+     * Return the format being used to validate argument values against.
+     *
+     * @return the format being used to validate argument values against.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberValidator, Method: getMaximum,/**
+     * Return the maximum value allowed for an argument value.
+     *
+     * @return the maximum value allowed for an argument value.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberValidator, Method: setMaximum,/**
+     * Specify the maximum value allowed for an argument value.
+     *
+     * @param maximum the maximum value allowed for an argument value.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberValidator, Method: getMinimum,/**
+     * Return the minimum value allowed for an argument value.
+     *
+     * @return the minimum value allowed for an argument value.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberValidator, Method: setMinimum,/**
+     * Specify the minimum value allowed for an argument value.
+     *
+     * @param minimum the minimum value allowed for an argument value.
+     */"

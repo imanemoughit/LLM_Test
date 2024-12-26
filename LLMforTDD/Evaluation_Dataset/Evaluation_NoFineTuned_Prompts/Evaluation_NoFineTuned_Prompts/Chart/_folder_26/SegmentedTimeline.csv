@@ -1,0 +1,508 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: firstMondayAfter1900
+Description: /**
+* Returns the milliseconds for midnight of the first Monday after
+* 1-Jan-1900, ignoring daylight savings.
+*
+* @return The milliseconds.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: newMondayThroughFridayTimeline
+Description: /**
+* Factory method to create a Monday through Friday SegmentedTimeline.
+* <P>
+* The <code>startTime</code> of the resulting timeline will be midnight
+* of the first Monday after 1/1/1900.
+*
+* @return A fully initialized SegmentedTimeline.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: newFifteenMinuteTimeline
+Description: /**
+* Factory method to create a 15-min, 9:00 AM thought 4:00 PM, Monday
+* through Friday SegmentedTimeline.
+* <P>
+* This timeline uses a segmentSize of FIFTEEN_MIN_SEGMENT_SIZE. The
+* segment group is defined as 28 included segments (9:00 AM through
+* 4:00 PM) and 68 excluded segments (4:00 PM through 9:00 AM the next day).
+* <P>
+* In order to exclude Saturdays and Sundays it uses a baseTimeline that
+* only includes Monday through Friday days.
+* <P>
+* The <code>startTime</code> of the resulting timeline will be 9:00 AM
+* after the startTime of the baseTimeline. This will correspond to 9:00 AM
+* of the first Monday after 1/1/1900.
+*
+* @return A fully initialized SegmentedTimeline.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getAdjustForDaylightSaving
+Description: /**
+* Returns the flag that controls whether or not the daylight saving
+* adjustment is applied.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: setAdjustForDaylightSaving
+Description: /**
+* Sets the flag that controls whether or not the daylight saving adjustment
+* is applied.
+*
+* @param adjust  the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: setStartTime
+Description: /**
+* Sets the start time for the timeline. This is the beginning of segment
+* zero.
+*
+* @param millisecond  the start time (encoded as in java.util.Date).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getStartTime
+Description: /**
+* Returns the start time for the timeline. This is the beginning of
+* segment zero.
+*
+* @return The start time.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getSegmentsExcluded
+Description: /**
+* Returns the number of segments excluded per segment group.
+*
+* @return The number of segments excluded.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getSegmentsExcludedSize
+Description: /**
+* Returns the size in milliseconds of the segments excluded per segment
+* group.
+*
+* @return The size in milliseconds.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getGroupSegmentCount
+Description: /**
+* Returns the number of segments in a segment group. This will be equal to
+* segments included plus segments excluded.
+*
+* @return The number of segments.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getSegmentsGroupSize
+Description: /**
+* Returns the size in milliseconds of a segment group. This will be equal
+* to size of the segments included plus the size of the segments excluded.
+*
+* @return The segment group size in milliseconds.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getSegmentsIncluded
+Description: /**
+* Returns the number of segments included per segment group.
+*
+* @return The number of segments.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getSegmentsIncludedSize
+Description: /**
+* Returns the size in ms of the segments included per segment group.
+*
+* @return The segment size in milliseconds.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getSegmentSize
+Description: /**
+* Returns the size of one segment in ms.
+*
+* @return The segment size in milliseconds.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getExceptionSegments
+Description: /**
+* Returns a list of all the exception segments. This list is not
+* modifiable.
+*
+* @return The exception segments.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: setExceptionSegments
+Description: /**
+* Sets the exception segments list.
+*
+* @param exceptionSegments  the exception segments.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getBaseTimeline
+Description: /**
+* Returns our baseTimeline, or <code>null</code> if none.
+*
+* @return The base timeline.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: setBaseTimeline
+Description: /**
+* Sets the base timeline.
+*
+* @param baseTimeline  the timeline.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: toTimelineValue
+Description: /**
+* Translates a value relative to the domain value (all Dates) into a value
+* relative to the segmented timeline. The values relative to the segmented
+* timeline are all consecutives starting at zero at the startTime.
+*
+* @param millisecond  the millisecond (as encoded by java.util.Date).
+*
+* @return The timeline value.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: toTimelineValue
+Description: /**
+* Translates a date into a value relative to the segmented timeline. The
+* values relative to the segmented timeline are all consecutives starting
+* at zero at the startTime.
+*
+* @param date  date relative to the domain.
+*
+* @return The timeline value (in milliseconds).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: toMillisecond
+Description: /**
+* Translates a value relative to the timeline into a millisecond.
+*
+* @param timelineValue  the timeline value (in milliseconds).
+*
+* @return The domain value (in milliseconds).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getTimeFromLong
+Description: /**
+* Converts a date/time value to take account of daylight savings time.
+*
+* @param date  the milliseconds.
+*
+* @return The milliseconds.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: containsDomainValue
+Description: /**
+* Returns <code>true</code> if a value is contained in the timeline.
+*
+* @param millisecond  the value to verify.
+*
+* @return <code>true</code> if value is contained in the timeline.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: containsDomainValue
+Description: /**
+* Returns <code>true</code> if a value is contained in the timeline.
+*
+* @param date  date to verify
+*
+* @return <code>true</code> if value is contained in the timeline
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: containsDomainRange
+Description: /**
+* Returns <code>true</code> if a range of values are contained in the
+* timeline. This is implemented verifying that all segments are in the
+* range.
+*
+* @param domainValueStart start of the range to verify
+* @param domainValueEnd end of the range to verify
+*
+* @return <code>true</code> if the range is contained in the timeline
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: containsDomainRange
+Description: /**
+* Returns <code>true</code> if a range of values are contained in the
+* timeline. This is implemented verifying that all segments are in the
+* range.
+*
+* @param dateDomainValueStart start of the range to verify
+* @param dateDomainValueEnd end of the range to verify
+*
+* @return <code>true</code> if the range is contained in the timeline
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: addException
+Description: /**
+* Adds a segment as an exception. An exception segment is defined as a
+* segment to exclude from what would otherwise be considered a valid
+* segment of the timeline.  An exception segment can not be contained
+* inside an already excluded segment.  If so, no action will occur (the
+* proposed exception segment will be discarded).
+* <p>
+* The segment is identified by a domainValue into any part of the segment.
+* Therefore the segmentStart <= domainValue <= segmentEnd.
+*
+* @param millisecond  domain value to treat as an exception
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: addException
+Description: /**
+* Adds a segment range as an exception. An exception segment is defined as
+* a segment to exclude from what would otherwise be considered a valid
+* segment of the timeline.  An exception segment can not be contained
+* inside an already excluded segment.  If so, no action will occur (the
+* proposed exception segment will be discarded).
+* <p>
+* The segment range is identified by a domainValue that begins a valid
+* segment and ends with a domainValue that ends a valid segment.
+* Therefore the range will contain all segments whose segmentStart
+* <= domainValue and segmentEnd <= toDomainValue.
+*
+* @param fromDomainValue  start of domain range to treat as an exception
+* @param toDomainValue  end of domain range to treat as an exception
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: addException
+Description: /**
+* Adds a segment as an exception. An exception segment is defined as a
+* segment to exclude from what would otherwise be considered a valid
+* segment of the timeline.  An exception segment can not be contained
+* inside an already excluded segment.  If so, no action will occur (the
+* proposed exception segment will be discarded).
+* <p>
+* The segment is identified by a Date into any part of the segment.
+*
+* @param exceptionDate  Date into the segment to exclude.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: addExceptions
+Description: /**
+* Adds a list of dates as segment exceptions. Each exception segment is
+* defined as a segment to exclude from what would otherwise be considered
+* a valid segment of the timeline.  An exception segment can not be
+* contained inside an already excluded segment.  If so, no action will
+* occur (the proposed exception segment will be discarded).
+* <p>
+* The segment is identified by a Date into any part of the segment.
+*
+* @param exceptionList  List of Date objects that identify the segments to
+*                       exclude.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: addBaseTimelineException
+Description: /**
+* Adds a segment relative to the baseTimeline as an exception. Because a
+* base segment is normally larger than our segments, this may add one or
+* more segment ranges to the exception list.
+* <p>
+* An exception segment is defined as a segment
+* to exclude from what would otherwise be considered a valid segment of
+* the timeline.  An exception segment can not be contained inside an
+* already excluded segment.  If so, no action will occur (the proposed
+* exception segment will be discarded).
+* <p>
+* The segment is identified by a domainValue into any part of the
+* baseTimeline segment.
+*
+* @param domainValue  domain value to teat as a baseTimeline exception.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: addBaseTimelineException
+Description: /**
+* Adds a segment relative to the baseTimeline as an exception. An
+* exception segment is defined as a segment to exclude from what would
+* otherwise be considered a valid segment of the timeline.  An exception
+* segment can not be contained inside an already excluded segment. If so,
+* no action will occure (the proposed exception segment will be discarded).
+* <p>
+* The segment is identified by a domainValue into any part of the segment.
+* Therefore the segmentStart <= domainValue <= segmentEnd.
+*
+* @param date  date domain value to treat as a baseTimeline exception
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: addBaseTimelineExclusions
+Description: /**
+* Adds all excluded segments from the BaseTimeline as exceptions to our
+* timeline. This allows us to combine two timelines for more complex
+* calculations.
+*
+* @param fromBaseDomainValue Start of the range where exclusions will be
+*                            extracted.
+* @param toBaseDomainValue End of the range to process.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getExceptionSegmentCount
+Description: /**
+* Returns the number of exception segments wholly contained in the
+* (fromDomainValue, toDomainValue) interval.
+*
+* @param fromMillisecond  the beginning of the interval.
+* @param toMillisecond  the end of the interval.
+*
+* @return Number of exception segments contained in the interval.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getSegment
+Description: /**
+* Returns a segment that contains a domainValue. If the domainValue is
+* not contained in the timeline (because it is not contained in the
+* baseTimeline), a Segment that contains
+* <code>index + segmentSize*m</code> will be returned for the smallest
+* <code>m</code> possible.
+*
+* @param millisecond  index into the segment
+*
+* @return A Segment that contains index, or the next possible Segment.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getSegment
+Description: /**
+* Returns a segment that contains a date. For accurate calculations,
+* the calendar should use TIME_ZONE for its calculation (or any other
+* similar time zone).
+*
+* If the date is not contained in the timeline (because it is not
+* contained in the baseTimeline), a Segment that contains
+* <code>date + segmentSize*m</code> will be returned for the smallest
+* <code>m</code> possible.
+*
+* @param date date into the segment
+*
+* @return A Segment that contains date, or the next possible Segment.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: equals
+Description: /**
+* Returns true if we are equal to the parameter
+*
+* @param o Object to verify with us
+*
+* @return <code>true</code> or <code>false</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getTime
+Description: /**
+* Special method that handles conversion between the Default Time Zone and
+* a UTC time zone with no DST. This is needed so all days have the same
+* size. This method is the prefered way of converting a Data into
+* milliseconds for usage in this class.
+*
+* @param date Date to convert to long.
+*
+* @return The milliseconds.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: getDate
+Description: /**
+* Converts a millisecond value into a {@link Date} object.
+*
+* @param value  the millisecond value.
+*
+* @return The date.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentedTimeline, Method: clone
+Description: /**
+* Returns a clone of the timeline.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException ??.
+*/"
+

@@ -1,0 +1,266 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: getUseSeriesOffset
+Description: /**
+* Returns the flag that controls whether or not the x-position for each
+* data item is offset within the category according to the series.
+*
+* @return A boolean.
+*
+* @see #setUseSeriesOffset(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: setUseSeriesOffset
+Description: /**
+* Sets the flag that controls whether or not the x-position for each
+* data item is offset within its category according to the series, and
+* sends a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param offset  the offset.
+*
+* @see #getUseSeriesOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: getItemMargin
+Description: /**
+* Returns the item margin, which is the gap between items within a
+* category (expressed as a percentage of the overall category width).
+* This can be used to match the offset alignment with the bars drawn by
+* a {@link BarRenderer}).
+*
+* @return The item margin.
+*
+* @see #setItemMargin(double)
+* @see #getUseSeriesOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: setItemMargin
+Description: /**
+* Sets the item margin, which is the gap between items within a category
+* (expressed as a percentage of the overall category width), and sends
+* a {@link RendererChangeEvent} to all registered listeners.
+*
+* @param margin  the margin (0.0 <= margin < 1.0).
+*
+* @see #getItemMargin()
+* @see #getUseSeriesOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: getDrawOutlines
+Description: /**
+* Returns <code>true</code> if outlines should be drawn for shapes, and
+* <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @see #setDrawOutlines(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: setDrawOutlines
+Description: /**
+* Sets the flag that controls whether outlines are drawn for
+* shapes, and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+* <p/>
+* In some cases, shapes look better if they do NOT have an outline, but
+* this flag allows you to set your own preference.
+*
+* @param flag the flag.
+*
+* @see #getDrawOutlines()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: getUseOutlinePaint
+Description: /**
+* Returns the flag that controls whether the outline paint is used for
+* shape outlines.  If not, the regular series paint is used.
+*
+* @return A boolean.
+*
+* @see #setUseOutlinePaint(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: setUseOutlinePaint
+Description: /**
+* Sets the flag that controls whether the outline paint is used for shape
+* outlines, and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param use the flag.
+*
+* @see #getUseOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: getItemShapeFilled
+Description: /**
+* Returns the flag used to control whether or not the shape for an item
+* is filled. The default implementation passes control to the
+* <code>getSeriesShapesFilled</code> method. You can override this method
+* if you require different behaviour.
+*
+* @param series the series index (zero-based).
+* @param item   the item index (zero-based).
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: getSeriesShapesFilled
+Description: /**
+* Returns the flag used to control whether or not the shapes for a series
+* are filled.
+*
+* @param series the series index (zero-based).
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: setSeriesShapesFilled
+Description: /**
+* Sets the 'shapes filled' flag for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series the series index (zero-based).
+* @param filled the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: setSeriesShapesFilled
+Description: /**
+* Sets the 'shapes filled' flag for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series the series index (zero-based).
+* @param filled the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: getBaseShapesFilled
+Description: /**
+* Returns the base 'shape filled' attribute.
+*
+* @return The base flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: setBaseShapesFilled
+Description: /**
+* Sets the base 'shapes filled' flag and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param flag the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: getUseFillPaint
+Description: /**
+* Returns <code>true</code> if the renderer should use the fill paint
+* setting to fill shapes, and <code>false</code> if it should just
+* use the regular paint.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: setUseFillPaint
+Description: /**
+* Sets the flag that controls whether the fill paint is used to fill
+* shapes, and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param flag the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset. This takes into account the range
+* between the min/max values, possibly ignoring invisible series.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range (or <code>null</code> if the dataset is
+*         <code>null</code> or empty).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: drawItem
+Description: /**
+* Draw a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area in which the data is drawn.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param selected  is the item selected?
+* @param pass  the pass index.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: getLegendItem
+Description: /**
+* Returns a legend item for a series.
+*
+* @param datasetIndex  the dataset index (zero-based).
+* @param series  the series index (zero-based).
+*
+* @return The legend item.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: equals
+Description: /**
+* Tests this renderer for equality with an arbitrary object.
+*
+* @param obj the object (<code>null</code> permitted).
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ScatterRenderer, Method: clone
+Description: /**
+* Returns an independent copy of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException  should not happen.
+*/"
+

@@ -1,0 +1,765 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: getDefaultStyle
+Description: /*** <p>Gets the default <code>ToStringStyle</code> to use.</p>
+*
+* <p>This method gets a singleton default value, typically for the whole JVM.
+* Changing this default should generally only be done during application startup.
+* It is recommended to pass a <code>ToStringStyle</code> to the constructor instead
+* of using this global default.</p>
+*
+* <p>This method can be used from multiple threads.
+* Internally, a <code>volatile</code> variable is used to provide the guarantee
+* that the latest value set using {@link #setDefaultStyle} is the value returned.
+* It is strongly recommended that the default style is only changed during application startup.</p>
+*
+* <p>One reason for changing the default could be to have a verbose style during
+* development and a compact style in production.</p>
+*
+* @return the default <code>ToStringStyle</code>, never null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: setDefaultStyle
+Description: /*** <p>Sets the default <code>ToStringStyle</code> to use.</p>
+*
+* <p>This method sets a singleton default value, typically for the whole JVM.
+* Changing this default should generally only be done during application startup.
+* It is recommended to pass a <code>ToStringStyle</code> to the constructor instead
+* of changing this global default.</p>
+*
+* <p>This method is not intended for use from multiple threads.
+* Internally, a <code>volatile</code> variable is used to provide the guarantee
+* that the latest value set is the value returned from {@link #getDefaultStyle}.</p>
+*
+* @param style  the default <code>ToStringStyle</code>
+* @throws IllegalArgumentException if the style is <code>null</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: reflectionToString
+Description: /*** <p>Uses <code>ReflectionToStringBuilder</code> to generate a
+* <code>toString</code> for the specified object.</p>
+*
+* @param object  the Object to be output
+* @return the String result
+* @see ReflectionToStringBuilder#toString(Object)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: reflectionToString
+Description: /*** <p>Uses <code>ReflectionToStringBuilder</code> to generate a
+* <code>toString</code> for the specified object.</p>
+*
+* @param object  the Object to be output
+* @param style  the style of the <code>toString</code> to create, may be <code>null</code>
+* @return the String result
+* @see ReflectionToStringBuilder#toString(Object,ToStringStyle)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: reflectionToString
+Description: /*** <p>Uses <code>ReflectionToStringBuilder</code> to generate a
+* <code>toString</code> for the specified object.</p>
+*
+* @param object  the Object to be output
+* @param style  the style of the <code>toString</code> to create, may be <code>null</code>
+* @param outputTransients  whether to include transient fields
+* @return the String result
+* @see ReflectionToStringBuilder#toString(Object,ToStringStyle,boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: reflectionToString
+Description: /*** <p>Uses <code>ReflectionToStringBuilder</code> to generate a
+* <code>toString</code> for the specified object.</p>
+*
+* @param <T> the type of the object
+* @param object  the Object to be output
+* @param style  the style of the <code>toString</code> to create, may be <code>null</code>
+* @param outputTransients  whether to include transient fields
+* @param reflectUpToWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class  the superclass to reflect up to (inclusive), may be <code>null</code>
+* @return the String result
+* @see ReflectionToStringBuilder#toString(Object,ToStringStyle,boolean,boolean,Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class)
+* @since 2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>boolean</code>
+* value.</p>
+*
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>boolean</code>
+* array.</p>
+*
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>byte</code>
+* value.</p>
+*
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>byte</code>
+* array.</p>
+*
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>char</code>
+* value.</p>
+*
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>char</code>
+* array.</p>
+*
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>double</code>
+* value.</p>
+*
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>double</code>
+* array.</p>
+*
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>float</code>
+* value.</p>
+*
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>float</code>
+* array.</p>
+*
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>int</code>
+* value.</p>
+*
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>int</code>
+* array.</p>
+*
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>long</code>
+* value.</p>
+*
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>long</code>
+* array.</p>
+*
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>Object</code>
+* value.</p>
+*
+* @param obj  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>Object</code>
+* array.</p>
+*
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>short</code>
+* value.</p>
+*
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>short</code>
+* array.</p>
+*
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>boolean</code>
+* value.</p>
+*
+* @param fieldName  the field name
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>boolean</code>
+* array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>hashCode</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>boolean</code>
+* array.</p>
+*
+* <p>A boolean parameter controls the level of detail to show.
+* Setting <code>true</code> will output the array in full. Setting
+* <code>false</code> will output a summary, typically the size of
+* the array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @param fullDetail  <code>true</code> for detail, <code>false</code>
+*  for summary info
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>byte</code>
+* value.</p>
+*
+* @param fieldName  the field name
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>byte</code> array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>byte</code>
+* array.</p>
+*
+* <p>A boolean parameter controls the level of detail to show.
+* Setting <code>true</code> will output the array in full. Setting
+* <code>false</code> will output a summary, typically the size of
+* the array.
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @param fullDetail  <code>true</code> for detail, <code>false</code>
+*  for summary info
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>char</code>
+* value.</p>
+*
+* @param fieldName  the field name
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>char</code>
+* array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>char</code>
+* array.</p>
+*
+* <p>A boolean parameter controls the level of detail to show.
+* Setting <code>true</code> will output the array in full. Setting
+* <code>false</code> will output a summary, typically the size of
+* the array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @param fullDetail  <code>true</code> for detail, <code>false</code>
+*  for summary info
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>double</code>
+* value.</p>
+*
+* @param fieldName  the field name
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>double</code>
+* array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>double</code>
+* array.</p>
+*
+* <p>A boolean parameter controls the level of detail to show.
+* Setting <code>true</code> will output the array in full. Setting
+* <code>false</code> will output a summary, typically the size of
+* the array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @param fullDetail  <code>true</code> for detail, <code>false</code>
+*  for summary info
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>float</code>
+* value.</p>
+*
+* @param fieldName  the field name
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>float</code>
+* array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>float</code>
+* array.</p>
+*
+* <p>A boolean parameter controls the level of detail to show.
+* Setting <code>true</code> will output the array in full. Setting
+* <code>false</code> will output a summary, typically the size of
+* the array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @param fullDetail  <code>true</code> for detail, <code>false</code>
+*  for summary info
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>int</code>
+* value.</p>
+*
+* @param fieldName  the field name
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>int</code>
+* array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>int</code>
+* array.</p>
+*
+* <p>A boolean parameter controls the level of detail to show.
+* Setting <code>true</code> will output the array in full. Setting
+* <code>false</code> will output a summary, typically the size of
+* the array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @param fullDetail  <code>true</code> for detail, <code>false</code>
+*  for summary info
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>long</code>
+* value.</p>
+*
+* @param fieldName  the field name
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>long</code>
+* array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>long</code>
+* array.</p>
+*
+* <p>A boolean parameter controls the level of detail to show.
+* Setting <code>true</code> will output the array in full. Setting
+* <code>false</code> will output a summary, typically the size of
+* the array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @param fullDetail  <code>true</code> for detail, <code>false</code>
+*  for summary info
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>Object</code>
+* value.</p>
+*
+* @param fieldName  the field name
+* @param obj  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>Object</code>
+* value.</p>
+*
+* @param fieldName  the field name
+* @param obj  the value to add to the <code>toString</code>
+* @param fullDetail  <code>true</code> for detail,
+*  <code>false</code> for summary info
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>Object</code>
+* array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>Object</code>
+* array.</p>
+*
+* <p>A boolean parameter controls the level of detail to show.
+* Setting <code>true</code> will output the array in full. Setting
+* <code>false</code> will output a summary, typically the size of
+* the array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @param fullDetail  <code>true</code> for detail, <code>false</code>
+*  for summary info
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> an <code>short</code>
+* value.</p>
+*
+* @param fieldName  the field name
+* @param value  the value to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>short</code>
+* array.</p>
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: append
+Description: /*** <p>Append to the <code>toString</code> a <code>short</code>
+* array.</p>
+*
+* <p>A boolean parameter controls the level of detail to show.
+* Setting <code>true</code> will output the array in full. Setting
+* <code>false</code> will output a summary, typically the size of
+* the array.
+*
+* @param fieldName  the field name
+* @param array  the array to add to the <code>toString</code>
+* @param fullDetail  <code>true</code> for detail, <code>false</code>
+*  for summary info
+* @return this
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: appendAsObjectToString
+Description: /*** <p>Appends with the same format as the default <code>Object toString()
+* </code> method. Appends the class name followed by
+* {@link System#identityHashCode(java.lang.Object)}.</p>
+*
+* @param object  the <code>Object</code> whose class name and id to output
+* @return this
+* @since 2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: appendSuper
+Description: /*** <p>Append the <code>toString</code> from the superclass.</p>
+*
+* <p>This method assumes that the superclass uses the same <code>ToStringStyle</code>
+* as this one.</p>
+*
+* <p>If <code>superToString</code> is <code>null</code>, no change is made.</p>
+*
+* @param superToString  the result of <code>super.toString()</code>
+* @return this
+* @since 2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: appendToString
+Description: /*** <p>Append the <code>toString</code> from another object.</p>
+*
+* <p>This method is useful where a class delegates most of the implementation of
+* its properties to another class. You can then call <code>toString()</code> on
+* the other class and pass the result into this method.</p>
+*
+* <pre>
+*   private AnotherObject delegate;
+*   private String fieldInThisWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class;
+*
+*   public String toString() {
+*     return new ToStringBuilder(this).
+*       appendToString(delegate.toString()).
+*       append(fieldInThisWrite a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class).
+*       toString();
+*   }</pre>
+*
+* <p>This method assumes that the other object uses the same <code>ToStringStyle</code>
+* as this one.</p>
+*
+* <p>If the <code>toString</code> is <code>null</code>, no change is made.</p>
+*
+* @param toString  the result of <code>toString()</code> on another object
+* @return this
+* @since 2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: getObject
+Description: /*** <p>Returns the <code>Object</code> being output.</p>
+*
+* @return The object being output.
+* @since 2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: getStringBuffer
+Description: /*** <p>Gets the <code>StringBuffer</code> being populated.</p>
+*
+* @return the <code>StringBuffer</code> being populated
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: getStyle
+Description: /*** <p>Gets the <code>ToStringStyle</code> being used.</p>
+*
+* @return the <code>ToStringStyle</code> being used
+* @since 2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: toString
+Description: /*** <p>Returns the built <code>toString</code>.</p>
+*
+* <p>This method appends the end of data indicator, and can only be called once.
+* Use {@link #getStringBuffer} to get the current string state.</p>
+*
+* <p>If the object is <code>null</code>, return the style's <code>nullText</code></p>
+*
+* @return the String <code>toString</code>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ToStringBuilder, Method: build
+Description: /*** Returns the String that was build as an object representation. The
+* default implementation utilizes the {@link #toString()} implementation.
+*
+* @return the String <code>toString</code>
+*
+* @see #toString()
+*
+* @since 3.0
+*/"
+

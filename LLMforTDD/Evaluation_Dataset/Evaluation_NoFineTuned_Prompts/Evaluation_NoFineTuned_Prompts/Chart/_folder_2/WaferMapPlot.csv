@@ -1,0 +1,75 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapPlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapPlot, Method: getPlotType
+Description: /**
+* Returns the plot type as a string.
+*
+* @return A short string describing the type of plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapPlot, Method: getDataset
+Description: /**
+* Returns the dataset
+*
+* @return The dataset (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapPlot, Method: setDataset
+Description: /**
+* Sets the dataset used by the plot and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapPlot, Method: setRenderer
+Description: /**
+* Sets the item renderer, and notifies all listeners of a change to the
+* plot.  If the renderer is set to <code>null</code>, no chart will be
+* drawn.
+*
+* @param renderer  the new renderer (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapPlot, Method: draw
+Description: /**
+* Draws the wafermap view.
+*
+* @param g2  the graphics device.
+* @param area  the plot area.
+* @param anchor  the anchor point (<code>null</code> permitted).
+* @param state  the plot state.
+* @param info  the plot rendering info.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapPlot, Method: getLegendItems
+Description: /**
+* Return the legend items from the renderer.
+*
+* @return The legend items.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapPlot, Method: rendererChanged
+Description: /**
+* Notifies all registered listeners of a renderer change.
+*
+* @param event  the event.
+*/"
+

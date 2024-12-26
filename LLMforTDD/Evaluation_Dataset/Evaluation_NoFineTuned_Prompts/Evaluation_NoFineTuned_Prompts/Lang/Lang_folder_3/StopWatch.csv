@@ -1,0 +1,218 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: start
+Description: /*** <p>
+* Start the stopwatch.
+* </p>
+*
+* <p>
+* This method starts a new timing session, clearing any previous values.
+* </p>
+*
+* @throws IllegalStateException
+*             if the StopWatch is already running.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: stop
+Description: /*** <p>
+* Stop the stopwatch.
+* </p>
+*
+* <p>
+* This method ends a new timing session, allowing the time to be retrieved.
+* </p>
+*
+* @throws IllegalStateException
+*             if the StopWatch is not running.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: reset
+Description: /*** <p>
+* Resets the stopwatch. Stops it if need be.
+* </p>
+*
+* <p>
+* This method clears the internal values to allow the object to be reused.
+* </p>
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: split
+Description: /*** <p>
+* Split the time.
+* </p>
+*
+* <p>
+* This method sets the stop time of the watch to allow a time to be extracted. The start time is unaffected,
+* enabling {@link #unsplit()} to continue the timing from the original start point.
+* </p>
+*
+* @throws IllegalStateException
+*             if the StopWatch is not running.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: unsplit
+Description: /*** <p>
+* Remove a split.
+* </p>
+*
+* <p>
+* This method clears the stop time. The start time is unaffected, enabling timing from the original start point to
+* continue.
+* </p>
+*
+* @throws IllegalStateException
+*             if the StopWatch has not been split.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: suspend
+Description: /*** <p>
+* Suspend the stopwatch for later resumption.
+* </p>
+*
+* <p>
+* This method suspends the watch until it is resumed. The watch will not include time between the suspend and
+* resume calls in the total time.
+* </p>
+*
+* @throws IllegalStateException
+*             if the StopWatch is not currently running.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: resume
+Description: /*** <p>
+* Resume the stopwatch after a suspend.
+* </p>
+*
+* <p>
+* This method resumes the watch after it was suspended. The watch will not include time between the suspend and
+* resume calls in the total time.
+* </p>
+*
+* @throws IllegalStateException
+*             if the StopWatch has not been suspended.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: getTime
+Description: /*** <p>
+* Get the time on the stopwatch.
+* </p>
+*
+* <p>
+* This is either the time between the start and the moment this method is called, or the amount of time between
+* start and stop.
+* </p>
+*
+* @return the time in milliseconds
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: getNanoTime
+Description: /*** <p>
+* Get the time on the stopwatch in nanoseconds.
+* </p>
+*
+* <p>
+* This is either the time between the start and the moment this method is called, or the amount of time between
+* start and stop.
+* </p>
+*
+* @return the time in nanoseconds
+* @since 3.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: getSplitTime
+Description: /*** <p>
+* Get the split time on the stopwatch.
+* </p>
+*
+* <p>
+* This is the time between start and latest split.
+* </p>
+*
+* @return the split time in milliseconds
+*
+* @throws IllegalStateException
+*             if the StopWatch has not yet been split.
+* @since 2.1
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: getSplitNanoTime
+Description: /*** <p>
+* Get the split time on the stopwatch in nanoseconds.
+* </p>
+*
+* <p>
+* This is the time between start and latest split.
+* </p>
+*
+* @return the split time in nanoseconds
+*
+* @throws IllegalStateException
+*             if the StopWatch has not yet been split.
+* @since 3.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: getStartTime
+Description: /*** Returns the time this stopwatch was started.
+*
+* @return the time this stopwatch was started
+* @throws IllegalStateException
+*             if this StopWatch has not been started
+* @since 2.4
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: toString
+Description: /*** <p>
+* Gets a summary of the time that the stopwatch recorded as a string.
+* </p>
+*
+* <p>
+* The format used is ISO8601-like, <i>hours</i>:<i>minutes</i>:<i>seconds</i>.<i>milliseconds</i>.
+* </p>
+*
+* @return the time as a String
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StopWatch, Method: toSplitString
+Description: /*** <p>
+* Gets a summary of the split time that the stopwatch recorded as a string.
+* </p>
+*
+* <p>
+* The format used is ISO8601-like, <i>hours</i>:<i>minutes</i>:<i>seconds</i>.<i>milliseconds</i>.
+* </p>
+*
+* @return the split time as a String
+* @since 2.1
+*/"
+

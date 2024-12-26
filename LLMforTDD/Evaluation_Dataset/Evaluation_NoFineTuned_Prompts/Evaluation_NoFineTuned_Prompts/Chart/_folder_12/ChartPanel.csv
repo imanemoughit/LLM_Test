@@ -1,0 +1,1225 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getChart
+Description: /**
+* Returns the chart contained in the panel.
+*
+* @return The chart (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setChart
+Description: /**
+* Sets the chart that is displayed in the panel.
+*
+* @param chart  the chart (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getMinimumDrawWidth
+Description: /**
+* Returns the minimum drawing width for charts.
+* <P>
+* If the width available on the panel is less than this, then the chart is
+* drawn at the minimum width then scaled down to fit.
+*
+* @return The minimum drawing width.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setMinimumDrawWidth
+Description: /**
+* Sets the minimum drawing width for the chart on this panel.
+* <P>
+* At the time the chart is drawn on the panel, if the available width is
+* less than this amount, the chart will be drawn using the minimum width
+* then scaled down to fit the available space.
+*
+* @param width  The width.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getMaximumDrawWidth
+Description: /**
+* Returns the maximum drawing width for charts.
+* <P>
+* If the width available on the panel is greater than this, then the chart
+* is drawn at the maximum width then scaled up to fit.
+*
+* @return The maximum drawing width.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setMaximumDrawWidth
+Description: /**
+* Sets the maximum drawing width for the chart on this panel.
+* <P>
+* At the time the chart is drawn on the panel, if the available width is
+* greater than this amount, the chart will be drawn using the maximum
+* width then scaled up to fit the available space.
+*
+* @param width  The width.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getMinimumDrawHeight
+Description: /**
+* Returns the minimum drawing height for charts.
+* <P>
+* If the height available on the panel is less than this, then the chart
+* is drawn at the minimum height then scaled down to fit.
+*
+* @return The minimum drawing height.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setMinimumDrawHeight
+Description: /**
+* Sets the minimum drawing height for the chart on this panel.
+* <P>
+* At the time the chart is drawn on the panel, if the available height is
+* less than this amount, the chart will be drawn using the minimum height
+* then scaled down to fit the available space.
+*
+* @param height  The height.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getMaximumDrawHeight
+Description: /**
+* Returns the maximum drawing height for charts.
+* <P>
+* If the height available on the panel is greater than this, then the
+* chart is drawn at the maximum height then scaled up to fit.
+*
+* @return The maximum drawing height.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setMaximumDrawHeight
+Description: /**
+* Sets the maximum drawing height for the chart on this panel.
+* <P>
+* At the time the chart is drawn on the panel, if the available height is
+* greater than this amount, the chart will be drawn using the maximum
+* height then scaled up to fit the available space.
+*
+* @param height  The height.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getScaleX
+Description: /**
+* Returns the X scale factor for the chart.  This will be 1.0 if no
+* scaling has been used.
+*
+* @return The scale factor.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getScaleY
+Description: /**
+* Returns the Y scale factory for the chart.  This will be 1.0 if no
+* scaling has been used.
+*
+* @return The scale factor.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getAnchor
+Description: /**
+* Returns the anchor point.
+*
+* @return The anchor point (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getPopupMenu
+Description: /**
+* Returns the popup menu.
+*
+* @return The popup menu.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setPopupMenu
+Description: /**
+* Sets the popup menu for the panel.
+*
+* @param popup  the popup menu (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getChartRenderingInfo
+Description: /**
+* Returns the chart rendering info from the most recent chart redraw.
+*
+* @return The chart rendering info.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setMouseZoomable
+Description: /**
+* A convenience method that switches on mouse-based zooming.
+*
+* @param flag  <code>true</code> enables zooming and rectangle fill on
+*              zoom.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setMouseZoomable
+Description: /**
+* A convenience method that switches on mouse-based zooming.
+*
+* @param flag  <code>true</code> if zooming enabled
+* @param fillRectangle  <code>true</code> if zoom rectangle is filled,
+*                       false if rectangle is shown as outline only.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: isDomainZoomable
+Description: /**
+* Returns the flag that determines whether or not zooming is enabled for
+* the domain axis.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setDomainZoomable
+Description: /**
+* Sets the flag that controls whether or not zooming is enable for the
+* domain axis.  A check is made to ensure that the current plot supports
+* zooming for the domain values.
+*
+* @param flag  <code>true</code> enables zooming if possible.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: isRangeZoomable
+Description: /**
+* Returns the flag that determines whether or not zooming is enabled for
+* the range axis.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setRangeZoomable
+Description: /**
+* A flag that controls mouse-based zooming on the vertical axis.
+*
+* @param flag  <code>true</code> enables zooming.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getFillZoomRectangle
+Description: /**
+* Returns the flag that controls whether or not the zoom rectangle is
+* filled when drawn.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setFillZoomRectangle
+Description: /**
+* A flag that controls how the zoom rectangle is drawn.
+*
+* @param flag  <code>true</code> instructs to fill the rectangle on
+*              zoom, otherwise it will be outlined.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getZoomTriggerDistance
+Description: /**
+* Returns the zoom trigger distance.  This controls how far the mouse must
+* move before a zoom action is triggered.
+*
+* @return The distance (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setZoomTriggerDistance
+Description: /**
+* Sets the zoom trigger distance.  This controls how far the mouse must
+* move before a zoom action is triggered.
+*
+* @param distance  the distance (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getDefaultDirectoryForSaveAs
+Description: /**
+* Returns the default directory for the save as option."""
+*
+* @return The default directory (possibly <code>null</code>).
+*
+* @since 1.0.7
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setDefaultDirectoryForSaveAs
+Description: /**
+* Sets the default directory for the save as option.  If you set this"""
+* to <code>null</code>, the user's default directory will be used.
+*
+* @param directory  the directory (<code>null</code> permitted).
+*
+* @since 1.0.7
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: isEnforceFileExtensions
+Description: /**
+* Returns <code>true</code> if file extensions should be enforced, and
+* <code>false</code> otherwise.
+*
+* @return The flag.
+*
+* @see #setEnforceFileExtensions(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setEnforceFileExtensions
+Description: /**
+* Sets a flag that controls whether or not file extensions are enforced.
+*
+* @param enforce  the new flag value.
+*
+* @see #isEnforceFileExtensions()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getZoomAroundAnchor
+Description: /**
+* Returns the flag that controls whether or not zoom operations are
+* centered around the current anchor point.
+*
+* @return A boolean.
+*
+* @since 1.0.7
+*
+* @see #setZoomAroundAnchor(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setZoomAroundAnchor
+Description: /**
+* Sets the flag that controls whether or not zoom operations are
+* centered around the current anchor point.
+*
+* @param zoomAroundAnchor  the new flag value.
+*
+* @since 1.0.7
+*
+* @see #getZoomAroundAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getZoomFillPaint
+Description: /**
+* Returns the zoom rectangle fill paint.
+*
+* @return The zoom rectangle fill paint (never <code>null</code>).
+*
+* @see #setZoomFillPaint(Paint)
+* @see #setFillZoomRectangle(boolean)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setZoomFillPaint
+Description: /**
+* Sets the zoom rectangle fill paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getZoomFillPaint()
+* @see #getFillZoomRectangle()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getZoomOutlinePaint
+Description: /**
+* Returns the zoom rectangle outline paint.
+*
+* @return The zoom rectangle outline paint (never <code>null</code>).
+*
+* @see #setZoomOutlinePaint(Paint)
+* @see #setFillZoomRectangle(boolean)
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setZoomOutlinePaint
+Description: /**
+* Sets the zoom rectangle outline paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getZoomOutlinePaint()
+* @see #getFillZoomRectangle()
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: isMouseWheelEnabled
+Description: /**
+* Returns <code>true</code> if the mouse wheel handler is enabled, and
+* <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setMouseWheelEnabled
+Description: /**
+* Enables or disables mouse wheel support for the panel.
+* Note that this method does nothing when running JFreeChart on JRE 1.3.1,
+* because that older version of the Java runtime does not support
+* mouse wheel events.
+*
+* @param flag  a boolean.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: addOverlay
+Description: /**
+* Add an overlay to the panel.
+*
+* @param overlay  the overlay (<code>null</code> not permitted).
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: removeOverlay
+Description: /**
+* Removes an overlay from the panel.
+*
+* @param overlay  the overlay to remove (<code>null</code> not permitted).
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: overlayChanged
+Description: /**
+* Handles a change to an overlay by repainting the panel.
+*
+* @param event  the event.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getUseBuffer
+Description: /**
+* Returns the value of the <code>useBuffer</code> flag as set in the
+* constructor.
+*
+* @return A boolean.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getOrientation
+Description: /**
+* Returns the orientation of the plot in the panel.
+*
+* @return The orientation of the plot.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: addMouseHandler
+Description: /**
+* Adds a mouse handler.
+*
+* @param handler  the handler (<code>null</code> not permitted).
+*
+* @see #removeMouseHandler(AbstractMouseHandler)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: removeMouseHandler
+Description: /**
+* Removes a mouse handler.
+*
+* @param handler  the handler (<code>null</code> not permitted).
+*
+* @return A boolean.
+*
+* @see #addMouseHandler(AbstractMouseHandler)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: clearLiveMouseHandler
+Description: /**
+* Clears the 'liveMouseHandler' field.  Each handler is responsible for
+* calling this method when they have finished handling mouse events.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getZoomHandler
+Description: /**
+* Returns the zoom handler.
+*
+* @return The zoom handler.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getZoomRectangle
+Description: /**
+* Returns the zoom rectangle.
+*
+* @return The zoom rectangle (possibly <code>null</code>).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setZoomRectangle
+Description: /**
+* Sets the zoom rectangle for the panel.
+*
+* @param rect  the rectangle (<code>null</code> permitted).
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setDisplayToolTips
+Description: /**
+* Switches the display of tooltips for the panel on or off.  Note that
+* tooltips can only be displayed if the chart has been configured to
+* generate tooltip items.
+*
+* @param flag  <code>true</code> to enable tooltips, <code>false</code> to
+*              disable tooltips.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getToolTipText
+Description: /**
+* Returns a string for the tooltip.
+*
+* @param e  the mouse event.
+*
+* @return A tool tip or <code>null</code> if no tooltip is available.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: translateJava2DToScreen
+Description: /**
+* Translates a Java2D point on the chart to a screen location.
+*
+* @param java2DPoint  the Java2D point.
+*
+* @return The screen location.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: translateScreenToJava2D
+Description: /**
+* Translates a panel (component) location to a Java2D point.
+*
+* @param screenPoint  the screen location (<code>null</code> not
+*                     permitted).
+*
+* @return The Java2D coordinates.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: scale
+Description: /**
+* Applies any scaling that is in effect for the chart drawing to the
+* given rectangle.
+*
+* @param rect  the rectangle (<code>null</code> not permitted).
+*
+* @return A new scaled rectangle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getEntityForPoint
+Description: /**
+* Returns the chart entity at a given point.
+* <P>
+* This method will return null if there is (a) no entity at the given
+* point, or (b) no entity collection has been generated.
+*
+* @param viewX  the x-coordinate.
+* @param viewY  the y-coordinate.
+*
+* @return The chart entity (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getRefreshBuffer
+Description: /**
+* Returns the flag that controls whether or not the offscreen buffer
+* needs to be refreshed.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setRefreshBuffer
+Description: /**
+* Sets the refresh buffer flag.  This flag is used to avoid unnecessary
+* redrawing of the chart when the offscreen image buffer is used.
+*
+* @param flag  <code>true</code> indicates that the buffer should be
+*              refreshed.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: paintComponent
+Description: /**
+* Paints the component by drawing the chart to fill the entire component,
+* but allowing for the insets (which will be non-zero if a border has been
+* set for this component).  To increase performance (at the expense of
+* memory), an off-screen buffer image can be used.
+*
+* @param g  the graphics device for drawing on.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: chartChanged
+Description: /**
+* Receives notification of changes to the chart, and redraws the chart.
+*
+* @param event  details of the chart change event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: chartProgress
+Description: /**
+* Receives notification of a chart progress event.
+*
+* @param event  the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: actionPerformed
+Description: /**
+* Handles action events generated by the popup menu.
+*
+* @param event  the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: mouseEntered
+Description: /**
+* Handles a 'mouse entered' event. This method changes the tooltip delays
+* of ToolTipManager.sharedInstance() to the possibly different values set
+* for this chart panel.
+*
+* @param e  the mouse event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: mouseExited
+Description: /**
+* Handles a 'mouse exited' event. This method resets the tooltip delays of
+* ToolTipManager.sharedInstance() to their
+* original values in effect before mouseEntered()
+*
+* @param e  the mouse event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: mousePressed
+Description: /**
+* Handles a 'mouse pressed' event.
+* <P>
+* This event is the popup trigger on Unix/Linux.  For Windows, the popup
+* trigger is the 'mouse released' event.
+*
+* @param e  The mouse event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: mouseDragged
+Description: /**
+* Handles a 'mouse dragged' event.
+*
+* @param e  the mouse event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: mouseReleased
+Description: /**
+* Handles a 'mouse released' event.  On Windows, we need to check if this
+* is a popup trigger, but only if we haven't already been tracking a zoom
+* rectangle.
+*
+* @param e  information about the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: mouseClicked
+Description: /**
+* Receives notification of mouse clicks on the panel.  These are
+* translated and passed on to any registered {@link ChartMouseListener}s.
+*
+* @param event  Information about the mouse event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: mouseMoved
+Description: /**
+* Implementation of the MouseMotionListener's method.
+*
+* @param e  the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: zoomInBoth
+Description: /**
+* Zooms in on an anchor point (specified in screen coordinate space).
+*
+* @param x  the x value (in screen coordinates).
+* @param y  the y value (in screen coordinates).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: zoomInDomain
+Description: /**
+* Decreases the length of the domain axis, centered about the given
+* coordinate on the screen.  The length of the domain axis is reduced
+* by the value of {@link #getZoomInFactor()}.
+*
+* @param x  the x coordinate (in screen coordinates).
+* @param y  the y-coordinate (in screen coordinates).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: zoomInRange
+Description: /**
+* Decreases the length of the range axis, centered about the given
+* coordinate on the screen.  The length of the range axis is reduced by
+* the value of {@link #getZoomInFactor()}.
+*
+* @param x  the x-coordinate (in screen coordinates).
+* @param y  the y coordinate (in screen coordinates).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: zoomOutBoth
+Description: /**
+* Zooms out on an anchor point (specified in screen coordinate space).
+*
+* @param x  the x value (in screen coordinates).
+* @param y  the y value (in screen coordinates).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: zoomOutDomain
+Description: /**
+* Increases the length of the domain axis, centered about the given
+* coordinate on the screen.  The length of the domain axis is increased
+* by the value of {@link #getZoomOutFactor()}.
+*
+* @param x  the x coordinate (in screen coordinates).
+* @param y  the y-coordinate (in screen coordinates).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: zoomOutRange
+Description: /**
+* Increases the length the range axis, centered about the given
+* coordinate on the screen.  The length of the range axis is increased
+* by the value of {@link #getZoomOutFactor()}.
+*
+* @param x  the x coordinate (in screen coordinates).
+* @param y  the y-coordinate (in screen coordinates).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: zoom
+Description: /**
+* Zooms in on a selected region.
+*
+* @param selection  the selected region.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: restoreAutoBounds
+Description: /**
+* Restores the auto-range calculation on both axes.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: restoreAutoDomainBounds
+Description: /**
+* Restores the auto-range calculation on the domain axis.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: restoreAutoRangeBounds
+Description: /**
+* Restores the auto-range calculation on the range axis.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getScreenDataArea
+Description: /**
+* Returns the data area for the chart (the area inside the axes) with the
+* current scaling applied (that is, the area as it appears on screen).
+*
+* @return The scaled data area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getScreenDataArea
+Description: /**
+* Returns the data area (the area inside the axes) for the plot or subplot,
+* with the current scaling applied.
+*
+* @param x  the x-coordinate (for subplot selection).
+* @param y  the y-coordinate (for subplot selection).
+*
+* @return The scaled data area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getInitialDelay
+Description: /**
+* Returns the initial tooltip delay value used inside this chart panel.
+*
+* @return An integer representing the initial delay value, in milliseconds.
+*
+* @see ToolTipManager#getInitialDelay()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getReshowDelay
+Description: /**
+* Returns the reshow tooltip delay value used inside this chart panel.
+*
+* @return An integer representing the reshow  delay value, in milliseconds.
+*
+* @see ToolTipManager#getReshowDelay()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getDismissDelay
+Description: /**
+* Returns the dismissal tooltip delay value used inside this chart panel.
+*
+* @return An integer representing the dismissal delay value, in
+*         milliseconds.
+*
+* @see ToolTipManager#getDismissDelay()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setInitialDelay
+Description: /**
+* Specifies the initial delay value for this chart panel.
+*
+* @param delay  the number of milliseconds to delay (after the cursor has
+*               paused) before displaying.
+*
+* @see ToolTipManager#setInitialDelay(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setReshowDelay
+Description: /**
+* Specifies the amount of time before the user has to wait initialDelay
+* milliseconds before a tooltip will be shown.
+*
+* @param delay  time in milliseconds
+*
+* @see ToolTipManager#setReshowDelay(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setDismissDelay
+Description: /**
+* Specifies the dismissal delay value for this chart panel.
+*
+* @param delay the number of milliseconds to delay before taking away the
+*              tooltip
+*
+* @see ToolTipManager#setDismissDelay(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getZoomInFactor
+Description: /**
+* Returns the zoom in factor.
+*
+* @return The zoom in factor.
+*
+* @see #setZoomInFactor(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setZoomInFactor
+Description: /**
+* Sets the zoom in factor.
+*
+* @param factor  the factor.
+*
+* @see #getZoomInFactor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getZoomOutFactor
+Description: /**
+* Returns the zoom out factor.
+*
+* @return The zoom out factor.
+*
+* @see #setZoomOutFactor(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setZoomOutFactor
+Description: /**
+* Sets the zoom out factor.
+*
+* @param factor  the factor.
+*
+* @see #getZoomOutFactor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: doEditChartProperties
+Description: /**
+* Displays a dialog that allows the user to edit the properties for the
+* current chart.
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: doCopy
+Description: /**
+* Copies the current chart to the system clipboard.
+*
+* @since 1.0.13
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: doSaveAs
+Description: /**
+* Opens a file chooser and gives the user an opportunity to save the chart
+* in PNG format.
+*
+* @throws IOException if there is an I/O error.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: createChartPrintJob
+Description: /**
+* Creates a print job for the chart.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: print
+Description: /**
+* Prints the chart on a single page.
+*
+* @param g  the graphics context.
+* @param pf  the page format to use.
+* @param pageIndex  the index of the page. If not <code>0</code>, nothing
+*                   gets print.
+*
+* @return The result of printing.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: addChartMouseListener
+Description: /**
+* Adds a listener to the list of objects listening for chart mouse events.
+*
+* @param listener  the listener (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: removeChartMouseListener
+Description: /**
+* Removes a listener from the list of objects listening for chart mouse
+* events.
+*
+* @param listener  the listener.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getListeners
+Description: /**
+* Returns an array of the listeners of the given type registered with the
+* panel.
+*
+* @param listenerType  the listener type.
+*
+* @return An array of listeners.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: updateUI
+Description: /**
+* Updates the UI for a LookAndFeel change.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getSelectionShape
+Description: /**
+* Returns the selection shape.
+*
+* @return The selection shape (possibly <code>null</code>).
+*
+* @see #setSelectionShape(Shape)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setSelectionShape
+Description: /**
+* Sets the selection shape.
+*
+* @param shape  the selection shape (<code>null</code> permitted).
+*
+* @see #getSelectionShape()
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getSelectionFillPaint
+Description: /**
+* Returns the selection fill paint.
+*
+* @return The selection fill paint (possibly <code>null</code>).
+*
+* @see #setSelectionFillPaint(Paint)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setSelectionFillPaint
+Description: /**
+* Sets the selection fill paint.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getSelectionFillPaint()
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getSelectionOutlinePaint
+Description: /**
+* Returns the selection outline paint.
+*
+* @return The selection outline paint.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setSelectionOutlinePaint
+Description: /**
+* Sets the selection outline paint.
+*
+* @param paint
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getSelectionOutlineStroke
+Description: /**
+* Returns the selection outline stroke.
+*
+* @return The selection outline stroke.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: setSelectionOutlineStroke
+Description: /**
+* Sets the selection outline stroke.
+*
+* @param stroke  the stroke.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: getSelectionState
+Description: /**
+* Returns the selection state for the specified dataset, if any.
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+*
+* @return The selection state.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: putSelectionState
+Description: /**
+* When setting up a selectable panel, you need to create the selection
+* state and register it here (unless the dataset is managing the selection
+* directly).
+*
+* @param dataset  the dataset (<code>null</code> not permitted).
+* @param state  the state.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartPanel, Method: createGraphics2D
+Description: /**
+* Returns a graphics context that a renderer can use to calculate
+* selection bounds.
+*
+* @return A graphics context.
+*
+* @since 1.2.0
+*/"
+

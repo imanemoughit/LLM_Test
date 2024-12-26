@@ -1,0 +1,25 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtensionFileFilter
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtensionFileFilter, Method: accept
+Description: /**
+* Returns true if the file ends with the specified extension.
+*
+* @param file  the file to test.
+*
+* @return A boolean that indicates whether or not the file is accepted by the filter.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ExtensionFileFilter, Method: getDescription
+Description: /**
+* Returns the description of the filter.
+*
+* @return a description of the filter.
+*/"
+

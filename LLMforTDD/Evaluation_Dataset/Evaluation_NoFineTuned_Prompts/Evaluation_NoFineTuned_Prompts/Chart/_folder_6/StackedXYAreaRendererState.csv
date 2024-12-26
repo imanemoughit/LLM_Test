@@ -1,0 +1,209 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: getSeriesArea
+Description: /**
+* Returns the series area.
+*
+* @return The series area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: setSeriesArea
+Description: /**
+* Sets the series area.
+*
+* @param area  the area.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: getLine
+Description: /**
+* Returns the working line.
+*
+* @return The working line.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: getCurrentSeriesPoints
+Description: /**
+* Returns the current series points.
+*
+* @return The current series points.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: setCurrentSeriesPoints
+Description: /**
+* Sets the current series points.
+*
+* @param points  the points.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: getLastSeriesPoints
+Description: /**
+* Returns the last series points.
+*
+* @return The last series points.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: setLastSeriesPoints
+Description: /**
+* Sets the last series points.
+*
+* @param points  the points.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: getShapePaint
+Description: /**
+* Returns the paint used for rendering shapes, or <code>null</code> if
+* using series paints.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setShapePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: setShapePaint
+Description: /**
+* Sets the paint for rendering shapes and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param shapePaint  the paint (<code>null</code> permitted).
+*
+* @see #getShapePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: getShapeStroke
+Description: /**
+* Returns the stroke used for rendering shapes, or <code>null</code> if
+* using series strokes.
+*
+* @return The stroke (possibly <code>null</code>).
+*
+* @see #setShapeStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: setShapeStroke
+Description: /**
+* Sets the stroke for rendering shapes and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param shapeStroke  the stroke (<code>null</code> permitted).
+*
+* @see #getShapeStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: initialise
+Description: /**
+* Initialises the renderer. This method will be called before the first
+* item is rendered, giving the renderer an opportunity to initialise any
+* state information it wants to maintain.
+*
+* @param g2  the graphics device.
+* @param dataArea  the area inside the axes.
+* @param plot  the plot.
+* @param data  the data.
+* @param info  an optional info collection object to return data back to
+*              the caller.
+*
+* @return A state object that should be passed to subsequent calls to the
+*         drawItem() method.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: getPassCount
+Description: /**
+* Returns the number of passes required by the renderer.
+*
+* @return 2.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: findRangeBounds
+Description: /**
+* Returns the range of values the renderer requires to display all the
+* items from the specified dataset.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @return The range ([0.0, 0.0] if the dataset contains no values, and
+*         <code>null</code> if the dataset is <code>null</code>).
+*
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if <code>dataset</code> is not an instance
+*         of {@link TableXYDataset}.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: drawItem
+Description: /**
+* Draws the visual representation of a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area within which the data is being drawn.
+* @param plot  the plot (can be used to obtain standard color information
+*              etc).
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+* @param pass  the pass index.
+*
+* @throws Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+ClassCastException if <code>state</code> is not an instance of
+*         <code>StackedXYAreaRendererState</code> or <code>dataset</code>
+*         is not an instance of {@link TableXYDataset}.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: equals
+Description: /**
+* Tests the renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StackedXYAreaRendererState, Method: clone
+Description: /**
+* Returns a clone of the renderer.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if the renderer cannot be cloned.
+*/"
+

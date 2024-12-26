@@ -1,0 +1,128 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities, Method: getCenterPoint
+Description: /**
+* Computes the center point of the current screen device. If this method
+* is called on JDK 1.4, Xinerama-aware results are returned. (See
+* Sun-Bug-ID 4463949 for details).
+*
+* @return the center point of the current screen.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities, Method: getMaximumWindowBounds
+Description: /**
+* Computes the maximum bounds of the current screen device. If this method
+* is called on JDK 1.4, Xinerama-aware results are returned.
+* (See Sun-Bug-ID 4463949 for details).
+*
+* @return the maximum bounds of the current screen.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities, Method: centerFrameOnScreen
+Description: /**
+* Positions the specified frame in the middle of the screen.
+*
+* @param frame  the frame to be centered on the screen.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities, Method: positionFrameOnScreen
+Description: /**
+* Positions the specified frame at a relative position in the screen,
+* where 50% is considered to be the center of the screen.
+*
+* @param frame  the frame.
+* @param horizontalPercent  the relative horizontal position of the frame
+*     (0.0 to 1.0, where 0.5 is the center of the screen).
+* @param verticalPercent  the relative vertical position of the frame
+*     (0.0 to 1.0, where 0.5 is the center of the screen).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities, Method: positionFrameRandomly
+Description: /**
+* Positions the specified frame at a random location on the screen while ensuring that the
+* entire frame is visible (provided that the frame is smaller than the screen).
+*
+* @param frame  the frame.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities, Method: centerDialogInParent
+Description: /**
+* Positions the specified dialog within its parent.
+*
+* @param dialog  the dialog to be positioned on the screen.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities, Method: positionDialogRelativeToParent
+Description: /**
+* Positions the specified dialog at a position relative to its parent.
+*
+* @param dialog  the dialog to be positioned.
+* @param horizontalPercent  the relative location.
+* @param verticalPercent  the relative location.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities, Method: createTablePanel
+Description: /**
+* Creates a panel that contains a table based on the specified table model.
+*
+* @param model  the table model to use when constructing the table.
+*
+* @return The panel.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities, Method: createJLabel
+Description: /**
+* Creates a label with a specific font.
+*
+* @param text  the text for the label.
+* @param font  the font.
+*
+* @return The label.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities, Method: createJLabel
+Description: /**
+* Creates a label with a specific font and color.
+*
+* @param text  the text for the label.
+* @param font  the font.
+* @param color  the color.
+*
+* @return The label.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RefineryUtilities, Method: createJButton
+Description: /**
+* Creates a {@link JButton}.
+*
+* @param label  the label.
+* @param font  the font.
+*
+* @return The button.
+*/"
+

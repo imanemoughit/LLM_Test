@@ -1,0 +1,53 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapRenderer, Method: getDrawingSupplier
+Description: /**
+* Returns the drawing supplier from the plot.
+*
+* @return The drawing supplier.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapRenderer, Method: getPlot
+Description: /**
+* Returns the plot.
+*
+* @return The plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapRenderer, Method: setPlot
+Description: /**
+* Sets the plot and build the paint index.
+*
+* @param plot  the plot.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapRenderer, Method: getChipColor
+Description: /**
+* Returns the paint for a given chip value.
+*
+* @param value  the value.
+*
+* @return The paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: WaferMapRenderer, Method: getLegendCollection
+Description: /**
+* Builds the list of legend entries.  called by getLegendItems in
+* WaferMapPlot to populate the plot legend.
+*
+* @return The legend items.
+*/"
+

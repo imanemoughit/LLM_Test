@@ -1,0 +1,56 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentRange
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentRange, Method: getSegmentCount
+Description: /**
+* Returns the number of segments contained in this range.
+*
+* @return The segment count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentRange, Method: intersect
+Description: /**
+* Returns a segment that is the intersection of this segment and the
+* interval.
+*
+* @param from  the start of the interval.
+* @param to  the end of the interval.
+*
+* @return The intersection.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentRange, Method: inIncludeSegments
+Description: /**
+* Returns true if all Segments of this SegmentRenge are an included
+* segment and are not an exception.
+*
+* @return <code>true</code> or </code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentRange, Method: inExcludeSegments
+Description: /**
+* Returns true if we are an excluded segment.
+*
+* @return <code>true</code> or </code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: SegmentRange, Method: inc
+Description: /**
+* Not implemented for SegmentRange. Always throws
+* IllegalArgumentException.
+*
+* @param n Number of segments to increment.
+*/"
+

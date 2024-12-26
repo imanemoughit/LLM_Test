@@ -1,0 +1,93 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractMouseHandler
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractMouseHandler, Method: getModifier
+Description: /**
+* Returns the modifier for this handler.
+*
+* @return The modifier.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractMouseHandler, Method: setModifier
+Description: /**
+* Sets the modifier for this handler.
+*
+* @param modifier  the modifier.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractMouseHandler, Method: mousePressed
+Description: /**
+* Handle a mouse pressed event.  This implementation does nothing -
+* subclasses should override if necessary.
+*
+* @param e  the mouse event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractMouseHandler, Method: mouseReleased
+Description: /**
+* Handle a mouse released event.  This implementation does nothing -
+* subclasses should override if necessary.
+*
+* @param e  the mouse event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractMouseHandler, Method: mouseClicked
+Description: /**
+* Handle a mouse clicked event.  This implementation does nothing -
+* subclasses should override if necessary.
+*
+* @param e  the mouse event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractMouseHandler, Method: mouseEntered
+Description: /**
+* Handle a mouse entered event.  This implementation does nothing -
+* subclasses should override if necessary.
+*
+* @param e  the mouse event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractMouseHandler, Method: mouseMoved
+Description: /**
+* Handle a mouse moved event.  This implementation does nothing -
+* subclasses should override if necessary.
+*
+* @param e  the mouse event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractMouseHandler, Method: mouseExited
+Description: /**
+* Handle a mouse exited event.  This implementation does nothing -
+* subclasses should override if necessary.
+*
+* @param e  the mouse event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractMouseHandler, Method: mouseDragged
+Description: /**
+* Handle a mouse dragged event.  This implementation does nothing -
+* subclasses should override if necessary.
+*
+* @param e  the mouse event.
+*/"
+

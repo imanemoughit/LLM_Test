@@ -1,0 +1,174 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: getXOffset
+Description: /**
+* Returns the x-offset for the 3D effect.
+*
+* @return The x-offset.
+*
+* @see #setXOffset(double)
+* @see #getYOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: getYOffset
+Description: /**
+* Returns the y-offset for the 3D effect.
+*
+* @return The y-offset.
+*
+* @see #setYOffset(double)
+* @see #getXOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: setXOffset
+Description: /**
+* Sets the x-offset and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param xOffset  the x-offset.
+*
+* @see #getXOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: setYOffset
+Description: /**
+* Sets the y-offset and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param yOffset  the y-offset.
+*
+* @see #getYOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: getWallPaint
+Description: /**
+* Returns the paint used to highlight the left and bottom wall in the plot
+* background.
+*
+* @return The paint.
+*
+* @see #setWallPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: setWallPaint
+Description: /**
+* Sets the paint used to hightlight the left and bottom walls in the plot
+* background, and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getWallPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: drawBackground
+Description: /**
+* Draws the background for the plot.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param dataArea  the area inside the axes.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: drawOutline
+Description: /**
+* Draws the outline for the plot.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param dataArea  the area inside the axes.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: drawDomainGridline
+Description: /**
+* Draws a grid line against the domain axis.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param dataArea  the area for plotting data (not yet adjusted for any
+*                  3D effect).
+* @param value  the Java2D value at which the grid line should be drawn.
+*
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: drawRangeGridline
+Description: /**
+* Draws a grid line against the range axis.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param axis  the value axis.
+* @param dataArea  the area for plotting data (not yet adjusted for any
+*                  3D effect).
+* @param value  the value at which the grid line should be drawn.
+*
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: drawRangeMarker
+Description: /**
+* Draws a range marker.
+*
+* @param g2  the graphics device.
+* @param plot  the plot.
+* @param axis  the value axis.
+* @param marker  the marker.
+* @param dataArea  the area for plotting data (not including 3D effect).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: drawItem
+Description: /**
+* Draw a single data item.
+*
+* @param g2  the graphics device.
+* @param state  the renderer state.
+* @param dataArea  the area in which the data is drawn.
+* @param plot  the plot.
+* @param domainAxis  the domain axis.
+* @param rangeAxis  the range axis.
+* @param dataset  the dataset.
+* @param row  the row index (zero-based).
+* @param column  the column index (zero-based).
+* @param selected  is the item selected?
+* @param pass  the pass index.
+*
+*  @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: LineRenderer3D, Method: equals
+Description: /**
+* Checks this renderer for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+

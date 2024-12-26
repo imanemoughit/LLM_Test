@@ -1,0 +1,416 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getCSVInstance
+Description: /*** Gets a new tokenizer instance which parses Comma Separated Value strings
+* initializing it with the given input.  The default for CSV processing
+* will be trim whitespace from both ends (which can be overridden with
+* the setTrimmer method).
+* <p>
+* You must call a reset method to set the string which you want to parse.
+* @return a new tokenizer instance which parses Comma Separated Value strings
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getCSVInstance
+Description: /*** Gets a new tokenizer instance which parses Comma Separated Value strings
+* initializing it with the given input.  The default for CSV processing
+* will be trim whitespace from both ends (which can be overridden with
+* the setTrimmer method).
+*
+* @param input  the text to parse
+* @return a new tokenizer instance which parses Comma Separated Value strings
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getCSVInstance
+Description: /*** Gets a new tokenizer instance which parses Comma Separated Value strings
+* initializing it with the given input.  The default for CSV processing
+* will be trim whitespace from both ends (which can be overridden with
+* the setTrimmer method).
+*
+* @param input  the text to parse
+* @return a new tokenizer instance which parses Comma Separated Value strings
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getTSVInstance
+Description: /*** Gets a new tokenizer instance which parses Tab Separated Value strings.
+* The default for CSV processing will be trim whitespace from both ends
+* (which can be overridden with the setTrimmer method).
+* <p>
+* You must call a reset method to set the string which you want to parse.
+* @return a new tokenizer instance which parses Tab Separated Value strings.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getTSVInstance
+Description: /*** Gets a new tokenizer instance which parses Tab Separated Value strings.
+* The default for CSV processing will be trim whitespace from both ends
+* (which can be overridden with the setTrimmer method).
+* @param input  the string to parse
+* @return a new tokenizer instance which parses Tab Separated Value strings.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getTSVInstance
+Description: /*** Gets a new tokenizer instance which parses Tab Separated Value strings.
+* The default for CSV processing will be trim whitespace from both ends
+* (which can be overridden with the setTrimmer method).
+* @param input  the string to parse
+* @return a new tokenizer instance which parses Tab Separated Value strings.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: size
+Description: /*** Gets the number of tokens found in the String.
+*
+* @return the number of matched tokens
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: nextToken
+Description: /*** Gets the next token from the String.
+* Equivalent to {@link #next()} except it returns null rather than
+* throwing {@link NoSuchElementException} when no tokens remain.
+*
+* @return the next sequential token, or null when no more tokens are found
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: previousToken
+Description: /*** Gets the previous token from the String.
+*
+* @return the previous sequential token, or null when no more tokens are found
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getTokenArray
+Description: /*** Gets a copy of the full token list as an independent modifiable array.
+*
+* @return the tokens as a String array
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getTokenList
+Description: /*** Gets a copy of the full token list as an independent modifiable list.
+*
+* @return the tokens as a String array
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: reset
+Description: /*** Resets this tokenizer, forgetting all parsing and iteration already completed.
+* <p>
+* This method allows the same tokenizer to be reused for the same String.
+*
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: reset
+Description: /*** Reset this tokenizer, giving it a new input string to parse.
+* In this manner you can re-use a tokenizer with the same settings
+* on multiple input lines.
+*
+* @param input  the new string to tokenize, null sets no text to parse
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: reset
+Description: /*** Reset this tokenizer, giving it a new input string to parse.
+* In this manner you can re-use a tokenizer with the same settings
+* on multiple input lines.
+*
+* @param input  the new character array to tokenize, not cloned, null sets no text to parse
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: hasNext
+Description: /*** Checks whether there are any more tokens.
+*
+* @return true if there are more tokens
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: next
+Description: /*** Gets the next token.
+*
+* @return the next String token
+* @throws NoSuchElementException if there are no more elements
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: nextIndex
+Description: /*** Gets the index of the next token to return.
+*
+* @return the next token index
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: hasPrevious
+Description: /*** Checks whether there are any previous tokens that can be iterated to.
+*
+* @return true if there are previous tokens
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: previous
+Description: /*** Gets the token previous to the last returned token.
+*
+* @return the previous token
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: previousIndex
+Description: /*** Gets the index of the previous token.
+*
+* @return the previous token index
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: remove
+Description: /*** Unsupported ListIterator operation.
+*
+* @throws UnsupportedOperationException always
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: set
+Description: /*** Unsupported ListIterator operation.
+* @param obj this parameter ignored.
+* @throws UnsupportedOperationException always
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: add
+Description: /*** Unsupported ListIterator operation.
+* @param obj this parameter ignored.
+* @throws UnsupportedOperationException always
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getDelimiterMatcher
+Description: /*** Gets the field delimiter matcher.
+*
+* @return the delimiter matcher in use
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: setDelimiterMatcher
+Description: /*** Sets the field delimiter matcher.
+* <p>
+* The delimitier is used to separate one token from another.
+*
+* @param delim  the delimiter matcher to use
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: setDelimiterChar
+Description: /*** Sets the field delimiter character.
+*
+* @param delim  the delimiter character to use
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: setDelimiterString
+Description: /*** Sets the field delimiter string.
+*
+* @param delim  the delimiter string to use
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getQuoteMatcher
+Description: /*** Gets the quote matcher currently in use.
+* <p>
+* The quote character is used to wrap data between the tokens.
+* This enables delimiters to be entered as data.
+* The default value is '' (double quote).
+*
+* @return the quote matcher in use
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: setQuoteMatcher
+Description: /*** Set the quote matcher to use.
+* <p>
+* The quote character is used to wrap data between the tokens.
+* This enables delimiters to be entered as data.
+*
+* @param quote  the quote matcher to use, null ignored
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: setQuoteChar
+Description: /*** Sets the quote character to use.
+* <p>
+* The quote character is used to wrap data between the tokens.
+* This enables delimiters to be entered as data.
+*
+* @param quote  the quote character to use
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getIgnoredMatcher
+Description: /*** Gets the ignored character matcher.
+* <p>
+* These characters are ignored when parsing the String, unless they are
+* within a quoted region.
+* The default value is not to ignore anything.
+*
+* @return the ignored matcher in use
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: setIgnoredMatcher
+Description: /*** Set the matcher for characters to ignore.
+* <p>
+* These characters are ignored when parsing the String, unless they are
+* within a quoted region.
+*
+* @param ignored  the ignored matcher to use, null ignored
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: setIgnoredChar
+Description: /*** Set the character to ignore.
+* <p>
+* This character is ignored when parsing the String, unless it is
+* within a quoted region.
+*
+* @param ignored  the ignored character to use
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getTrimmerMatcher
+Description: /*** Gets the trimmer character matcher.
+* <p>
+* These characters are trimmed off on each side of the delimiter
+* until the token or quote is found.
+* The default value is not to trim anything.
+*
+* @return the trimmer matcher in use
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: setTrimmerMatcher
+Description: /*** Sets the matcher for characters to trim.
+* <p>
+* These characters are trimmed off on each side of the delimiter
+* until the token or quote is found.
+*
+* @param trimmer  the trimmer matcher to use, null ignored
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: isEmptyTokenAsNull
+Description: /*** Gets whether the tokenizer currently returns empty tokens as null.
+* The default for this property is false.
+*
+* @return true if empty tokens are returned as null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: setEmptyTokenAsNull
+Description: /*** Sets whether the tokenizer should return empty tokens as null.
+* The default for this property is false.
+*
+* @param emptyAsNull  whether empty tokens are returned as null
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: isIgnoreEmptyTokens
+Description: /*** Gets whether the tokenizer currently ignores empty tokens.
+* The default for this property is true.
+*
+* @return true if empty tokens are not returned
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: setIgnoreEmptyTokens
+Description: /*** Sets whether the tokenizer should ignore and not return empty tokens.
+* The default for this property is true.
+*
+* @param ignoreEmptyTokens  whether empty tokens are not returned
+* @return this, to enable chaining
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: getContent
+Description: /*** Gets the String content that the tokenizer is parsing.
+*
+* @return the string content being parsed
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: clone
+Description: /*** Creates a new instance of this Tokenizer. The new instance is reset so
+* that it will be at the start of the token list.
+* If a {@link CloneNotSupportedException} is caught, return <code>null</code>.
+*
+* @return a new instance of this Tokenizer which has been reset.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StrTokenizer, Method: toString
+Description: /*** Gets the String content that the tokenizer is parsing.
+*
+* @return the string content being parsed
+*/"
+

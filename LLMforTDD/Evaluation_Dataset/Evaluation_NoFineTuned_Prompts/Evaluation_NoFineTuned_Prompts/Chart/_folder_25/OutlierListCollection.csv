@@ -1,0 +1,69 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierListCollection
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierListCollection, Method: isHighFarOut
+Description: /**
+* A flag to indicate the presence of one or more far out values at the
+* top end of the range.
+*
+* @return A <code>boolean</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierListCollection, Method: setHighFarOut
+Description: /**
+* Sets the flag that indicates the presence of one or more far out values
+* at the top end of the range.
+*
+* @param farOut  the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierListCollection, Method: isLowFarOut
+Description: /**
+* A flag to indicate the presence of one or more far out values at the
+* bottom end of the range.
+*
+* @return A <code>boolean</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierListCollection, Method: setLowFarOut
+Description: /**
+* Sets the flag that indicates the presence of one or more far out values
+* at the bottom end of the range.
+*
+* @param farOut  the flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierListCollection, Method: add
+Description: /**
+* Appends the specified element as a new <code>OutlierList</code> to the
+* end of this list if it does not overlap an outlier in an existing list.
+*
+* If it does overlap, it is appended to the outlier list which it overlaps
+* and that list is updated.
+*
+* @param outlier  element to be appended to this list.
+*
+* @return <tt>true</tt> (as per the general contract of Collection.add).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: OutlierListCollection, Method: iterator
+Description: /**
+* Returns an iterator for the outlier lists.
+*
+* @return An iterator.
+*/"
+

@@ -1,0 +1,56 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompositeFormat
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompositeFormat, Method: format
+Description: /*** Uses the formatter Format instance.
+*
+* @param obj the object to format
+* @param toAppendTo the {@link StringBuffer} to append to
+* @param pos the FieldPosition to use (or ignore).
+* @return <code>toAppendTo</code>
+* @see Format#format(Object, StringBuffer, FieldPosition)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompositeFormat, Method: parseObject
+Description: /*** Uses the parser Format instance.
+*
+* @param source the String source
+* @param pos the ParsePosition containing the position to parse from, will
+*            be updated according to parsing success (index) or failure
+*            (error index)
+* @return the parsed Object
+* @see Format#parseObject(String, ParsePosition)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompositeFormat, Method: getParser
+Description: /*** Provides access to the parser Format implementation.
+*
+* @return parser Format implementation
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompositeFormat, Method: getFormatter
+Description: /*** Provides access to the parser Format implementation.
+*
+* @return formatter Format implementation
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CompositeFormat, Method: reformat
+Description: /*** Utility method to parse and then reformat a String.
+*
+* @param input String to reformat
+* @return A reformatted String
+* @throws ParseException thrown by parseObject(String) call
+*/"
+

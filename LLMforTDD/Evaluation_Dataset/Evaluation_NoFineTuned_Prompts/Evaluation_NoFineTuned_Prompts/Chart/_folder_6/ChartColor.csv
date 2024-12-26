@@ -1,0 +1,16 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartColor
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartColor, Method: createDefaultPaintArray
+Description: /**
+* Convenience method to return an array of <code>Paint</code> objects that
+* represent the pre-defined colors in the <code>Color<code> and
+* <code>ChartColor</code> objects.
+*
+* @return An array of objects with the <code>Paint</code> interface.
+*/"
+

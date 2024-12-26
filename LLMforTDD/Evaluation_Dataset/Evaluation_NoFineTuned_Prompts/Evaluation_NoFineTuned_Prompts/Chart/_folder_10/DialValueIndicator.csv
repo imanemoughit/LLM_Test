@@ -1,0 +1,411 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getDatasetIndex
+Description: /**
+* Returns the index of the dataset from which this indicator fetches its
+* current value.
+*
+* @return The dataset index.
+*
+* @see #setDatasetIndex(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setDatasetIndex
+Description: /**
+* Sets the dataset index and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param index  the index.
+*
+* @see #getDatasetIndex()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getAngle
+Description: /**
+* Returns the angle for the anchor point.  The angle is specified in
+* degrees using the same orientation as Java's <code>Arc2D</code> class.
+*
+* @return The angle (in degrees).
+*
+* @see #setAngle(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setAngle
+Description: /**
+* Sets the angle for the anchor point and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param angle  the angle (in degrees).
+*
+* @see #getAngle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getRadius
+Description: /**
+* Returns the radius.
+*
+* @return The radius.
+*
+* @see #setRadius(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setRadius
+Description: /**
+* Sets the radius and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param radius  the radius.
+*
+* @see #getRadius()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getFrameAnchor
+Description: /**
+* Returns the frame anchor.
+*
+* @return The frame anchor.
+*
+* @see #setFrameAnchor(RectangleAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setFrameAnchor
+Description: /**
+* Sets the frame anchor and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param anchor  the anchor (<code>null</code> not permitted).
+*
+* @see #getFrameAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getTemplateValue
+Description: /**
+* Returns the template value.
+*
+* @return The template value (never <code>null</code>).
+*
+* @see #setTemplateValue(Number)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setTemplateValue
+Description: /**
+* Sets the template value and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param value  the value (<code>null</code> not permitted).
+*
+* @see #setTemplateValue(Number)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getMaxTemplateValue
+Description: /**
+* Returns the template value for the maximum size of the indicator
+* bounds.
+*
+* @return The template value (possibly <code>null</code>).
+*
+* @since 1.0.14
+*
+* @see #setMaxTemplateValue(Number)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setMaxTemplateValue
+Description: /**
+* Sets the template value for the maximum size of the indicator bounds
+* and sends a {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param value  the value (<code>null</code> permitted).
+*
+* @since 1.0.14
+*
+* @see #getMaxTemplateValue()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getNumberFormat
+Description: /**
+* Returns the formatter used to format the value.
+*
+* @return The formatter (never <code>null</code>).
+*
+* @see #setNumberFormat(NumberFormat)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setNumberFormat
+Description: /**
+* Sets the formatter used to format the value and sends a
+* {@link DialLayerChangeEvent} to all registered listeners.
+*
+* @param formatter  the formatter (<code>null</code> not permitted).
+*
+* @see #getNumberFormat()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getFont
+Description: /**
+* Returns the font.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #getFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setFont
+Description: /**
+* Sets the font and sends a {@link DialLayerChangeEvent} to all registered
+* listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getPaint
+Description: /**
+* Returns the paint.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setPaint
+Description: /**
+* Sets the paint and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getBackgroundPaint
+Description: /**
+* Returns the background paint.
+*
+* @return The background paint.
+*
+* @see #setBackgroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setBackgroundPaint
+Description: /**
+* Sets the background paint and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getBackgroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getOutlineStroke
+Description: /**
+* Returns the outline stroke.
+*
+* @return The outline stroke (never <code>null</code>).
+*
+* @see #setOutlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setOutlineStroke
+Description: /**
+* Sets the outline stroke and sends a {@link DialLayerChangeEvent} to
+* all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getOutlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getOutlinePaint
+Description: /**
+* Returns the outline paint.
+*
+* @return The outline paint (never <code>null</code>).
+*
+* @see #setOutlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setOutlinePaint
+Description: /**
+* Sets the outline paint and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getInsets
+Description: /**
+* Returns the insets.
+*
+* @return The insets (never <code>null</code>).
+*
+* @see #setInsets(RectangleInsets)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setInsets
+Description: /**
+* Sets the insets and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param insets  the insets (<code>null</code> not permitted).
+*
+* @see #getInsets()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getValueAnchor
+Description: /**
+* Returns the value anchor.
+*
+* @return The value anchor (never <code>null</code>).
+*
+* @see #setValueAnchor(RectangleAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setValueAnchor
+Description: /**
+* Sets the value anchor and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param anchor  the anchor (<code>null</code> not permitted).
+*
+* @see #getValueAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: getTextAnchor
+Description: /**
+* Returns the text anchor.
+*
+* @return The text anchor (never <code>null</code>).
+*
+* @see #setTextAnchor(TextAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: setTextAnchor
+Description: /**
+* Sets the text anchor and sends a {@link DialLayerChangeEvent} to all
+* registered listeners.
+*
+* @param anchor  the anchor (<code>null</code> not permitted).
+*
+* @see #getTextAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: isClippedToWindow
+Description: /**
+* Returns <code>true</code> to indicate that this layer should be
+* clipped within the dial window.
+*
+* @return <code>true</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: draw
+Description: /**
+* Draws the background to the specified graphics device.  If the dial
+* frame specifies a window, the clipping region will already have been
+* set to this window before this method is called.
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param plot  the plot (ignored here).
+* @param frame  the dial frame (ignored here).
+* @param view  the view rectangle (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return The hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DialValueIndicator, Method: clone
+Description: /**
+* Returns a clone of this instance.
+*
+* @return The clone.
+*
+* @throws CloneNotSupportedException if some attribute of this instance
+*     cannot be cloned.
+*/"
+

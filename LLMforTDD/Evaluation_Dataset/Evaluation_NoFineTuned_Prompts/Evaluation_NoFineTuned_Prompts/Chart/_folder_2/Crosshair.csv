@@ -1,0 +1,408 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: isVisible
+Description: /**
+* Returns the flag that indicates whether or not the crosshair is
+* currently visible.
+*
+* @return A boolean.
+*
+* @see #setVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setVisible
+Description: /**
+* Sets the flag that controls the visibility of the crosshair and sends
+* a proerty change event (with the name 'visible') to all registered
+* listeners.
+*
+* @param visible  the new flag value.
+*
+* @see #isVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getValue
+Description: /**
+* Returns the crosshair value.
+*
+* @return The crosshair value.
+*
+* @see #setValue(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setValue
+Description: /**
+* Sets the crosshair value and sends a property change event with the name
+* 'value' to all registered listeners.
+*
+* @param value  the value.
+*
+* @see #getValue()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getPaint
+Description: /**
+* Returns the paint for the crosshair line.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setPaint
+Description: /**
+* Sets the paint for the crosshair line and sends a property change event
+* with the name paint to all registered listeners."""
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getPaint()
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getStroke
+Description: /**
+* Returns the stroke for the crosshair line.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setStroke
+Description: /**
+* Sets the stroke for the crosshair line and sends a property change event
+* with the name stroke to all registered listeners."""
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getStroke()
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: isLabelVisible
+Description: /**
+* Returns the flag that controls whether or not a label is drawn for
+* this crosshair.
+*
+* @return A boolean.
+*
+* @see #setLabelVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setLabelVisible
+Description: /**
+* Sets the flag that controls whether or not a label is drawn for the
+* crosshair and sends a property change event (with the name
+* 'labelVisible') to all registered listeners.
+*
+* @param visible  the new flag value.
+*
+* @see #isLabelVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getLabelGenerator
+Description: /**
+* Returns the crosshair label generator.
+*
+* @return The label crosshair generator (never <code>null</code>).
+*
+* @see #setLabelGenerator(CrosshairLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setLabelGenerator
+Description: /**
+* Sets the crosshair label generator and sends a property change event
+* (with the name 'labelGenerator') to all registered listeners.
+*
+* @param generator  the new generator (<code>null</code> not permitted).
+*
+* @see #getLabelGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getLabelAnchor
+Description: /**
+* Returns the label anchor point.
+*
+* @return the label anchor point (never <code>null</code>.
+*
+* @see #setLabelAnchor(org.jfree.ui.RectangleAnchor)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setLabelAnchor
+Description: /**
+* Sets the label anchor point and sends a property change event (with the
+* name 'labelAnchor') to all registered listeners.
+*
+* @param anchor  the anchor (<code>null</code> not permitted).
+*
+* @see #getLabelAnchor()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getLabelXOffset
+Description: /**
+* Returns the x-offset for the label (in Java2D units).
+*
+* @return The x-offset.
+*
+* @see #setLabelXOffset(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setLabelXOffset
+Description: /**
+* Sets the x-offset and sends a property change event (with the name
+* 'labelXOffset') to all registered listeners.
+*
+* @param offset  the new offset.
+*
+* @see #getLabelXOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getLabelYOffset
+Description: /**
+* Returns the y-offset for the label (in Java2D units).
+*
+* @return The y-offset.
+*
+* @see #setLabelYOffset(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setLabelYOffset
+Description: /**
+* Sets the y-offset and sends a property change event (with the name
+* 'labelYOffset') to all registered listeners.
+*
+* @param offset  the new offset.
+*
+* @see #getLabelYOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getLabelFont
+Description: /**
+* Returns the label font.
+*
+* @return The label font (never <code>null</code>).
+*
+* @see #setLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setLabelFont
+Description: /**
+* Sets the label font and sends a property change event (with the name
+* 'labelFont') to all registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getLabelPaint
+Description: /**
+* Returns the label paint.
+*
+* @return The label paint (never <code>null</code>).
+*
+* @see #setLabelPaint
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setLabelPaint
+Description: /**
+* Sets the label paint and sends a property change event (with the name
+* 'labelPaint') to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getLabelBackgroundPaint
+Description: /**
+* Returns the label background paint.
+*
+* @return The label background paint (possibly <code>null</code>).
+*
+* @see #setLabelBackgroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setLabelBackgroundPaint
+Description: /**
+* Sets the label background paint and sends a property change event with
+* the name 'labelBackgroundPaint') to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getLabelBackgroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: isLabelOutlineVisible
+Description: /**
+* Returns the flag that controls the visibility of the label outline.
+*
+* @return A boolean.
+*
+* @see #setLabelOutlineVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setLabelOutlineVisible
+Description: /**
+* Sets the flag that controls the visibility of the label outlines and
+* sends a property change event (with the name labelOutlineVisible) to"""
+* all registered listeners.
+*
+* @param visible  the new flag value.
+*
+* @see #isLabelOutlineVisible()
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getLabelOutlinePaint
+Description: /**
+* Returns the label outline paint.
+*
+* @return The label outline paint (never <code>null</code>).
+*
+* @see #setLabelOutlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setLabelOutlinePaint
+Description: /**
+* Sets the label outline paint and sends a property change event (with the
+* name labelOutlinePaint) to all registered listeners."""
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getLabelOutlinePaint()
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: getLabelOutlineStroke
+Description: /**
+* Returns the label outline stroke.
+*
+* @return The label outline stroke (never <code>null</code>).
+*
+* @see #setLabelOutlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: setLabelOutlineStroke
+Description: /**
+* Sets the label outline stroke and sends a property change event (with
+* the name 'labelOutlineStroke') to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getLabelOutlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: equals
+Description: /**
+* Tests this crosshair for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: hashCode
+Description: /**
+* Returns a hash code for this instance.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: clone
+Description: /**
+* Returns an independent copy of this instance.
+*
+* @return An independent copy of this instance.
+*
+* @throws CloneNotSupportedException
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: addPropertyChangeListener
+Description: /**
+* Adds a property change listener.
+*
+* @param l  the listener.
+*
+* @see #removePropertyChangeListener(PropertyChangeListener)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: Crosshair, Method: removePropertyChangeListener
+Description: /**
+* Removes a property change listener.
+*
+* @param l  the listener.
+*
+* @see #addPropertyChangeListener(PropertyChangeListener)
+*/"
+

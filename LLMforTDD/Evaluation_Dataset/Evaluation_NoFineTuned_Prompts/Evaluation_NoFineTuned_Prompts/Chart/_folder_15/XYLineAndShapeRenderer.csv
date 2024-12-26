@@ -1,0 +1,388 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getDrawSeriesLineAsPath
+Description: /**
+* Returns a flag that controls whether or not each series is drawn as a
+* single path.
+*
+* @return A boolean.
+*
+* @see #setDrawSeriesLineAsPath(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setDrawSeriesLineAsPath
+Description: /**
+* Sets the flag that controls whether or not each series is drawn as a
+* single path and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+*
+* @param flag  the flag.
+*
+* @see #getDrawSeriesLineAsPath()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getPassCount
+Description: /**
+* Returns the number of passes through the data that the renderer requires
+* in order to draw the chart.  Most charts will require a single pass, but
+* some require two passes.
+*
+* @return The pass count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getItemLineVisible
+Description: /**
+* Returns the flag used to control whether or not the shape for an item is
+* visible.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getSeriesLinesVisible
+Description: /**
+* Returns the flag used to control whether or not the lines for a series
+* are visible.
+*
+* @param series  the series index (zero-based).
+*
+* @return The flag (possibly <code>null</code>).
+*
+* @see #setSeriesLinesVisible(int, Boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setSeriesLinesVisible
+Description: /**
+* Sets the 'lines visible' flag for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param flag  the flag (<code>null</code> permitted).
+*
+* @see #getSeriesLinesVisible(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setSeriesLinesVisible
+Description: /**
+* Sets the 'lines visible' flag for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param visible  the flag.
+*
+* @see #getSeriesLinesVisible(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getBaseLinesVisible
+Description: /**
+* Returns the base 'lines visible' attribute.
+*
+* @return The base flag.
+*
+* @see #setBaseLinesVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setBaseLinesVisible
+Description: /**
+* Sets the base 'lines visible' flag and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #getBaseLinesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getLegendLine
+Description: /**
+* Returns the shape used to represent a line in the legend.
+*
+* @return The legend line (never <code>null</code>).
+*
+* @see #setLegendLine(Shape)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setLegendLine
+Description: /**
+* Sets the shape used as a line in each legend item and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param line  the line (<code>null</code> not permitted).
+*
+* @see #getLegendLine()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getItemShapeVisible
+Description: /**
+* Returns the flag used to control whether or not the shape for an item is
+* visible.
+* <p>
+* The default implementation passes control to the
+* <code>getSeriesShapesVisible</code> method. You can override this method
+* if you require different behaviour.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getSeriesShapesVisible
+Description: /**
+* Returns the flag used to control whether or not the shapes for a series
+* are visible.
+*
+* @param series  the series index (zero-based).
+*
+* @return A boolean.
+*
+* @see #setSeriesShapesVisible(int, Boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setSeriesShapesVisible
+Description: /**
+* Sets the 'shapes visible' flag for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param visible  the flag.
+*
+* @see #getSeriesShapesVisible(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setSeriesShapesVisible
+Description: /**
+* Sets the 'shapes visible' flag for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param flag  the flag.
+*
+* @see #getSeriesShapesVisible(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getBaseShapesVisible
+Description: /**
+* Returns the base 'shape visible' attribute.
+*
+* @return The base flag.
+*
+* @see #setBaseShapesVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setBaseShapesVisible
+Description: /**
+* Sets the base 'shapes visible' flag and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #getBaseShapesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getItemShapeFilled
+Description: /**
+* Returns the flag used to control whether or not the shape for an item
+* is filled.
+* <p>
+* The default implementation passes control to the
+* <code>getSeriesShapesFilled</code> method. You can override this method
+* if you require different behaviour.
+*
+* @param series  the series index (zero-based).
+* @param item  the item index (zero-based).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getSeriesShapesFilled
+Description: /**
+* Returns the flag used to control whether or not the shapes for a series
+* are filled.
+*
+* @param series  the series index (zero-based).
+*
+* @return A boolean.
+*
+* @see #setSeriesShapesFilled(int, Boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setSeriesShapesFilled
+Description: /**
+* Sets the 'shapes filled' flag for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param flag  the flag.
+*
+* @see #getSeriesShapesFilled(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setSeriesShapesFilled
+Description: /**
+* Sets the 'shapes filled' flag for a series and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param series  the series index (zero-based).
+* @param flag  the flag.
+*
+* @see #getSeriesShapesFilled(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getBaseShapesFilled
+Description: /**
+* Returns the base 'shape filled' attribute.
+*
+* @return The base flag.
+*
+* @see #setBaseShapesFilled(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setBaseShapesFilled
+Description: /**
+* Sets the base 'shapes filled' flag and sends a
+* {@link RendererChangeEvent} to all registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #getBaseShapesFilled()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getDrawOutlines
+Description: /**
+* Returns <code>true</code> if outlines should be drawn for shapes, and
+* <code>false</code> otherwise.
+*
+* @return A boolean.
+*
+* @see #setDrawOutlines(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setDrawOutlines
+Description: /**
+* Sets the flag that controls whether outlines are drawn for
+* shapes, and sends a {@link RendererChangeEvent} to all registered
+* listeners.
+* <P>
+* In some cases, shapes look better if they do NOT have an outline, but
+* this flag allows you to set your own preference.
+*
+* @param flag  the flag.
+*
+* @see #getDrawOutlines()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getUseFillPaint
+Description: /**
+* Returns <code>true</code> if the renderer should use the fill paint
+* setting to fill shapes, and <code>false</code> if it should just
+* use the regular paint.
+* <p>
+* Refer to <code>XYLineAndShapeRendererDemo2.java</code> to see the
+* effect of this flag.
+*
+* @return A boolean.
+*
+* @see #setUseFillPaint(boolean)
+* @see #getUseOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setUseFillPaint
+Description: /**
+* Sets the flag that controls whether the fill paint is used to fill
+* shapes, and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+*
+* @param flag  the flag.
+*
+* @see #getUseFillPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: getUseOutlinePaint
+Description: /**
+* Returns <code>true</code> if the renderer should use the outline paint
+* setting to draw shape outlines, and <code>false</code> if it should just
+* use the regular paint.
+*
+* @return A boolean.
+*
+* @see #setUseOutlinePaint(boolean)
+* @see #getUseFillPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: XYLineAndShapeRenderer, Method: setUseOutlinePaint
+Description: /**
+* Sets the flag that controls whether the outline paint is used to draw
+* shape outlines, and sends a {@link RendererChangeEvent} to all
+* registered listeners.
+* <p>
+* Refer to <code>XYLineAndShapeRendererDemo2.java</code> to see the
+* effect of this flag.
+*
+* @param flag  the flag.
+*
+* @see #getUseOutlinePaint()
+*/"
+

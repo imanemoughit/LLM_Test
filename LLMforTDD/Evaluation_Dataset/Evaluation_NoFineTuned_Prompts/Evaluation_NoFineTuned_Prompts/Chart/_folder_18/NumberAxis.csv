@@ -1,0 +1,346 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: getRangeType
+Description: /**
+* Returns the axis range type.
+*
+* @return The axis range type (never <code>null</code>).
+*
+* @see #setRangeType(RangeType)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: setRangeType
+Description: /**
+* Sets the axis range type.
+*
+* @param rangeType  the range type (<code>null</code> not permitted).
+*
+* @see #getRangeType()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: getAutoRangeIncludesZero
+Description: /**
+* Returns the flag that indicates whether or not the automatic axis range
+* (if indeed it is determined automatically) is forced to include zero.
+*
+* @return The flag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: setAutoRangeIncludesZero
+Description: /**
+* Sets the flag that indicates whether or not the axis range, if
+* automatically calculated, is forced to include zero.
+* <p>
+* If the flag is changed to <code>true</code>, the axis range is
+* recalculated.
+* <p>
+* Any change to the flag will trigger an {@link AxisChangeEvent}.
+*
+* @param flag  the new value of the flag.
+*
+* @see #getAutoRangeIncludesZero()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: getAutoRangeStickyZero
+Description: /**
+* Returns a flag that affects the auto-range when zero falls outside the
+* data range but inside the margins defined for the axis.
+*
+* @return The flag.
+*
+* @see #setAutoRangeStickyZero(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: setAutoRangeStickyZero
+Description: /**
+* Sets a flag that affects the auto-range when zero falls outside the data
+* range but inside the margins defined for the axis.
+*
+* @param flag  the new flag.
+*
+* @see #getAutoRangeStickyZero()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: getTickUnit
+Description: /**
+* Returns the tick unit for the axis.
+* <p>
+* Note: if the <code>autoTickUnitSelection</code> flag is
+* <code>true</code> the tick unit may be changed while the axis is being
+* drawn, so in that case the return value from this method may be
+* irrelevant if the method is called before the axis has been drawn.
+*
+* @return The tick unit for the axis.
+*
+* @see #setTickUnit(NumberTickUnit)
+* @see ValueAxis#isAutoTickUnitSelection()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: setTickUnit
+Description: /**
+* Sets the tick unit for the axis and sends an {@link AxisChangeEvent} to
+* all registered listeners.  A side effect of calling this method is that
+* the auto-select feature for tick units is switched off (you can"""
+* restore it using the {@link ValueAxis#setAutoTickUnitSelection(boolean)}
+* method).
+*
+* @param unit  the new tick unit (<code>null</code> not permitted).
+*
+* @see #getTickUnit()
+* @see #setTickUnit(NumberTickUnit, boolean, boolean)
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: setTickUnit
+Description: /**
+* Sets the tick unit for the axis and, if requested, sends an
+* {@link AxisChangeEvent} to all registered listeners.  In addition, an
+* option is provided to turn off the auto-select feature for tick units"""
+* (you can restore it using the
+* {@link ValueAxis#setAutoTickUnitSelection(boolean)} method).
+*
+* @param unit  the new tick unit (<code>null</code> not permitted).
+* @param notify  notify listeners?
+* @param turnOffAutoSelect  turn off the auto-tick selection?
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: getNumberFormatOverride
+Description: /**
+* Returns the number format override.  If this is non-null, then it will
+* be used to format the numbers on the axis.
+*
+* @return The number formatter (possibly <code>null</code>).
+*
+* @see #setNumberFormatOverride(NumberFormat)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: setNumberFormatOverride
+Description: /**
+* Sets the number format override.  If this is non-null, then it will be
+* used to format the numbers on the axis.
+*
+* @param formatter  the number formatter (<code>null</code> permitted).
+*
+* @see #getNumberFormatOverride()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: getMarkerBand
+Description: /**
+* Returns the (optional) marker band for the axis.
+*
+* @return The marker band (possibly <code>null</code>).
+*
+* @see #setMarkerBand(MarkerAxisBand)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: setMarkerBand
+Description: /**
+* Sets the marker band for the axis.
+* <P>
+* The marker band is optional, leave it set to <code>null</code> if you
+* don't require it.
+*
+* @param band the new band (<code>null<code> permitted).
+*
+* @see #getMarkerBand()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: configure
+Description: /**
+* Configures the axis to work with the specified plot.  If the axis has
+* auto-scaling, then sets the maximum and minimum values.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: valueToJava2D
+Description: /**
+* Converts a data value to a coordinate in Java2D space, assuming that the
+* axis runs along one edge of the specified dataArea.
+* <p>
+* Note that it is possible for the coordinate to fall outside the plotArea.
+*
+* @param value  the data value.
+* @param area  the area for plotting the data.
+* @param edge  the axis location.
+*
+* @return The Java2D coordinate.
+*
+* @see #java2DToValue(double, Rectangle2D, RectangleEdge)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: java2DToValue
+Description: /**
+* Converts a coordinate in Java2D space to the corresponding data value,
+* assuming that the axis runs along one edge of the specified dataArea.
+*
+* @param java2DValue  the coordinate in Java2D space.
+* @param area  the area in which the data is plotted.
+* @param edge  the location.
+*
+* @return The data value.
+*
+* @see #valueToJava2D(double, Rectangle2D, RectangleEdge)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: draw
+Description: /**
+* Draws the axis on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device (<code>null</code> not permitted).
+* @param cursor  the cursor location.
+* @param plotArea  the area within which the axes and data should be drawn
+*                  (<code>null</code> not permitted).
+* @param dataArea  the area within which the data should be drawn
+*                  (<code>null</code> not permitted).
+* @param edge  the location of the axis (<code>null</code> not permitted).
+* @param plotState  collects information about the plot
+*                   (<code>null</code> permitted).
+*
+* @return The axis state (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: createStandardTickUnits
+Description: /**
+* Creates the standard tick units.
+* <P>
+* If you don't like these defaults, create your own instance of TickUnits
+* and then pass it to the setStandardTickUnits() method in the
+* NumberAxis class.
+*
+* @return The standard tick units.
+*
+* @see #setStandardTickUnits(TickUnitSource)
+* @see #createIntegerTickUnits()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: createIntegerTickUnits
+Description: /**
+* Returns a collection of tick units for integer values.
+*
+* @return A collection of tick units for integer values.
+*
+* @see #setStandardTickUnits(TickUnitSource)
+* @see #createStandardTickUnits()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: createStandardTickUnits
+Description: /**
+* Creates a collection of standard tick units.  The supplied locale is
+* used to create the number formatter (a localised instance of
+* <code>NumberFormat</code>).
+* <P>
+* If you don't like these defaults, create your own instance of
+* {@link TickUnits} and then pass it to the
+* <code>setStandardTickUnits()</code> method.
+*
+* @param locale  the locale.
+*
+* @return A tick unit collection.
+*
+* @see #setStandardTickUnits(TickUnitSource)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: createIntegerTickUnits
+Description: /**
+* Returns a collection of tick units for integer values.
+* Uses a given Locale to create the DecimalFormats.
+*
+* @param locale the locale to use to represent Numbers.
+*
+* @return A collection of tick units for integer values.
+*
+* @see #setStandardTickUnits(TickUnitSource)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: refreshTicks
+Description: /**
+* Calculates the positions of the tick labels for the axis, storing the
+* results in the tick label list (ready for drawing).
+*
+* @param g2  the graphics device.
+* @param state  the axis state.
+* @param dataArea  the area in which the plot should be drawn.
+* @param edge  the location of the axis.
+*
+* @return A list of ticks.
+*
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: clone
+Description: /**
+* Returns a clone of the axis.
+*
+* @return A clone
+*
+* @throws CloneNotSupportedException if some component of the axis does
+*         not support cloning.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: equals
+Description: /**
+* Tests the axis for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: NumberAxis, Method: hashCode
+Description: /**
+* Returns a hash code for this object.
+*
+* @return A hash code.
+*/"
+

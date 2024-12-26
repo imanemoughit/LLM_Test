@@ -1,0 +1,287 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: getUnitType
+Description: /**
+* Returns the unit type (absolute or relative).  This specifies whether
+* the insets are measured as Java2D units or percentages.
+*
+* @return The unit type (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: getTop
+Description: /**
+* Returns the top insets.
+*
+* @return The top insets.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: getBottom
+Description: /**
+* Returns the bottom insets.
+*
+* @return The bottom insets.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: getLeft
+Description: /**
+* Returns the left insets.
+*
+* @return The left insets.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: getRight
+Description: /**
+* Returns the right insets.
+*
+* @return The right insets.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: equals
+Description: /**
+* Tests this instance for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: hashCode
+Description: /**
+* Returns a hash code for the object.
+*
+* @return A hash code.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: toString
+Description: /**
+* Returns a textual representation of this instance, useful for debugging
+* purposes.
+*
+* @return A string representing this instance.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: createAdjustedRectangle
+Description: /**
+* Creates an adjusted rectangle using the supplied rectangle, the insets
+* specified by this instance, and the horizontal and vertical
+* adjustment types.
+*
+* @param base  the base rectangle (<code>null</code> not permitted).
+* @param horizontal  the horizontal adjustment type (<code>null</code> not
+*                    permitted).
+* @param vertical  the vertical adjustment type (<code>null</code> not
+*                  permitted).
+*
+* @return The inset rectangle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: createInsetRectangle
+Description: /**
+* Creates an 'inset' rectangle.
+*
+* @param base  the base rectangle (<code>null</code> not permitted).
+*
+* @return The inset rectangle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: createInsetRectangle
+Description: /**
+* Creates an 'inset' rectangle.
+*
+* @param base  the base rectangle (<code>null</code> not permitted).
+* @param horizontal  apply horizontal insets?
+* @param vertical  apply vertical insets?
+*
+* @return The inset rectangle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: createOutsetRectangle
+Description: /**
+* Creates an outset rectangle.
+*
+* @param base  the base rectangle (<code>null</code> not permitted).
+*
+* @return An outset rectangle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: createOutsetRectangle
+Description: /**
+* Creates an outset rectangle.
+*
+* @param base  the base rectangle (<code>null</code> not permitted).
+* @param horizontal  apply horizontal insets?
+* @param vertical  apply vertical insets?
+*
+* @return An outset rectangle.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: calculateTopInset
+Description: /**
+* Returns the top margin.
+*
+* @param height  the height of the base rectangle.
+*
+* @return The top margin (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: calculateTopOutset
+Description: /**
+* Returns the top margin.
+*
+* @param height  the height of the base rectangle.
+*
+* @return The top margin (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: calculateBottomInset
+Description: /**
+* Returns the bottom margin.
+*
+* @param height  the height of the base rectangle.
+*
+* @return The bottom margin (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: calculateBottomOutset
+Description: /**
+* Returns the bottom margin.
+*
+* @param height  the height of the base rectangle.
+*
+* @return The bottom margin (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: calculateLeftInset
+Description: /**
+* Returns the left margin.
+*
+* @param width  the width of the base rectangle.
+*
+* @return The left margin (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: calculateLeftOutset
+Description: /**
+* Returns the left margin.
+*
+* @param width  the width of the base rectangle.
+*
+* @return The left margin (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: calculateRightInset
+Description: /**
+* Returns the right margin.
+*
+* @param width  the width of the base rectangle.
+*
+* @return The right margin (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: calculateRightOutset
+Description: /**
+* Returns the right margin.
+*
+* @param width  the width of the base rectangle.
+*
+* @return The right margin (in Java2D units).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: trimWidth
+Description: /**
+* Trims the given width to allow for the insets.
+*
+* @param width  the width.
+*
+* @return The trimmed width.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: extendWidth
+Description: /**
+* Extends the given width to allow for the insets.
+*
+* @param width  the width.
+*
+* @return The extended width.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: trimHeight
+Description: /**
+* Trims the given height to allow for the insets.
+*
+* @param height  the height.
+*
+* @return The trimmed height.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: extendHeight
+Description: /**
+* Extends the given height to allow for the insets.
+*
+* @param height  the height.
+*
+* @return The extended height.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: RectangleInsets, Method: trim
+Description: /**
+* Shrinks the given rectangle by the amount of these insets.
+*
+* @param area  the area (<code>null</code> not permitted).
+*/"
+

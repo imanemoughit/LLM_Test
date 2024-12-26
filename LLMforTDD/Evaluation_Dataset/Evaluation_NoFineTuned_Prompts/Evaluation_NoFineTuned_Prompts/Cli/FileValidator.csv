@@ -1,0 +1,136 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: getExistingInstance,/**
+     * Returns a <code>FileValidator</code> for existing files/directories.
+     *
+     * @return a <code>FileValidator</code> for existing files/directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: getExistingFileInstance,/**
+     * Returns a <code>FileValidator</code> for existing files.
+     *
+     * @return a <code>FileValidator</code> for existing files.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: getExistingDirectoryInstance,/**
+     * Returns a <code>FileValidator</code> for existing directories.
+     *
+     * @return a <code>FileValidator</code> for existing directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: validate,/**
+     * Validate the list of values against the list of permitted values.
+     * If a value is valid, replace the string in the <code>values</code>
+     * {@link java.util.List} with the {@link java.io.File} instance.
+     *
+     * @see org.apache.commons.cli2.validation.Validator#validate(java.util.List)
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: isDirectory,/**
+     * Returns whether the argument values must represent directories.
+     *
+     * @return whether the argument values must represent directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: setDirectory,/**
+     * Specifies whether the argument values must represent directories.
+     *
+     * @param directory specifies whether the argument values must
+     * represent directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: isExisting,/**
+     * Returns whether the argument values must represent existing
+     * files/directories.
+     *
+     * @return whether the argument values must represent existing
+     * files/directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: setExisting,/**
+     * Specifies whether the argument values must represent existing
+     * files/directories.
+     *
+     * @param existing specifies whether the argument values must
+     * represent existing files/directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: isFile,/**
+     * Returns whether the argument values must represent directories.
+     *
+     * @return whether the argument values must represent directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: setFile,/**
+     * Specifies whether the argument values must represent files.
+     *
+     * @param file specifies whether the argument values must
+     * represent files.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: isHidden,/**
+     * Returns whether the argument values must represent hidden
+     * files/directories.
+     *
+     * @return whether the argument values must represent hidden
+     * files/directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: setHidden,/**
+     * Specifies whether the argument values must represent hidden
+     * files/directories.
+     *
+     * @param hidden specifies whether the argument values must
+     * represent hidden files/directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: isReadable,/**
+     * Returns whether the argument values must represent readable
+     * files/directories.
+     *
+     * @return whether the argument values must represent readable
+     * files/directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: setReadable,/**
+     * Specifies whether the argument values must represent readable
+     * files/directories.
+     *
+     * @param readable specifies whether the argument values must
+     * represent readable files/directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: isWritable,/**
+     * Returns whether the argument values must represent writable
+     * files/directories.
+     *
+     * @return whether the argument values must represent writable
+     * files/directories.
+     */"
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: FileValidator, Method: setWritable,/**
+     * Specifies whether the argument values must represent writable
+     * files/directories.
+     *
+     * @param writable specifies whether the argument values must
+     * represent writable files/directories.
+     */"

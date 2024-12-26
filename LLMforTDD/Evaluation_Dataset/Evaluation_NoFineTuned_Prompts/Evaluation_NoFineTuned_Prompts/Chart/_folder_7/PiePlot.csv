@@ -1,0 +1,1471 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getDataset
+Description: /**
+* Returns the dataset.
+*
+* @return The dataset (possibly <code>null</code>).
+*
+* @see #setDataset(PieDataset)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setDataset
+Description: /**
+* Sets the dataset and sends a {@link DatasetChangeEvent} to 'this'.
+*
+* @param dataset  the dataset (<code>null</code> permitted).
+*
+* @see #getDataset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getPieIndex
+Description: /**
+* Returns the pie index (this is used by the {@link MultiplePiePlot} class
+* to track subplots).
+*
+* @return The pie index.
+*
+* @see #setPieIndex(int)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setPieIndex
+Description: /**
+* Sets the pie index (this is used by the {@link MultiplePiePlot} class to
+* track subplots).
+*
+* @param index  the index.
+*
+* @see #getPieIndex()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getStartAngle
+Description: /**
+* Returns the start angle for the first pie section.  This is measured in
+* degrees starting from 3 o'clock and measuring anti-clockwise.
+*
+* @return The start angle.
+*
+* @see #setStartAngle(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setStartAngle
+Description: /**
+* Sets the starting angle and sends a {@link PlotChangeEvent} to all
+* registered listeners.  The initial default value is 90 degrees, which
+* corresponds to 12 o'clock.  A value of zero corresponds to 3 o'clock...
+* this is the encoding used by Java's Arc2D class.
+*
+* @param angle  the angle (in degrees).
+*
+* @see #getStartAngle()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getDirection
+Description: /**
+* Returns the direction in which the pie sections are drawn (clockwise or
+* anti-clockwise).
+*
+* @return The direction (never <code>null</code>).
+*
+* @see #setDirection(Rotation)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setDirection
+Description: /**
+* Sets the direction in which the pie sections are drawn and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param direction  the direction (<code>null</code> not permitted).
+*
+* @see #getDirection()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getInteriorGap
+Description: /**
+* Returns the interior gap, measured as a percentage of the available
+* drawing space.
+*
+* @return The gap (as a percentage of the available drawing space).
+*
+* @see #setInteriorGap(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setInteriorGap
+Description: /**
+* Sets the interior gap and sends a {@link PlotChangeEvent} to all
+* registered listeners.  This controls the space between the edges of the
+* pie plot and the plot area itself (the region where the section labels
+* appear).
+*
+* @param percent  the gap (as a percentage of the available drawing space).
+*
+* @see #getInteriorGap()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: isCircular
+Description: /**
+* Returns a flag indicating whether the pie chart is circular, or
+* stretched into an elliptical shape.
+*
+* @return A flag indicating whether the pie chart is circular.
+*
+* @see #setCircular(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setCircular
+Description: /**
+* A flag indicating whether the pie chart is circular, or stretched into
+* an elliptical shape.
+*
+* @param flag  the new value.
+*
+* @see #isCircular()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setCircular
+Description: /**
+* Sets the circular attribute and, if requested, sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param circular  the new value of the flag.
+* @param notify  notify listeners?
+*
+* @see #isCircular()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getIgnoreNullValues
+Description: /**
+* Returns the flag that controls whether <code>null</code> values in the
+* dataset are ignored.
+*
+* @return A boolean.
+*
+* @see #setIgnoreNullValues(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setIgnoreNullValues
+Description: /**
+* Sets a flag that controls whether <code>null</code> values are ignored,
+* and sends a {@link PlotChangeEvent} to all registered listeners.  At
+* present, this only affects whether or not the key is presented in the
+* legend.
+*
+* @param flag  the flag.
+*
+* @see #getIgnoreNullValues()
+* @see #setIgnoreZeroValues(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getIgnoreZeroValues
+Description: /**
+* Returns the flag that controls whether zero values in the
+* dataset are ignored.
+*
+* @return A boolean.
+*
+* @see #setIgnoreZeroValues(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setIgnoreZeroValues
+Description: /**
+* Sets a flag that controls whether zero values are ignored,
+* and sends a {@link PlotChangeEvent} to all registered listeners.  This
+* only affects whether or not a label appears for the non-visible
+* pie section.
+*
+* @param flag  the flag.
+*
+* @see #getIgnoreZeroValues()
+* @see #setIgnoreNullValues(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getSectionPaint
+Description: /**
+* Returns the paint associated with the specified key, or
+* <code>null</code> if there is no paint associated with the key.
+*
+* @param key  the key (<code>null</code> not permitted).
+*
+* @return The paint associated with the specified key, or
+*     <code>null</code>.
+*
+* @throws IllegalArgumentException if <code>key</code> is
+*     <code>null</code>.
+*
+* @see #setSectionPaint(Comparable, Paint)
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setSectionPaint
+Description: /**
+* Sets the paint associated with the specified key, and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param key  the key (<code>null</code> not permitted).
+* @param paint  the paint.
+*
+* @throws IllegalArgumentException if <code>key</code> is
+*     <code>null</code>.
+*
+* @see #getSectionPaint(Comparable)
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: clearSectionPaints
+Description: /**
+* Clears the section paint settings for this plot and, if requested, sends
+* a {@link PlotChangeEvent} to all registered listeners.  Be aware that
+* if the <code>autoPopulateSectionPaint</code> flag is set, the section
+* paints may be repopulated using the same colours as before.
+*
+* @param notify  notify listeners?
+*
+* @since 1.0.11
+*
+* @see #autoPopulateSectionPaint
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getBaseSectionPaint
+Description: /**
+* Returns the base section paint.  This is used when no other paint is
+* defined, which is rare.  The default value is <code>Color.gray</code>.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setBaseSectionPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setBaseSectionPaint
+Description: /**
+* Sets the base section paint and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getBaseSectionPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getAutoPopulateSectionPaint
+Description: /**
+* Returns the flag that controls whether or not the section paint is
+* auto-populated by the {@link #lookupSectionPaint(Comparable)} method.
+*
+* @return A boolean.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setAutoPopulateSectionPaint
+Description: /**
+* Sets the flag that controls whether or not the section paint is
+* auto-populated by the {@link #lookupSectionPaint(Comparable)} method,
+* and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param auto  auto-populate?
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getSectionOutlinesVisible
+Description: /**
+* Returns the flag that controls whether or not the outline is drawn for
+* each pie section.
+*
+* @return The flag that controls whether or not the outline is drawn for
+*         each pie section.
+*
+* @see #setSectionOutlinesVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setSectionOutlinesVisible
+Description: /**
+* Sets the flag that controls whether or not the outline is drawn for
+* each pie section, and sends a {@link PlotChangeEvent} to all registered
+* listeners.
+*
+* @param visible  the flag.
+*
+* @see #getSectionOutlinesVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getSectionOutlinePaint
+Description: /**
+* Returns the outline paint associated with the specified key, or
+* <code>null</code> if there is no paint associated with the key.
+*
+* @param key  the key (<code>null</code> not permitted).
+*
+* @return The paint associated with the specified key, or
+*     <code>null</code>.
+*
+* @throws IllegalArgumentException if <code>key</code> is
+*     <code>null</code>.
+*
+* @see #setSectionOutlinePaint(Comparable, Paint)
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setSectionOutlinePaint
+Description: /**
+* Sets the outline paint associated with the specified key, and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param key  the key (<code>null</code> not permitted).
+* @param paint  the paint.
+*
+* @throws IllegalArgumentException if <code>key</code> is
+*     <code>null</code>.
+*
+* @see #getSectionOutlinePaint(Comparable)
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: clearSectionOutlinePaints
+Description: /**
+* Clears the section outline paint settings for this plot and, if
+* requested, sends a {@link PlotChangeEvent} to all registered listeners.
+* Be aware that if the <code>autoPopulateSectionPaint</code> flag is set,
+* the section paints may be repopulated using the same colours as before.
+*
+* @param notify  notify listeners?
+*
+* @since 1.0.11
+*
+* @see #autoPopulateSectionOutlinePaint
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getBaseSectionOutlinePaint
+Description: /**
+* Returns the base section paint.  This is used when no other paint is
+* available.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setBaseSectionOutlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setBaseSectionOutlinePaint
+Description: /**
+* Sets the base section paint.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getBaseSectionOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getAutoPopulateSectionOutlinePaint
+Description: /**
+* Returns the flag that controls whether or not the section outline paint
+* is auto-populated by the {@link #lookupSectionOutlinePaint(Comparable)}
+* method.
+*
+* @return A boolean.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setAutoPopulateSectionOutlinePaint
+Description: /**
+* Sets the flag that controls whether or not the section outline paint is
+* auto-populated by the {@link #lookupSectionOutlinePaint(Comparable)}
+* method, and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param auto  auto-populate?
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getSectionOutlineStroke
+Description: /**
+* Returns the outline stroke associated with the specified key, or
+* <code>null</code> if there is no stroke associated with the key.
+*
+* @param key  the key (<code>null</code> not permitted).
+*
+* @return The stroke associated with the specified key, or
+*     <code>null</code>.
+*
+* @throws IllegalArgumentException if <code>key</code> is
+*     <code>null</code>.
+*
+* @see #setSectionOutlineStroke(Comparable, Stroke)
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setSectionOutlineStroke
+Description: /**
+* Sets the outline stroke associated with the specified key, and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param key  the key (<code>null</code> not permitted).
+* @param stroke  the stroke.
+*
+* @throws IllegalArgumentException if <code>key</code> is
+*     <code>null</code>.
+*
+* @see #getSectionOutlineStroke(Comparable)
+*
+* @since 1.0.3
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: clearSectionOutlineStrokes
+Description: /**
+* Clears the section outline stroke settings for this plot and, if
+* requested, sends a {@link PlotChangeEvent} to all registered listeners.
+* Be aware that if the <code>autoPopulateSectionPaint</code> flag is set,
+* the section paints may be repopulated using the same colours as before.
+*
+* @param notify  notify listeners?
+*
+* @since 1.0.11
+*
+* @see #autoPopulateSectionOutlineStroke
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getBaseSectionOutlineStroke
+Description: /**
+* Returns the base section stroke.  This is used when no other stroke is
+* available.
+*
+* @return The stroke (never <code>null</code>).
+*
+* @see #setBaseSectionOutlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setBaseSectionOutlineStroke
+Description: /**
+* Sets the base section stroke.
+*
+* @param stroke  the stroke (<code>null</code> not permitted).
+*
+* @see #getBaseSectionOutlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getAutoPopulateSectionOutlineStroke
+Description: /**
+* Returns the flag that controls whether or not the section outline stroke
+* is auto-populated by the {@link #lookupSectionOutlinePaint(Comparable)}
+* method.
+*
+* @return A boolean.
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setAutoPopulateSectionOutlineStroke
+Description: /**
+* Sets the flag that controls whether or not the section outline stroke is
+* auto-populated by the {@link #lookupSectionOutlineStroke(Comparable)}
+* method, and sends a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param auto  auto-populate?
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getShadowPaint
+Description: /**
+* Returns the shadow paint.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setShadowPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setShadowPaint
+Description: /**
+* Sets the shadow paint and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getShadowPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getShadowXOffset
+Description: /**
+* Returns the x-offset for the shadow effect.
+*
+* @return The offset (in Java2D units).
+*
+* @see #setShadowXOffset(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setShadowXOffset
+Description: /**
+* Sets the x-offset for the shadow effect and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param offset  the offset (in Java2D units).
+*
+* @see #getShadowXOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getShadowYOffset
+Description: /**
+* Returns the y-offset for the shadow effect.
+*
+* @return The offset (in Java2D units).
+*
+* @see #setShadowYOffset(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setShadowYOffset
+Description: /**
+* Sets the y-offset for the shadow effect and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param offset  the offset (in Java2D units).
+*
+* @see #getShadowYOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getExplodePercent
+Description: /**
+* Returns the amount that the section with the specified key should be
+* exploded.
+*
+* @param key  the key (<code>null</code> not permitted).
+*
+* @return The amount that the section with the specified key should be
+*     exploded.
+*
+* @throws IllegalArgumentException if <code>key</code> is
+*     <code>null</code>.
+*
+* @since 1.0.3
+*
+* @see #setExplodePercent(Comparable, double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setExplodePercent
+Description: /**
+* Sets the amount that a pie section should be exploded and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param key  the section key (<code>null</code> not permitted).
+* @param percent  the explode percentage (0.30 = 30 percent).
+*
+* @since 1.0.3
+*
+* @see #getExplodePercent(Comparable)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getMaximumExplodePercent
+Description: /**
+* Returns the maximum explode percent.
+*
+* @return The percent.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelGenerator
+Description: /**
+* Returns the section label generator.
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @see #setLabelGenerator(PieSectionLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelGenerator
+Description: /**
+* Sets the section label generator and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getLabelGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelGap
+Description: /**
+* Returns the gap between the edge of the pie and the labels, expressed as
+* a percentage of the plot width.
+*
+* @return The gap (a percentage, where 0.05 = five percent).
+*
+* @see #setLabelGap(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelGap
+Description: /**
+* Sets the gap between the edge of the pie and the labels (expressed as a
+* percentage of the plot width) and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param gap  the gap (a percentage, where 0.05 = five percent).
+*
+* @see #getLabelGap()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getMaximumLabelWidth
+Description: /**
+* Returns the maximum label width as a percentage of the plot width.
+*
+* @return The width (a percentage, where 0.20 = 20 percent).
+*
+* @see #setMaximumLabelWidth(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setMaximumLabelWidth
+Description: /**
+* Sets the maximum label width as a percentage of the plot width and sends
+* a {@link PlotChangeEvent} to all registered listeners.
+*
+* @param width  the width (a percentage, where 0.20 = 20 percent).
+*
+* @see #getMaximumLabelWidth()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelLinksVisible
+Description: /**
+* Returns the flag that controls whether or not label linking lines are
+* visible.
+*
+* @return A boolean.
+*
+* @see #setLabelLinksVisible(boolean)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelLinksVisible
+Description: /**
+* Sets the flag that controls whether or not label linking lines are
+* visible and sends a {@link PlotChangeEvent} to all registered listeners.
+* Please take care when hiding the linking lines - depending on the data
+* values, the labels can be displayed some distance away from the
+* corresponding pie section.
+*
+* @param visible  the flag.
+*
+* @see #getLabelLinksVisible()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelLinkStyle
+Description: /**
+* Returns the label link style.
+*
+* @return The label link style (never <code>null</code>).
+*
+* @see #setLabelLinkStyle(PieLabelLinkStyle)
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelLinkStyle
+Description: /**
+* Sets the label link style and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param style  the new style (<code>null</code> not permitted).
+*
+* @see #getLabelLinkStyle()
+*
+* @since 1.0.10
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelLinkMargin
+Description: /**
+* Returns the margin (expressed as a percentage of the width or height)
+* between the edge of the pie and the link point.
+*
+* @return The link margin (as a percentage, where 0.05 is five percent).
+*
+* @see #setLabelLinkMargin(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelLinkMargin
+Description: /**
+* Sets the link margin and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param margin  the margin.
+*
+* @see #getLabelLinkMargin()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelLinkPaint
+Description: /**
+* Returns the paint used for the lines that connect pie sections to their
+* corresponding labels.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setLabelLinkPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelLinkPaint
+Description: /**
+* Sets the paint used for the lines that connect pie sections to their
+* corresponding labels, and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getLabelLinkPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelLinkStroke
+Description: /**
+* Returns the stroke used for the label linking lines.
+*
+* @return The stroke.
+*
+* @see #setLabelLinkStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelLinkStroke
+Description: /**
+* Sets the link stroke and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param stroke  the stroke.
+*
+* @see #getLabelLinkStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelFont
+Description: /**
+* Returns the section label font.
+*
+* @return The font (never <code>null</code>).
+*
+* @see #setLabelFont(Font)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelFont
+Description: /**
+* Sets the section label font and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param font  the font (<code>null</code> not permitted).
+*
+* @see #getLabelFont()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelPaint
+Description: /**
+* Returns the section label paint.
+*
+* @return The paint (never <code>null</code>).
+*
+* @see #setLabelPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelPaint
+Description: /**
+* Sets the section label paint and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param paint  the paint (<code>null</code> not permitted).
+*
+* @see #getLabelPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelBackgroundPaint
+Description: /**
+* Returns the section label background paint.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setLabelBackgroundPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelBackgroundPaint
+Description: /**
+* Sets the section label background paint and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getLabelBackgroundPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelOutlinePaint
+Description: /**
+* Returns the section label outline paint.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setLabelOutlinePaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelOutlinePaint
+Description: /**
+* Sets the section label outline paint and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getLabelOutlinePaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelOutlineStroke
+Description: /**
+* Returns the section label outline stroke.
+*
+* @return The stroke (possibly <code>null</code>).
+*
+* @see #setLabelOutlineStroke(Stroke)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelOutlineStroke
+Description: /**
+* Sets the section label outline stroke and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param stroke  the stroke (<code>null</code> permitted).
+*
+* @see #getLabelOutlineStroke()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelShadowPaint
+Description: /**
+* Returns the section label shadow paint.
+*
+* @return The paint (possibly <code>null</code>).
+*
+* @see #setLabelShadowPaint(Paint)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelShadowPaint
+Description: /**
+* Sets the section label shadow paint and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param paint  the paint (<code>null</code> permitted).
+*
+* @see #getLabelShadowPaint()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelPadding
+Description: /**
+* Returns the label padding.
+*
+* @return The label padding (never <code>null</code>).
+*
+* @since 1.0.7
+*
+* @see #setLabelPadding(RectangleInsets)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelPadding
+Description: /**
+* Sets the padding between each label and its outline and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param padding  the padding (<code>null</code> not permitted).
+*
+* @since 1.0.7
+*
+* @see #getLabelPadding()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getSimpleLabels
+Description: /**
+* Returns the flag that controls whether simple or extended labels are
+* displayed on the plot.
+*
+* @return A boolean.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setSimpleLabels
+Description: /**
+* Sets the flag that controls whether simple or extended labels are
+* displayed on the plot, and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param simple  the new flag value.
+*
+* @since 1.0.7
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getSimpleLabelOffset
+Description: /**
+* Returns the offset used for the simple labels, if they are displayed.
+*
+* @return The offset (never <code>null</code>).
+*
+* @since 1.0.7
+*
+* @see #setSimpleLabelOffset(RectangleInsets)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setSimpleLabelOffset
+Description: /**
+* Sets the offset for the simple labels and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param offset  the offset (<code>null</code> not permitted).
+*
+* @since 1.0.7
+*
+* @see #getSimpleLabelOffset()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLabelDistributor
+Description: /**
+* Returns the object responsible for the vertical layout of the pie
+* section labels.
+*
+* @return The label distributor (never <code>null</code>).
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLabelDistributor
+Description: /**
+* Sets the label distributor and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param distributor  the distributor (<code>null</code> not permitted).
+*
+* @since 1.0.6
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getToolTipGenerator
+Description: /**
+* Returns the tool tip generator, an object that is responsible for
+* generating the text items used for tool tips by the plot.  If the
+* generator is <code>null</code>, no tool tips will be created.
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @see #setToolTipGenerator(PieToolTipGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setToolTipGenerator
+Description: /**
+* Sets the tool tip generator and sends a {@link PlotChangeEvent} to all
+* registered listeners.  Set the generator to <code>null</code> if you
+* don't want any tool tips.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getToolTipGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getURLGenerator
+Description: /**
+* Returns the URL generator.
+*
+* @return The generator (possibly <code>null</code>).
+*
+* @see #setURLGenerator(PieURLGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setURLGenerator
+Description: /**
+* Sets the URL generator and sends a {@link PlotChangeEvent} to all
+* registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getURLGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getMinimumArcAngleToDraw
+Description: /**
+* Returns the minimum arc angle that will be drawn.  Pie sections for an
+* angle smaller than this are not drawn, to avoid a JDK bug.
+*
+* @return The minimum angle.
+*
+* @see #setMinimumArcAngleToDraw(double)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setMinimumArcAngleToDraw
+Description: /**
+* Sets the minimum arc angle that will be drawn.  Pie sections for an
+* angle smaller than this are not drawn, to avoid a JDK bug.  See this
+* link for details:
+* <br><br>
+* <a href=http://www.jfree.org/phpBB2/viewtopic.php?t=2707>"""
+* http://www.jfree.org/phpBB2/viewtopic.php?t=2707</a>
+* <br><br>
+* ...and this bug report in the Java Bug Parade:
+* <br><br>
+* <a href=
+* http://developer.java.sun.com/developer/bugParade/bugs/4836495.html>
+* http://developer.java.sun.com/developer/bugParade/bugs/4836495.html</a>
+*
+* @param angle  the minimum angle.
+*
+* @see #getMinimumArcAngleToDraw()
+"*/"""
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLegendItemShape
+Description: /**
+* Returns the shape used for legend items.
+*
+* @return The shape (never <code>null</code>).
+*
+* @see #setLegendItemShape(Shape)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLegendItemShape
+Description: /**
+* Sets the shape used for legend items and sends a {@link PlotChangeEvent}
+* to all registered listeners.
+*
+* @param shape  the shape (<code>null</code> not permitted).
+*
+* @see #getLegendItemShape()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLegendLabelGenerator
+Description: /**
+* Returns the legend label generator.
+*
+* @return The legend label generator (never <code>null</code>).
+*
+* @see #setLegendLabelGenerator(PieSectionLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLegendLabelGenerator
+Description: /**
+* Sets the legend label generator and sends a {@link PlotChangeEvent} to
+* all registered listeners.
+*
+* @param generator  the generator (<code>null</code> not permitted).
+*
+* @see #getLegendLabelGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLegendLabelToolTipGenerator
+Description: /**
+* Returns the legend label tool tip generator.
+*
+* @return The legend label tool tip generator (possibly <code>null</code>).
+*
+* @see #setLegendLabelToolTipGenerator(PieSectionLabelGenerator)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLegendLabelToolTipGenerator
+Description: /**
+* Sets the legend label tool tip generator and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getLegendLabelToolTipGenerator()
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLegendLabelURLGenerator
+Description: /**
+* Returns the legend label URL generator.
+*
+* @return The legend label URL generator (possibly <code>null</code>).
+*
+* @see #setLegendLabelURLGenerator(PieURLGenerator)
+*
+* @since 1.0.4
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setLegendLabelURLGenerator
+Description: /**
+* Sets the legend label URL generator and sends a
+* {@link PlotChangeEvent} to all registered listeners.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @see #getLegendLabelURLGenerator()
+*
+* @since 1.0.4
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getShadowGenerator
+Description: /**
+* Returns the shadow generator for the plot, if any.
+*
+* @return The shadow generator (possibly <code>null</code>).
+*
+* @since 1.0.14
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: setShadowGenerator
+Description: /**
+* Sets the shadow generator for the plot and sends a
+* {@link PlotChangeEvent} to all registered listeners.  Note that this is
+* a bitmap drop-shadow generation facility and is separate from the
+* vector based show option that is controlled via the
+* {@link setShadowPaint()} method.
+*
+* @param generator  the generator (<code>null</code> permitted).
+*
+* @since 1.0.14
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: handleMouseWheelRotation
+Description: /**
+* Handles a mouse wheel rotation (this method is intended for use by the
+* {@link MouseWheelHandler} class).
+*
+* @param rotateClicks  the number of rotate clicks on the the mouse wheel.
+*
+* @since 1.0.14
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: initialise
+Description: /**
+* Initialises the drawing procedure.  This method will be called before
+* the first item is rendered, giving the plot an opportunity to initialise
+* any state information it wants to maintain.
+*
+* @param g2  the graphics device.
+* @param plotArea  the plot area (<code>null</code> not permitted).
+* @param plot  the plot.
+* @param index  the secondary index (<code>null</code> for primary
+*               renderer).
+* @param info  collects chart rendering information for return to caller.
+*
+* @return A state object (maintains state information relevant to one
+*         chart drawing).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: draw
+Description: /**
+* Draws the plot on a Java 2D graphics device (such as the screen or a
+* printer).
+*
+* @param g2  the graphics device.
+* @param area  the area within which the plot should be drawn.
+* @param anchor  the anchor point (<code>null</code> permitted).
+* @param parentState  the state from the parent plot, if there is one.
+* @param info  collects info about the drawing
+*              (<code>null</code> permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getLegendItems
+Description: /**
+* Returns a collection of legend items for the pie chart.
+*
+* @return The legend items (never <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: getPlotType
+Description: /**
+* Returns a short string describing the type of plot.
+*
+* @return The plot type.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: canSelectByPoint
+Description: /**
+* Returns <code>true</code> to indicate that the plot supports selection
+* by clicking on a point.
+*
+* @return <code>true</code>.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: canSelectByRegion
+Description: /**
+* Returns <code>false</code> to indicate that the plot does not support
+* selection by region.
+*
+* @return <code>false</code>.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: select
+Description: /**
+* Selects a data item.
+*
+* @param x
+* @param y
+* @param dataArea
+* @param source
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: select
+Description: /**
+* This method does nothing, because this plot does not support
+* selection by region.
+*
+* @param region  ignored.
+* @param dataArea  ignored.
+* @param source  ignored.
+*
+* @see #canSelectByRegion()
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: clearSelection
+Description: /**
+* Clears the selection.
+*
+* @since 1.2.0
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: createHotSpotShape
+Description: /**
+* Returns a shape representing the hotspot for a pie section.
+*
+* @param g2  the graphics device.
+* @param dataArea  the area within which the data is being rendered.
+* @param selected  is the item selected?
+*
+* @return A shape equal to the hot spot for a data item.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: equals
+Description: /**
+* Tests this plot for equality with an arbitrary object.  Note that the
+* plot's dataset is NOT included in the test for equality.
+*
+* @param obj  the object to test against (<code>null</code> permitted).
+*
+* @return <code>true</code> or <code>false</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: PiePlot, Method: clone
+Description: /**
+* Returns a clone of the plot.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if some component of the plot does
+*         not support cloning.
+*/"
+

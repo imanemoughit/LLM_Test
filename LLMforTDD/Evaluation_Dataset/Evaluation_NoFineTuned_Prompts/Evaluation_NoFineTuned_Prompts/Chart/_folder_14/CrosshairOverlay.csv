@@ -1,0 +1,129 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: addDomainCrosshair
+Description: /**
+* Adds a crosshair against the domain axis and sends an
+* {@link OverlayChangeEvent} to all registered listeners.
+*
+* @param crosshair  the crosshair (<code>null</code> not permitted).
+*
+* @see #removeDomainCrosshair(Crosshair)
+* @see #addRangeCrosshair(Crosshair)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: removeDomainCrosshair
+Description: /**
+* Removes a domain axis crosshair and sends an {@link OverlayChangeEvent}
+* to all registered listeners.
+*
+* @param crosshair  the crosshair (<code>null</code> not permitted).
+*
+* @see #addDomainCrosshair(Crosshair)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: clearDomainCrosshairs
+Description: /**
+* Clears all the domain crosshairs from the overlay and sends an
+* {@link OverlayChangeEvent} to all registered listeners.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: getDomainCrosshairs
+Description: /**
+* Returns a new list containing the domain crosshairs for this overlay.
+*
+* @return A list of crosshairs.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: addRangeCrosshair
+Description: /**
+* Adds a crosshair against the range axis and sends an
+* {@link OverlayChangeEvent} to all registered listeners.
+*
+* @param crosshair  the crosshair (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: removeRangeCrosshair
+Description: /**
+* Removes a range axis crosshair and sends an {@link OverlayChangeEvent}
+* to all registered listeners.
+*
+* @param crosshair  the crosshair (<code>null</code> not permitted).
+*
+* @see #addRangeCrosshair(Crosshair)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: clearRangeCrosshairs
+Description: /**
+* Clears all the range crosshairs from the overlay and sends an
+* {@link OverlayChangeEvent} to all registered listeners.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: getRangeCrosshairs
+Description: /**
+* Returns a new list containing the range crosshairs for this overlay.
+*
+* @return A list of crosshairs.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: propertyChange
+Description: /**
+* Receives a property change event (typically a change in one of the
+* crosshairs).
+*
+* @param e  the event.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: paintOverlay
+Description: /**
+* Paints the crosshairs in the layer.
+*
+* @param g2  the graphics target.
+* @param chartPanel  the chart panel.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: equals
+Description: /**
+* Tests this overlay for equality with an arbitrary object.
+*
+* @param obj  the object (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: CrosshairOverlay, Method: clone
+Description: /**
+* Returns a clone of this instance.
+*
+* @return A clone of this instance.
+*
+* @throws CloneNotSupportedException if there is some problem
+*     with the cloning.
+*/"
+

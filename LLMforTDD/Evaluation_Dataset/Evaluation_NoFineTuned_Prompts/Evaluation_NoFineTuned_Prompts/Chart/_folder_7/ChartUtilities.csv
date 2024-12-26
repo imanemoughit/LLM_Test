@@ -1,0 +1,437 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: applyCurrentTheme
+Description: /**
+* Applies the current theme to the specified chart.  This method is
+* provided for convenience, the theme itself is stored in the
+* {@link ChartFactory} class.
+*
+* @param chart  the chart (<code>null</code> not permitted).
+*
+* @since 1.0.11
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeChartAsPNG
+Description: /**
+* Writes a chart to an output stream in PNG format.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeChartAsPNG
+Description: /**
+* Writes a chart to an output stream in PNG format.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+* @param encodeAlpha  encode alpha?
+* @param compression  the compression level (0-9).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeChartAsPNG
+Description: /**
+* Writes a chart to an output stream in PNG format.  This method allows
+* you to pass in a {@link ChartRenderingInfo} object, to collect
+* information about the chart dimensions/entities.  You will need this
+* info if you want to create an HTML image map.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+* @param info  the chart rendering info (<code>null</code> permitted).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeChartAsPNG
+Description: /**
+* Writes a chart to an output stream in PNG format.  This method allows
+* you to pass in a {@link ChartRenderingInfo} object, to collect
+* information about the chart dimensions/entities.  You will need this
+* info if you want to create an HTML image map.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+* @param info  carries back chart rendering info (<code>null</code>
+*              permitted).
+* @param encodeAlpha  encode alpha?
+* @param compression  the PNG compression level (0-9).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeScaledChartAsPNG
+Description: /**
+* Writes a scaled version of a chart to an output stream in PNG format.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the unscaled chart width.
+* @param height  the unscaled chart height.
+* @param widthScaleFactor  the horizontal scale factor.
+* @param heightScaleFactor  the vertical scale factor.
+*
+* @throws IOException if there are any I/O problems.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: saveChartAsPNG
+Description: /**
+* Saves a chart to the specified file in PNG format.
+*
+* @param file  the file name (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: saveChartAsPNG
+Description: /**
+* Saves a chart to a file in PNG format.  This method allows you to pass
+* in a {@link ChartRenderingInfo} object, to collect information about the
+* chart dimensions/entities.  You will need this info if you want to
+* create an HTML image map.
+*
+* @param file  the file (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+* @param info  the chart rendering info (<code>null</code> permitted).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: saveChartAsPNG
+Description: /**
+* Saves a chart to a file in PNG format.  This method allows you to pass
+* in a {@link ChartRenderingInfo} object, to collect information about the
+* chart dimensions/entities.  You will need this info if you want to
+* create an HTML image map.
+*
+* @param file  the file (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+* @param info  the chart rendering info (<code>null</code> permitted).
+* @param encodeAlpha  encode alpha?
+* @param compression  the PNG compression level (0-9).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeChartAsJPEG
+Description: /**
+* Writes a chart to an output stream in JPEG format.  Please note that
+* JPEG is a poor format for chart images, use PNG if possible.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeChartAsJPEG
+Description: /**
+* Writes a chart to an output stream in JPEG format.  Please note that
+* JPEG is a poor format for chart images, use PNG if possible.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param quality  the quality setting.
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeChartAsJPEG
+Description: /**
+* Writes a chart to an output stream in JPEG format. This method allows
+* you to pass in a {@link ChartRenderingInfo} object, to collect
+* information about the chart dimensions/entities.  You will need this
+* info if you want to create an HTML image map.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+* @param info  the chart rendering info (<code>null</code> permitted).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeChartAsJPEG
+Description: /**
+* Writes a chart to an output stream in JPEG format.  This method allows
+* you to pass in a {@link ChartRenderingInfo} object, to collect
+* information about the chart dimensions/entities.  You will need this
+* info if you want to create an HTML image map.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param quality  the output quality (0.0f to 1.0f).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+* @param info  the chart rendering info (<code>null</code> permitted).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: saveChartAsJPEG
+Description: /**
+* Saves a chart to a file in JPEG format.
+*
+* @param file  the file (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: saveChartAsJPEG
+Description: /**
+* Saves a chart to a file in JPEG format.
+*
+* @param file  the file (<code>null</code> not permitted).
+* @param quality  the JPEG quality setting.
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: saveChartAsJPEG
+Description: /**
+* Saves a chart to a file in JPEG format.  This method allows you to pass
+* in a {@link ChartRenderingInfo} object, to collect information about the
+* chart dimensions/entities.  You will need this info if you want to
+* create an HTML image map.
+*
+* @param file  the file name (<code>null</code> not permitted).
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+* @param info  the chart rendering info (<code>null</code> permitted).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: saveChartAsJPEG
+Description: /**
+* Saves a chart to a file in JPEG format.  This method allows you to pass
+* in a {@link ChartRenderingInfo} object, to collect information about the
+* chart dimensions/entities.  You will need this info if you want to
+* create an HTML image map.
+*
+* @param file  the file name (<code>null</code> not permitted).
+* @param quality  the quality setting.
+* @param chart  the chart (<code>null</code> not permitted).
+* @param width  the image width.
+* @param height  the image height.
+* @param info  the chart rendering info (<code>null</code> permitted).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeBufferedImageAsJPEG
+Description: /**
+* Writes a {@link BufferedImage} to an output stream in JPEG format.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param image  the image (<code>null</code> not permitted).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeBufferedImageAsJPEG
+Description: /**
+* Writes a {@link BufferedImage} to an output stream in JPEG format.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param quality  the image quality (0.0f to 1.0f).
+* @param image  the image (<code>null</code> not permitted).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeBufferedImageAsPNG
+Description: /**
+* Writes a {@link BufferedImage} to an output stream in PNG format.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param image  the image (<code>null</code> not permitted).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeBufferedImageAsPNG
+Description: /**
+* Writes a {@link BufferedImage} to an output stream in PNG format.
+*
+* @param out  the output stream (<code>null</code> not permitted).
+* @param image  the image (<code>null</code> not permitted).
+* @param encodeAlpha  encode alpha?
+* @param compression  the compression level (0-9).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: encodeAsPNG
+Description: /**
+* Encodes a {@link BufferedImage} to PNG format.
+*
+* @param image  the image (<code>null</code> not permitted).
+*
+* @return A byte array in PNG format.
+*
+* @throws IOException if there is an I/O problem.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: encodeAsPNG
+Description: /**
+* Encodes a {@link BufferedImage} to PNG format.
+*
+* @param image  the image (<code>null</code> not permitted).
+* @param encodeAlpha  encode alpha?
+* @param compression  the PNG compression level (0-9).
+*
+* @return The byte array in PNG format.
+*
+* @throws IOException if there is an I/O problem.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeImageMap
+Description: /**
+* Writes an image map to an output stream.
+*
+* @param writer  the writer (<code>null</code> not permitted).
+* @param name  the map name (<code>null</code> not permitted).
+* @param info  the chart rendering info (<code>null</code> not permitted).
+* @param useOverLibForToolTips  whether to use OverLIB for tooltips
+*                               (http://www.bosrup.com/web/overlib/).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: writeImageMap
+Description: /**
+* Writes an image map to the specified writer.
+*
+* @param writer  the writer (<code>null</code> not permitted).
+* @param name  the map name (<code>null</code> not permitted).
+* @param info  the chart rendering info (<code>null</code> not permitted).
+* @param toolTipTagFragmentGenerator  a generator for the HTML fragment
+*     that will contain the tooltip text (<code>null</code> not permitted
+*     if <code>info</code> contains tooltip information).
+* @param urlTagFragmentGenerator  a generator for the HTML fragment that
+*     will contain the URL reference (<code>null</code> not permitted if
+*     <code>info</code> contains URLs).
+*
+* @throws IOException if there are any I/O errors.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: getImageMap
+Description: /**
+* Creates an HTML image map.  This method maps to
+* {@link ImageMapUtilities#getImageMap(String, ChartRenderingInfo,
+* ToolTipTagFragmentGenerator, URLTagFragmentGenerator)}, using default
+* generators.
+*
+* @param name  the map name (<code>null</code> not permitted).
+* @param info  the chart rendering info (<code>null</code> not permitted).
+*
+* @return The map tag.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ChartUtilities, Method: getImageMap
+Description: /**
+* Creates an HTML image map.  This method maps directly to
+* {@link ImageMapUtilities#getImageMap(String, ChartRenderingInfo,
+* ToolTipTagFragmentGenerator, URLTagFragmentGenerator)}.
+*
+* @param name  the map name (<code>null</code> not permitted).
+* @param info  the chart rendering info (<code>null</code> not permitted).
+* @param toolTipTagFragmentGenerator  a generator for the HTML fragment
+*     that will contain the tooltip text (<code>null</code> not permitted
+*     if <code>info</code> contains tooltip information).
+* @param urlTagFragmentGenerator  a generator for the HTML fragment that
+*     will contain the URL reference (<code>null</code> not permitted if
+*     <code>info</code> contains URLs).
+*
+* @return The map tag.
+*/"
+

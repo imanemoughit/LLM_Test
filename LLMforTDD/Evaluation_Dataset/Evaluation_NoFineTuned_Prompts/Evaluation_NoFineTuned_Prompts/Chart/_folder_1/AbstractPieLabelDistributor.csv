@@ -1,0 +1,52 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractPieLabelDistributor
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractPieLabelDistributor, Method: getPieLabelRecord
+Description: /**
+* Returns a label record from the list.
+*
+* @param index  the index.
+*
+* @return The label record.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractPieLabelDistributor, Method: addPieLabelRecord
+Description: /**
+* Adds a label record.
+*
+* @param record  the label record (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractPieLabelDistributor, Method: getItemCount
+Description: /**
+* Returns the number of items in the list.
+*
+* @return The item count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractPieLabelDistributor, Method: clear
+Description: /**
+* Clears the list of labels.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: AbstractPieLabelDistributor, Method: distributeLabels
+Description: /**
+* Called by the {@link PiePlot} class.  Implementations should distribute
+* the labels in this.labels then return.
+*
+* @param minY  the y-coordinate for the top of the label area.
+* @param height  the height of the label area.
+*/"
+

@@ -1,0 +1,66 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArrayUtilities
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArrayUtilities, Method: clone
+Description: /**
+* Clones a two dimensional array of floats.
+*
+* @param array  the array.
+*
+* @return A clone of the array.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArrayUtilities, Method: equalReferencesInArrays
+Description: /**
+* Returns <code>true</code> if all the references in <code>array1</code>
+* are equal to all the references in <code>array2</code> (two
+* <code>null</code> references are considered equal for this test).
+*
+* @param array1  the first array (<code>null</code> permitted).
+* @param array2  the second array (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArrayUtilities, Method: equal
+Description: /**
+* Tests two float arrays for equality.
+*
+* @param array1  the first array (<code>null</code> permitted).
+* @param array2  the second arrray (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArrayUtilities, Method: hasDuplicateItems
+Description: /**
+* Returns <code>true</code> if any two items in the array are equal to
+* one another.  Any <code>null</code> values in the array are ignored.
+*
+* @param array  the array to check.
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: ArrayUtilities, Method: compareVersionArrays
+Description: /**
+* Compares version arrays.
+*
+* @param a1  array 1.
+* @param a2  array 2.
+*
+* @return A code for the comparison.
+*/"
+

@@ -1,0 +1,106 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardEntityCollection
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardEntityCollection, Method: getEntityCount
+Description: /**
+* Returns the number of entities in the collection.
+*
+* @return The entity count.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardEntityCollection, Method: getEntity
+Description: /**
+* Returns a chart entity from the collection.
+*
+* @param index  the entity index.
+*
+* @return The entity.
+*
+* @see #add(ChartEntity)
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardEntityCollection, Method: clear
+Description: /**
+* Clears all the entities from the collection.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardEntityCollection, Method: add
+Description: /**
+* Adds an entity to the collection.
+*
+* @param entity  the entity (<code>null</code> not permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardEntityCollection, Method: addAll
+Description: /**
+* Adds all the entities from the specified collection.
+*
+* @param collection  the collection of entities (<code>null</code> not
+*     permitted).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardEntityCollection, Method: getEntity
+Description: /**
+* Returns the last entity in the list with an area that encloses the
+* specified coordinates, or <code>null</code> if there is no such entity.
+*
+* @param x  the x coordinate.
+* @param y  the y coordinate.
+*
+* @return The entity (possibly <code>null</code>).
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardEntityCollection, Method: getEntities
+Description: /**
+* Returns the entities in an unmodifiable collection.
+*
+* @return The entities.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardEntityCollection, Method: iterator
+Description: /**
+* Returns an iterator for the entities in the collection.
+*
+* @return An iterator.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardEntityCollection, Method: equals
+Description: /**
+* Tests this object for equality with an arbitrary object.
+*
+* @param obj  the object to test against (<code>null</code> permitted).
+*
+* @return A boolean.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: StandardEntityCollection, Method: clone
+Description: /**
+* Returns a clone of this entity collection.
+*
+* @return A clone.
+*
+* @throws CloneNotSupportedException if the object cannot be cloned.
+*/"
+

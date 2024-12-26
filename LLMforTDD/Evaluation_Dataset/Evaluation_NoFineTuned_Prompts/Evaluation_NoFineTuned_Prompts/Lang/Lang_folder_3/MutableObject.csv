@@ -1,0 +1,52 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableObject
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableObject, Method: getValue
+Description: /*** Gets the value.
+*
+* @return the value, may be null
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableObject, Method: setValue
+Description: /*** Sets the value.
+*
+* @param value  the value to set
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableObject, Method: equals
+Description: /*** <p>
+* Compares this object against the specified object. The result is <code>true</code> if and only if the argument
+* is not <code>null</code> and is a <code>MutableObject</code> object that contains the same <code>T</code>
+* value as this object.
+* </p>
+*
+* @param obj  the object to compare with, <code>null</code> returns <code>false</code>
+* @return  <code>true</code> if the objects are the same;
+*          <code>true</code> if the objects have equivalent <code>value</code> fields;
+*          <code>false</code> otherwise.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableObject, Method: hashCode
+Description: /*** Returns the value's hash code or <code>0</code> if the value is <code>null</code>.
+*
+* @return the value's hash code or <code>0</code> if the value is <code>null</code>.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: MutableObject, Method: toString
+Description: /*** Returns the String value of this mutable.
+*
+* @return the mutable value as a string
+*/"
+

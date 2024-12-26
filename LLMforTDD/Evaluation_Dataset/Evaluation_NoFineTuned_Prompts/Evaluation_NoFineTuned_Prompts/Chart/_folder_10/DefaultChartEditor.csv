@@ -1,0 +1,60 @@
+description
+Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultChartEditor
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultChartEditor, Method: getTitleEditor
+Description: /**
+* Returns a reference to the title editor.
+*
+* @return A panel for editing the title.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultChartEditor, Method: getPlotEditor
+Description: /**
+* Returns a reference to the plot property sub-panel.
+*
+* @return A panel for editing the plot properties.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultChartEditor, Method: getAntiAlias
+Description: /**
+* Returns the current setting of the anti-alias flag.
+*
+* @return <code>true</code> if anti-aliasing is enabled.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultChartEditor, Method: getBackgroundPaint
+Description: /**
+* Returns the current background paint.
+*
+* @return The current background paint.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultChartEditor, Method: actionPerformed
+Description: /**
+* Handles user interactions with the panel.
+*
+* @param event  a BackgroundPaint action.
+*/"
+
+"Write a JUnit test method for the Java method described below. The test method should have proper and relevant assert statements and avoid repetition of assert statements.
+@Test public void testName() { /*assertEquals(expectedResult, actualResult); assertTrue(someCondition); assertFalse(someCondition); */}
+Class: DefaultChartEditor, Method: updateChart
+Description: /**
+* Updates the properties of a chart to match the properties defined on the
+* panel.
+*
+* @param chart  the chart.
+*/"
+
