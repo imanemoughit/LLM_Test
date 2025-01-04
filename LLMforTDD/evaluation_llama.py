@@ -1,60 +1,53 @@
 import os
 import glob
-import torch
 import pandas as pd
 from tqdm import tqdm
-from datasets import Dataset
-from torch.utils.data import DataLoader
 import requests
-from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Configurations
-model_name = "meta-llama/Meta-Llama-3.1-8B" 
-#model_name = "meta-llama/Llama-2-13b-hf"  # Nom du modèle
-#model_name ="codellama/CodeLlama-small"
-#model_name=  "mistralai/mistral-7b"
-
+endpoint_url = "https://d9442qsr897czmk7.us-east-1.aws.endpoints.huggingface.cloud"  # URL de votre endpoint
+api_token = "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"  # Token Hugging Face (si nécessaire)
 
 test_dataset_folder = "/content/LLM_Test/LLMforTDD/Evaluation_Dataset/Evaluation_NoFineTuned_Prompts/Evaluation_NoFineTuned_Prompts/Csv"  # Chemin des fichiers CSV
 output_dir = "/content/LLM_Test/LLMforTDD/output_llama_test_cases"  # Répertoire pour sauvegarder les résultats
-api_token = "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"  # Token Hugging Face
-api_url = f"https://api-inference.huggingface.co/models/{model_name}"
-headers = {"Authorization": f"Bearer {api_token}"}
 
 batch_size = 2
-beam_size = 4
 max_new_tokens = 300
-max_length = 1024
 
-def query_huggingface_api(payload):
-    """Envoie une requête à l'API Inference de Hugging Face."""
-    response = requests.post(api_url, headers=headers, json=payload)
+def query_huggingface_endpoint(input_text):
+    """Envoie une requête à l'endpoint Hugging Face."""
+    payload = {
+        "inputs": input_text,
+        "parameters": {
+            "max_new_tokens": max_new_tokens,
+            "temperature": 0.7,
+            "top_p": 0.9
+        }
+    }
+    headers = {"Authorization": f"Bearer {api_token}"}
+    response = requests.post(endpoint_url, headers=headers, json=payload)
     if response.status_code != 200:
         raise Exception(f"API request failed: {response.status_code}, {response.text}")
     return response.json()
 
-def generate_test_cases_with_api(inputs):
-    """Utilise l'API Hugging Face pour générer des cas de test."""
+def generate_test_cases_with_endpoint(inputs):
+    """Utilise l'endpoint Hugging Face pour générer des cas de test."""
     predictions = []
     for input_text in inputs:
-        payload = {
-            "inputs": input_text,
-            "parameters": {
-                "max_new_tokens": max_new_tokens,
-                "num_beams": 4,
-                "early_stopping": True,
-            }
-        }
-        result = query_huggingface_api(payload)
-        if "error" in result:
-            print(f"Error from API: {result['error']}")
-        else:
-            predictions.append(result[0]["generated_text"])
+        try:
+            result = query_huggingface_endpoint(input_text)
+            if isinstance(result, dict) and "error" in result:
+                print(f"Error from API: {result['error']}")
+                predictions.append("Error: Unable to generate test case.")
+            else:
+                predictions.append(result[0]["generated_text"])  # Accéder au texte généré
+        except Exception as e:
+            print(f"Error querying endpoint: {e}")
+            predictions.append("Error: Unable to generate test case.")
     return predictions
 
-
 def process_csv_files():
-    """Parcourt les fichiers CSV, génère les cas de test via l'API, et les sauvegarde."""
+    """Parcourt les fichiers CSV, génère les cas de test via l'endpoint, et les sauvegarde."""
     os.makedirs(output_dir, exist_ok=True)
     for csv_file in glob.glob(os.path.join(test_dataset_folder, "*.csv")):
         try:
@@ -74,7 +67,7 @@ def process_csv_files():
             all_predictions = []
             for i in tqdm(range(0, len(inputs), batch_size), desc="Generating test cases"):
                 batch_inputs = inputs[i:i + batch_size]
-                predictions = generate_test_cases_with_api(batch_inputs)
+                predictions = generate_test_cases_with_endpoint(batch_inputs)
                 all_predictions.extend(predictions)
 
             # Sauvegarder les résultats
