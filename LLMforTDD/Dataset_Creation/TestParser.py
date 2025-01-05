@@ -4,9 +4,10 @@ from typing import List, Dict, Any, Set, Optional
 class TestParser():
 	
 	def __init__(self, grammar_file, language):
-		JAVA_LANGUAGE = Language(grammar_file, language)
+		JAVA_LANGUAGE = Language('/content/LLM_Test/LLMforTDD/Dataset_Creation/java-grammar.so')
 		self.parser = Parser()
 		self.parser.set_language(JAVA_LANGUAGE)
+    
 
 
 	def parse_file(self, file):

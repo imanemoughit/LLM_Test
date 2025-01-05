@@ -92,8 +92,9 @@ def find_map_test_cases(root, grammar_file, language, output, repo):
 
 	# Get the absolute path of the file
 	grammar_file = os.path.join(cwd, grammar_file)
-
+  
 	print(grammar_file)
+
 
 	#Move to folder
 	if os.path.exists(root):
@@ -152,8 +153,8 @@ def find_map_test_cases(root, grammar_file, language, output, repo):
 
 	#Map Test Case -> Focal Method
 	log.write("Mapping test cases" '\n')
-	mtc_list = list()
-	parser = TestParser(grammar_file, language)
+	mtc_list = list();print(f'*********************Grammar file: {grammar_file}, Language: {language}')
+	parser = TestParser(grammar_file, language);print('************')
 	for test, focal in mapped_tests.items():
 		log.write("----------" + '\n')
 		log.write("Test: " + test + '\n')

@@ -1,0 +1,6 @@
+Java Files: 4
+Test Classes: 2
+Potential Focal Classes: 2
+Perfect name matching analysis
+Perfect Matches Found: 2
+Mapping test cases
